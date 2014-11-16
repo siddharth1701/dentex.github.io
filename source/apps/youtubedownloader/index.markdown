@@ -14,15 +14,15 @@ keywords: YouTube Downloader, Android, android app, app, free, ad-free, no ads, 
 
 ![YTD](/images/apps/ytd.png)
 
-`versionCode="91"`
+`versionCode="92"`
 
-`versionName="4.3.2"`
+`versionName="4.3.3"`
 
 Download the latest APK from [THIS BLOG](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk)
 
 [![BLOG_download](/images/others/gh_logo.png)](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk) 
 
-or take it from anyone of this app stores:
+or take it from anyone of this app stores (please stand by for the update to v4.3.3 on those stores - latest version only on this blog, for the moment):
 
 [![opera_link](/images/others/opera_badge.png)](http://apps.opera.com/youtube_downloader_and_audio_converterextractor.html)
 
@@ -32,7 +32,7 @@ MD5 checksum: `f786cf370f99b8480dcafbf0fea820c1`
 
 SHA1 checksum: `30807daabc11baf6afa5dbfa1b7adcc765d93aaa`
 
-Beta available: `true`
+Beta available: `false`
 
 ## **YouTube Downloader for Android**
 ## **Copyright (C) 2012-2014 Samuele Rini**
@@ -178,6 +178,11 @@ Are not supported for download all video that:
 
 
 ## CHANGELOG
+
+     v4.3.3 - Nov 15 2014
+    -----------------------------------
+    [x] encrypted signature patch (11) (thanks gantt)
+    [x] support for 60fps VO streams
 
      v4.3.2 - Jul 24 2014
     -----------------------------------
