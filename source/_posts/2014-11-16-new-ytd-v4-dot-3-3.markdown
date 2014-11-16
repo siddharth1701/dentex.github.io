@@ -17,3 +17,5 @@ Changelog:
     -----------------------------------
     [x] encrypted signature patch (11) (thanks gantt)
     [x] support for 60fps VO streams
+
+Note that **60fps** streams are video-only. They need to be manually merged with an audio stream, if you want to hear anything. :)
