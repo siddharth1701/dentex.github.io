@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2014-10-29T11:36:21+01:00</updated>
+  <updated>2014-11-16T10:33:32+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[New YTD v4.3.3]]></title>
+    <link href="http://dentex.github.io/blog/2014-11-16/new-ytd-v4-dot-3-3/"/>
+    <updated>2014-11-16T10:30:33+01:00</updated>
+    <id>http://dentex.github.io/blog/2014-11-16/new-ytd-v4-dot-3-3</id>
+    <content type="html"><![CDATA[<p>YouTube Downloader version 4.3.3 is available <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">from this blog</a>;
+Online stores still not updated, though.</p>
+
+<p>Changelog:</p>
+
+<pre><code> v4.3.3 - Nov 15 2014
+-----------------------------------
+[x] encrypted signature patch (11) (thanks gantt)
+[x] support for 60fps VO streams
+</code></pre>
+
+<p> <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="http://dentex.github.io/blog/2014-11-16/new-ytd-v4-dot-3-3/">http://dentex.github.io/blog/2014-11-16/new-ytd-v4-dot-3-3/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Setting Downloads Destination Folder in YTD]]></title>
@@ -682,30 +715,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 
 
 <p>Original Link: <a href="http://dentex.github.io/blog/2014-05-14/ytd-v4-dot-2/">http://dentex.github.io/blog/2014-05-14/ytd-v4-dot-2/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.2 Beta-3]]></title>
-    <link href="http://dentex.github.io/blog/2014-05-12/ytd-v4-dot-2-beta-3/"/>
-    <updated>2014-05-12T20:07:48+02:00</updated>
-    <id>http://dentex.github.io/blog/2014-05-12/ytd-v4-dot-2-beta-3</id>
-    <content type="html"><![CDATA[<p>A new Beta (number 3) for YTD v4.2 is available for download <em>[link removed &ndash; old beta]</em>.
-It features just some optimizations and bug fixes. Worth a try anyway. Stable version 4.2 is coming soon.
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="http://dentex.github.io/blog/2014-05-12/ytd-v4-dot-2-beta-3/">http://dentex.github.io/blog/2014-05-12/ytd-v4-dot-2-beta-3/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
