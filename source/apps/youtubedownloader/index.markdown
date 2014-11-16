@@ -28,9 +28,9 @@ or take it from anyone of this app stores (please stand by for the update to v4.
 
 [![aptoide_link](/images/others/aptoide_logo.png)](http://dentex.store.aptoide.com/app/market/dentex.youtube.downloader/91/6462173/YouTube%20Downloader%20for%20Android)
 
-MD5 checksum: `f786cf370f99b8480dcafbf0fea820c1`
+MD5 checksum: `30cbb06d860a0a6093e087aef09f2973`
 
-SHA1 checksum: `30807daabc11baf6afa5dbfa1b7adcc765d93aaa`
+SHA1 checksum: `4f76428fb0561ca03c33f94c3d2043bff93ef554`
 
 Beta available: `false`
 
