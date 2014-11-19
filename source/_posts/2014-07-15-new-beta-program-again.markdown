@@ -15,4 +15,4 @@ Will be just a matter of switching a setting checkbox:
 
 {% img YTD-built-in-Beta /images/others/beta-updates.png 'beta by YTD' 'beta by YTD' %}
 
-Please wait for a next update (v4.3.1) to have this feature.
+This feature is available from YTD v4.3.1 and above.

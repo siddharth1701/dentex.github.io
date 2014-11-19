@@ -1,21 +1,21 @@
 ---
-layout: page
-title: "YTD current Beta version"
-date: 2014-07-24 09:45
+layout: post
+title: "YTD v4.4 beta-7"
+date: 2014-11-19 18:09:05 +0100
 comments: true
+categories: [News]
 sharing: true
 footer: true
-description: Free and ad-free Android app, Beta version
-keywords: YTD, Beta, android app, app, free, ad-free, no ads, dentex, video, audio, YouTube, downloader, media, conversion, extraction, management
+description: "YouTube Downloader for Android - a free and ad-free app - new beta apk"
+keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader, beta"
 ---
-
-`versionName="4.3.3.1_v4.4-beta-7"`
-
-SHA1 checksum: `@@@`
-
 Yet another beta from the `v4.4` series.    
 This time merging the download fix from YTD v4.3.3 (latest stable) plus some small extras (as some test versions of the FFmpeg executables supporting new Android versions, starting from **L**, due to a new security feature.    
 Please note, **these FFmpeg builds are on test** and might not work.
+
+The apk file is available for download through the app itself, enabling the [proper preference](http://dentex.github.io/blog/2014-07-15/new-beta-program-again/), or downloading directly the apk from [HERE](http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v4.4-beta-7.apk).
+
+Please share any idea commenting below or join the discussion [over XDA](http://forum.xda-developers.com/showthread.php?t=2335450).
 
 Take a look at the the Changelog below.
 
