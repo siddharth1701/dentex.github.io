@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2014-11-19T18:27:26+01:00</updated>
+  <updated>2014-11-19T18:45:15+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -22,7 +22,7 @@
 This time merging the download fix from YTD v4.3.3 (latest stable) plus some small extras (as some test versions of the FFmpeg executables supporting new Android versions, starting from <strong>L</strong>, due to a new security feature.  <br/>
 Please note, <strong>these FFmpeg builds are on test</strong> and might not work.</p>
 
-<p>The apk file is available for download through the app itself, enabling the <a href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/">proper preference</a>, or downloading directly the apk from <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v4.4-beta-7.apk">HERE</a>.</p>
+<p>The apk file is available for download through the app itself, enabling the <a href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/">proper preference</a>, or downloading directly the apk from <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v4.4-beta-7.apk">HERE</a>. Just a note: to upgrade from beta-6 to 7, it will go through the v4.3.3.</p>
 
 <p>Please share any idea commenting below or join the discussion <a href="http://forum.xda-developers.com/showthread.php?t=2335450">over XDA</a>.</p>
 
