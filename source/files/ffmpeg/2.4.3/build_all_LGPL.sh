@@ -22,29 +22,42 @@ BASE_DIR=`pwd`
 BUILD_DIRarm="build_arm"
 PREFIXarm=$BASE_DIR/$BUILD_DIRarm
 
+BUILD_DIRarm_nonPIE="build_arm_nonPIE"
+PREFIXarm_nonPIE=$BASE_DIR/$BUILD_DIRarm_nonPIE
+
 #config arm non NEON build
-BUILD_DIRarm_nN="build_arm_non-NEON"
-PREFIXarm_nN=$BASE_DIR/$BUILD_DIRarm_nN
+BUILD_DIRarm_nonNEON="build_arm_nonNEON"
+PREFIXarm_nonNEON=$BASE_DIR/$BUILD_DIRarm_nonNEON
+
+BUILD_DIRarm_nonNEON_nonPIE="build_arm_nonNEON_nonPIE"
+PREFIXarm_nonNEON_nonPIE=$BASE_DIR/$BUILD_DIRarm_nonNEON_nonPIE
 
 #config x86 build
 BUILD_DIRx86="build_x86"
 PREFIXx86=$BASE_DIR/$BUILD_DIRx86
+
+BUILD_DIRx86_nonPIE="build_x86_nonPIE"
+PREFIXx86_nonPIE=$BASE_DIR/$BUILD_DIRx86_nonPIE
+
 PATH=$PATH:$NDK
 TOOLCHAIN=$BASE_DIR/toolchain_x86
 $NDK/build/tools/make-standalone-toolchain.sh --toolchain=x86-4.7 --arch=x86 --system=linux-x86 --platform=android-14 --install-dir=$TOOLCHAIN
 
-#create builds dirs
-mkdir -p $BUILD_DIRarm
-mkdir -p $BUILD_DIRarm_nN
-mkdir -p $BUILD_DIRx86
+#non-PIE compilation flags for arm
+CFLAGS='-O3 -Wall -pipe -fasm'
+LDFLAGS='' #empty
 
-#compilation flags
-CFLAGS='-O3 -Wall -pipe -fasm -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-strict-overflow -fstack-protector-all'
-LDFLAGS='-Wl,-z,relro -Wl,-z,now -pie'
+#PIE compilation flags for arm
+CFLAGS_PIE='-O3 -Wall -pipe -fasm -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-strict-overflow -fstack-protector-all'
+LDFLAGS_PIE='-Wl,-z,relro -Wl,-z,now -pie'
 
-#old x86 flags
-#CFLAGSx86='-std=c99 -O3 -Wall -pipe -DANDROID -DNDEBUG  -march=atom -msse3 -ffast-math -mfpmath=sse -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-strict-overflow -fstack-protector-all' 
-#LDFLAGSx86='-lm -lz -Wl,--no-undefined -Wl,-z,noexecstack'
+#non-PIE compilation flags for x86
+CFLAGSx86='-std=c99 -O3 -Wall -pipe -DANDROID -DNDEBUG -march=atom -msse3 -ffast-math -mfpmath=sse' 
+LDFLAGSx86='-lm -lz -Wl,--no-undefined -Wl,-z,noexecstack'
+
+#PIE compilation flags for x86
+CFLAGS_PIEx86='-std=c99 -DANDROID -DNDEBUG -march=atom -msse3 -ffast-math -mfpmath=sse -O3 -Wall -pipe -fasm -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-strict-overflow -fstack-protector-all'
+LDFLAGS_PIEx86='-lm -lz -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -pie'
 
 }
 
@@ -82,7 +95,7 @@ cd ..
 
 function build_arm {
 echo "==============================================================="
-echo -e "\n ==> building FFmpeg for ARM...\n"
+echo -e "\n ==> building FFmpeg for ARM $1 ...\n"
 echo "==============================================================="
 cd $FFMPEG
 
@@ -95,23 +108,33 @@ FLAGS="--target-os=linux --cross-prefix=arm-linux-androideabi- --arch=arm --enab
 
 EXTRA_CFLAGS="-march=armv7-a -mfpu=neon -mfloat-abi=softfp -mvectorize-with-neon-quad"
 
-rm -rf $PREFIXarm
-mkdir -p $PREFIXarm
+if [ "$1" = "PIE" ]; then
+    PREFIX_IN_USE=$PREFIXarm
+    CFLAGS_IN_USE=$CFLAGS_PIE
+    LDFLAGS_IN_USE=$LDFLAGS_PIE
+else
+    PREFIX_IN_USE=$PREFIXarm_nonPIE
+    CFLAGS_IN_USE=$CFLAGS
+    LDFLAGS_IN_USE=$LDFLAGS
+fi
 
-echo $FLAGS --prefix=$PREFIXarm --extra-cflags="$CFLAGS $EXTRA_CFLAGS" --extra-ldflags="$LDFLAGS" > $PREFIXarm/info.txt
-./configure $FLAGS --prefix=$PREFIXarm --extra-cflags="$CFLAGS $EXTRA_CFLAGS" --extra-ldflags="$LDFLAGS" | tee $PREFIXarm/configuration.txt
+rm -rf $PREFIX_IN_USE
+mkdir -p $PREFIX_IN_USE
+
+echo $FLAGS --prefix=$PREFIX_IN_USE --extra-cflags="$CFLAGS_IN_USE $EXTRA_CFLAGS" --extra-ldflags="$LDFLAGS_IN_USE" > $PREFIX_IN_USE/info.txt
+./configure $FLAGS --prefix=$PREFIX_IN_USE --extra-cflags="$CFLAGS_IN_USE $EXTRA_CFLAGS" --extra-ldflags="$LDFLAGS_IN_USE" | tee $PREFIX_IN_USE/configuration.txt
 [ $PIPESTATUS == 0 ] || exit 1
 
 make clean
 make -j4 || exit 1
-make prefix=$PREFIXarm install || exit 1
+make prefix=$PREFIX_IN_USE install || exit 1
 
 cd ..
 }
 
-function build_arm_non_neon {
+function build_arm_nonNEON {
 echo "==============================================================="
-echo -e "\n ==> building FFmpeg for ARM (NEON disabled)...\n"
+echo -e "\n ==> building FFmpeg for ARM (NEON disabled) $1 ...\n"
 echo "==============================================================="
 cd $FFMPEG
 
@@ -122,33 +145,39 @@ FLAGS="--target-os=linux --cross-prefix=arm-linux-androideabi- --arch=arm --enab
 	--disable-doc --disable-htmlpages --disable-manpages --disable-podpages --disable-txtpages \
 	--enable-libmp3lame"
 
-#EXTRA_CFLAGS="-march=armv7-a -mfpu=neon -mfloat-abi=softfp -mvectorize-with-neon-quad"
-EXTRA_CFLAGS="-march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -I$PREFIXarm_nN/include -DANDROID"  # non-NEON version
+EXTRA_CFLAGS="-march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -I$PREFIXarm_nonNEON/include -DANDROID"  # nonNEON version
 # thanks to Jernej (Mavrik) from #ffmpeg on freenode
 
-rm -rf $PREFIXarm_nN
-mkdir -p $PREFIXarm_nN
+if [ "$1" = "PIE" ]; then
+    PREFIX_IN_USE=$PREFIXarm_nonNEON
+    CFLAGS_IN_USE=$CFLAGS_PIE
+    LDFLAGS_IN_USE=$LDFLAGS_PIE
+else
+    PREFIX_IN_USE=$PREFIXarm_nonNEON_nonPIE
+    CFLAGS_IN_USE=$CFLAGS
+    LDFLAGS_IN_USE=$LDFLAGS
+fi
 
-echo $FLAGS --prefix=$PREFIXarm_nN --extra-cflags="$CFLAGS $EXTRA_CFLAGS" --extra-ldflags="$LDFLAGS" > $PREFIXarm_nN/info.txt
-./configure $FLAGS --prefix=$PREFIXarm_nN --extra-cflags="$CFLAGS $EXTRA_CFLAGS" --extra-ldflags="$LDFLAGS" | tee $PREFIXarm_nN/configuration.txt
+rm -rf $PREFIX_IN_USE
+mkdir -p $PREFIX_IN_USE
+
+echo $FLAGS --prefix=$PREFIX_IN_USE --extra-cflags="$CFLAGS_IN_USE $EXTRA_CFLAGS" --extra-ldflags="$LDFLAGS_IN_USE" > $PREFIX_IN_USE/info.txt
+./configure $FLAGS --prefix=$PREFIX_IN_USE --extra-cflags="$CFLAGS_IN_USE $EXTRA_CFLAGS" --extra-ldflags="$LDFLAGS_IN_USE" | tee $PREFIX_IN_USE/configuration.txt
 [ $PIPESTATUS == 0 ] || exit 1
 
 make clean
 make -j4 || exit 1
-make prefix=$PREFIXarm_nN install || exit 1
+make prefix=$PREFIX_IN_USE install || exit 1
 
 cd ..
 }
 
 function build_x86 {
 echo "==============================================================="
-echo -e "\n ==> building FFmpeg for x86...\n"
+echo -e "\n ==> building FFmpeg for x86 $1 ...\n"
 echo "==============================================================="
 
 cd $FFMPEG
-
-rm -rf $PREFIXx86
-mkdir -p $PREFIXx86
 
 export PATH=$TOOLCHAIN/bin:$PATH
 export CC="ccache i686-linux-android-gcc-4.7"
@@ -158,11 +187,24 @@ export AR=i686-linux-android-ar
 cp -rn ../liblame/jni/lame $TOOLCHAIN/sysroot/usr/include
 cp -n ../liblame/libs/x86/liblame.so $TOOLCHAIN/sysroot/usr/lib/libmp3lame.so
 
+if [ "$1" = "PIE" ]; then
+    PREFIX_IN_USE=$PREFIXx86
+    CFLAGS_IN_USE=$CFLAGS_PIEx86
+    LDFLAGS_IN_USE=$LDFLAGS_PIEx86
+else
+    PREFIX_IN_USE=$PREFIXx86_nonPIE
+    CFLAGS_IN_USE=$CFLAGSx86
+    LDFLAGS_IN_USE=$LDFLAGSx86
+fi
+
+rm -rf $PREFIX_IN_USE
+mkdir -p $PREFIX_IN_USE
+
 FEATURES="--disable-demuxer=sbg --disable-demuxer=dts --disable-parser=dca --disable-decoder=dca --disable-decoder=svq3 \
 \
 --enable-libmp3lame --disable-devices --disable-filters --disable-protocols --enable-protocol=file"
 
-./configure --target-os=linux --arch=x86 --cpu=i686 --cross-prefix=i686-linux-android- --enable-cross-compile $FEATURES --disable-symver --disable-doc --disable-htmlpages --disable-manpages --disable-podpages --disable-txtpages --disable-ffplay --disable-ffprobe --disable-ffserver --disable-amd3dnow --disable-amd3dnowext --disable-asm --enable-yasm --enable-pic --prefix=$PREFIXx86 --extra-cflags="$CFLAGS" --extra-ldflags="$LDFLAGS" | tee $PREFIXx86/configuration.txt
+./configure --target-os=linux --arch=x86 --cpu=i686 --cross-prefix=i686-linux-android- --enable-cross-compile $FEATURES --disable-symver --disable-doc --disable-htmlpages --disable-manpages --disable-podpages --disable-txtpages --disable-ffplay --disable-ffprobe --disable-ffserver --disable-amd3dnow --disable-amd3dnowext --disable-asm --enable-yasm --enable-pic --prefix=$PREFIX_IN_USE --extra-cflags="$CFLAGS_IN_USE" --extra-ldflags="$LDFLAGS_IN_USE" | tee $PREFIX_IN_USE/configuration.txt
 
 make clean
 make || exit 1
@@ -179,8 +221,11 @@ echo "==============================================================="
 mkdir $BASE_DIR/builds_LGPL
 
 cp -v $BUILD_DIRarm/bin/ffmpeg 		builds_LGPL/ffmpeg_armv7a
-cp -v $BUILD_DIRarm_nN/bin/ffmpeg 	builds_LGPL/ffmpeg_armv7a_non_neon
+cp -v $BUILD_DIRarm_nonNEON/bin/ffmpeg 	builds_LGPL/ffmpeg_armv7a_nonNEON
 cp -v $BUILD_DIRx86/bin/ffmpeg 		builds_LGPL/ffmpeg_x86
+cp -v $BUILD_DIRarm_nonPIE/bin/ffmpeg 		builds_LGPL/ffmpeg_armv7a_nonPIE
+cp -v $BUILD_DIRarm_nonNEON_nonPIE/bin/ffmpeg 	builds_LGPL/ffmpeg_armv7a_nonNEON_nonPIE
+cp -v $BUILD_DIRx86_nonPIE/bin/ffmpeg 		builds_LGPL/ffmpeg_x86_nonPIE
 }
 
 function clean {
@@ -190,8 +235,11 @@ echo "==============================================================="
 rm -rf liblame
 rm -rf $FFMPEG
 rm -rf $BUILD_DIRarm
-rm -rf $BUILD_DIRarm_nN
+rm -rf $BUILD_DIRarm_nonNEON
 rm -rf $BUILD_DIRx86
+rm -rf $BUILD_DIRarm_nonPIE
+rm -rf $BUILD_DIRarm_nonNEON_nonPIE
+rm -rf $BUILD_DIRx86_nonPIE
 rm -rf $TOOLCHAIN
 }
 
@@ -200,9 +248,15 @@ rm -rf $TOOLCHAIN
 config
 extract
 build_lame
+
+build_arm PIE
+build_arm_nonNEON PIE
+build_x86 PIE
+
 build_arm
-build_arm_non_neon
+build_arm_nonNEON
 build_x86
+
 copy
 clean
-echo "==============================================================="
+#===============================================================
