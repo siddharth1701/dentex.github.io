@@ -11,7 +11,7 @@ keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads,
 ---
 Latest development changes are available in this new beta: to minimize the issue regarding the Andriod system closing YTD while downloading in background, now the screen will remain **on** as long as the user keeps the app to the front. In addition, I improved the *send logcat* feature.
 
-As always, download the apk in YTD enabling its [preference](http://dentex.github.io/blog/2014-07-15/new-beta-program-again/), or downloading directly the apk from [HERE](http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v4.4-beta-8.apk)
+As always, download the apk in YTD enabling its [preference](http://dentex.github.io/blog/2014-07-15/new-beta-program-again/), or grab the apk from [HERE](http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v4.4-beta-8.apk)
 
 Changelog:
 
