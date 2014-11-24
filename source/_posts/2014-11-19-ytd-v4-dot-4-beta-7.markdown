@@ -13,7 +13,7 @@ Yet another beta from the `v4.4` series.
 This time merging the download fix from YTD v4.3.3 (latest stable) plus some small extras (as some test versions of the FFmpeg executables supporting new Android versions, starting from **L**, due to a new security feature.    
 Please note, **these FFmpeg builds are on test** and might not work.
 
-The apk file is available for download through the app itself, enabling the [proper preference](http://dentex.github.io/blog/2014-07-15/new-beta-program-again/), or downloading directly the apk from [HERE](http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v4.4-beta-7.apk). Just a note: to upgrade from beta-6 to 7, it will go through the v4.3.3.
+The apk file is available for download through the app itself, enabling the [proper preference](http://dentex.github.io/blog/2014-07-15/new-beta-program-again/), or downloading directly the apk from *[link removed - old beta]*
 
 Please share any idea commenting below or join the discussion [over XDA](http://forum.xda-developers.com/showthread.php?t=2335450).
 
