@@ -4,7 +4,7 @@
   <title><![CDATA[Category: News | dentex's blog]]></title>
   <link href="http://dentex.github.io/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2014-11-24T15:45:41+01:00</updated>
+  <updated>2014-11-24T15:53:10+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -19,6 +19,8 @@
     <updated>2014-11-24T15:19:59+01:00</updated>
     <id>http://dentex.github.io/blog/2014-11-24/ytd-v4-dot-4-beta-8</id>
     <content type="html"><![CDATA[<p>Latest development changes are available in this new beta: to minimize the issue regarding the Andriod system closing YTD while downloading in background, now the screen will remain <strong>on</strong> as long as the user keeps the app to the front. In addition, I improved the <em>send logcat</em> feature.</p>
+
+<p>As always, download the apk in YTD enabling its <a href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/">preference</a>, or downloading directly the apk from <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v4.4-beta-8.apk">HERE</a></p>
 
 <p>Changelog:</p>
 
@@ -63,7 +65,7 @@
 This time merging the download fix from YTD v4.3.3 (latest stable) plus some small extras (as some test versions of the FFmpeg executables supporting new Android versions, starting from <strong>L</strong>, due to a new security feature.  <br/>
 Please note, <strong>these FFmpeg builds are on test</strong> and might not work.</p>
 
-<p>The apk file is available for download through the app itself, enabling the <a href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/">proper preference</a>, or downloading directly the apk from <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v4.4-beta-7.apk">HERE</a>. Just a note: to upgrade from beta-6 to 7, it will go through the v4.3.3.</p>
+<p>The apk file is available for download through the app itself, enabling the <a href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/">proper preference</a>, or downloading directly the apk from <em>[link removed &ndash; old beta]</em></p>
 
 <p>Please share any idea commenting below or join the discussion <a href="http://forum.xda-developers.com/showthread.php?t=2335450">over XDA</a>.</p>
 
