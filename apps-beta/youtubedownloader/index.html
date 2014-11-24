@@ -97,20 +97,18 @@
 <time datetime="2014-07-24T09:45:00+02:00" pubdate data-updated="true">Jul 24<span>th</span>, 2014</time></p>
   </header>
   
-  <p><code>versionName="4.3.3.1_v4.4-beta-7"</code></p>
+  <p><code>versionName="4.3.3.2_v4.4-beta-8"</code></p>
 
-<p>SHA1 checksum: <code>b1895752aa3a813f662966c877ee23db58a23a67</code></p>
+<p>SHA1 checksum: <code>3b3ce04cbbea97334800bcfd34eabe90c7fc0ed4</code></p>
 
-<p>Yet another beta from the <code>v4.4</code> series.  <br/>
-This time merging the download fix from YTD v4.3.3 (latest stable) plus some small extras (as some test versions of the FFmpeg executables supporting new Android versions, starting from <strong>L</strong>, due to a new security feature.  <br/>
-Please note, <strong>these FFmpeg builds are on test</strong> and might not work.</p>
+<p>Latest development changes are available in this new beta: to minimize the issue regarding the Andriod system closing YTD while downloading in background, now the screen will remain <strong>on</strong> as long as the user keeps the app to the front. In addition, I improved the <em>send logcat</em> feature.</p>
 
-<p>Take a look at the the Changelog below.</p>
+<p>Changelog:</p>
 
-<pre><code> v4.4-beta-7 - Nov 19 2014
+<pre><code> v4.4-beta-8 - Nov 23 2014
 -----------------------------------
 [x] configurable downloads queue
-[x] option to invert dashboard\'s entries click menus
+[x] option to invert dashboard's entries click menus
 [x] auto-resume downloads paused due to network failure
 [x] new FFmpeg build targeting non-NEON CPUs (i.e. Tegra devices)
 [x] ability to send logcat to the developer via email
@@ -118,7 +116,24 @@ Please note, <strong>these FFmpeg builds are on test</strong> and might not work
 [x] fixed dashboard rename with existing filename (thanks m0d)
 [x] back-button going through all tabs now as optional
 [x] new FFmpeg builds supporting Android L
+[x] keep screen on when anything is "in progress"
 </code></pre>
+
+<p>Still something to do, for a final stable version 4.4:</p>
+
+<ul>
+<li>a &ldquo;dequeue now&rdquo; option for dashboard entries;</li>
+<li>better downloads auto-resume and auto-queue on app start / &ldquo;resume-all&rdquo; function into the sliding menu.</li>
+</ul>
+
+
+<p>And further down the road:</p>
+
+<ul>
+<li>Kitkat sdcard workaround / Lollipop new sdcard access feature;</li>
+<li>&hellip;and many other things.</li>
+</ul>
+
 
   
     <footer>
@@ -176,6 +191,10 @@ Please note, <strong>these FFmpeg builds are on test</strong> and might not work
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014-11-24/ytd-v4-dot-4-beta-8/">YTD v4.4 Beta-8</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014-11-19/ytd-v4-dot-4-beta-7/">YTD v4.4 Beta-7</a>
       </li>
     
@@ -189,10 +208,6 @@ Please note, <strong>these FFmpeg builds are on test</strong> and might not work
     
       <li class="post">
         <a href="/blog/2014-08-15/recensione-ytd-su-mavideoreview-ita/">Recensione YTD Su MAVideoreview (ITA)</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014-07-24/ytd-v4-dot-4-beta-6/">YTD v4.4 Beta-6</a>
       </li>
     
   </ul>
