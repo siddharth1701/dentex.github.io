@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2014-11-24T15:56:12+01:00</updated>
+  <updated>2014-12-04T19:05:35+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -120,8 +120,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
     <link href="http://dentex.github.io/blog/2014-11-16/new-ytd-v4-dot-3-3/"/>
     <updated>2014-11-16T10:30:33+01:00</updated>
     <id>http://dentex.github.io/blog/2014-11-16/new-ytd-v4-dot-3-3</id>
-    <content type="html"><![CDATA[<p>YouTube Downloader version 4.3.3 is available <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">from this blog</a>;
-Online stores still not updated, though.</p>
+    <content type="html"><![CDATA[<p>YouTube Downloader version 4.3.3 is available <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">from this blog</a>;</p>
 
 <p>Changelog:</p>
 
