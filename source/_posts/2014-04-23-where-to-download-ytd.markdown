@@ -10,8 +10,8 @@ description: "YouTube Downloader for Android - a free and ad-free app"
 keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader"
 ---
 
-Apart from [this blog](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk) and the [Aptoide](http://dentex.store.aptoide.com/app/market/dentex.youtube.downloader/91/6462173/YouTube%20Downloader%20for%20Android) store, **YouTube Downloader** is available for download at the [Opera Mobile Store](http://apps.opera.com/youtube_downloader_and_audio_converterextractor.html) and the [Amazon Appstore](http://www.amazon.com/gp/product/B00BGF3LFE).
+Apart from [this blog](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk), **YouTube Downloader** is available for download at the [Opera Mobile Store](http://apps.opera.com/youtube_downloader_and_audio_converterextractor.html) and the [Aptoide Store](http://dentex.store.aptoide.com/app/market/dentex.youtube.downloader/92/7824509/YouTube%20Downloader%20for%20Android).
 
 [![opera_link](/images/others/opera_badge.png)](http://apps.opera.com/youtube_downloader_and_audio_converterextractor.html)
 
-[![amazon_link](/images/others/amazon-icon.png)](http://www.amazon.com/gp/product/B00BGF3LFE)
+[![aptoide_link](/images/others/aptoide_logo.png)](http://dentex.store.aptoide.com/app/market/dentex.youtube.downloader/92/7824509/YouTube%20Downloader%20for%20Android)

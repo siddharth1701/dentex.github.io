@@ -26,7 +26,7 @@ or take it from anyone of this app stores (please stand by for the update to v4.
 
 [![opera_link](/images/others/opera_badge.png)](http://apps.opera.com/youtube_downloader_and_audio_converterextractor.html)
 
-[![aptoide_link](/images/others/aptoide_logo.png)](http://dentex.store.aptoide.com/app/market/dentex.youtube.downloader/91/6462173/YouTube%20Downloader%20for%20Android)
+[![aptoide_link](/images/others/aptoide_logo.png)](http://dentex.store.aptoide.com/app/market/dentex.youtube.downloader/92/7824509/YouTube%20Downloader%20for%20Android)
 
 MD5 checksum: `30cbb06d860a0a6093e087aef09f2973`
 
