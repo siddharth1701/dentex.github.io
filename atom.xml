@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2014-12-17T12:08:36+01:00</updated>
+  <updated>2014-12-26T19:23:41+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -171,10 +171,19 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 <ul>
 <li><a href="http://technofaq.org/posts/2014/04/fixing-external-sd-card-write-issue-on-android-kitkat/">technofaq.org</a>;</li>
 <li><a href="http://www.androidpolice.com/2014/02/17/external-blues-google-has-brought-big-changes-to-sd-cards-in-kitkat-and-even-samsung-may-be-implementing-them/">androidpolice.com</a>;</li>
-<li><a href="http://forum.xda-developers.com/xposed/modules/kitkat-sd-card-access-t2790992">XDA developers</a>.
-<p class='post-footer' style="font-size:70%;" ></li>
+<li><a href="http://forum.xda-developers.com/xposed/modules/kitkat-sd-card-access-t2790992">XDA developers</a>.</li>
 </ul>
 
+
+<p><strong>Update:</strong>
+As <em>antekone</em> commented below, a workaround to continue using anyway the download destination on the removable sdcard, would be to choose the directory:</p>
+
+<pre><code>&lt;&lt;YourExternalSdCardBaseDir&gt;&gt;/Android/data/dentex.youtube.downloader/files/
+</code></pre>
+
+<p>&hellip;or to create there a subdirectory directly from the YTD&rsquo;s file manager (viewable when you open the custom download destination setting).  <br/>
+The only drawback would be that you will loose all of your downloads if you uninstall YTD. Well&hellip; do not uninstall!  ;)
+ <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
 
