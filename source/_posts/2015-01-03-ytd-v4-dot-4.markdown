@@ -1,0 +1,30 @@
+---
+layout: post
+title: "YTD v4.4"
+date: 2015-01-03 18:58:03 +0100
+comments: true
+categories: [News]
+sharing: true
+footer: true
+description: "YouTube Downloader for Android - a free and ad-free app - new version"
+keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader, ffmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, HD, 3gp, webm, mp4, m4a, ogg, flv"
+---
+YouTube Downloader version 4.4 is finally available! Download it [from this blog](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk).
+
+Many new features has been tested in latest beta builds and now are available:
+
+     v4.4 - Jan 03 2015
+    -----------------------------------
+    [x] configurable downloads queue
+    [x] option to invert dashboard's entries click menus
+    [x] auto-resume downloads paused due to network failure
+    [x] new FFmpeg build targeting non-NEON CPUs (i.e. Tegra devices)
+    [x] ability to send logcat to the developer via email
+    [x] added Croatian, Indonesian (WIP) and Norwegian (WIP) translations
+    [x] fixed dashboard rename with existing filename (thanks m0d)
+    [x] back-button going through all tabs now as optional
+    [x] new FFmpeg builds supporting Android L
+    [x] keep screen on if something is "in progress"
+
+I postponed the addition of a couple of features (a "de-queue now" option for dashboard entries and a "resume-all" action into the dashboard's sliding menu), to be able to push this version sooner; I'll add them later on, in a future 4.4.1 version.
+

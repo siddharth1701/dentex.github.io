@@ -9,4 +9,3 @@ description: Free and ad-free Android app
 keywords: YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, audio, YouTube, downloader, media, conversion, extraction, management
 ---
 [![YTD_banner](/images/apps/YTD_banner.jpg)](/apps/youtubedownloader)
-[![YTD_banner-B](/images/apps/YTD_banner_beta.jpg)](/apps-beta/youtubedownloader)

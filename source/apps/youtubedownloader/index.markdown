@@ -14,22 +14,22 @@ keywords: YouTube Downloader, Android, android app, app, free, ad-free, no ads, 
 
 ![YTD](/images/apps/ytd.png)
 
-`versionCode="92"`
+`versionCode="93"`
 
-`versionName="4.3.3"`
+`versionName="4.4"`
 
 Download the latest APK from [THIS BLOG](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk).
 
 [![BLOG_download](/images/others/gh_logo.png)](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk) 
 
-MD5 checksum: `30cbb06d860a0a6093e087aef09f2973`
+MD5 checksum: `696c2072b7d363758fbc9353e28ee71a`
 
-SHA1 checksum: `4f76428fb0561ca03c33f94c3d2043bff93ef554`
+SHA1 checksum: `f2cf268748de4ef7ee7aa60ffa777a3cb7315458`
 
-Beta available: `true`
+Beta available: `false`
 
 ## **YouTube Downloader for Android**
-## **Copyright (C) 2012-2014 Samuele Rini**
+## **Copyright (C) 2012-2015 Samuele Rini**
 
 ##[End User License Agreement](/apps/youtubedownloader/eula.html)
 
@@ -58,15 +58,15 @@ then:
 - Many preferences to customize usage.
 
 ###KNOWN ISSUE
-- some very long running downloads may be forced to PAUSE state if the Dashboard activity is not kept to the front. In this cases a manual resume is needed.
+- Some very long running downloads may be forced to PAUSE state if the app is not kept to the front. In this cases a manual resume is needed.
 
 ##ANTI-FEATURES
 Are not supported for download all video that:
 
-- require login (i.e. age restricted video);
-- implement encrypted streams (some complete movies);
-- are not available in your country;
-- are live events.
+- Require login (i.e. age restricted video);
+- Implement encrypted streams (some complete movies);
+- Are not available in your country;
+- Are live events.
 
 ###Translation project:
 [Getlocalization](http://www.getlocalization.com/ytdownloader/)
@@ -172,6 +172,19 @@ Are not supported for download all video that:
 
 
 ## CHANGELOG
+
+     v4.4 - Jan 03 2015
+    -----------------------------------
+    [x] configurable downloads queue
+    [x] option to invert dashboard\'s entries click menus
+    [x] auto-resume downloads paused due to network failure
+    [x] new FFmpeg build targeting non-NEON CPUs (i.e. Tegra devices)
+    [x] ability to send logcat to the developer via email
+    [x] added Croatian, Indonesian (WIP) and Norwegian (WIP) translations
+    [x] fixed dashboard rename with existing filename (thanks m0d)
+    [x] back-button going through all tabs now as optional
+    [x] new FFmpeg builds supporting Android L
+    [x] keep screen on if something is "in progress"
 
      v4.3.3 - Nov 15 2014
     -----------------------------------

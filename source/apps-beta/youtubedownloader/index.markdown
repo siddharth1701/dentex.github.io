@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "YTD current Beta version"
-date: 2014-07-24 09:45
+date: 2015-01-03 18:55
 comments: true
 sharing: true
 footer: true
@@ -9,33 +9,4 @@ description: Free and ad-free Android app, Beta version
 keywords: YTD, Beta, android app, app, free, ad-free, no ads, dentex, video, audio, YouTube, downloader, media, conversion, extraction, management
 ---
 
-`versionName="4.3.3.2_v4.4-beta-8"`
-
-SHA1 checksum: `3b3ce04cbbea97334800bcfd34eabe90c7fc0ed4`
-
-Latest development changes are available in this new beta: to minimize the issue regarding the Andriod system closing YTD while downloading in background, now the screen will remain **on** as long as the user keeps the app to the front. In addition, I improved the *send logcat* feature.
-
-Changelog:
-
-     v4.4-beta-8 - Nov 23 2014
-    -----------------------------------
-    [x] configurable downloads queue
-    [x] option to invert dashboard's entries click menus
-    [x] auto-resume downloads paused due to network failure
-    [x] new FFmpeg build targeting non-NEON CPUs (i.e. Tegra devices)
-    [x] ability to send logcat to the developer via email
-    [x] added Croatian, Indonesian (WIP) and Norwegian (WIP) translations
-    [x] fixed dashboard rename with existing filename (thanks m0d)
-    [x] back-button going through all tabs now as optional
-    [x] new FFmpeg builds supporting Android L
-    [x] keep screen on when anything is "in progress"
-
-Still something to do, for a final stable version 4.4:
-
-- a "dequeue now" option for dashboard entries;
-- better downloads auto-resume and auto-queue on app start / "resume-all" function into the sliding menu.
-
-And further down the road:
-
-- Kitkat sdcard workaround / Lollipop new sdcard access feature;
-- ...and many other things.
+[...]
