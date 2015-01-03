@@ -105,23 +105,23 @@
 
 <p><img src="/images/apps/ytd.png" alt="YTD" /></p>
 
-<p><code>versionCode="92"</code></p>
+<p><code>versionCode="93"</code></p>
 
-<p><code>versionName="4.3.3"</code></p>
+<p><code>versionName="4.4"</code></p>
 
 <p>Download the latest APK from <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">THIS BLOG</a>.</p>
 
 <p><a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk"><img src="/images/others/gh_logo.png" alt="BLOG_download" /></a></p>
 
-<p>MD5 checksum: <code>30cbb06d860a0a6093e087aef09f2973</code></p>
+<p>MD5 checksum: <code>696c2072b7d363758fbc9353e28ee71a</code></p>
 
-<p>SHA1 checksum: <code>4f76428fb0561ca03c33f94c3d2043bff93ef554</code></p>
+<p>SHA1 checksum: <code>f2cf268748de4ef7ee7aa60ffa777a3cb7315458</code></p>
 
-<p>Beta available: <code>true</code></p>
+<p>Beta available: <code>false</code></p>
 
 <h2><strong>YouTube Downloader for Android</strong></h2>
 
-<h2><strong>Copyright &copy; 2012-2014 Samuele Rini</strong></h2>
+<h2><strong>Copyright &copy; 2012-2015 Samuele Rini</strong></h2>
 
 <h2><a href="/apps/youtubedownloader/eula.html">End User License Agreement</a></h2>
 
@@ -164,7 +164,7 @@ then:</li>
 <h3>KNOWN ISSUE</h3>
 
 <ul>
-<li>some very long running downloads may be forced to PAUSE state if the Dashboard activity is not kept to the front. In this cases a manual resume is needed.</li>
+<li>Some very long running downloads may be forced to PAUSE state if the app is not kept to the front. In this cases a manual resume is needed.</li>
 </ul>
 
 
@@ -173,10 +173,10 @@ then:</li>
 <p>Are not supported for download all video that:</p>
 
 <ul>
-<li>require login (i.e. age restricted video);</li>
-<li>implement encrypted streams (some complete movies);</li>
-<li>are not available in your country;</li>
-<li>are live events.</li>
+<li>Require login (i.e. age restricted video);</li>
+<li>Implement encrypted streams (some complete movies);</li>
+<li>Are not available in your country;</li>
+<li>Are live events.</li>
 </ul>
 
 
@@ -289,7 +289,20 @@ Attribution 3.0 Unported" license (CC BY).
 
 <h2>CHANGELOG</h2>
 
-<pre><code> v4.3.3 - Nov 15 2014
+<pre><code> v4.4 - Jan 03 2015
+-----------------------------------
+[x] configurable downloads queue
+[x] option to invert dashboard\'s entries click menus
+[x] auto-resume downloads paused due to network failure
+[x] new FFmpeg build targeting non-NEON CPUs (i.e. Tegra devices)
+[x] ability to send logcat to the developer via email
+[x] added Croatian, Indonesian (WIP) and Norwegian (WIP) translations
+[x] fixed dashboard rename with existing filename (thanks m0d)
+[x] back-button going through all tabs now as optional
+[x] new FFmpeg builds supporting Android L
+[x] keep screen on if something is "in progress"
+
+ v4.3.3 - Nov 15 2014
 -----------------------------------
 [x] encrypted signature patch (11) (thanks gantt)
 [x] support for 60fps VO streams
@@ -773,6 +786,10 @@ Attribution 3.0 Unported" license (CC BY).
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015-01-03/ytd-v4-dot-4/">YTD v4.4</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014-11-24/ytd-v4-dot-4-beta-8/">YTD v4.4 Beta-8</a>
       </li>
     
@@ -781,15 +798,11 @@ Attribution 3.0 Unported" license (CC BY).
       </li>
     
       <li class="post">
-        <a href="/blog/2014-11-16/new-ytd-v4-dot-3-3/">New YTD v4.3.3</a>
+        <a href="/blog/2014-11-16/new-ytd-v4-dot-3-3/">YTD v4.3.3</a>
       </li>
     
       <li class="post">
         <a href="/blog/2014-08-15/setting-downloads-destination-folder-in-ytd/">Setting Downloads Destination Folder in YTD</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014-08-15/recensione-ytd-su-mavideoreview-ita/">Recensione YTD Su MAVideoreview (ITA)</a>
       </li>
     
   </ul>
@@ -830,7 +843,7 @@ Attribution 3.0 Unported" license (CC BY).
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2014 - Samuele Rini -
+  Copyright &copy; 2015 - Samuele Rini -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
