@@ -24,3 +24,11 @@ For your reference, a couple of links on this matter:
 - [technofaq.org](http://technofaq.org/posts/2014/04/fixing-external-sd-card-write-issue-on-android-kitkat/);
 - [androidpolice.com](http://www.androidpolice.com/2014/02/17/external-blues-google-has-brought-big-changes-to-sd-cards-in-kitkat-and-even-samsung-may-be-implementing-them/);
 - [XDA developers](http://forum.xda-developers.com/xposed/modules/kitkat-sd-card-access-t2790992).
+
+**Update:**
+As *antekone* commented below, a workaround to continue using anyway the download destination on the removable sdcard, would be to choose the directory:
+
+    <<YourExternalSdCardBaseDir>>/Android/data/dentex.youtube.downloader/files/
+
+...or to create there a subdirectory directly from the YTD's file manager (viewable when you open the custom download destination setting).    
+The only drawback would be that you will loose all of your downloads if you uninstall YTD. Well... do not uninstall!  ;)
