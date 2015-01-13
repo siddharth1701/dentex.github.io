@@ -35,8 +35,8 @@ Beta available: `false`
 
 ##INSTALLATION
 - First of all, remember to enable **"Unknown Sources"** from your device's **Security** settings, to allow the installation of non market Apps (safely ignore the subsequent dialog);
-- Temporary disable apps as Halo, Screenfilter, Twilight or anything similar (apps that do "draw on other apps"), otherwise the "install" button will not work;
-- To install the app, click on your notification bar message of download completed (if using the system downloads app, other wise this may vary: i.e. if you have a file manager installed, you can browse to your downloads folder and install YTD's apk directly).
+- Temporary disable apps as Halo, Screenfilter, Twilight, LastPass password manager or anything similar (apps that do "draw on other apps"), otherwise the "install" button will not work;
+- To install the app, click on your notification bar message for the completed download (if using the system downloads app, otherwise this may vary: i.e. if you have a file manager installed, you can browse to your downloads folder and install YTD's apk directly).
 
 ##USAGE
 - Select the "share" button in the YouTube App while watching a video (or share any YouTube plain text link via any App) and choose "YouTube downloader";
