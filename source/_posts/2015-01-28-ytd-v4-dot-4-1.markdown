@@ -1,0 +1,20 @@
+---
+layout: post
+title: "YTD v4.4.1"
+date: 2015-01-28 12:34:47 +0100
+comments: true
+categories: [News]
+sharing: true
+footer: true
+description: "YouTube Downloader for Android - a free and ad-free app - new version"
+keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader, ffmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, HD, 3gp, webm, mp4, m4a, ogg, flv"
+---
+A new version of YTD is availabe, addressing a small change into YouTube's code that made the app (almost) unusable. 
+Has been done really in a hurry, so keep finger-crossed and pray it will work.  :)
+
+     v4.4.1 - Jan 28 2015
+    -----------------------------------
+    [x] YouTube site change hotfix
+    [x] FFmpeg binary update fix
+
+[Download link](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk).
