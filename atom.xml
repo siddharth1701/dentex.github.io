@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-01-28T12:31:10+01:00</updated>
+  <updated>2015-01-28T12:43:48+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v4.4.1]]></title>
+    <link href="http://dentex.github.io/blog/2015-01-28/ytd-v4-dot-4-1/"/>
+    <updated>2015-01-28T12:34:47+01:00</updated>
+    <id>http://dentex.github.io/blog/2015-01-28/ytd-v4-dot-4-1</id>
+    <content type="html"><![CDATA[<p>A new version of YTD is availabe, addressing a small change into YouTube&rsquo;s code that made the app (almost) unusable.
+Has been done really in a hurry, so keep finger-crossed and pray it will work.  :)</p>
+
+<pre><code> v4.4.1 - Jan 28 2015
+-----------------------------------
+[x] YouTube site change hotfix
+[x] FFmpeg binary update fix
+</code></pre>
+
+<p><a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">Download link</a>.
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="http://dentex.github.io/blog/2015-01-28/ytd-v4-dot-4-1/">http://dentex.github.io/blog/2015-01-28/ytd-v4-dot-4-1/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v4.4]]></title>
@@ -746,32 +778,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 
 
 <p>Original Link: <a href="http://dentex.github.io/blog/2014-06-11/ytd-v4-dot-3-beta-2/">http://dentex.github.io/blog/2014-06-11/ytd-v4-dot-3-beta-2/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD Usage Tutorial]]></title>
-    <link href="http://dentex.github.io/blog/2014-05-27/ytd-usage-tutorial/"/>
-    <updated>2014-05-27T11:52:48+02:00</updated>
-    <id>http://dentex.github.io/blog/2014-05-27/ytd-usage-tutorial</id>
-    <content type="html"><![CDATA[<p>Yesterday I found a great tutorial about how to use YouTube Downloader, by Avram Piltch.  <br/>
-It&rsquo;s on the blog <strong>laptopmag.com</strong>, at <a href="http://blog.laptopmag.com/download-youtube-videos-android-phone">THIS LINK</a>.</p>
-
-<p><img class="laptopmag" src="http://dentex.github.io/images/tutorials/laptopmag_tutorial.jpg" title="laptopmag page extract" alt="YouTube Downloader for Android review and tutorial">
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="http://dentex.github.io/blog/2014-05-27/ytd-usage-tutorial/">http://dentex.github.io/blog/2014-05-27/ytd-usage-tutorial/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
