@@ -18,10 +18,6 @@ keywords: YouTube Downloader, Android, android app, app, free, ad-free, no ads, 
 
 `versionName="4.4.1"`
 
-Download the latest APK from [THIS BLOG](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk).
-
-[![BLOG_download](/images/others/gh_logo.png)](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk) 
-
 MD5 checksum: `b5d3117af7ed17cb21198475affa5b29`
 
 SHA1 checksum: `ea01d3cfaef09cbb35d590ce4eeefc27a3a2c49c`
@@ -33,10 +29,13 @@ Beta available: `false`
 
 ##[End User License Agreement](/apps/youtubedownloader/eula.html)
 
+##DOWNLOAD
+- The latest APK is available for download [**from this BLOG**](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk).
+
 ##INSTALLATION
-- First of all, remember to enable **"Unknown Sources"** from your device's **Security** settings, to allow the installation of non market Apps (safely ignore the subsequent dialog);
+- First of all, remember to enable **Unknown Sources** from your device's **Security** settings, to allow installations of non market Apps (safely ignore the subsequent dialog);
 - Temporary disable apps as Halo, Screenfilter, Twilight, LastPass password manager or anything similar (apps that do "draw on other apps"), otherwise the "install" button will not work;
-- To install the app, click on your notification bar message for the completed download (if using the system downloads app, otherwise this may vary: i.e. if you have a file manager installed, you can browse to your downloads folder and install YTD's apk directly).
+- To install the app, click on your notification bar message for the completed download (if using the system downloads app, otherwise this may vary: i.e. if you have a file manager installed, you can browse to your downloads folder and install YTD's apk directly, clicking on the file).
 
 ##USAGE
 - Select the "share" button in the YouTube App while watching a video (or share any YouTube plain text link via any App) and choose "YouTube downloader";
@@ -47,12 +46,14 @@ then:
 - Use the Dashboard to interact with downloaded video (audio extraction/conversion/mux and file management).
 
 ##FEATURES
-- [NEW] Search for YouTube videos within the app
-- Download locally (support for remote download to another PC via SSH);
-- Support for any format/quality available from YouTube;
-- Audio extraction/conversion to mp3 via item menu in the Dashboard;
-- Mux Audio- and Video-only streams into a complete video (to enjoy HD resolutions available as separated streams only);
-- File management options via long-click on an item in the Dashboard;
+- Search for YouTube videos within the app
+- Download on your device;
+- Remote download on another PC via SSH;
+- Support for almost any format/quality available from YouTube;
+- Audio extraction to aac/ogg or conversion to mp3 (menu available via single-click on items in the Dashboard tab);
+- Mp3's ID3 tags edit;
+- Mux Audio-Only and Video-Only streams into a complete video (to enjoy HD resolutions available as separated streams only);
+- File management (menu available via long-click on items in the Dashboard tab);
 - Handle download link: copy and/or pass it to other apps;
 - video list filters by format, quality etc via (left) sliding menu;
 - Many preferences to customize usage.
@@ -61,9 +62,9 @@ then:
 - Some very long running downloads may be forced to PAUSE state if the app is not kept to the front. In this cases a manual resume is needed.
 
 ##ANTI-FEATURES
-Are not supported for download all video that:
+Are not supported for download all videos that:
 
-- Require login (i.e. age restricted video);
+- Require login (i.e. age restricted videos);
 - Implement encrypted streams (some complete movies);
 - Are not available in your country;
 - Are live events.
@@ -184,7 +185,7 @@ Are not supported for download all video that:
     [x] option to invert dashboard\'s entries click menus
     [x] auto-resume downloads paused due to network failure
     [x] new FFmpeg build targeting non-NEON CPUs (i.e. Tegra devices)
-    [x] ability to send logcat to the developer via email
+    [x] option to send logcat to the developer via email
     [x] added Croatian, Indonesian (WIP) and Norwegian (WIP) translations
     [x] fixed dashboard rename with existing filename (thanks m0d)
     [x] back-button going through all tabs now as optional
@@ -202,7 +203,7 @@ Are not supported for download all video that:
 
      v4.3.1 - Jul 16 2014
     -----------------------------------
-    [x] encrypted signature patch (9) (thanks Rahul Verma)
+    [x] encrypted signature patch (9)
     [x] setting to download beta updates
 
      v4.3 - Jun 20 2014
@@ -252,7 +253,7 @@ Are not supported for download all video that:
     [x] direct 1080p, 480p and mp3 downloads
     [x] grab direct-mp3's quality from the Auto-extract audio setting (dafnis' idea)
     [x] improved/fixed scraping
-    [x] Thai  and Japanese translation (as WIP)
+    [x] Thai and Japanese translation (as WIP)
 
      v3.7.2 - Mar 21 2014
     -----------------------------------
