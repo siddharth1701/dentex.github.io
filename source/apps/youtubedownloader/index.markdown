@@ -38,6 +38,7 @@ Beta available: `false`
 - To install the app, click on your notification bar message for the completed download (if using the system downloads app, otherwise this may vary: i.e. if you have a file manager installed, you can browse to your downloads folder and install YTD's apk directly, clicking on the file).
 
 ##USAGE
+- Search for video and music within the app itself, OR
 - Select the "share" button in the YouTube App while watching a video (or share any YouTube plain text link via any App) and choose "YouTube downloader";
 - You'll see all the video codecs and qualities available for the video you're on.
 then:

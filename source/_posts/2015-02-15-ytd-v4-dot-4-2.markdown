@@ -17,7 +17,3 @@ This latest point version of YTD is aimed to fix a regression I accidentally int
     [x] many languages updated
 
 [Download link](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk).
-
-With this version, YTD will be again *soon* available through the Amazon app store with a dedicated build. The only caveats are that:
- - the in-app updates have been disabled (because they must be handled by Amazon store);
- - the "send via SSH" feature has been disabled also (because it relies on third party apps and download links not related to the Amazon store).
