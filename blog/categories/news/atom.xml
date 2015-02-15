@@ -4,7 +4,7 @@
   <title><![CDATA[Category: News | dentex's blog]]></title>
   <link href="http://dentex.github.io/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-02-10T18:34:14+01:00</updated>
+  <updated>2015-02-15T12:37:46+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v4.4.2]]></title>
+    <link href="http://dentex.github.io/blog/2015-02-15/ytd-v4-dot-4-2/"/>
+    <updated>2015-02-15T12:31:42+01:00</updated>
+    <id>http://dentex.github.io/blog/2015-02-15/ytd-v4-dot-4-2</id>
+    <content type="html"><![CDATA[<p>This latest point version of YTD is aimed to fix a regression I accidentally introduced with version 4.4, that is was preventing the downloads count notification to be updated in real time; instead it was working only when entering the main app activity. Now has been fixed.</p>
+
+<pre><code> v4.4.2 - Feb 15 2015
+-----------------------------------
+[x] fix downloads count in notification
+[x] many languages updated
+</code></pre>
+
+<p><a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">Download link</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v4.4.1]]></title>
@@ -128,25 +145,6 @@ Please note, <strong>these FFmpeg builds are on test</strong> and might not work
 [x] back-button going through all tabs now as optional
 [x] new FFmpeg builds supporting Android L
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.3.3]]></title>
-    <link href="http://dentex.github.io/blog/2014-11-16/new-ytd-v4-dot-3-3/"/>
-    <updated>2014-11-16T10:30:33+01:00</updated>
-    <id>http://dentex.github.io/blog/2014-11-16/new-ytd-v4-dot-3-3</id>
-    <content type="html"><![CDATA[<p>YouTube Downloader version 4.3.3 is available <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">from this blog</a>;</p>
-
-<p>Changelog:</p>
-
-<pre><code> v4.3.3 - Nov 15 2014
------------------------------------
-[x] encrypted signature patch (11) (thanks gantt)
-[x] support for 60fps VO streams
-</code></pre>
-
-<p>Note that <strong>60fps</strong> streams are video-only. They need to be manually merged with an audio stream, if you want to hear anything. :)</p>
 ]]></content>
   </entry>
   
