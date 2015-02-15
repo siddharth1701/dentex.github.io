@@ -1,0 +1,19 @@
+---
+layout: post
+title: "YTD v4.4.2"
+date: 2015-02-15 12:31:42 +0100
+comments: true
+categories: [News]
+sharing: true
+footer: true
+description: "YouTube Downloader for Android - a free and ad-free app - new version"
+keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, HD, 3gp, webm, mp4, m4a, ogg, flv"
+---
+This latest point version of YTD is aimed to fix a regression I accidentally introduced with version 4.4, that is was preventing the downloads count notification to be updated in real time; instead it was working only when entering the main app activity. Now has been fixed.
+
+     v4.4.2 - Feb 15 2015
+    -----------------------------------
+    [x] fix downloads count in notification
+    [x] many languages updated
+
+[Download link](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk).

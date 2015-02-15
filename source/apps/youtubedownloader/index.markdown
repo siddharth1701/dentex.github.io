@@ -14,13 +14,13 @@ keywords: YouTube Downloader, Android, android app, app, free, ad-free, no ads, 
 
 ![YTD](/images/apps/ytd.png)
 
-`versionCode="94"`
+`versionCode="95"`
 
-`versionName="4.4.1"`
+`versionName="4.4.2"`
 
-MD5 checksum: `b5d3117af7ed17cb21198475affa5b29`
+MD5 checksum: `49cde3200f04c42b3cf98e45a2b34b44`
 
-SHA1 checksum: `ea01d3cfaef09cbb35d590ce4eeefc27a3a2c49c`
+SHA1 checksum: `32f698e9ea36c73947c4f41ca23747897de8818e`
 
 Beta available: `false`
 
@@ -173,6 +173,11 @@ Are not supported for download all videos that:
 
 
 ## CHANGELOG
+
+     v4.4.2 - Feb 15 2015
+    -----------------------------------
+    [x] fix downloads count in notification
+    [x] many languages updated
 
      v4.4.1 - Jan 28 2015
     -----------------------------------
