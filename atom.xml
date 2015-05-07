@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-02-15T17:56:06+01:00</updated>
+  <updated>2015-05-07T15:54:57+02:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Latest Search Issues]]></title>
+    <link href="http://dentex.github.io/blog/2015-05-07/latest-search-issues/"/>
+    <updated>2015-05-07T15:12:14+02:00</updated>
+    <id>http://dentex.github.io/blog/2015-05-07/latest-search-issues</id>
+    <content type="html"><![CDATA[<p>Many of you may have already noticed that YTD&rsquo;s search function is no longer working. This is happening because Google discontinued search APIs functions some hours ago. This part of the app needs to be rewritten.</p>
+
+<p>Not that I didn&rsquo;t know this, but I haven&rsquo;t been able to patch the app in time.</p>
+
+<p>For the moment, in the official YouTube app use the &ldquo;share&rdquo; function towards YouTube Downloader: this will open the formats tab directly (unless the video is not supported &ndash; see release notes).</p>
+
+<p>This issue will be hopefully fixed with the next release.</p>
+
+<p><img class="share1" src="http://dentex.github.io/images/screenshots/share/share1.jpg" width="300" title="Sharing from YouTube - pt.1" alt="How to use the send-to or share function from the official YouTube app towards YouTube Downloader - pt.1">
+<img class="share2" src="http://dentex.github.io/images/screenshots/share/share2.jpg" width="300" title="Sharing from YouTube - pt.2" alt="How to use the send-to or share function from the official YouTube app towards YouTube Downloader - pt.2">
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="http://dentex.github.io/blog/2015-05-07/latest-search-issues/">http://dentex.github.io/blog/2015-05-07/latest-search-issues/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v4.4.2]]></title>
@@ -736,37 +768,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 
 
 <p>Original Link: <a href="http://dentex.github.io/blog/2014-06-15/ytd-v4-dot-3-beta-3/">http://dentex.github.io/blog/2014-06-15/ytd-v4-dot-3-beta-3/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD: Another Two Tutorials]]></title>
-    <link href="http://dentex.github.io/blog/2014-06-13/ytd-another-two-tutorials/"/>
-    <updated>2014-06-13T16:46:02+02:00</updated>
-    <id>http://dentex.github.io/blog/2014-06-13/ytd-another-two-tutorials</id>
-    <content type="html"><![CDATA[<p>While I was wandering through the maze of the Internet, again, I discovered another two nice reviews/tutorials about YouTube Downloader and how to use it.</p>
-
-<p>The first one is located on the Blog by Shivkumar Lohar, at <a href="http://www.stupidtechlife.com/download-format-video-using-youtube-downloader-android-smartphone/">THIS LINK</a>.</p>
-
-<p><img class="stupidtechlife" src="http://dentex.github.io/images/tutorials/stupidtechlife.png" title="stupidtechlife page extract" alt="YouTube Downloader for Android tutorial - review on stupidtechlife.com"></p>
-
-<p>Other than this, how could we not have an <a href="http://www.instructables.com/id/How-to-Download-YouTube-videos-on-android/">Instructables entry</a> also?</p>
-
-<p><a href="http://www.instructables.com"><img src="http://dentex.github.io/images/others/instructables_logo.png" alt="instructables_logo" /></a>
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="http://dentex.github.io/blog/2014-06-13/ytd-another-two-tutorials/">http://dentex.github.io/blog/2014-06-13/ytd-another-two-tutorials/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>

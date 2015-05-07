@@ -4,7 +4,7 @@
   <title><![CDATA[Category: News | dentex's blog]]></title>
   <link href="http://dentex.github.io/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-02-15T17:56:06+01:00</updated>
+  <updated>2015-05-07T15:54:57+02:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Latest Search Issues]]></title>
+    <link href="http://dentex.github.io/blog/2015-05-07/latest-search-issues/"/>
+    <updated>2015-05-07T15:12:14+02:00</updated>
+    <id>http://dentex.github.io/blog/2015-05-07/latest-search-issues</id>
+    <content type="html"><![CDATA[<p>Many of you may have already noticed that YTD&rsquo;s search function is no longer working. This is happening because Google discontinued search APIs functions some hours ago. This part of the app needs to be rewritten.</p>
+
+<p>Not that I didn&rsquo;t know this, but I haven&rsquo;t been able to patch the app in time.</p>
+
+<p>For the moment, in the official YouTube app use the &ldquo;share&rdquo; function towards YouTube Downloader: this will open the formats tab directly (unless the video is not supported &ndash; see release notes).</p>
+
+<p>This issue will be hopefully fixed with the next release.</p>
+
+<p><img class="share1" src="/images/screenshots/share/share1.jpg" width="300" title="&lsquo;Sharing from YouTube &ndash; pt.1&rsquo; &lsquo;How to use the send-to or share function from the official YouTube app towards YouTube Downloader &ndash; pt.1&rsquo;" >
+<img class="share2" src="/images/screenshots/share/share2.jpg" width="300" title="&lsquo;Sharing from YouTube &ndash; pt.2&rsquo; &lsquo;How to use the send-to or share function from the official YouTube app towards YouTube Downloader &ndash; pt.2&rsquo;" ></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v4.4.2]]></title>
@@ -115,36 +133,6 @@ Has been done really in a hurry, so keep finger-crossed and pray it will work.  
 <li>&hellip;and many other things.</li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.4 Beta-7]]></title>
-    <link href="http://dentex.github.io/blog/2014-11-19/ytd-v4-dot-4-beta-7/"/>
-    <updated>2014-11-19T18:09:05+01:00</updated>
-    <id>http://dentex.github.io/blog/2014-11-19/ytd-v4-dot-4-beta-7</id>
-    <content type="html"><![CDATA[<p>Yet another beta from the <code>v4.4</code> series.  <br/>
-This time merging the download fix from YTD v4.3.3 (latest stable) plus some small extras (as some test versions of the FFmpeg executables supporting new Android versions, starting from <strong>L</strong>, due to a new security feature.  <br/>
-Please note, <strong>these FFmpeg builds are on test</strong> and might not work.</p>
-
-<p>The apk file is available for download through the app itself, enabling the <a href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/">proper preference</a>, or downloading directly the apk from <em>[link removed &ndash; old beta]</em></p>
-
-<p>Please share any idea commenting below or join the discussion <a href="http://forum.xda-developers.com/showthread.php?t=2335450">over XDA</a>.</p>
-
-<p>Take a look at the the Changelog below.</p>
-
-<pre><code> v4.4-beta-7 - Nov 19 2014
------------------------------------
-[x] configurable downloads queue
-[x] option to invert dashboard\'s entries click menus
-[x] auto-resume downloads paused due to network failure
-[x] new FFmpeg build targeting non-NEON CPUs (i.e. Tegra devices)
-[x] ability to send logcat to the developer via email
-[x] added Croatian, Indonesian (WIP) and Norwegian (WIP) translations
-[x] fixed dashboard rename with existing filename (thanks m0d)
-[x] back-button going through all tabs now as optional
-[x] new FFmpeg builds supporting Android L
-</code></pre>
 ]]></content>
   </entry>
   
