@@ -102,6 +102,6 @@ facebook_like: false
 
 # add original link
 original_url_pre: "Original Link: "
-license_url: /license
+license_url: /license.txt
 license_name: "CC BY-NC-SA 4.0"
 
