@@ -4,7 +4,7 @@
   <title><![CDATA[Category: News | dentex's blog]]></title>
   <link href="http://dentex.github.io/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-05-07T15:54:57+02:00</updated>
+  <updated>2015-05-21T16:49:30+02:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Latest Search Issues (an Update)]]></title>
+    <link href="http://dentex.github.io/blog/2015-05-21/latest-search-issues-an-update/"/>
+    <updated>2015-05-21T16:46:57+02:00</updated>
+    <id>http://dentex.github.io/blog/2015-05-21/latest-search-issues-an-update</id>
+    <content type="html"><![CDATA[<p>A new fixed version is almost done; in the meantime, there&rsquo;s a beta version to test the new search feature:  <br/>
+<a href="http://forum.xda-developers.com/showthread.php?t=2335450">http://forum.xda-developers.com/showthread.php?t=2335450</a></p>
+
+<p>For the moment, it&rsquo;s not available through the app&rsquo;s update setting, but only at the XDA forum link above.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Latest Search Issues]]></title>
@@ -90,49 +102,6 @@ Has been done really in a hurry, so keep finger-crossed and pray it will work.  
 </code></pre>
 
 <p>I postponed the addition of a couple of features (a &ldquo;de-queue now&rdquo; option for dashboard entries and a &ldquo;resume-all&rdquo; action into the dashboard&rsquo;s sliding menu), to be able to push this version sooner; I&rsquo;ll add them later on, in a future 4.4.1 version.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.4 Beta-8]]></title>
-    <link href="http://dentex.github.io/blog/2014-11-24/ytd-v4-dot-4-beta-8/"/>
-    <updated>2014-11-24T15:19:59+01:00</updated>
-    <id>http://dentex.github.io/blog/2014-11-24/ytd-v4-dot-4-beta-8</id>
-    <content type="html"><![CDATA[<p>Latest development changes are available in this new beta: to minimize the issue regarding the Andriod system closing YTD while downloading in background, now the screen will remain <strong>on</strong> as long as the user keeps the app to the front. In addition, I improved the <em>send logcat</em> feature.</p>
-
-<p>As always, download the apk in YTD enabling its <a href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/">preference</a>, or grab the apk from <em>[link removed &ndash; old beta]</em>.</p>
-
-<p>Changelog:</p>
-
-<pre><code> v4.4-beta-8 - Nov 23 2014
------------------------------------
-[x] configurable downloads queue
-[x] option to invert dashboard's entries click menus
-[x] auto-resume downloads paused due to network failure
-[x] new FFmpeg build targeting non-NEON CPUs (i.e. Tegra devices)
-[x] ability to send logcat to the developer via email
-[x] added Croatian, Indonesian (WIP) and Norwegian (WIP) translations
-[x] fixed dashboard rename with existing filename (thanks m0d)
-[x] back-button going through all tabs now as optional
-[x] new FFmpeg builds supporting Android L
-[x] keep screen on when anything is "in progress"
-</code></pre>
-
-<p>Still something to do, for a final stable version 4.4:</p>
-
-<ul>
-<li>a &ldquo;dequeue now&rdquo; option for dashboard entries;</li>
-<li>better downloads auto-resume and auto-queue on app start / &ldquo;resume-all&rdquo; function into the sliding menu.</li>
-</ul>
-
-
-<p>And further down the road:</p>
-
-<ul>
-<li>Kitkat sdcard workaround / Lollipop new sdcard access feature;</li>
-<li>&hellip;and many other things.</li>
-</ul>
-
 ]]></content>
   </entry>
   
