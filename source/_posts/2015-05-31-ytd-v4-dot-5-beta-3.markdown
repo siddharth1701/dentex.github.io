@@ -1,0 +1,31 @@
+---
+layout: post
+title: "YTD v4.5 Beta-3"
+date: 2015-05-31 17:28:17 +0200
+comments: true
+categories: [News]
+sharing: true
+footer: true
+description: "YouTube Downloader for Android - a free and ad-free app - new version"
+keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, HD, 3gp, webm, mp4, m4a, ogg, flv"
+---
+A new Beta (number 3) for YTD version 4.5 is ready for download.
+
+Use the app's *update* section or [this link](http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v4.5_beta_3.apk).
+
+Changelog:
+
+     v4.5 BETA 3 - May 31 2015
+    -----------------------------------
+    [x] new and working integrated search (with filters menu)
+    [x] Bulgarian and Romanian translations (as WIP), many other updated
+    [x] do not try to download purchasable videos
+    [x] wrap extracted aac audio-only into an m4a container
+    [x] many libraries updated (OkHttp added)
+    [x] better error handling during update check
+    [x] showing time left for downloads based on network speed (*new)
+    
+    In this beta: way faster search results with asynchronous 
+    "publishing dates" data filling (as an option).
+
+    Search-results sorting logic adapted to reflect this change.
