@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>YTD v4.4 - dentex's blog</title>
+  <title>dentex's blog</title>
   <meta name="author" content="Samuele Rini">
 
   
-  <meta name="description" content="YouTube Downloader for Android - a free and ad-free app - new version">
-  <meta name="keywords" content="YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader, ffmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, HD, 3gp, webm, mp4, m4a, ogg, flv">
+  <meta name="description" content="The development of YTD version 2.0 is slowly coming to the end! Today I finished the implementation of BugSense to keep track of application&rsquo;s &hellip;">
+  
 
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://dentex.github.io/blog/2015-01-03/ytd-v4-dot-4">
+  <link rel="canonical" href="http://dentex.github.io/blog/page/5">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="" rel="alternate" title="dentex's blog" type="application/atom+xml">
@@ -77,12 +77,15 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div>
-<article class="hentry" role="article">
+      <div class="blog-index">
   
+  
+  
+    <article>
+      
   <header>
     
-      <h1 class="entry-title">YTD v4.4</h1>
+      <h1 class="entry-title"><a href="/blog/2013-04-26/YTD-v2.0-development/">YTD v2.0 Development</a></h1>
     
     
       <p class="meta">
@@ -98,34 +101,39 @@
   
 
 
-<time datetime="2015-01-03T18:58:03+01:00" pubdate data-updated="true">Jan 3<span>rd</span>, 2015</time>
+<time datetime="2013-04-26T19:02:05+02:00" pubdate data-updated="true">Apr 26<span>th</span>, 2013</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>YouTube Downloader version 4.4 is finally available! Download it <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">from this blog</a>.</p>
+  <div class="entry-content"><p>The development of YTD version 2.0 is slowly coming to the end!</p>
 
-<p>Many new features has been tested in latest beta builds and now are available:</p>
+<p>Today I finished the implementation of BugSense to keep track of application&rsquo;s Crashes from the next version&rsquo;s user base, and finally I added a progress bar into the notification for the FFmpeg audio jobs in progress.</p>
 
-<pre><code> v4.4 - Jan 03 2015
------------------------------------
-[x] configurable downloads queue
-[x] option to invert dashboard's entries click menus
-[x] auto-resume downloads paused due to network failure
-[x] new FFmpeg build targeting non-NEON CPUs (i.e. Tegra devices)
-[x] ability to send logcat to the developer via email
-[x] added Croatian, Indonesian (WIP) and Norwegian (WIP) translations
-[x] fixed dashboard rename with existing filename (thanks m0d)
-[x] back-button going through all tabs now as optional
-[x] new FFmpeg builds supporting Android L
-[x] keep screen on if something is "in progress"
-</code></pre>
+<p>Neat.</p>
 
-<p>I postponed the addition of a couple of features (a &ldquo;de-queue now&rdquo; option for dashboard entries and a &ldquo;resume-all&rdquo; action into the dashboard&rsquo;s sliding menu), to be able to push this version sooner; I&rsquo;ll add them later on, in a future 4.4.1 version.</p>
+<p>&hellip;from the latest commits logs:</p>
 
-<p> <p class='post-footer' style="font-size:70%;" ></p>
+<ul>
+<li>implemented BugSense (www.bugsense.com)</li>
+<li>added progressBar for FFmpeg jobs</li>
+<li>moved FFmpeg jobs to own thread</li>
+<li>new screenshots</li>
+<li>changed README builder</li>
+<li>improved error handling for FFmpeg process</li>
+<li>implemented &ldquo;remove video&rdquo; pref</li>
+<li>tutorials to own menu; audio extraction tutorial entry</li>
+<li>finished sound/vibration/flash notification option</li>
+<li>fix FC with no audio extraction enabled (due to NullPointer for the audioConfirm checkbox)</li>
+<li>starting work for ring/vibration/flash notification setting</li>
+<li>fixed media scan</li>
+<li>reorganized code credits</li>
+<li>adding confirmation dialog checkbox for audio jobs
+<p class='post-footer' style="font-size:70%;" ></li>
+</ul>
+
 
 <br/>
 
@@ -136,73 +144,24 @@
 <br/>
 
 
-<p>Original Link: <a href="/blog/2015-01-03/ytd-v4-dot-4/">http://dentex.github.io/blog/2015-01-03/ytd-v4-dot-4/</a><br/>
+<p>Original Link: <a href="/blog/2013-04-26/YTD-v2.0-development/">http://dentex.github.io/blog/2013-04-26/YTD-v2.0-development/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 </div>
-
-
-  <footer>
-    <p class="meta">
-      
   
-
-<span class="byline author vcard">Posted by <span class="fn">Samuele Rini</span></span>
-
-      
-
-
-
-
-
-
-
-
   
 
 
-<time datetime="2015-01-03T18:58:03+01:00" pubdate data-updated="true">Jan 3<span>rd</span>, 2015</time>
-      
-
-<span class="categories">
+    </article>
   
-    <a class='category' href='/blog/categories/news/'>News</a>
-  
-</span>
-
-
-    </p>
+  <div class="pagination">
     
-      <div class="sharing">
-  
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://dentex.github.io/blog/2015-01-03/ytd-v4-dot-4/" data-via="twidentex" data-counturl="http://dentex.github.io/blog/2015-01-03/ytd-v4-dot-4/" >Tweet</a>
-  
-  
-  <div class="g-plusone" data-size="medium"></div>
-  
-  
-</div>
-
+    <a href="/blog/archives">Blog Archives</a>
     
-    <p class="meta">
-      
-        <a class="basic-alignment left" href="/blog/2014-11-24/ytd-v4-dot-4-beta-8/" title="Previous Post: YTD v4.4 beta-8">&laquo; YTD v4.4 beta-8</a>
-      
-      
-        <a class="basic-alignment right" href="/blog/2015-01-28/ytd-v4-dot-4-1/" title="Next Post: YTD v4.4.1">YTD v4.4.1 &raquo;</a>
-      
-    </p>
-  </footer>
-</article>
-
-  <section>
-    <h1>Comments</h1>
-    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a class="next" href="/blog/page/4/">Newer &rarr;</a>
+    
+  </div>
 </div>
-  </section>
-
-</div>
-
 <aside class="sidebar">
   
     <section>
@@ -269,7 +228,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
   
 </aside>
 
-
     </div>
   </div>
   <footer role="contentinfo"><p>
@@ -284,10 +242,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
       var disqus_shortname = 'dentexgithub';
       
         
-        // var disqus_developer = 1;
-        var disqus_identifier = 'http://dentex.github.io/blog/2015-01-03/ytd-v4-dot-4/';
-        var disqus_url = 'http://dentex.github.io/blog/2015-01-03/ytd-v4-dot-4/';
-        var disqus_script = 'embed.js';
+        var disqus_script = 'count.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

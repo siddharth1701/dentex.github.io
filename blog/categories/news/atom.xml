@@ -4,7 +4,7 @@
   <title><![CDATA[Category: News | dentex's blog]]></title>
   <link href="http://dentex.github.io/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-05-28T18:55:51+02:00</updated>
+  <updated>2015-05-31T17:39:41+02:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,35 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v4.5 Beta-3]]></title>
+    <link href="http://dentex.github.io/blog/2015-05-31/ytd-v4-dot-5-beta-3/"/>
+    <updated>2015-05-31T17:28:17+02:00</updated>
+    <id>http://dentex.github.io/blog/2015-05-31/ytd-v4-dot-5-beta-3</id>
+    <content type="html"><![CDATA[<p>A new Beta (number 3) for YTD version 4.5 is ready for download.</p>
+
+<p>Use the app&rsquo;s <em>update</em> section or <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v4.5_beta_3.apk">this link</a>.</p>
+
+<p>Changelog:</p>
+
+<pre><code> v4.5 BETA 3 - May 31 2015
+-----------------------------------
+[x] new and working integrated search (with filters menu)
+[x] Bulgarian and Romanian translations (as WIP), many other updated
+[x] do not try to download purchasable videos
+[x] wrap extracted aac audio-only into an m4a container
+[x] many libraries updated (OkHttp added)
+[x] better error handling during update check
+[x] showing time left for downloads based on network speed (*new)
+
+In this beta: way faster search results with asynchronous 
+"publishing dates" data filling (as an option).
+
+Search-results sorting logic adapted to reflect this change.
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v4.5 Beta-2]]></title>
@@ -88,33 +117,6 @@ Has been done really in a hurry, so keep finger-crossed and pray it will work.  
 </code></pre>
 
 <p><a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">Download link</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.4]]></title>
-    <link href="http://dentex.github.io/blog/2015-01-03/ytd-v4-dot-4/"/>
-    <updated>2015-01-03T18:58:03+01:00</updated>
-    <id>http://dentex.github.io/blog/2015-01-03/ytd-v4-dot-4</id>
-    <content type="html"><![CDATA[<p>YouTube Downloader version 4.4 is finally available! Download it <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">from this blog</a>.</p>
-
-<p>Many new features has been tested in latest beta builds and now are available:</p>
-
-<pre><code> v4.4 - Jan 03 2015
------------------------------------
-[x] configurable downloads queue
-[x] option to invert dashboard's entries click menus
-[x] auto-resume downloads paused due to network failure
-[x] new FFmpeg build targeting non-NEON CPUs (i.e. Tegra devices)
-[x] ability to send logcat to the developer via email
-[x] added Croatian, Indonesian (WIP) and Norwegian (WIP) translations
-[x] fixed dashboard rename with existing filename (thanks m0d)
-[x] back-button going through all tabs now as optional
-[x] new FFmpeg builds supporting Android L
-[x] keep screen on if something is "in progress"
-</code></pre>
-
-<p>I postponed the addition of a couple of features (a &ldquo;de-queue now&rdquo; option for dashboard entries and a &ldquo;resume-all&rdquo; action into the dashboard&rsquo;s sliding menu), to be able to push this version sooner; I&rsquo;ll add them later on, in a future 4.4.1 version.</p>
 ]]></content>
   </entry>
   
