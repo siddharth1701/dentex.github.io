@@ -11,7 +11,7 @@ keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads,
 ---
 A new Beta (number 3) for YTD version 4.5 is ready for download.
 
-Use the app's *update* section or [this link](http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v4.5_beta_3.apk).
+Use the app's *update* section or [this link](http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v4.5-beta-3.apk).
 
 Changelog:
 
