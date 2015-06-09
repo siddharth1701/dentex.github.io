@@ -1,0 +1,32 @@
+---
+layout: post
+title: "YTD v4.5"
+date: 2015-06-09 17:00:17 +0200
+comments: true
+categories: [News]
+sharing: true
+footer: true
+description: "YouTube Downloader for Android - a free and ad-free app - new version"
+keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, HD, 3gp, webm, mp4, m4a, ogg, flv"
+---
+YouTubeDownloader's **stable** version 4.5 is ready. Apart from many small fixes and improvements, with this version the integrated search function is working again (has been completely rewritten due to a YouTube's search API change).
+
+This is the changelog:
+
+     v4.5 - Jun 09 2015
+    -----------------------------------
+    [x] new and working integrated search (with filters menu)
+    [x] Bengali (India), Bulgarian, Romanian and Serbian translations added (as WIP);
+        many others updated
+    [x] do not try to download purchasable videos
+    [x] wrap extracted aac audio-only into an m4a container
+    [x] many libraries updated (OkHttp added for networking)
+    [x] better error handling during update check
+    [x] showing time left for downloads based on network speed
+    [x] asks to overwrite when downloading files already stored
+    [x] many small bugs fixed (themes, languages selection, etc.)
+    [x] added support for Opus audio-only formats and a few others
+
+Upgrade through the app's settings or download the latest apk directly via [THIS link](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk).
+
+Please let me know in the comments below if something is missing or not working (apart from the well known bug regarding the app being closed by Android system if stays too much in background).  ;)

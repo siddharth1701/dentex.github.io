@@ -14,15 +14,15 @@ keywords: YouTube Downloader, Android, android app, app, free, ad-free, no ads, 
 
 ![YTD](/images/apps/ytd.png)
 
-`versionCode="95"`
+`versionCode="96"`
 
-`versionName="4.4.2"`
+`versionName="4.5"`
 
-MD5 checksum: `49cde3200f04c42b3cf98e45a2b34b44`
+MD5 checksum: `f2f5ecc4bbd5ab3e678573d73ffc88d7`
 
-SHA1 checksum: `32f698e9ea36c73947c4f41ca23747897de8818e`
+SHA1 checksum: `a5ddbdb67f467382b0da5d602f845544a86b9272`
 
-Beta available: `true`
+Beta available: `false`
 
 ## **YouTube Downloader for Android**
 ## **Copyright (C) 2012-2015 Samuele Rini**
@@ -74,7 +74,8 @@ Are not supported for download all videos that:
 [Getlocalization](http://www.getlocalization.com/ytdownloader/)
 
 ###Support forum:
-[XDA-developers Thread](http://forum.xda-developers.com/showthread.php?t=2137743)
+[XDA-developers Thread (Stable)](http://forum.xda-developers.com/showthread.php?t=2137743)
+[XDA-developers Thread (Beta)](http://forum.xda-developers.com/showthread.php?t=2335450)
 
 ## CREDITS
     
@@ -114,8 +115,13 @@ Are not supported for download all videos that:
     http://www.jthink.net/jaudiotagger/index.jsp 
     Copyright &#169; 2004-2007 JThink Ltd
     
-    Picasso: Image downloading and caching library
-    Copyright 2013 Square, Inc. http://square.github.io/picasso/
+    Picasso: Image downloading and caching library;
+    OkHttp: An HTTP and SPDY client for Android and Java applications;
+    Okio: A modern I/O API for Java;
+    Copyright 2013 Square, Inc. 
+    https://square.github.io/picasso/
+    https://github.com/square/okhttp/
+    https://github.com/square/okio/
     
     Crouton library: Copyright &#169; 2012-2013 Benjamin Weiss and 
     Copyright &#169; 2012 Neofonie Mobile GmbH, as modified by Prashant Adesara 
@@ -174,6 +180,19 @@ Are not supported for download all videos that:
 
 
 ## CHANGELOG
+
+     v4.5 - Jun 09 2015
+    -----------------------------------
+    [x] new and working integrated search (with filters menu)
+    [x] Bengali (India), Bulgarian, Romanian and Serbian translations added (as WIP); many others updated
+    [x] do not try to download purchasable videos
+    [x] wrap extracted aac audio-only into an m4a container
+    [x] many libraries updated (OkHttp added for networking)
+    [x] better error handling during update check
+    [x] showing time left for downloads based on network speed
+    [x] asks to overwrite when downloading files already stored
+    [x] many small bugs fixed (themes, languages selection, etc.)
+    [x] added support for Opus audio-only formats and a few others
 
      v4.4.2 - Feb 15 2015
     -----------------------------------
