@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-05-31T20:08:33+02:00</updated>
+  <updated>2015-06-09T17:09:49+02:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -14,13 +14,57 @@
 
   
   <entry>
+    <title type="html"><![CDATA[YTD v4.5]]></title>
+    <link href="http://dentex.github.io/blog/2015-06-09/ytd-v4-dot-5/"/>
+    <updated>2015-06-09T17:00:17+02:00</updated>
+    <id>http://dentex.github.io/blog/2015-06-09/ytd-v4-dot-5</id>
+    <content type="html"><![CDATA[<p>YouTubeDownloader&rsquo;s <strong>stable</strong> version 4.5 is ready. Apart from many small fixes and improvements, with this version the integrated search function is working again (has been completely rewritten due to a YouTube&rsquo;s search API change).</p>
+
+<p>This is the changelog:</p>
+
+<pre><code> v4.5 - Jun 09 2015
+-----------------------------------
+[x] new and working integrated search (with filters menu)
+[x] Bengali (India), Bulgarian, Romanian and Serbian translations added (as WIP);
+    many others updated
+[x] do not try to download purchasable videos
+[x] wrap extracted aac audio-only into an m4a container
+[x] many libraries updated (OkHttp added for networking)
+[x] better error handling during update check
+[x] showing time left for downloads based on network speed
+[x] asks to overwrite when downloading files already stored
+[x] many small bugs fixed (themes, languages selection, etc.)
+[x] added support for Opus audio-only formats and a few others
+</code></pre>
+
+<p>Upgrade through the app&rsquo;s settings or download the latest apk directly via <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">THIS link</a>.</p>
+
+<p>Please let me know in the comments below if something is missing or not working (apart from the well known bug regarding the app being closed by Android system if stays too much in background).  ;)
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="http://dentex.github.io/blog/2015-06-09/ytd-v4-dot-5/">http://dentex.github.io/blog/2015-06-09/ytd-v4-dot-5/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[YTD v4.5 Beta-3]]></title>
     <link href="http://dentex.github.io/blog/2015-05-31/ytd-v4-dot-5-beta-3/"/>
     <updated>2015-05-31T17:28:17+02:00</updated>
     <id>http://dentex.github.io/blog/2015-05-31/ytd-v4-dot-5-beta-3</id>
     <content type="html"><![CDATA[<p>A new Beta (number 3) for YTD version 4.5 is ready for download.</p>
 
-<p>Use the app&rsquo;s <em>update</em> section or <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v4.5-beta-3.apk">this link</a>.</p>
+<p>Use the app&rsquo;s update section or <em>[link removed &ndash; old beta]</em>.</p>
 
 <p>Changelog:</p>
 
@@ -717,56 +761,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
 
 
 <p>Original Link: <a href="http://dentex.github.io/blog/2014-06-30/ytd-v4-dot-4-beta-2/">http://dentex.github.io/blog/2014-06-30/ytd-v4-dot-4-beta-2/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.4 Beta]]></title>
-    <link href="http://dentex.github.io/blog/2014-06-26/ytd-v4-dot-4-beta/"/>
-    <updated>2014-06-26T16:48:38+02:00</updated>
-    <id>http://dentex.github.io/blog/2014-06-26/ytd-v4-dot-4-beta</id>
-    <content type="html"><![CDATA[<p>I have a new beta for YTD with a couple of new features that I played with today.</p>
-
-<pre><code>[x] configurable downloads queue
-preliminary to the playlist download, "Oorah!"
-
-[x] option to invert dashboard's entries click menus
-simple stuff: this will invert the behavior of single-click 
-menu and long-press menu on dashboard items
-</code></pre>
-
-<ul>
-<li>BUG: There&rsquo;s a problem is with the &ldquo;Auto&rdquo; default entry for the preference &ldquo;simultaneous downloads&rdquo; (see image below). Change it to a numeric value (1 &lt;&ndash;> 10) before downloading anything: <strong>[FIXED: use v4.4 beta-2]</strong>.</li>
-</ul>
-
-
-<p><img class="beta" src="http://dentex.github.io/images/screenshots/YTD_4.4/4.4beta.png" title="[YTD v4.4 new features]" ></p>
-
-<p>Some notes:</p>
-
-<ul>
-<li>FFmpeg&rsquo;s download is excluded from the queuing system (will always start)</li>
-<li>reducing the simultaneous downloads will NOT move any task from &ldquo;in progress&rdquo; to &ldquo;queued&rdquo; state</li>
-<li>increasing the simultaneous downloads will accordingly move, from &ldquo;queued&rdquo; to &ldquo;in progress&rdquo;, the required number of tasks</li>
-<li>known issue: for the moment, for two-steps downloads as 1080p and 480p, after downloading the video only, the task will be (erroneously) considered &ldquo;completed&rdquo; and the next download in queue will fire. I hope to fix this later implementing some sort of priority for the AO stream download.</li>
-</ul>
-
-
-<p><em>[Download link removed &ndash; old beta]</em>.
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="http://dentex.github.io/blog/2014-06-26/ytd-v4-dot-4-beta/">http://dentex.github.io/blog/2014-06-26/ytd-v4-dot-4-beta/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>

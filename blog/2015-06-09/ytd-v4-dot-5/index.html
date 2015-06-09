@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>YouTube Downloader's EULA - dentex's blog</title>
+  <title>YTD v4.5 - dentex's blog</title>
   <meta name="author" content="Samuele Rini">
 
   
-  <meta name="description" content="YouTube Downloader for Android EULA">
-  <meta name="keywords" content="YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader, End User License Agreement, License, Disclaimer">
+  <meta name="description" content="YouTube Downloader for Android - a free and ad-free app - new version">
+  <meta name="keywords" content="YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, HD, 3gp, webm, mp4, m4a, ogg, flv">
 
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://dentex.github.io/apps/youtubedownloader/eula.html">
+  <link rel="canonical" href="http://dentex.github.io/blog/2015-06-09/ytd-v4-dot-5">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="" rel="alternate" title="dentex's blog" type="application/atom+xml">
@@ -78,68 +78,15 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">YouTube Downloader's EULA</h1>
-    <p class="meta">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-02-14T15:05:00+01:00" pubdate data-updated="true">Feb 14<span>th</span>, 2014</time></p>
-  </header>
-  
-  <h2>END USER LICENSE AGREEMENT for &ldquo;YouTube Downloader for Android&rdquo; (the &ldquo;Software&rdquo;).</h2>
-
-<h3>1. Summary</h3>
-
-<p>This license provides important information concerning the Software, provides you with a license to use the Software and contains warranty and liability information.
-By using the Software, you are accepting the Software &ldquo;AS IS&rdquo; and agreeing to be bound by the terms of this license agreement.
-In no event will the author be held liable for any damages arising from the use of this Software.
-If you do not wish to do so, do not use the Software.</p>
-
-<h3>2. Definitions</h3>
-
-<p>&ldquo;License&rdquo; shall mean the terms and conditions for use, reproduction, and distribution as defined by this document.</p>
-
-<p>&ldquo;Licensor&rdquo; shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.</p>
-
-<p>&ldquo;You&rdquo; (or &ldquo;Your&rdquo;) shall mean an individual or Legal Entity exercising permissions granted by this License.</p>
-
-<p>&ldquo;Contributor&rdquo; shall mean Licensor and any individual or Legal Entity on behalf of whom a contribution has been received by Licensor and subsequently incorporated within the Work.</p>
-
-<h3>3. Terms of License</h3>
-
-<p>This license allows You to use the Software on Your device. <br/>
-PLEASE READ THIS DOCUMENT CAREFULLY BEFORE USING THIS SOFTWARE.</p>
-
-<h3>4. Ownership</h3>
-
-<p>This license provides You with limited rights to use the Software. I, Samuele Rini, (the &ldquo;Licensor&rdquo;) retain all ownership, right, title and interest in, to and of the Software and all copies of it. All rights not specifically granted in this license, including domestic and international copyrights, are reserved by the Licensor. <br/>
-YouTube © 2012 Google Inc. All rights reserved. &ldquo;YouTube&rdquo; is a trademark of Google Inc. This Software is not affiliated with or by any means approved by Google Inc.  <br/>
-&ldquo;Android&rdquo; is a trademark of Google Inc.</p>
-
-<h3>5. Restrictions on Use</h3>
-
-<p>You shall not decompile, reverse engineer, disassemble, include in other software or use the Software for any commercial purposes. You shall not modify, alter, change or otherwise make any modification to the Software or create derivative works based upon the Software. You shall not rent, lease, resell, sub-license, assign, distribute or otherwise transfer the Software or this License. Any attempt to do so shall be void and of no effect.</p>
-
-<h3>6. Disclaimer of Warranties</h3>
-
-<p>Unless required by applicable law or agreed to in writing, the Licensor provides the Software (and each Contributor provides its contributions) on an &ldquo;AS IS&rdquo; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Software and assume any risks associated with Your exercise of permissions under this License. Any material downloaded or otherwise obtained through this Software is done at your own risk and discretion.</p>
-
-  
-    <footer>
+    
+      <h1 class="entry-title">YTD v4.5</h1>
+    
+    
       <p class="meta">
         
-        
 
 
 
@@ -151,13 +98,86 @@ YouTube © 2012 Google Inc. All rights reserved. &ldquo;YouTube&rdquo; is a trad
   
 
 
-<time datetime="2014-02-14T15:05:00+01:00" pubdate data-updated="true">Feb 14<span>th</span>, 2014</time>
+<time datetime="2015-06-09T17:00:17+02:00" pubdate data-updated="true">Jun 9<span>th</span>, 2015</time>
         
       </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>YouTubeDownloader&rsquo;s <strong>stable</strong> version 4.5 is ready. Apart from many small fixes and improvements, with this version the integrated search function is working again (has been completely rewritten due to a YouTube&rsquo;s search API change).</p>
+
+<p>This is the changelog:</p>
+
+<pre><code> v4.5 - Jun 09 2015
+-----------------------------------
+[x] new and working integrated search (with filters menu)
+[x] Bengali (India), Bulgarian, Romanian and Serbian translations added (as WIP);
+    many others updated
+[x] do not try to download purchasable videos
+[x] wrap extracted aac audio-only into an m4a container
+[x] many libraries updated (OkHttp added for networking)
+[x] better error handling during update check
+[x] showing time left for downloads based on network speed
+[x] asks to overwrite when downloading files already stored
+[x] many small bugs fixed (themes, languages selection, etc.)
+[x] added support for Opus audio-only formats and a few others
+</code></pre>
+
+<p>Upgrade through the app&rsquo;s settings or download the latest apk directly via <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">THIS link</a>.</p>
+
+<p>Please let me know in the comments below if something is missing or not working (apart from the well known bug regarding the app being closed by Android system if stays too much in background).  ;)
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="/blog/2015-06-09/ytd-v4-dot-5/">http://dentex.github.io/blog/2015-06-09/ytd-v4-dot-5/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+</div>
+
+
+  <footer>
+    <p class="meta">
       
-        <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://dentex.github.io/apps/youtubedownloader/eula.html" data-via="twidentex" data-counturl="http://dentex.github.io/apps/youtubedownloader/eula.html" >Tweet</a>
+
+<span class="byline author vcard">Posted by <span class="fn">Samuele Rini</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-06-09T17:00:17+02:00" pubdate data-updated="true">Jun 9<span>th</span>, 2015</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/news/'>News</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://dentex.github.io/blog/2015-06-09/ytd-v4-dot-5/" data-via="twidentex" data-counturl="http://dentex.github.io/blog/2015-06-09/ytd-v4-dot-5/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -165,9 +185,14 @@ YouTube © 2012 Google Inc. All rights reserved. &ldquo;YouTube&rdquo; is a trad
   
 </div>
 
+    
+    <p class="meta">
       
-    </footer>
-  
+        <a class="basic-alignment left" href="/blog/2015-05-31/ytd-v4-dot-5-beta-3/" title="Previous Post: YTD v4.5 Beta-3">&laquo; YTD v4.5 Beta-3</a>
+      
+      
+    </p>
+  </footer>
 </article>
 
   <section>
@@ -260,8 +285,8 @@ YouTube © 2012 Google Inc. All rights reserved. &ldquo;YouTube&rdquo; is a trad
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://dentex.github.io/apps/youtubedownloader/eula.html';
-        var disqus_url = 'http://dentex.github.io/apps/youtubedownloader/eula.html';
+        var disqus_identifier = 'http://dentex.github.io/blog/2015-06-09/ytd-v4-dot-5/';
+        var disqus_url = 'http://dentex.github.io/blog/2015-06-09/ytd-v4-dot-5/';
         var disqus_script = 'embed.js';
       
     (function () {
