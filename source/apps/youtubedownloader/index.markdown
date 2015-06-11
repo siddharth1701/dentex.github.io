@@ -12,7 +12,7 @@ keywords: YouTube Downloader, Android, android app, app, free, ad-free, no ads, 
 ###(and extract/convert audio to mp3). 
 ####For Android 4+
 
-![YTD](/images/apps/ytd.png)
+[![YTD](/images/apps/ytd.png)](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk)
 
 `versionCode="96"`
 
@@ -30,7 +30,9 @@ Beta available: `false`
 ##[End User License Agreement](/apps/youtubedownloader/eula.html)
 
 ##DOWNLOAD
-- The latest APK is available for download [**from this BLOG**](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk).
+- The latest [APK](https://en.wikipedia.org/wiki/Android_application_package) is available for download from this blog:
+
+[![download button](/images/others/download_button.png)](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk)
 
 ##INSTALLATION
 - First of all, remember to enable **Unknown Sources** from your device's **Security** settings, to allow installations of non market Apps (safely ignore the subsequent dialog);
@@ -59,8 +61,9 @@ then:
 - video list filters by format, quality etc via (left) sliding menu;
 - Many preferences to customize usage.
 
-###KNOWN ISSUE
-- Some very long running downloads may be forced to PAUSE state if the app is not kept to the front. In this cases a manual resume is needed.
+###KNOWN ISSUES
+- Some very long running downloads may be forced to PAUSE state if the app is not kept to the front for a certain amount of time. In this cases a manual resume is needed.
+- On KitKat may be not possible to use the external (removable) sdcard as download destination folder. In this case you must use the standard memory storage (for sake of simplicity, use on of the destinations below the setting *choose standard folder*, being "Downloads", "DCIM" or "Movies").
 
 ##ANTI-FEATURES
 Are not supported for download all videos that:
