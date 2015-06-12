@@ -9,9 +9,9 @@ footer: true
 description: "YouTube Downloader for Android - a free and ad-free app - usage tutorial - destination downloads folder"
 keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader, tutorials, review, how-to, tutorial, usage, kitkat, sdcard"
 ---
-Now that I implemented the *send log to developer* option (in the beta version only, for now) almost all logs were about one only issue: the notorious KitKat "feature" (...more a bug, actually) thanks to which an app can't be granted with the permission to *write* files on the external (removable) sdcard. 
+Now that I implemented the *send log to developer* option, almost all logs were about one only issue: the notorious KitKat "feature" (...more a bug, actually) thanks to which an app can't be granted with the permission to *write* files on the external (removable) sdcard. This happens on a certain number of stock ROMs.
 
-As of now, for YTD to work properly downloading your preferred videos, you need to choose your device's internal memory storage as downloads destination folder.
+As of now (if you are affected by this bug), for YTD to work properly downloading your preferred videos, you need to choose your device's internal memory storage as downloads destination folder.
 
 Other possibilities are available:
 
@@ -31,4 +31,4 @@ As *antekone* commented below, a workaround to continue using anyway the downloa
     <<YourExternalSdCardBaseDir>>/Android/data/dentex.youtube.downloader/files/
 
 ...or to create there a subdirectory directly from the YTD's file manager (viewable when you open the custom download destination setting).    
-The only drawback would be that you will loose all of your downloads if you uninstall YTD. Well... do not uninstall!  ;)
+The only drawback would be that you will loose all of your downloads if you uninstall YTD. So, move your own files before uninstalling or ...do not uninstall at all!  ;)
