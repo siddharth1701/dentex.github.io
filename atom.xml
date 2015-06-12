@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-06-11T11:46:12+02:00</updated>
+  <updated>2015-06-12T10:25:17+02:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -418,9 +418,9 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
     <link href="http://dentex.github.io/blog/2014-08-15/setting-downloads-destination-folder-in-ytd/"/>
     <updated>2014-08-15T18:55:32+02:00</updated>
     <id>http://dentex.github.io/blog/2014-08-15/setting-downloads-destination-folder-in-ytd</id>
-    <content type="html"><![CDATA[<p>Now that I implemented the <em>send log to developer</em> option (in the beta version only, for now) almost all logs were about one only issue: the notorious KitKat &ldquo;feature&rdquo; (&hellip;more a bug, actually) thanks to which an app can&rsquo;t be granted with the permission to <em>write</em> files on the external (removable) sdcard.</p>
+    <content type="html"><![CDATA[<p>Now that I implemented the <em>send log to developer</em> option, almost all logs were about one only issue: the notorious KitKat &ldquo;feature&rdquo; (&hellip;more a bug, actually) thanks to which an app can&rsquo;t be granted with the permission to <em>write</em> files on the external (removable) sdcard. This happens on a certain number of stock ROMs.</p>
 
-<p>As of now, for YTD to work properly downloading your preferred videos, you need to choose your device&rsquo;s internal memory storage as downloads destination folder.</p>
+<p>As of now (if you are affected by this bug), for YTD to work properly downloading your preferred videos, you need to choose your device&rsquo;s internal memory storage as downloads destination folder.</p>
 
 <p>Other possibilities are available:</p>
 
@@ -447,7 +447,7 @@ As <em>antekone</em> commented below, a workaround to continue using anyway the 
 </code></pre>
 
 <p>&hellip;or to create there a subdirectory directly from the YTD&rsquo;s file manager (viewable when you open the custom download destination setting).  <br/>
-The only drawback would be that you will loose all of your downloads if you uninstall YTD. Well&hellip; do not uninstall!  ;)
+The only drawback would be that you will loose all of your downloads if you uninstall YTD. So, move your own files before uninstalling or &hellip;do not uninstall at all!  ;)
  <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
