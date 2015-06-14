@@ -13,11 +13,14 @@ To be able to enjoy the 1080p and higher YouTube video resolutions,
 I added the Dashboard/FFmpeg feature to **MUX** (merge) a video-only 
 and an audio-only streams into a single complete video.
 
+*A note:* screenshots are outdated; they are taken from the old interface. Usage it's are the same.
+
 **Downloads:**
 
 - enable the `Get secondary streams` preference;  
 - go share a video to YTD;  
-- click to download the desired **VO** stream *AND* an **AO** stream.
+- click to download the desired **VO** (Video Only) stream *AND* an **AO** (Audio Only) stream;
+- choose compatible ones: mp4 + m4a OR webm + ogg)
 
 {% img /images/screenshots/how-to-mux/1.png 300 settings %}
 
@@ -34,6 +37,6 @@ and an audio-only streams into a single complete video.
 {% img /images/screenshots/how-to-mux/3.png 300 'YouTube Downloader for Android - FFmpeg mux operations' 'select entry' %}
 {% img /images/screenshots/how-to-mux/4.png 300 'YouTube Downloader for Android - FFmpeg mux operations' 'confirm' %}
 
-A complete video should be avaiable to open from the Dashboard, tagged with `MUX`.
+A complete video should be avaiable to be opened from the Dashboard, tagged with `MUX`.
 
 {% img /images/screenshots/how-to-mux/5.png 300 mux entry available %}
