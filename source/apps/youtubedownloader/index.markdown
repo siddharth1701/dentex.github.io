@@ -14,13 +14,13 @@ keywords: YouTube Downloader, Android, android app, app, free, ad-free, no ads, 
 
 [![YTD](/images/apps/ytd.png)](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk)
 
-`versionCode="96"`
+`versionCode="97"`
 
-`versionName="4.5"`
+`versionName="4.5.1"`
 
-MD5 checksum: `f2f5ecc4bbd5ab3e678573d73ffc88d7`
+MD5 checksum: `c4764c9857f69dfa21f04563c5bb3708`
 
-SHA1 checksum: `a5ddbdb67f467382b0da5d602f845544a86b9272`
+SHA1 checksum: `34aafefdfe799b2c72e9a2eefc9418a2b5c2aa9a`
 
 Beta available: `false`
 
@@ -184,10 +184,19 @@ Are not supported for download all videos that:
 
 ## CHANGELOG
 
+     v4.5.1 - Jun 19 2015
+    -----------------------------------
+    [x] do not fail muxing when 1080p and 480p downloads coexist into the Dashboard
+        (thanks scandiun @XDA)
+    [x] do again broken mux operations using the pause/resume menu item
+    [x] support JuiceSSH to send remote downloads
+    [x] proper check to manually mux only .mp4 with .m4a and .webm with .ogg streams
+
      v4.5 - Jun 09 2015
     -----------------------------------
     [x] new and working integrated search (with filters menu)
-    [x] Bengali (India), Bulgarian, Romanian and Serbian translations added (as WIP); many others updated
+    [x] Bengali (India), Bulgarian, Romanian and Serbian translations added (as WIP);
+        many others updated
     [x] do not try to download purchasable videos
     [x] wrap extracted aac audio-only into an m4a container
     [x] many libraries updated (OkHttp added for networking)

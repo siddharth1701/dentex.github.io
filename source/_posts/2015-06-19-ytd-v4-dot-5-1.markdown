@@ -1,0 +1,24 @@
+---
+layout: post
+title: "YTD v4.5.1"
+date: 2015-06-19 11:45:17 +0200
+comments: true
+categories: [News]
+sharing: true
+footer: true
+description: "YouTube Downloader for Android - a free and ad-free app - new version"
+keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, HD, 3gp, webm, mp4, m4a, ogg, flv"
+---
+A new *maintenance* build for YTD is available, with just some bug-fixing and improvements.
+
+Changelog:
+
+     v4.5.1 - Jun 19 2015
+    -----------------------------------
+    [x] do not fail muxing when 1080p and 480p downloads coexist into the Dashboard
+        (thanks scandiun @XDA)
+    [x] do again broken mux operations using the pause/resume menu item
+    [x] support JuiceSSH to send remote downloads
+    [x] proper check to manually mux only .mp4 with .m4a and .webm with .ogg streams
+
+Direct [APK link](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk).
