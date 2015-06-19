@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-06-14T12:44:10+02:00</updated>
+  <updated>2015-06-19T12:00:35+02:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,42 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v4.5.1]]></title>
+    <link href="http://dentex.github.io/blog/2015-06-19/ytd-v4-dot-5-1/"/>
+    <updated>2015-06-19T11:45:17+02:00</updated>
+    <id>http://dentex.github.io/blog/2015-06-19/ytd-v4-dot-5-1</id>
+    <content type="html"><![CDATA[<p>A new <em>maintenance</em> build for YTD is available, with just some bug-fixing and improvements.</p>
+
+<p>Changelog:</p>
+
+<pre><code> v4.5.1 - Jun 19 2015
+-----------------------------------
+[x] do not fail muxing when 1080p and 480p downloads coexist into the Dashboard
+    (thanks scandiun @XDA)
+[x] do again broken mux operations using the pause/resume menu item
+[x] support JuiceSSH to send remote downloads
+[x] proper check to manually mux only .mp4 with .m4a and .webm with .ogg streams
+</code></pre>
+
+<p>Direct <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">APK link</a>.
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="http://dentex.github.io/blog/2015-06-19/ytd-v4-dot-5-1/">http://dentex.github.io/blog/2015-06-19/ytd-v4-dot-5-1/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v4.5]]></title>
@@ -737,30 +773,6 @@ Other than that, as all their site and UIs in general, it looks awesome.</p>
 
 
 <p>Original Link: <a href="http://dentex.github.io/blog/2014-07-11/beta-by-crashlytics/">http://dentex.github.io/blog/2014-07-11/beta-by-crashlytics/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.4 Beta-2]]></title>
-    <link href="http://dentex.github.io/blog/2014-06-30/ytd-v4-dot-4-beta-2/"/>
-    <updated>2014-06-30T12:16:27+02:00</updated>
-    <id>http://dentex.github.io/blog/2014-06-30/ytd-v4-dot-4-beta-2</id>
-    <content type="html"><![CDATA[<p>A new beta fixes the bug for the &ldquo;Auto&rdquo; default entry for the preference &ldquo;simultaneous downloads&rdquo; and adds some more (hidden) optimizations.
-<em>[Download link removed &ndash; old beta]</em>.
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="http://dentex.github.io/blog/2014-06-30/ytd-v4-dot-4-beta-2/">http://dentex.github.io/blog/2014-06-30/ytd-v4-dot-4-beta-2/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>

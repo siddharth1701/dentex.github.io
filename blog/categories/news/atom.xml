@@ -4,7 +4,7 @@
   <title><![CDATA[Category: News | dentex's blog]]></title>
   <link href="http://dentex.github.io/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-06-14T12:44:10+02:00</updated>
+  <updated>2015-06-19T12:00:35+02:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v4.5.1]]></title>
+    <link href="http://dentex.github.io/blog/2015-06-19/ytd-v4-dot-5-1/"/>
+    <updated>2015-06-19T11:45:17+02:00</updated>
+    <id>http://dentex.github.io/blog/2015-06-19/ytd-v4-dot-5-1</id>
+    <content type="html"><![CDATA[<p>A new <em>maintenance</em> build for YTD is available, with just some bug-fixing and improvements.</p>
+
+<p>Changelog:</p>
+
+<pre><code> v4.5.1 - Jun 19 2015
+-----------------------------------
+[x] do not fail muxing when 1080p and 480p downloads coexist into the Dashboard
+    (thanks scandiun @XDA)
+[x] do again broken mux operations using the pause/resume menu item
+[x] support JuiceSSH to send remote downloads
+[x] proper check to manually mux only .mp4 with .m4a and .webm with .ogg streams
+</code></pre>
+
+<p>Direct <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">APK link</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v4.5]]></title>
@@ -112,23 +134,6 @@ Search-results sorting logic adapted to reflect this change.
 
 <p><img class="share1" src="/images/screenshots/share/share1.jpg" width="300" title="&lsquo;Sharing from YouTube &ndash; pt.1&rsquo; &lsquo;How to use the send-to or share function from the official YouTube app towards YouTube Downloader &ndash; pt.1&rsquo;" >
 <img class="share2" src="/images/screenshots/share/share2.jpg" width="300" title="&lsquo;Sharing from YouTube &ndash; pt.2&rsquo; &lsquo;How to use the send-to or share function from the official YouTube app towards YouTube Downloader &ndash; pt.2&rsquo;" ></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.4.2]]></title>
-    <link href="http://dentex.github.io/blog/2015-02-15/ytd-v4-dot-4-2/"/>
-    <updated>2015-02-15T12:31:42+01:00</updated>
-    <id>http://dentex.github.io/blog/2015-02-15/ytd-v4-dot-4-2</id>
-    <content type="html"><![CDATA[<p>This latest point version of YTD is aimed to fix a regression I accidentally introduced with version 4.4, that is was preventing the downloads count notification to be updated in real time; instead it was working only when entering the main app activity. Now has been fixed.</p>
-
-<pre><code> v4.4.2 - Feb 15 2015
------------------------------------
-[x] fix downloads count in notification
-[x] many languages updated
-</code></pre>
-
-<p><a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">Download link</a>.</p>
 ]]></content>
   </entry>
   
