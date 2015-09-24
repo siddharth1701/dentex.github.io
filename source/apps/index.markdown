@@ -2,7 +2,7 @@
 layout: page
 title: "Android apps"
 date: 2014-01-27 18:14
-comments: true
+comments: false
 sharing: true
 footer: true
 description: Free and ad-free Android app

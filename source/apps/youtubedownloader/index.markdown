@@ -14,13 +14,13 @@ keywords: YouTube Downloader, Android, android app, app, free, ad-free, no ads, 
 
 [![YTD](/images/apps/ytd.png)](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk)
 
-`versionCode="97"`
+`versionCode="98"`
 
-`versionName="4.5.1"`
+`versionName="4.6"`
 
-MD5 checksum: `4919d2af9708f92d3e53315fd34cfb71`
+MD5 checksum: `feab7ef9882430a34ef40f5667ef4261`
 
-SHA1 checksum: `28ae31fcd083ef91d7594ebd6d670d2d5d21b529`
+SHA1 checksum: `eaf8a40ef468c9fff5cb9e662aad940345615a8d`
 
 Beta available: `false`
 
@@ -68,7 +68,7 @@ then:
 ##ANTI-FEATURES
 Are not supported for download all videos that:
 
-- Require login (i.e. age restricted videos);
+- Require login (i.e. age restricted videos) ==> and please: do **not** send me logcat reports about this point. Thanks.
 - Implement encrypted streams (some complete movies);
 - Are not available in your country;
 - Are live events.
@@ -168,6 +168,8 @@ Are not supported for download all videos that:
     QueueThread.java reference: 
     http://mindtherobot.com/blog/159/android-guts-intro-to-loopers-and-handlers/
     by Ivan Memruk
+
+    CustomAsyncTask.java "priority" patch by http://stackoverflow.com/users/3153792/corsair992
     
     SHA1 file checksum method: http://www.rgagnon.com/javadetails/java-0416.html
     CC BY-NC-SA 2.5 CA licensed (see http://creativecommons.org/licenses/by-nc-sa/2.5/ca/)
@@ -183,6 +185,15 @@ Are not supported for download all videos that:
 
 
 ## CHANGELOG
+
+     v4.6 - Sep 24 2015
+    -----------------------------------
+    [x] material design for android versions > Lollipop
+    [x] remove option to embed video preview (now fullscreen only)
+    [x] better detection of free space on memory storage for some devices
+    [x] handle the MP4 720p downloads for some very long videos, when file length can\'t be retrieved
+    [x] add option for MP3 "download" quality
+    [x] show correct file size for 480p and 1080p
 
      v4.5.1 - Jun 19 2015
     -----------------------------------

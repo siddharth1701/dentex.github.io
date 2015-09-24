@@ -1,0 +1,30 @@
+---
+layout: post
+title: "YTD v4.6"
+date: 2015-09-24 11:11:10 +0200
+comments: true
+categories: [News]
+sharing: true
+footer: true
+description: "YouTube Downloader for Android - a free and ad-free app - new version"
+keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, HD, 3gp, webm, mp4, m4a, ogg, flv"
+---
+A new version for YTD is available, with this CHANGELOG:
+
+     v4.6 - Sep 24 2015
+    -----------------------------------
+    [x] material design for android versions > Lollipop
+    [x] remove option to embed video preview (now fullscreen only)
+    [x] better detection of free space on memory storage for some devices
+    [x] handle the MP4 720p downloads for some very long videos, when file length can't be retrieved
+    [x] add option for MP3 "download" quality
+    [x] show correct file size for 480p and 1080p
+
+Please, report here or on the XDA forum's thread if you see any issues, especially regarding the new theme on Lollipop devices. Thanks!
+
+At the moment, I'm working hard on the new (and highly expected) feature of *multi-threading* downloads.
+This will permit to download every file split in 2, 3 or 4 chunks (or 1, like it's now) that will start at the same time, maximizing the network's bandwidth usage and minimizing the hated "throttling" done by the YouTube servers on certain videos, especially for some qualities. 
+
+From some initial tests, the new feature seems to go pretty well, with a minor impact on the app's weight (although this exists anyway).
+
+Stay tuned for the next beta.
