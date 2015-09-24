@@ -105,13 +105,13 @@
 
 <p><a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk"><img src="/images/apps/ytd.png" alt="YTD" /></a></p>
 
-<p><code>versionCode="97"</code></p>
+<p><code>versionCode="98"</code></p>
 
-<p><code>versionName="4.5.1"</code></p>
+<p><code>versionName="4.6"</code></p>
 
-<p>MD5 checksum: <code>4919d2af9708f92d3e53315fd34cfb71</code></p>
+<p>MD5 checksum: <code>feab7ef9882430a34ef40f5667ef4261</code></p>
 
-<p>SHA1 checksum: <code>28ae31fcd083ef91d7594ebd6d670d2d5d21b529</code></p>
+<p>SHA1 checksum: <code>eaf8a40ef468c9fff5cb9e662aad940345615a8d</code></p>
 
 <p>Beta available: <code>false</code></p>
 
@@ -182,7 +182,7 @@ then:</li>
 <p>Are not supported for download all videos that:</p>
 
 <ul>
-<li>Require login (i.e. age restricted videos);</li>
+<li>Require login (i.e. age restricted videos) ==> and please: do <strong>not</strong> send me logcat reports about this point. Thanks.</li>
 <li>Implement encrypted streams (some complete movies);</li>
 <li>Are not available in your country;</li>
 <li>Are live events.</li>
@@ -288,6 +288,8 @@ QueueThread.java reference:
 http://mindtherobot.com/blog/159/android-guts-intro-to-loopers-and-handlers/
 by Ivan Memruk
 
+CustomAsyncTask.java "priority" patch by http://stackoverflow.com/users/3153792/corsair992
+
 SHA1 file checksum method: http://www.rgagnon.com/javadetails/java-0416.html
 CC BY-NC-SA 2.5 CA licensed (see http://creativecommons.org/licenses/by-nc-sa/2.5/ca/)
 </code></pre>
@@ -304,7 +306,16 @@ Attribution 3.0 Unported" license (CC BY).
 
 <h2>CHANGELOG</h2>
 
-<pre><code> v4.5.1 - Jun 19 2015
+<pre><code> v4.6 - Sep 24 2015
+-----------------------------------
+[x] material design for android versions &gt; Lollipop
+[x] remove option to embed video preview (now fullscreen only)
+[x] better detection of free space on memory storage for some devices
+[x] handle the MP4 720p downloads for some very long videos, when file length can\'t be retrieved
+[x] add option for MP3 "download" quality
+[x] show correct file size for 480p and 1080p
+
+ v4.5.1 - Jun 19 2015
 -----------------------------------
 [x] do not fail muxing when 1080p and 480p downloads coexist into the Dashboard
     (thanks scandiun @XDA)
@@ -833,6 +844,10 @@ Attribution 3.0 Unported" license (CC BY).
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015-09-24/ytd-v4-dot-6/">YTD v4.6</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015-06-19/ytd-v4-dot-5-1/">YTD v4.5.1</a>
       </li>
     
@@ -846,10 +861,6 @@ Attribution 3.0 Unported" license (CC BY).
     
       <li class="post">
         <a href="/blog/2015-05-21/ytd-v4-dot-5-beta-2/">YTD v4.5 Beta-2</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015-05-07/latest-search-issues/">Latest Search Issues</a>
       </li>
     
   </ul>

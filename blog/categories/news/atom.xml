@@ -4,7 +4,7 @@
   <title><![CDATA[Category: News | dentex's blog]]></title>
   <link href="http://dentex.github.io/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-06-19T12:11:46+02:00</updated>
+  <updated>2015-09-24T11:32:53+02:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v4.6]]></title>
+    <link href="http://dentex.github.io/blog/2015-09-24/ytd-v4-dot-6/"/>
+    <updated>2015-09-24T11:11:10+02:00</updated>
+    <id>http://dentex.github.io/blog/2015-09-24/ytd-v4-dot-6</id>
+    <content type="html"><![CDATA[<p>A new version for YTD is available, with this CHANGELOG:</p>
+
+<pre><code> v4.6 - Sep 24 2015
+-----------------------------------
+[x] material design for android versions &gt; Lollipop
+[x] remove option to embed video preview (now fullscreen only)
+[x] better detection of free space on memory storage for some devices
+[x] handle the MP4 720p downloads for some very long videos, when file length can't be retrieved
+[x] add option for MP3 "download" quality
+[x] show correct file size for 480p and 1080p
+</code></pre>
+
+<p>Please, report here or on the XDA forum&rsquo;s thread if you see any issues, especially regarding the new theme on Lollipop devices. Thanks!</p>
+
+<p>At the moment, I&rsquo;m working hard on the new (and highly expected) feature of <em>multi-threading</em> downloads.
+This will permit to download every file split in 2, 3 or 4 chunks (or 1, like it&rsquo;s now) that will start at the same time, maximizing the network&rsquo;s bandwidth usage and minimizing the hated &ldquo;throttling&rdquo; done by the YouTube servers on certain videos, especially for some qualities.</p>
+
+<p>From some initial tests, the new feature seems to go pretty well, with a minor impact on the app&rsquo;s weight (although this exists anyway).</p>
+
+<p>Stay tuned for the next beta.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v4.5.1]]></title>
@@ -116,24 +144,6 @@ Search-results sorting logic adapted to reflect this change.
 [x] many libraries updated (OkHttp added)
 [x] better error handling during update check
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Latest Search Issues]]></title>
-    <link href="http://dentex.github.io/blog/2015-05-07/latest-search-issues/"/>
-    <updated>2015-05-07T15:12:14+02:00</updated>
-    <id>http://dentex.github.io/blog/2015-05-07/latest-search-issues</id>
-    <content type="html"><![CDATA[<p>Many of you may have already noticed that YTD&rsquo;s search function is no longer working. This is happening because Google discontinued search APIs functions some hours ago. This part of the app needs to be rewritten.</p>
-
-<p>Not that I didn&rsquo;t know this, but I haven&rsquo;t been able to patch the app in time.</p>
-
-<p>For the moment, in the official YouTube app use the &ldquo;share&rdquo; function towards YouTube Downloader: this will open the formats tab directly (unless the video is not supported &ndash; see release notes).</p>
-
-<p>This issue will be hopefully fixed with the next release.</p>
-
-<p><img class="share1" src="/images/screenshots/share/share1.jpg" width="300" title="&lsquo;Sharing from YouTube &ndash; pt.1&rsquo; &lsquo;How to use the send-to or share function from the official YouTube app towards YouTube Downloader &ndash; pt.1&rsquo;" >
-<img class="share2" src="/images/screenshots/share/share2.jpg" width="300" title="&lsquo;Sharing from YouTube &ndash; pt.2&rsquo; &lsquo;How to use the send-to or share function from the official YouTube app towards YouTube Downloader &ndash; pt.2&rsquo;" ></p>
 ]]></content>
   </entry>
   

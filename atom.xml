@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-06-19T12:11:46+02:00</updated>
+  <updated>2015-09-24T11:32:53+02:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,48 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v4.6]]></title>
+    <link href="http://dentex.github.io/blog/2015-09-24/ytd-v4-dot-6/"/>
+    <updated>2015-09-24T11:11:10+02:00</updated>
+    <id>http://dentex.github.io/blog/2015-09-24/ytd-v4-dot-6</id>
+    <content type="html"><![CDATA[<p>A new version for YTD is available, with this CHANGELOG:</p>
+
+<pre><code> v4.6 - Sep 24 2015
+-----------------------------------
+[x] material design for android versions &gt; Lollipop
+[x] remove option to embed video preview (now fullscreen only)
+[x] better detection of free space on memory storage for some devices
+[x] handle the MP4 720p downloads for some very long videos, when file length can't be retrieved
+[x] add option for MP3 "download" quality
+[x] show correct file size for 480p and 1080p
+</code></pre>
+
+<p>Please, report here or on the XDA forum&rsquo;s thread if you see any issues, especially regarding the new theme on Lollipop devices. Thanks!</p>
+
+<p>At the moment, I&rsquo;m working hard on the new (and highly expected) feature of <em>multi-threading</em> downloads.
+This will permit to download every file split in 2, 3 or 4 chunks (or 1, like it&rsquo;s now) that will start at the same time, maximizing the network&rsquo;s bandwidth usage and minimizing the hated &ldquo;throttling&rdquo; done by the YouTube servers on certain videos, especially for some qualities.</p>
+
+<p>From some initial tests, the new feature seems to go pretty well, with a minor impact on the app&rsquo;s weight (although this exists anyway).</p>
+
+<p>Stay tuned for the next beta.
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="http://dentex.github.io/blog/2015-09-24/ytd-v4-dot-6/">http://dentex.github.io/blog/2015-09-24/ytd-v4-dot-6/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v4.5.1]]></title>
@@ -735,44 +777,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
 
 
 <p>Original Link: <a href="http://dentex.github.io/blog/2014-07-12/ytd-v4-dot-4-beta-3-and-4/">http://dentex.github.io/blog/2014-07-12/ytd-v4-dot-4-beta-3-and-4/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Beta by Crashlytics]]></title>
-    <link href="http://dentex.github.io/blog/2014-07-11/beta-by-crashlytics/"/>
-    <updated>2014-07-11T12:13:29+02:00</updated>
-    <id>http://dentex.github.io/blog/2014-07-11/beta-by-crashlytics</id>
-    <content type="html"><![CDATA[<p>The informations below are no more valid. See &hellip;</p>
-
-<p>I&rsquo;m launching a new closed beta program for YouTube Downloader It has been developed by Crashlytics; they are the same smart guys that build the library I use in YTD to report errors and force-close events.
-It&rsquo;s really well done and functional: I can deploy new builds addressing specific issues directly to the beta testers and I can release frequently new versions, because all is integrated into the development environment.
-Other than that, as all their site and UIs in general, it looks awesome.</p>
-
-<p><img class="YTD-Crashlytics-Beta" src="http://dentex.github.io/images/others/beta-by-cl.png" title="beta by Crashlytics" alt="beta by Crashlytics - partial screenshot"></p>
-
-<p>Basically, this is how it works:</p>
-
-<ul>
-<li>who&rsquo;s interested can send me a PM on XDA with his/her email address (or a direct mail, if you already know it [hint: PayPal];</li>
-<li>I&rsquo;ll send the invitation to this address (unless the necessary number, type, etc. of testers has been reach);</li>
-<li>you open the email and follow the instructions to install the &ldquo;Beta&rdquo; app; it&rsquo;s not a YTD beta, but an app by Crashlytics that works as dashboard to launch all the beta apps you are subscribed to; including YTD.
-<p class='post-footer' style="font-size:70%;" ></li>
-</ul>
-
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="http://dentex.github.io/blog/2014-07-11/beta-by-crashlytics/">http://dentex.github.io/blog/2014-07-11/beta-by-crashlytics/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
