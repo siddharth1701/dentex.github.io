@@ -11,8 +11,14 @@ echo "==============================================================="
 
 # config ndk
 export NDK=${HOME}/Scaricati/android-ndk/android-ndk-r10e
+echo "using NDK located at: $NDK"
+
 SYSROOT=$NDK/platforms/android-21/arch-arm
+echo "using SYSROOT located at: $SYSROOT"
+
 SYSROOT_x86=$NDK/platforms/android-21/arch-x86/
+echo "using SYSROOT_x86 located at: $SYSROOT_x86"
+
 TOOLCHAIN=`echo $NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64`
 export PATH=$TOOLCHAIN/bin:$PATH
 
@@ -62,6 +68,22 @@ LDFLAGSx86='-lm -lz -Wl,--no-undefined -Wl,-z,noexecstack '
 #PIE compilation flags for x86
 CFLAGS_PIEx86='-std=c99 -DANDROID -DNDEBUG -march=atom -msse3 -ffast-math -mfpmath=sse -O3 -Wall -pipe -fasm -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-strict-overflow -fstack-protector-all'
 LDFLAGS_PIEx86='-lm -lz -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -pie -fpic'
+
+}
+
+function reconfig_for_non_pie_arm {
+echo ""
+echo "==============================================================="
+echo -e "\n ==> re-configuring ndk for non PIE builds...\n"
+# -> set the NDK variable below
+echo "==============================================================="
+
+# config ndk
+export NDK=${HOME}/Scaricati/android-ndk/android-ndk-r8e-linux-x86
+echo "using NDK located at: $NDK"
+
+SYSROOT=$NDK/platforms/android-14/arch-arm
+echo "using SYSROOT located at: $SYSROOT"
 
 }
 
@@ -264,9 +286,12 @@ build_arm PIE
 build_arm_nonNEON PIE
 build_x86 PIE
 
+build_x86
+
+reconfig_for_non_pie_arm
+
 build_arm
 build_arm_nonNEON
-build_x86
 
 copy
 clean
