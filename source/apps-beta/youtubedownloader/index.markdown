@@ -13,7 +13,7 @@ keywords: YTD, Beta, android app, app, free, ad-free, no ads, dentex, video, aud
 
 `versionName="4.6.0.1_v4.7-beta-1"`
 
-SHA1 checksum: `cc4029b06fc39bdd92ad2a89a4f18f1998730990`
+SHA1 checksum: `a2dc3241ad165dbd19099e82622f805ed0ea475e`
 
 Changelog:
 
