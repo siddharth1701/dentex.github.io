@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Setting Downloads Destination Folder in YTD - dentex's blog</title>
+  <title>YTD v4.7 Beta-1 - dentex's blog</title>
   <meta name="author" content="Samuele Rini">
 
   
-  <meta name="description" content="YouTube Downloader for Android - a free and ad-free app - usage tutorial - destination downloads folder">
-  <meta name="keywords" content="YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader, tutorials, review, how-to, tutorial, usage, kitkat, sdcard">
+  <meta name="description" content="Hello, Today I&rsquo;m releasing a beta version for YTD to test some new FFmpeg builds. The binaries have been updated to the latest version 2.8 of &hellip;">
+  
 
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://dentex.github.io/blog/2014-08-15/setting-downloads-destination-folder-in-ytd">
+  <link rel="canonical" href="http://dentex.github.io/blog/2015-10-03/ytd-v4-dot-7-beta-1">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="" rel="alternate" title="dentex's blog" type="application/atom+xml">
@@ -82,7 +82,7 @@
   
   <header>
     
-      <h1 class="entry-title">Setting Downloads Destination Folder in YTD</h1>
+      <h1 class="entry-title">YTD v4.7 Beta-1</h1>
     
     
       <p class="meta">
@@ -98,43 +98,28 @@
   
 
 
-<time datetime="2014-08-15T18:55:32+02:00" pubdate data-updated="true">Aug 15<span>th</span>, 2014</time>
+<time datetime="2015-10-03T09:00:21+02:00" pubdate data-updated="true">Oct 3<span>rd</span>, 2015</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>Now that I implemented the <em>send log to developer</em> option, almost all logs were about one only issue: the notorious KitKat &ldquo;feature&rdquo; (&hellip;more a bug, actually) thanks to which an app can&rsquo;t be granted with the permission to <em>write</em> files on the external (removable) sdcard. This happens on a certain number of stock ROMs.</p>
+<div class="entry-content"><p>Hello,  <br/>
+Today I&rsquo;m releasing a beta version for YTD to test some new FFmpeg builds. The binaries have been updated to the latest version 2.8 of FFmpeg&rsquo;s source and have been fine-tuned for <strong>Lollipop</strong> and <strong>M</strong> android versions, maintaining full compatibility and reliability (hopefully) with previous versions, down to ICS, that is the last API supported by YTD.</p>
 
-<p>As of now (if you are affected by this bug), for YTD to work properly downloading your preferred videos, you need to choose your device&rsquo;s internal memory storage as downloads destination folder.</p>
+<p>Also, devices with a 64bit CPU, both <em>arm</em> and <em>x86</em>, now can use the 32bit FFmpeg builds and do not appear as &ldquo;unsupported&rdquo; anymore (I simply made the 64bit CPUs to use the 32bit builds).</p>
 
-<p>Other possibilities are available:</p>
+<p>So, the short <em>changelog</em> is:</p>
 
-<ul>
-<li>transfer files between your device&rsquo;s storages with your PC, while it&rsquo;s connected via USB;</li>
-<li>install a custom ROM (i.e. the great <a href="http://www.cyanogenmod.org/">Cyanogenmod</a> that has been patched and does not suffer from this issue);</li>
-<li>or if you already have <strong>root</strong> on your device, there are alternative ways as one via the <a href="http://forum.xda-developers.com/xposed">Xposed framework</a> and one of its modules.</li>
-</ul>
-
-
-<p>For your reference, a couple of links on this matter:</p>
-
-<ul>
-<li><a href="http://technofaq.org/posts/2014/04/fixing-external-sd-card-write-issue-on-android-kitkat/">technofaq.org</a>;</li>
-<li><a href="http://www.androidpolice.com/2014/02/17/external-blues-google-has-brought-big-changes-to-sd-cards-in-kitkat-and-even-samsung-may-be-implementing-them/">androidpolice.com</a>;</li>
-<li><a href="http://forum.xda-developers.com/xposed/modules/kitkat-sd-card-access-t2790992">XDA developers</a>.</li>
-</ul>
-
-
-<p><strong>Update:</strong>
-As <em>antekone</em> commented below, a workaround to continue using anyway the download destination on the removable sdcard, would be to choose the directory:</p>
-
-<pre><code>&lt;&lt;YourExternalSdCardBaseDir&gt;&gt;/Android/data/dentex.youtube.downloader/files/
+<pre><code> v4.7 Beta 1 - Oct 3 2015
+-----------------------------------
+[x] new FFmpeg builds (from v2.8) extending support to 64bit CPUs
 </code></pre>
 
-<p>&hellip;or to create there a subdirectory directly from the YTD&rsquo;s file manager (viewable when you open the custom download destination setting).  <br/>
-The only drawback would be that you will loose all of your downloads if you uninstall YTD. So, move your own files before uninstalling or &hellip;do not uninstall at all!  ;)
+<p>This beta is available through the in app updates, from settings, using the <a href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/">Include Beta updates</a> preference checkbox, while <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v4.7-beta-1.apk">THIS</a> is the direct apk link.</p>
+
+<p>Although I thoroughly tested all builds on all supported SDK versions, be advised that we&rsquo;re talking about a beta anyway; some rough edges are to be expected.
  <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
@@ -146,7 +131,7 @@ The only drawback would be that you will loose all of your downloads if you unin
 <br/>
 
 
-<p>Original Link: <a href="/blog/2014-08-15/setting-downloads-destination-folder-in-ytd/">http://dentex.github.io/blog/2014-08-15/setting-downloads-destination-folder-in-ytd/</a><br/>
+<p>Original Link: <a href="/blog/2015-10-03/ytd-v4-dot-7-beta-1/">http://dentex.github.io/blog/2015-10-03/ytd-v4-dot-7-beta-1/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 </div>
@@ -171,21 +156,15 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
   
 
 
-<time datetime="2014-08-15T18:55:32+02:00" pubdate data-updated="true">Aug 15<span>th</span>, 2014</time>
+<time datetime="2015-10-03T09:00:21+02:00" pubdate data-updated="true">Oct 3<span>rd</span>, 2015</time>
       
-
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/tutorials/'>Tutorials</a>
-  
-</span>
 
 
     </p>
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://dentex.github.io/blog/2014-08-15/setting-downloads-destination-folder-in-ytd/" data-via="twidentex" data-counturl="http://dentex.github.io/blog/2014-08-15/setting-downloads-destination-folder-in-ytd/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://dentex.github.io/blog/2015-10-03/ytd-v4-dot-7-beta-1/" data-via="twidentex" data-counturl="http://dentex.github.io/blog/2015-10-03/ytd-v4-dot-7-beta-1/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -196,10 +175,8 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014-08-15/recensione-ytd-su-mavideoreview-ita/" title="Previous Post: Recensione YTD su MAVideoreview (ITA)">&laquo; Recensione YTD su MAVideoreview (ITA)</a>
+        <a class="basic-alignment left" href="/blog/2015-09-24/ytd-v4-dot-6/" title="Previous Post: YTD v4.6">&laquo; YTD v4.6</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014-11-16/new-ytd-v4-dot-3-3/" title="Next Post: YTD v4.3.3">YTD v4.3.3 &raquo;</a>
       
     </p>
   </footer>
@@ -295,8 +272,8 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://dentex.github.io/blog/2014-08-15/setting-downloads-destination-folder-in-ytd/';
-        var disqus_url = 'http://dentex.github.io/blog/2014-08-15/setting-downloads-destination-folder-in-ytd/';
+        var disqus_identifier = 'http://dentex.github.io/blog/2015-10-03/ytd-v4-dot-7-beta-1/';
+        var disqus_url = 'http://dentex.github.io/blog/2015-10-03/ytd-v4-dot-7-beta-1/';
         var disqus_script = 'embed.js';
       
     (function () {

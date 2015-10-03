@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-10-02T18:40:46+02:00</updated>
+  <updated>2015-10-03T09:23:25+02:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,43 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v4.7 Beta-1]]></title>
+    <link href="http://dentex.github.io/blog/2015-10-03/ytd-v4-dot-7-beta-1/"/>
+    <updated>2015-10-03T09:00:21+02:00</updated>
+    <id>http://dentex.github.io/blog/2015-10-03/ytd-v4-dot-7-beta-1</id>
+    <content type="html"><![CDATA[<p>Hello,  <br/>
+Today I&rsquo;m releasing a beta version for YTD to test some new FFmpeg builds. The binaries have been updated to the latest version 2.8 of FFmpeg&rsquo;s source and have been fine-tuned for <strong>Lollipop</strong> and <strong>M</strong> android versions, maintaining full compatibility and reliability (hopefully) with previous versions, down to ICS, that is the last API supported by YTD.</p>
+
+<p>Also, devices with a 64bit CPU, both <em>arm</em> and <em>x86</em>, now can use the 32bit FFmpeg builds and do not appear as &ldquo;unsupported&rdquo; anymore (I simply made the 64bit CPUs to use the 32bit builds).</p>
+
+<p>So, the short <em>changelog</em> is:</p>
+
+<pre><code> v4.7 Beta 1 - Oct 3 2015
+-----------------------------------
+[x] new FFmpeg builds (from v2.8) extending support to 64bit CPUs
+</code></pre>
+
+<p>This beta is available through the in app updates, from settings, using the <a href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/">Include Beta updates</a> preference checkbox, while <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v4.7-beta-1.apk">THIS</a> is the direct apk link.</p>
+
+<p>Although I thoroughly tested all builds on all supported SDK versions, be advised that we&rsquo;re talking about a beta anyway; some rough edges are to be expected.
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="http://dentex.github.io/blog/2015-10-03/ytd-v4-dot-7-beta-1/">http://dentex.github.io/blog/2015-10-03/ytd-v4-dot-7-beta-1/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v4.6]]></title>
@@ -738,45 +775,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
 
 
 <p>Original Link: <a href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/">http://dentex.github.io/blog/2014-07-15/new-beta-program-again/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.4 Beta-3 and 4]]></title>
-    <link href="http://dentex.github.io/blog/2014-07-12/ytd-v4-dot-4-beta-3-and-4/"/>
-    <updated>2014-07-12T15:41:40+02:00</updated>
-    <id>http://dentex.github.io/blog/2014-07-12/ytd-v4-dot-4-beta-3-and-4</id>
-    <content type="html"><![CDATA[<p>Changelog for YTD v4.4 beta-3 and 4,
-<del>available through Crashlytics Beta:</del> (no more: see next post).</p>
-
-<pre><code> v4.4 beta-3
------------------------------------
-[x] configurable downloads queue
-[x] option to invert dashboard's entries click menus
-[x] auto-resume downloads paused due to network failure
-[x] new FFmpeg build targeting non-NEON CPUs (i.e. Tegra devices)
-[x] ability to send logcat to the developer via email
-
-(since beta-4)
-[x] added Croatian (almost completed) and Indonesian (partial) translations
-[x] fixed dashboard rename with existing filename (thanks m0d)
-</code></pre>
-
-<p><del>Please see the preceding post for further details about this beta program.</del>
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="http://dentex.github.io/blog/2014-07-12/ytd-v4-dot-4-beta-3-and-4/">http://dentex.github.io/blog/2014-07-12/ytd-v4-dot-4-beta-3-and-4/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
