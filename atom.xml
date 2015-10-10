@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-10-10T14:28:37+02:00</updated>
+  <updated>2015-10-10T14:42:46+02:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -70,7 +70,7 @@ Today I&rsquo;m releasing a beta version for YTD to test some new FFmpeg builds.
 [x] new FFmpeg builds (from v2.8) extending support to 64bit CPUs
 </code></pre>
 
-<p>This beta is available through the in app updates, from settings, using the <a href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/">Include Beta updates</a> preference checkbox, while <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v4.7-beta-1.apk">THIS</a> is the direct apk link.</p>
+<p>This beta is available through the in app updates, from settings, using the <a href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/">Include Beta updates</a> preference checkbox, while <em>[link removed &ndash; old beta]</em> is the direct apk link.</p>
 
 <p>Although I thoroughly tested all builds on all supported SDK versions, be advised that we&rsquo;re talking about a beta anyway; some rough edges are to be expected.
  <p class='post-footer' style="font-size:70%;" ></p>
