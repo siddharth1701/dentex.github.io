@@ -20,3 +20,5 @@ as the permission request to the user for writing on the memory storage (require
     [x] fixed filechooser checkbox issue for multiple selection
 
 Just a thought: I can imagine that item n.2 is a bit hard to test; I did something on the emulators, but this is it.
+
+As always: this beta is available through the in app updates, from settings, using the [Include Beta updates](http://dentex.github.io/blog/2014-07-15/new-beta-program-again/) preference checkbox, while [THIS](http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v4.7-beta-2.apk) is the direct apk link.
