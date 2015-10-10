@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-10-10T14:26:27+02:00</updated>
+  <updated>2015-10-10T14:28:37+02:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -33,7 +33,9 @@ as the permission request to the user for writing on the memory storage (require
 [x] fixed filechooser checkbox issue for multiple selection
 </code></pre>
 
-<p>Just a thought: I can imagine that item n.2 is a bit hard to test; I did something on the emulators, but this is it.
+<p>Just a thought: I can imagine that item n.2 is a bit hard to test; I did something on the emulators, but this is it.</p>
+
+<p>As always: this beta is available through the in app updates, from settings, using the <a href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/">Include Beta updates</a> preference checkbox, while <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v4.7-beta-2.apk">THIS</a> is the direct apk link.
  <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
