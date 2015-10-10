@@ -16,6 +16,6 @@ So, the short *changelog* is:
     -----------------------------------
     [x] new FFmpeg builds (from v2.8) extending support to 64bit CPUs
 
-This beta is available through the in app updates, from settings, using the [Include Beta updates](http://dentex.github.io/blog/2014-07-15/new-beta-program-again/) preference checkbox, while [THIS](http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v4.7-beta-1.apk) is the direct apk link.
+This beta is available through the in app updates, from settings, using the [Include Beta updates](http://dentex.github.io/blog/2014-07-15/new-beta-program-again/) preference checkbox, while *[link removed - old beta]* is the direct apk link.
 
 Although I thoroughly tested all builds on all supported SDK versions, be advised that we're talking about a beta anyway; some rough edges are to be expected.
