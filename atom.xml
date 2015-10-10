@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-10-03T12:29:14+02:00</updated>
+  <updated>2015-10-10T14:26:27+02:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,44 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v4.7 Beta-2]]></title>
+    <link href="http://dentex.github.io/blog/2015-10-10/ytd-v4-dot-7-beta-2/"/>
+    <updated>2015-10-10T12:17:00+02:00</updated>
+    <id>http://dentex.github.io/blog/2015-10-10/ytd-v4-dot-7-beta-2</id>
+    <content type="html"><![CDATA[<p>On the way to a proper Marshmallow-ready Android app, here there&rsquo;s a new beta for the next 4.7 version of YTD.</p>
+
+<p>This build addresses another couple of M-related issues,
+as the permission request to the user for writing on the memory storage (required for Android Marshmallow).</p>
+
+<p><em>Changelog</em>:</p>
+
+<pre><code> v4.7 Beta 2 - Oct 10 2015
+-----------------------------------
+[x] new FFmpeg builds (from v2.8) extending support to 64bit CPUs
+[x] force FFmpeg's version check when the ROM has been updated     &lt;== M
+[x] ask the permission to write on the sdcard (on M devices)       &lt;== M
+[x] fixed filechooser checkbox issue for multiple selection
+</code></pre>
+
+<p>Just a thought: I can imagine that item n.2 is a bit hard to test; I did something on the emulators, but this is it.
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="http://dentex.github.io/blog/2015-10-10/ytd-v4-dot-7-beta-2/">http://dentex.github.io/blog/2015-10-10/ytd-v4-dot-7-beta-2/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v4.7 Beta-1]]></title>
@@ -746,35 +784,6 @@ As always, download it <a href="http://dentex.github.io/files/apk/latest/dentex.
 
 
 <p>Original Link: <a href="http://dentex.github.io/blog/2014-07-16/ytd-v4-dot-3-dot-1/">http://dentex.github.io/blog/2014-07-16/ytd-v4-dot-3-dot-1/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[New Beta Program (Again)]]></title>
-    <link href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/"/>
-    <updated>2014-07-15T13:49:24+02:00</updated>
-    <id>http://dentex.github.io/blog/2014-07-15/new-beta-program-again</id>
-    <content type="html"><![CDATA[<p>Seeing the extremely low &ldquo;XDA acceptance ratio&rdquo; of the latest beta distribution method, :&ndash;) I&rsquo;m in the process to move from the Crashlytics distribution to an open method where beta versions will be available from the app itself.</p>
-
-<p>Will be just a matter of switching a setting checkbox:</p>
-
-<p><img class="YTD-built-in-Beta" src="http://dentex.github.io/images/others/beta-updates.png" title="beta by YTD" alt="beta by YTD"></p>
-
-<p>This feature is available from YTD v4.3.1 and above.
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/">http://dentex.github.io/blog/2014-07-15/new-beta-program-again/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
