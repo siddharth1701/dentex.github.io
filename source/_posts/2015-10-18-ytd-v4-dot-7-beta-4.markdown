@@ -1,0 +1,21 @@
+---
+layout: post
+title: "YTD v4.7 Beta-2"
+date: 2015-10-10 12:17:00 +0200
+comments: true
+categories: 
+---
+Hello, 
+a new beta for YTD is available with a new "use wi-fi only" option.
+
+*Changelog*:
+
+     v4.7 Beta 4 - Oct 18 2015
+    -----------------------------------
+    [x] new FFmpeg builds (from v2.8) extending support to 64bit CPUs
+    [x] force FFmpeg's version check when the ROM has been updated
+    [x] ask the permission to write on the sdcard (on M devices)
+    [x] fixed filechooser checkbox issue for multiple selection
+    [x] option to use wi-fi connection only
+
+The beta is available through the in app updates or via [THIS](http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v4.7-beta-4.apk) link.
