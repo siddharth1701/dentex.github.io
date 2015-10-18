@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "YTD v4.7 Beta-2"
-date: 2015-10-10 12:17:00 +0200
+date: 2015-10-18 19:52:00 +0200
 comments: true
 categories: 
 ---
-Hello, 
-a new beta for YTD is available with a new "use wi-fi only" option.
+Hello,    
+a new beta for YTD is available with the new "use wi-fi only" option.
 
 *Changelog*:
 
