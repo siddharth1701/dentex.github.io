@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-10-10T14:42:46+02:00</updated>
+  <updated>2015-10-18T21:52:10+02:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,43 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v4.7 Beta-2]]></title>
+    <link href="http://dentex.github.io/blog/2015-10-10/ytd-v4-dot-7-beta-4/"/>
+    <updated>2015-10-10T12:17:00+02:00</updated>
+    <id>http://dentex.github.io/blog/2015-10-10/ytd-v4-dot-7-beta-4</id>
+    <content type="html"><![CDATA[<p>Hello,
+a new beta for YTD is available with a new &ldquo;use wi-fi only&rdquo; option.</p>
+
+<p><em>Changelog</em>:</p>
+
+<pre><code> v4.7 Beta 4 - Oct 18 2015
+-----------------------------------
+[x] new FFmpeg builds (from v2.8) extending support to 64bit CPUs
+[x] force FFmpeg's version check when the ROM has been updated
+[x] ask the permission to write on the sdcard (on M devices)
+[x] fixed filechooser checkbox issue for multiple selection
+[x] option to use wi-fi connection only
+</code></pre>
+
+<p>The beta is available through the in app updates or via <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v4.7-beta-4.apk">THIS</a> link.
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="http://dentex.github.io/blog/2015-10-10/ytd-v4-dot-7-beta-4/">http://dentex.github.io/blog/2015-10-10/ytd-v4-dot-7-beta-4/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v4.7 Beta-2]]></title>
@@ -35,7 +72,7 @@ as the permission request to the user for writing on the memory storage (require
 
 <p>Just a thought: I can imagine that item n.2 is a bit hard to test; I did something on the emulators, but this is it.</p>
 
-<p>As always: this beta is available through the in app updates, from settings, using the <a href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/">Include Beta updates</a> preference checkbox, while <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v4.7-beta-2.apk">THIS</a> is the direct apk link.
+<p>As always: this beta is available through the in app updates, from settings, using the <a href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/">Include Beta updates</a> preference checkbox, while <em>[link removed &ndash; old beta]</em> is the direct apk link.
  <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
@@ -753,39 +790,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
 
 
 <p>Original Link: <a href="http://dentex.github.io/blog/2014-07-22/ytd-v4-dot-4-beta-5/">http://dentex.github.io/blog/2014-07-22/ytd-v4-dot-4-beta-5/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.3.1]]></title>
-    <link href="http://dentex.github.io/blog/2014-07-16/ytd-v4-dot-3-dot-1/"/>
-    <updated>2014-07-16T17:10:00+02:00</updated>
-    <id>http://dentex.github.io/blog/2014-07-16/ytd-v4-dot-3-dot-1</id>
-    <content type="html"><![CDATA[<p>YouTube Downloader version <strong>4.3.1</strong> is available!  <br/>
-As always, download it <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">from this blog</a> or wait until will be available also through the selected app stores (see the <a href="http://dentex.github.io/apps/youtubedownloader">app&rsquo;s page</a>).</p>
-
-<p>Changelog:</p>
-
-<pre><code> v4.3.1 - Jul 16 2014
------------------------------------
-[x] encrypted signature patch (9) (thanks Rahul Verma)
-[x] setting to download beta updates
-</code></pre>
-
-<p> <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="http://dentex.github.io/blog/2014-07-16/ytd-v4-dot-3-dot-1/">http://dentex.github.io/blog/2014-07-16/ytd-v4-dot-3-dot-1/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
