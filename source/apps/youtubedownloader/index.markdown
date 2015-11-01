@@ -14,15 +14,15 @@ keywords: YouTube Downloader, Android, android app, app, free, ad-free, no ads, 
 
 [![YTD](/images/apps/ytd.png)](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk)
 
-`versionCode="98"`
+`versionCode="99"`
 
-`versionName="4.6"`
+`versionName="4.7"`
 
-MD5 checksum: `feab7ef9882430a34ef40f5667ef4261`
+MD5 checksum: `2efd555020fc529f29712937af5ff8e2`
 
-SHA1 checksum: `eaf8a40ef468c9fff5cb9e662aad940345615a8d`
+SHA1 checksum: `f79f6b7ef88dd1e73398a5766d39591b52fbb192`
 
-Beta available: `true`
+Beta available: `false`
 
 ## **YouTube Downloader for Android**
 ## **Copyright (C) 2012-2015 Samuele Rini**
@@ -68,7 +68,7 @@ then:
 ##ANTI-FEATURES
 Are not supported for download all videos that:
 
-- Require login (i.e. age restricted videos) ==> and please: do **not** send me logcat reports about this point. Thanks.
+- Require login (i.e. age restricted videos) ==> and please: do **NOT** send me logcat reports about this point. Thanks.
 - Implement encrypted streams (some complete movies);
 - Are not available in your country;
 - Are live events.
@@ -186,12 +186,20 @@ Are not supported for download all videos that:
 
 ## CHANGELOG
 
+     v4.7 - Nov 1 2015
+    -----------------------------------
+    [x] new FFmpeg builds (from v2.8) extending support to 64bit CPUs
+    [x] force FFmpeg's version check when the ROM has been updated
+    [x] ask the permission to write on the sdcard (on M devices)
+    [x] fixed filechooser checkbox issue for multiple selection
+    [x] option to use wi-fi connection only
+
      v4.6 - Sep 24 2015
     -----------------------------------
     [x] material design for android versions > Lollipop
     [x] remove option to embed video preview (now fullscreen only)
     [x] better detection of free space on memory storage for some devices
-    [x] handle the MP4 720p downloads for some very long videos, when file length can\'t be retrieved
+    [x] handle the MP4 720p downloads for some very long videos, when file length can't be retrieved
     [x] add option for MP3 "download" quality
     [x] show correct file size for 480p and 1080p
 

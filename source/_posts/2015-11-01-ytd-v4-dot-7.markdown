@@ -1,0 +1,29 @@
+---
+layout: post
+title: "YTD v4.7"
+date: 2015-11-01 09:32:26 +0100
+comments: true
+categories: [News]
+sharing: true
+footer: true
+description: "YouTube Downloader for Android - a free and ad-free app - new version"
+keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, HD, 3gp, webm, mp4, m4a, ogg, flv"
+---
+Hello,
+a new build for YTD is available, moving all features tested into the latest beta into this stable version.
+
+CHANGELOG:
+
+     v4.7 - Nov 1 2015
+    -----------------------------------
+    [x] new FFmpeg builds (from v2.8) extending support to 64bit CPUs
+    [x] force FFmpeg's version check when the ROM has been updated
+    [x] ask the permission to write on the sdcard (on M devices)
+    [x] fixed filechooser checkbox issue for multiple selection
+    [x] option to use wi-fi connection only
+
+A lot of work has to be done, still. Probably development will slow down a bit due to many *real life/job* commitments, sorry.
+I really hope I'll soon be able to post an initial beta from the multi-thread development branch. This will speed-up downloads up to 4X. But unfortunately the feature is not stable nor completed.
+
+In the mean time, stay tuned, follow the XDA threads and, over anything else, I would like to thank everyone that is showing support through the PayPal donations. 
+I really appreciate that.

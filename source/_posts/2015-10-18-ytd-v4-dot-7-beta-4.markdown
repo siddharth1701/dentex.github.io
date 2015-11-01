@@ -18,4 +18,4 @@ a new beta for YTD is available with the new "use wi-fi only" option.
     [x] fixed filechooser checkbox issue for multiple selection
     [x] option to use wi-fi connection only
 
-The beta is available through the in app updates or via [THIS](http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v4.7-beta-4.apk) link.
+The beta is available through the in app updates or via *[link removed - old beta]*.
