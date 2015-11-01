@@ -4,7 +4,7 @@
   <title><![CDATA[Category: News | dentex's blog]]></title>
   <link href="http://dentex.github.io/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-10-18T22:00:06+02:00</updated>
+  <updated>2015-11-01T09:48:17+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,33 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v4.7]]></title>
+    <link href="http://dentex.github.io/blog/2015-11-01/ytd-v4-dot-7/"/>
+    <updated>2015-11-01T09:32:26+01:00</updated>
+    <id>http://dentex.github.io/blog/2015-11-01/ytd-v4-dot-7</id>
+    <content type="html"><![CDATA[<p>Hello,
+a new build for YTD is available, moving all features tested into the latest beta into this stable version.</p>
+
+<p>CHANGELOG:</p>
+
+<pre><code> v4.7 - Nov 1 2015
+-----------------------------------
+[x] new FFmpeg builds (from v2.8) extending support to 64bit CPUs
+[x] force FFmpeg's version check when the ROM has been updated
+[x] ask the permission to write on the sdcard (on M devices)
+[x] fixed filechooser checkbox issue for multiple selection
+[x] option to use wi-fi connection only
+</code></pre>
+
+<p>A lot of work has to be done, still. Probably development will slow down a bit due to many <em>real life/job</em> commitments, sorry.
+I really hope I&rsquo;ll soon be able to post an initial beta from the multi-thread development branch. This will speed-up downloads up to 4X. But unfortunately the feature is not stable nor completed.</p>
+
+<p>In the mean time, stay tuned, follow the XDA threads and, over anything else, I would like to thank everyone that is showing support through the PayPal donations.
+I really appreciate that.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v4.6]]></title>
@@ -118,31 +145,6 @@ In this beta: way faster search results with asynchronous
 "publishing dates" data filling (as an option).
 
 Search-results sorting logic adapted to reflect this change.
-</code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.5 Beta-2]]></title>
-    <link href="http://dentex.github.io/blog/2015-05-21/ytd-v4-dot-5-beta-2/"/>
-    <updated>2015-05-21T18:18:58+02:00</updated>
-    <id>http://dentex.github.io/blog/2015-05-21/ytd-v4-dot-5-beta-2</id>
-    <content type="html"><![CDATA[<p>In regards to the <a href="http://dentex.github.io/blog/2015-05-07/latest-search-issues/">Latest Search Issues</a>, a new fixed version is almost done; in the meantime, there was a beta version to test the new search feature available only over the XDA forum&rsquo;s beta thread: <a href="http://forum.xda-developers.com/showthread.php?t=2335450">http://forum.xda-developers.com/showthread.php?t=2335450</a></p>
-
-<p>Now I&rsquo;m releasing a second BETA and it&rsquo;s available through the app&rsquo;s settings (update section).</p>
-
-<p>If you want to download and test it, remember to switch <strong>ON</strong> the <a href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/">preference activating beta updates</a>, otherwise it will not be visible and downloadable.</p>
-
-<p>This is the latest changelog:</p>
-
-<pre><code> v4.5 Beta-2 - May 21 2015
------------------------------------
-[x] new and working integrated search (with filters menu)
-[x] Bulgarian and Romanian translations (as WIP), many other updated
-[x] do not try to download purchasable videos
-[x] wrap extracted aac audio-only into an m4a container
-[x] many libraries updated (OkHttp added)
-[x] better error handling during update check
 </code></pre>
 ]]></content>
   </entry>

@@ -105,15 +105,15 @@
 
 <p><a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk"><img src="/images/apps/ytd.png" alt="YTD" /></a></p>
 
-<p><code>versionCode="98"</code></p>
+<p><code>versionCode="99"</code></p>
 
-<p><code>versionName="4.6"</code></p>
+<p><code>versionName="4.7"</code></p>
 
-<p>MD5 checksum: <code>feab7ef9882430a34ef40f5667ef4261</code></p>
+<p>MD5 checksum: <code>2efd555020fc529f29712937af5ff8e2</code></p>
 
-<p>SHA1 checksum: <code>eaf8a40ef468c9fff5cb9e662aad940345615a8d</code></p>
+<p>SHA1 checksum: <code>f79f6b7ef88dd1e73398a5766d39591b52fbb192</code></p>
 
-<p>Beta available: <code>true</code></p>
+<p>Beta available: <code>false</code></p>
 
 <h2><strong>YouTube Downloader for Android</strong></h2>
 
@@ -182,7 +182,7 @@ then:</li>
 <p>Are not supported for download all videos that:</p>
 
 <ul>
-<li>Require login (i.e. age restricted videos) ==> and please: do <strong>not</strong> send me logcat reports about this point. Thanks.</li>
+<li>Require login (i.e. age restricted videos) ==> and please: do <strong>NOT</strong> send me logcat reports about this point. Thanks.</li>
 <li>Implement encrypted streams (some complete movies);</li>
 <li>Are not available in your country;</li>
 <li>Are live events.</li>
@@ -306,12 +306,20 @@ Attribution 3.0 Unported" license (CC BY).
 
 <h2>CHANGELOG</h2>
 
-<pre><code> v4.6 - Sep 24 2015
+<pre><code> v4.7 - Nov 1 2015
+-----------------------------------
+[x] new FFmpeg builds (from v2.8) extending support to 64bit CPUs
+[x] force FFmpeg's version check when the ROM has been updated
+[x] ask the permission to write on the sdcard (on M devices)
+[x] fixed filechooser checkbox issue for multiple selection
+[x] option to use wi-fi connection only
+
+ v4.6 - Sep 24 2015
 -----------------------------------
 [x] material design for android versions &gt; Lollipop
 [x] remove option to embed video preview (now fullscreen only)
 [x] better detection of free space on memory storage for some devices
-[x] handle the MP4 720p downloads for some very long videos, when file length can\'t be retrieved
+[x] handle the MP4 720p downloads for some very long videos, when file length can't be retrieved
 [x] add option for MP3 "download" quality
 [x] show correct file size for 480p and 1080p
 
@@ -844,6 +852,10 @@ Attribution 3.0 Unported" license (CC BY).
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015-11-01/ytd-v4-dot-7/">YTD v4.7</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015-10-18/ytd-v4-dot-7-beta-4/">YTD v4.7 Beta-4</a>
       </li>
     
@@ -857,10 +869,6 @@ Attribution 3.0 Unported" license (CC BY).
     
       <li class="post">
         <a href="/blog/2015-09-24/ytd-v4-dot-6/">YTD v4.6</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015-06-19/ytd-v4-dot-5-1/">YTD v4.5.1</a>
       </li>
     
   </ul>
