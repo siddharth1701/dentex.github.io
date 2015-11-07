@@ -14,13 +14,13 @@ keywords: YouTube Downloader, Android, android app, app, free, ad-free, no ads, 
 
 [![YTD](/images/apps/ytd.png)](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk)
 
-`versionCode="99"`
+`versionCode="100"`
 
-`versionName="4.7"`
+`versionName="4.8"`
 
-MD5 checksum: `2efd555020fc529f29712937af5ff8e2`
+MD5 checksum: `9e55544340685f1fb3ecd9e187caad85`
 
-SHA1 checksum: `f79f6b7ef88dd1e73398a5766d39591b52fbb192`
+SHA1 checksum: `91b7c065fdc05842de6b8b86a33be7b161267c4c`
 
 Beta available: `false`
 
@@ -161,7 +161,7 @@ Are not supported for download all videos that:
     https://developer.mozilla.org/en-US/docs/Rhino 
     license: http://www.mozilla.org/MPL/2.0/
     
-    Javascript function \"decryptSignature\" and reference for the \"AO HQ hack\" 
+    Javascript function "decryptSignature" and reference for the "AO HQ hack" 
     from the Greasemonkey script http://userscripts.org/scripts/show/25105 
     (MIT License), by gantt
     
@@ -185,6 +185,11 @@ Are not supported for download all videos that:
 
 
 ## CHANGELOG
+
+     v4.8 - Nov 6 2015
+    -----------------------------------
+    [x] always use system file-chooser, on Lollipop or above, with extSdCard not present or not (directly) writeable
+    [x] fixed a bug introduced in previous version, causing custom download folder to change into private app's data folder 
 
      v4.7 - Nov 1 2015
     -----------------------------------
@@ -238,7 +243,7 @@ Are not supported for download all videos that:
      v4.4 - Jan 03 2015
     -----------------------------------
     [x] configurable downloads queue
-    [x] option to invert dashboard\'s entries click menus
+    [x] option to invert dashboard's entries click menus
     [x] auto-resume downloads paused due to network failure
     [x] new FFmpeg build targeting non-NEON CPUs (i.e. Tegra devices)
     [x] option to send logcat to the developer via email
