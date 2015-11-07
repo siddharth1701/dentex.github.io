@@ -4,7 +4,7 @@
   <title><![CDATA[Category: News | dentex's blog]]></title>
   <link href="http://dentex.github.io/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-11-01T09:48:17+01:00</updated>
+  <updated>2015-11-07T19:40:27+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v4.8]]></title>
+    <link href="http://dentex.github.io/blog/2015-11-07/ytd-v4-dot-8/"/>
+    <updated>2015-11-07T19:25:22+01:00</updated>
+    <id>http://dentex.github.io/blog/2015-11-07/ytd-v4-dot-8</id>
+    <content type="html"><![CDATA[<p>With this new version, I&rsquo;m limiting the access to the external (removable) sdcard in devices where it&rsquo;s not directly writable (but would need a procedure that I still have to implement) and I&rsquo;m fixing a bug I accidentally introduced in v4.7.</p>
+
+<p>CHANGELOG:</p>
+
+<pre><code> v4.8 - Nov 6 2015
+-----------------------------------
+[x] always use system file-chooser, on Lollipop or above, with extSdCard not present or not
+    (directly) writable
+[x] fixed a bug introduced in previous version, causing custom download folder to change into
+    private app's data folder 
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v4.7]]></title>
@@ -117,35 +136,6 @@ This will permit to download every file split in 2, 3 or 4 chunks (or 1, like it
 <p>Upgrade through the app&rsquo;s settings or download the latest apk directly via <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">THIS link</a>.</p>
 
 <p>Please let me know in the comments below if something is missing or not working (apart from the well known bug regarding the app being closed by Android system if stays too much in background).  ;)</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.5 Beta-3]]></title>
-    <link href="http://dentex.github.io/blog/2015-05-31/ytd-v4-dot-5-beta-3/"/>
-    <updated>2015-05-31T17:28:17+02:00</updated>
-    <id>http://dentex.github.io/blog/2015-05-31/ytd-v4-dot-5-beta-3</id>
-    <content type="html"><![CDATA[<p>A new Beta (number 3) for YTD version 4.5 is ready for download.</p>
-
-<p>Use the app&rsquo;s update section or <em>[link removed &ndash; old beta]</em>.</p>
-
-<p>Changelog:</p>
-
-<pre><code> v4.5 BETA 3 - May 31 2015
------------------------------------
-[x] new and working integrated search (with filters menu)
-[x] Bulgarian and Romanian translations (as WIP), many other updated
-[x] do not try to download purchasable videos
-[x] wrap extracted aac audio-only into an m4a container
-[x] many libraries updated (OkHttp added)
-[x] better error handling during update check
-[x] showing time left for downloads based on network speed (*new)
-
-In this beta: way faster search results with asynchronous 
-"publishing dates" data filling (as an option).
-
-Search-results sorting logic adapted to reflect this change.
-</code></pre>
 ]]></content>
   </entry>
   

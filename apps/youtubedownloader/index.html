@@ -105,13 +105,13 @@
 
 <p><a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk"><img src="/images/apps/ytd.png" alt="YTD" /></a></p>
 
-<p><code>versionCode="99"</code></p>
+<p><code>versionCode="100"</code></p>
 
-<p><code>versionName="4.7"</code></p>
+<p><code>versionName="4.8"</code></p>
 
-<p>MD5 checksum: <code>2efd555020fc529f29712937af5ff8e2</code></p>
+<p>MD5 checksum: <code>9e55544340685f1fb3ecd9e187caad85</code></p>
 
-<p>SHA1 checksum: <code>f79f6b7ef88dd1e73398a5766d39591b52fbb192</code></p>
+<p>SHA1 checksum: <code>91b7c065fdc05842de6b8b86a33be7b161267c4c</code></p>
 
 <p>Beta available: <code>false</code></p>
 
@@ -280,7 +280,7 @@ Rhino.jar: open-source implementation of JavaScript written entirely in Java;
 https://developer.mozilla.org/en-US/docs/Rhino 
 license: http://www.mozilla.org/MPL/2.0/
 
-Javascript function \"decryptSignature\" and reference for the \"AO HQ hack\" 
+Javascript function "decryptSignature" and reference for the "AO HQ hack" 
 from the Greasemonkey script http://userscripts.org/scripts/show/25105 
 (MIT License), by gantt
 
@@ -306,7 +306,12 @@ Attribution 3.0 Unported" license (CC BY).
 
 <h2>CHANGELOG</h2>
 
-<pre><code> v4.7 - Nov 1 2015
+<pre><code> v4.8 - Nov 6 2015
+-----------------------------------
+[x] always use system file-chooser, on Lollipop or above, with extSdCard not present or not (directly) writeable
+[x] fixed a bug introduced in previous version, causing custom download folder to change into private app's data folder 
+
+ v4.7 - Nov 1 2015
 -----------------------------------
 [x] new FFmpeg builds (from v2.8) extending support to 64bit CPUs
 [x] force FFmpeg's version check when the ROM has been updated
@@ -358,7 +363,7 @@ Attribution 3.0 Unported" license (CC BY).
  v4.4 - Jan 03 2015
 -----------------------------------
 [x] configurable downloads queue
-[x] option to invert dashboard\'s entries click menus
+[x] option to invert dashboard's entries click menus
 [x] auto-resume downloads paused due to network failure
 [x] new FFmpeg build targeting non-NEON CPUs (i.e. Tegra devices)
 [x] option to send logcat to the developer via email
@@ -852,6 +857,10 @@ Attribution 3.0 Unported" license (CC BY).
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015-11-07/ytd-v4-dot-8/">YTD v4.8</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015-11-01/ytd-v4-dot-7/">YTD v4.7</a>
       </li>
     
@@ -865,10 +874,6 @@ Attribution 3.0 Unported" license (CC BY).
     
       <li class="post">
         <a href="/blog/2015-10-03/ytd-v4-dot-7-beta-1/">YTD v4.7 Beta-1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015-09-24/ytd-v4-dot-6/">YTD v4.6</a>
       </li>
     
   </ul>

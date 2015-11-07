@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-11-01T09:48:17+01:00</updated>
+  <updated>2015-11-07T19:40:27+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,40 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v4.8]]></title>
+    <link href="http://dentex.github.io/blog/2015-11-07/ytd-v4-dot-8/"/>
+    <updated>2015-11-07T19:25:22+01:00</updated>
+    <id>http://dentex.github.io/blog/2015-11-07/ytd-v4-dot-8</id>
+    <content type="html"><![CDATA[<p>With this new version, I&rsquo;m limiting the access to the external (removable) sdcard in devices where it&rsquo;s not directly writable (but would need a procedure that I still have to implement) and I&rsquo;m fixing a bug I accidentally introduced in v4.7.</p>
+
+<p>CHANGELOG:</p>
+
+<pre><code> v4.8 - Nov 6 2015
+-----------------------------------
+[x] always use system file-chooser, on Lollipop or above, with extSdCard not present or not
+    (directly) writable
+[x] fixed a bug introduced in previous version, causing custom download folder to change into
+    private app's data folder 
+</code></pre>
+
+<p> <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="http://dentex.github.io/blog/2015-11-07/ytd-v4-dot-8/">http://dentex.github.io/blog/2015-11-07/ytd-v4-dot-8/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v4.7]]></title>
@@ -760,38 +794,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
 
 
 <p>Original Link: <a href="http://dentex.github.io/blog/2014-07-24/ytd-v4-dot-4-beta-6/">http://dentex.github.io/blog/2014-07-24/ytd-v4-dot-4-beta-6/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.3.2]]></title>
-    <link href="http://dentex.github.io/blog/2014-07-24/ytd-v4-dot-3-dot-2/"/>
-    <updated>2014-07-24T09:50:00+02:00</updated>
-    <id>http://dentex.github.io/blog/2014-07-24/ytd-v4-dot-3-dot-2</id>
-    <content type="html"><![CDATA[<p>YouTube Downloader version <strong>4.3.2</strong> is available!  <br/>
-As always, download it <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">from this blog</a> or wait until will be available also through the selected app stores (see the <a href="http://dentex.github.io/apps/youtubedownloader">app&rsquo;s page</a>).</p>
-
-<p>Changelog:</p>
-
-<pre><code> v4.3.2 - Jul 24 2014
------------------------------------
-[x] encrypted signature patch (10) (thanks gantt)
-</code></pre>
-
-<p> <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="http://dentex.github.io/blog/2014-07-24/ytd-v4-dot-3-dot-2/">http://dentex.github.io/blog/2014-07-24/ytd-v4-dot-3-dot-2/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>

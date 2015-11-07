@@ -9,8 +9,7 @@
   <meta name="author" content="Samuele Rini">
 
   
-  <meta name="description" content="Hello,
-a new build for YTD is available, moving all features tested into the latest beta into this stable version. CHANGELOG: v4.7 - Nov 1 2015 &hellip;">
+  <meta name="description" content="With this new version, I&rsquo;m limiting the access to the external (removable) sdcard in devices where it&rsquo;s not directly writable (but would &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -80,6 +79,67 @@ a new build for YTD is available, moving all features tested into the latest bet
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015-11-07/ytd-v4-dot-8/">YTD v4.8</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-11-07T19:25:22+01:00" pubdate data-updated="true">Nov 7<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>With this new version, I&rsquo;m limiting the access to the external (removable) sdcard in devices where it&rsquo;s not directly writable (but would need a procedure that I still have to implement) and I&rsquo;m fixing a bug I accidentally introduced in v4.7.</p>
+
+<p>CHANGELOG:</p>
+
+<pre><code> v4.8 - Nov 6 2015
+-----------------------------------
+[x] always use system file-chooser, on Lollipop or above, with extSdCard not present or not
+    (directly) writable
+[x] fixed a bug introduced in previous version, causing custom download folder to change into
+    private app's data folder 
+</code></pre>
+
+<p> <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="/blog/2015-11-07/ytd-v4-dot-8/">http://dentex.github.io/blog/2015-11-07/ytd-v4-dot-8/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -685,65 +745,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015-05-07/latest-search-issues/">Latest Search Issues</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-05-07T15:12:14+02:00" pubdate data-updated="true">May 7<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Many of you may have already noticed that YTD&rsquo;s search function is no longer working. This is happening because Google discontinued search APIs functions some hours ago. This part of the app needs to be rewritten.</p>
-
-<p>Not that I didn&rsquo;t know this, but I haven&rsquo;t been able to patch the app in time.</p>
-
-<p>For the moment, in the official YouTube app use the &ldquo;share&rdquo; function towards YouTube Downloader: this will open the formats tab directly (unless the video is not supported &ndash; see release notes).</p>
-
-<p>This issue will be hopefully fixed with the next release.</p>
-
-<p><img class="share1" src="/images/screenshots/share/share1.jpg" width="300" title="Sharing from YouTube - pt.1" alt="How to use the send-to or share function from the official YouTube app towards YouTube Downloader - pt.1">
-<img class="share2" src="/images/screenshots/share/share2.jpg" width="300" title="Sharing from YouTube - pt.2" alt="How to use the send-to or share function from the official YouTube app towards YouTube Downloader - pt.2">
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="/blog/2015-05-07/latest-search-issues/">http://dentex.github.io/blog/2015-05-07/latest-search-issues/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -765,6 +766,10 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015-11-07/ytd-v4-dot-8/">YTD v4.8</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015-11-01/ytd-v4-dot-7/">YTD v4.7</a>
       </li>
     
@@ -778,10 +783,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
     
       <li class="post">
         <a href="/blog/2015-10-03/ytd-v4-dot-7-beta-1/">YTD v4.7 Beta-1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015-09-24/ytd-v4-dot-6/">YTD v4.6</a>
       </li>
     
   </ul>
