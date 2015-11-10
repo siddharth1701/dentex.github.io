@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-11-10T17:49:58+01:00</updated>
+  <updated>2015-11-10T19:27:15+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v4.8.1]]></title>
+    <link href="http://dentex.github.io/blog/2015-11-10/ytd-v4-dot-8-1/"/>
+    <updated>2015-11-10T19:11:57+01:00</updated>
+    <id>http://dentex.github.io/blog/2015-11-10/ytd-v4-dot-8-1</id>
+    <content type="html"><![CDATA[<p>The new version for YTD, addressing the latest issue regarding encrypted signatures videos, is now available.</p>
+
+<p>CHANGELOG:</p>
+
+<pre><code>     v4.8.1 - Nov 10 2015
+    -----------------------------------
+    [x] encrypted signature patch (12) (thanks gantt)
+</code></pre>
+
+<p>Note: patch thanks to <strong>gantt</strong>! (If you&rsquo;re looking for a good Firefox/<a href="https://addons.mozilla.org/firefox/addon/greasemonkey/">Greasemonkey</a> script to download YouTube videos, search no more: <a href="https://greasyfork.org/scripts/1317-download-youtube-videos-as-mp4">Download YouTube Videos as MP4</a>)
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="http://dentex.github.io/blog/2015-11-10/ytd-v4-dot-8-1/">http://dentex.github.io/blog/2015-11-10/ytd-v4-dot-8-1/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Changes in YouTube Code]]></title>
@@ -26,7 +58,9 @@ recently YouTube changed again the code for videos with encrypted signature, so 
 <p>I&rsquo;m aware of the problem, so please avoid sending logcats in regards, but standby for a patch.  <br/>
 I&rsquo;ll do it ASAP.</p>
 
-<p>Thanks.
+<p>Thanks.</p>
+
+<p><strong>EDIT</strong>: fix found, see next blog post!
  <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
@@ -758,33 +792,6 @@ The only drawback would be that you will loose all of your downloads if you unin
 
 
 <p>Original Link: <a href="http://dentex.github.io/blog/2014-08-15/setting-downloads-destination-folder-in-ytd/">http://dentex.github.io/blog/2014-08-15/setting-downloads-destination-folder-in-ytd/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Recensione YTD Su MAVideoreview (ITA)]]></title>
-    <link href="http://dentex.github.io/blog/2014-08-15/recensione-ytd-su-mavideoreview-ita/"/>
-    <updated>2014-08-15T18:50:01+02:00</updated>
-    <id>http://dentex.github.io/blog/2014-08-15/recensione-ytd-su-mavideoreview-ita</id>
-    <content type="html"><![CDATA[<p><strong>[ITA]</strong>  <br/>
-Oggi vorrei inserire su questo blog un post scritto (anche) nella mia lingua madre, l&#8217;Italiano, per segnalare un&#8217;ottima video-recensione di <strong>YouTube Downloader</strong> (appunto, in Italiano) realizzata dal sito <strong>MAVideoreview</strong>. E&#8217; corredata di <a href="https://www.youtube.com/watch?v=W2nhZF6fROI">link al video su YouTube</a> e note esplicative sul blog, raggiungibile al link: <a href="http://www.mavideoreview.it/2014/08/youtube-downloader-for-android.html">http://www.mavideoreview.it/2014/08/youtube-downloader-for-android.html</a></p>
-
-<p><strong>[ENG]</strong>  <br/>
-Today I wanted to make a blog post (also) in my first language, Italian, to report a really good <strong>YouTube Downloader</strong>&rsquo;s video-review (in Italian) available on the blog <strong>MAVideoreview</strong>. It&rsquo;s accompanied by a <a href="https://www.youtube.com/watch?v=W2nhZF6fROI">link to a YouTube video</a> and some explanatory notes on the blog. Go visit it at the link: <a href="http://www.mavideoreview.it/2014/08/youtube-downloader-for-android.html">http://www.mavideoreview.it/2014/08/youtube-downloader-for-android.html</a>  :)
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="http://dentex.github.io/blog/2014-08-15/recensione-ytd-su-mavideoreview-ita/">http://dentex.github.io/blog/2014-08-15/recensione-ytd-su-mavideoreview-ita/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>

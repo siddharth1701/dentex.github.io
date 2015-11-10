@@ -4,7 +4,7 @@
   <title><![CDATA[Category: News | dentex's blog]]></title>
   <link href="http://dentex.github.io/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-11-10T17:49:58+01:00</updated>
+  <updated>2015-11-10T19:27:15+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v4.8.1]]></title>
+    <link href="http://dentex.github.io/blog/2015-11-10/ytd-v4-dot-8-1/"/>
+    <updated>2015-11-10T19:11:57+01:00</updated>
+    <id>http://dentex.github.io/blog/2015-11-10/ytd-v4-dot-8-1</id>
+    <content type="html"><![CDATA[<p>The new version for YTD, addressing the latest issue regarding encrypted signatures videos, is now available.</p>
+
+<p>CHANGELOG:</p>
+
+<pre><code>     v4.8.1 - Nov 10 2015
+    -----------------------------------
+    [x] encrypted signature patch (12) (thanks gantt)
+</code></pre>
+
+<p>Note: patch thanks to <strong>gantt</strong>! (If you&rsquo;re looking for a good Firefox/<a href="https://addons.mozilla.org/firefox/addon/greasemonkey/">Greasemonkey</a> script to download YouTube videos, search no more: <a href="https://greasyfork.org/scripts/1317-download-youtube-videos-as-mp4">Download YouTube Videos as MP4</a>)</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Changes in YouTube Code]]></title>
@@ -27,6 +45,8 @@ recently YouTube changed again the code for videos with encrypted signature, so 
 I&rsquo;ll do it ASAP.</p>
 
 <p>Thanks.</p>
+
+<p><strong>EDIT</strong>: fix found, see next blog post!</p>
 ]]></content>
   </entry>
   
@@ -101,28 +121,6 @@ This will permit to download every file split in 2, 3 or 4 chunks (or 1, like it
 <p>From some initial tests, the new feature seems to go pretty well, with a minor impact on the app&rsquo;s weight (although this exists anyway).</p>
 
 <p>Stay tuned for the next beta.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.5.1]]></title>
-    <link href="http://dentex.github.io/blog/2015-06-19/ytd-v4-dot-5-1/"/>
-    <updated>2015-06-19T11:45:17+02:00</updated>
-    <id>http://dentex.github.io/blog/2015-06-19/ytd-v4-dot-5-1</id>
-    <content type="html"><![CDATA[<p>A new <em>maintenance</em> build for YTD is available, with just some bug-fixing and improvements.</p>
-
-<p>Changelog:</p>
-
-<pre><code> v4.5.1 - Jun 19 2015
------------------------------------
-[x] do not fail muxing when 1080p and 480p downloads coexist into the Dashboard
-    (thanks scandiun @XDA)
-[x] do again broken mux operations using the pause/resume menu item
-[x] support JuiceSSH to send remote downloads
-[x] proper check to manually mux only .mp4 with .m4a and .webm with .ogg streams
-</code></pre>
-
-<p>Direct <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">APK link</a>.</p>
 ]]></content>
   </entry>
   
