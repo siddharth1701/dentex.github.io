@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-11-07T19:40:27+01:00</updated>
+  <updated>2015-11-10T17:49:58+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,37 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Changes in YouTube Code]]></title>
+    <link href="http://dentex.github.io/blog/2015-11-10/changes-in-youtube-code/"/>
+    <updated>2015-11-10T17:42:49+01:00</updated>
+    <id>http://dentex.github.io/blog/2015-11-10/changes-in-youtube-code</id>
+    <content type="html"><![CDATA[<p>Hello guys,  <br/>
+recently YouTube changed again the code for videos with encrypted signature, so a fix is needed (just for this kind of videos, not for all) for YTD to work properly again.</p>
+
+<p>When the video you&rsquo;re trying to download is affected, all formats appear with a size of <strong>0 B</strong>. Then every format will fail to download.</p>
+
+<p>I&rsquo;m aware of the problem, so please avoid sending logcats in regards, but standby for a patch.  <br/>
+I&rsquo;ll do it ASAP.</p>
+
+<p>Thanks.
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="http://dentex.github.io/blog/2015-11-10/changes-in-youtube-code/">http://dentex.github.io/blog/2015-11-10/changes-in-youtube-code/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v4.8]]></title>
@@ -754,46 +785,6 @@ Today I wanted to make a blog post (also) in my first language, Italian, to repo
 
 
 <p>Original Link: <a href="http://dentex.github.io/blog/2014-08-15/recensione-ytd-su-mavideoreview-ita/">http://dentex.github.io/blog/2014-08-15/recensione-ytd-su-mavideoreview-ita/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.4 Beta-6]]></title>
-    <link href="http://dentex.github.io/blog/2014-07-24/ytd-v4-dot-4-beta-6/"/>
-    <updated>2014-07-24T10:10:00+02:00</updated>
-    <id>http://dentex.github.io/blog/2014-07-24/ytd-v4-dot-4-beta-6</id>
-    <content type="html"><![CDATA[<p>A new beta for YouTube Downloader is available for download through the app itself, enabling the <a href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/">proper preference</a>, or downloading directly the apk from <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v4.4-beta-6.apk">HERE</a>.</p>
-
-<p>Please share any idea commenting below or join the discussion <a href="http://forum.xda-developers.com/showthread.php?t=2335450">over XDA</a>.</p>
-
-<p>The changelog is the one from the previous beta:</p>
-
-<pre><code> v4.4-beta-5 - Jul 22 2014
------------------------------------
-[x] configurable downloads queue
-[x] option to invert dashboard's entries click menus
-[x] auto-resume downloads paused due to network failure
-[x] new FFmpeg build targeting non-NEON CPUs (i.e. Tegra devices)
-[x] ability to send logcat to the developer via email
-[x] added Croatian, Indonesian (WIP) and Norwegian (WIP) translations
-[x] fixed dashboard rename with existing filename (thanks m0d)
-</code></pre>
-
-<p>It just integrates the patch from the stable v4.3.2, addressing another issue with encrypted signature videos.
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="http://dentex.github.io/blog/2014-07-24/ytd-v4-dot-4-beta-6/">http://dentex.github.io/blog/2014-07-24/ytd-v4-dot-4-beta-6/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>

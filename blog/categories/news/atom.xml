@@ -4,7 +4,7 @@
   <title><![CDATA[Category: News | dentex's blog]]></title>
   <link href="http://dentex.github.io/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-11-07T19:40:27+01:00</updated>
+  <updated>2015-11-10T17:49:58+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Changes in YouTube Code]]></title>
+    <link href="http://dentex.github.io/blog/2015-11-10/changes-in-youtube-code/"/>
+    <updated>2015-11-10T17:42:49+01:00</updated>
+    <id>http://dentex.github.io/blog/2015-11-10/changes-in-youtube-code</id>
+    <content type="html"><![CDATA[<p>Hello guys,  <br/>
+recently YouTube changed again the code for videos with encrypted signature, so a fix is needed (just for this kind of videos, not for all) for YTD to work properly again.</p>
+
+<p>When the video you&rsquo;re trying to download is affected, all formats appear with a size of <strong>0 B</strong>. Then every format will fail to download.</p>
+
+<p>I&rsquo;m aware of the problem, so please avoid sending logcats in regards, but standby for a patch.  <br/>
+I&rsquo;ll do it ASAP.</p>
+
+<p>Thanks.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v4.8]]></title>
@@ -106,36 +123,6 @@ This will permit to download every file split in 2, 3 or 4 chunks (or 1, like it
 </code></pre>
 
 <p>Direct <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">APK link</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.5]]></title>
-    <link href="http://dentex.github.io/blog/2015-06-09/ytd-v4-dot-5/"/>
-    <updated>2015-06-09T17:00:17+02:00</updated>
-    <id>http://dentex.github.io/blog/2015-06-09/ytd-v4-dot-5</id>
-    <content type="html"><![CDATA[<p>YouTubeDownloader&rsquo;s <strong>stable</strong> version 4.5 is ready. Apart from many small fixes and improvements, with this version the integrated search function is working again (has been completely rewritten due to a YouTube&rsquo;s search API change).</p>
-
-<p>This is the changelog:</p>
-
-<pre><code> v4.5 - Jun 09 2015
------------------------------------
-[x] new and working integrated search (with filters menu)
-[x] Bengali (India), Bulgarian, Romanian and Serbian translations added (as WIP);
-    many others updated
-[x] do not try to download purchasable videos
-[x] wrap extracted aac audio-only into an m4a container
-[x] many libraries updated (OkHttp added for networking)
-[x] better error handling during update check
-[x] showing time left for downloads based on network speed
-[x] asks to overwrite when downloading files already stored
-[x] many small bugs fixed (themes, languages selection, etc.)
-[x] added support for Opus audio-only formats and a few others
-</code></pre>
-
-<p>Upgrade through the app&rsquo;s settings or download the latest apk directly via <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">THIS link</a>.</p>
-
-<p>Please let me know in the comments below if something is missing or not working (apart from the well known bug regarding the app being closed by Android system if stays too much in background).  ;)</p>
 ]]></content>
   </entry>
   
