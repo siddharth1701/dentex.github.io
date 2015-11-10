@@ -18,3 +18,5 @@ I'm aware of the problem, so please avoid sending logcats in regards, but standb
 I'll do it ASAP.
 
 Thanks.
+
+**EDIT**: fix found, see next blog post!

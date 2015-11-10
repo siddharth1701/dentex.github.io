@@ -1,0 +1,20 @@
+---
+layout: post
+title: "YTD v4.8.1"
+date: 2015-11-10 19:11:57 +0100
+comments: true
+categories: [News]
+sharing: true
+footer: true
+description: "YouTube Downloader for Android - a free and ad-free app - new version"
+keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, HD, 3gp, webm, mp4, m4a, ogg, flv"
+---
+The new version for YTD, addressing the latest issue regarding encrypted signatures videos, is now available.
+
+CHANGELOG:
+
+         v4.8.1 - Nov 10 2015
+        -----------------------------------
+        [x] encrypted signature patch (12) (thanks gantt)
+
+Note: patch thanks to **gantt**! (If you're looking for a good Firefox/[Greasemonkey](https://addons.mozilla.org/firefox/addon/greasemonkey/) script to download YouTube videos, search no more: [Download YouTube Videos as MP4](https://greasyfork.org/scripts/1317-download-youtube-videos-as-mp4))
