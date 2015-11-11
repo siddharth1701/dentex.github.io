@@ -4,7 +4,7 @@
   <title><![CDATA[Category: News | dentex's blog]]></title>
   <link href="http://dentex.github.io/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-11-11T11:50:05+01:00</updated>
+  <updated>2015-11-11T11:52:33+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -21,7 +21,7 @@
     <content type="html"><![CDATA[<p>Hello,  <br/>
 I&rsquo;m releasing today a new beta for the next version of YTD, implementing the long awaited <em>multi-threaded</em> download feature. This method permits to download files up to a 4x speed, because (depending of the user&rsquo;s setting) every download will be divided into 1-4 chunks retrieved at the same time, thus maximizing the bandwidth available (and minimizing the throttle applied by the sending servers, depending on video format, popularity and other things).</p>
 
-<p>The apk is available through the in app updates or via <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-2.apk">this direct link</a>
+<p>The apk is available through the in app updates or via <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-2.apk">this direct link</a>.  <br/>
 If you want to download and test it, remember to switch ON the preference activating beta updates, otherwise it will not be visible.</p>
 
 <p>Changelog:</p>
