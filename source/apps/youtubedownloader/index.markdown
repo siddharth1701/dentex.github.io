@@ -22,7 +22,7 @@ MD5 checksum: `3bf51d966c61ae31b215d08dfa583451`
 
 SHA1 checksum: `2244b9afa7b7f44a0a5ec3bcff42a7a127033040`
 
-Beta available: `false`
+Beta available: `true`
 
 ## **YouTube Downloader for Android**
 ## **Copyright (C) 2012-2015 Samuele Rini**
