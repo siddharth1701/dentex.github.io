@@ -3,12 +3,16 @@ layout: post
 title: "YTD v4.7 Beta-4"
 date: 2015-10-18 19:52:00 +0200
 comments: true
-categories: 
+categories: [News]
+sharing: true
+footer: true
+description: "YouTube Downloader for Android - a free and ad-free app - new version"
+keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, HD, 3gp, webm, mp4, m4a, ogg, flv"
 ---
 Hello,    
 a new beta for YTD is available with the new "use wi-fi only" option.
 
-*Changelog*:
+Changelog:
 
      v4.7 Beta 4 - Oct 18 2015
     -----------------------------------
