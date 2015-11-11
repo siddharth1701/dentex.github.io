@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-11-10T19:27:15+01:00</updated>
+  <updated>2015-11-11T11:46:48+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,52 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v5.0 Beta 2]]></title>
+    <link href="http://dentex.github.io/blog/2015-11-11/ytd-v5-dot-0-beta-2/"/>
+    <updated>2015-11-11T11:13:58+01:00</updated>
+    <id>http://dentex.github.io/blog/2015-11-11/ytd-v5-dot-0-beta-2</id>
+    <content type="html"><![CDATA[<p>Hello,  <br/>
+I&rsquo;m releasing today a new beta for the next version of YTD, implementing the long awaited <em>multi-threaded</em> download feature. This method permits to download files up to a 4x speed, because (depending of the user&rsquo;s setting) every download will be divided into 1-4 chunks retrieved at the same time, thus maximizing the bandwidth available (and minimizing the throttle applied by the sending servers, depending on video format, popularity and other things).</p>
+
+<p>The apk is available through the in app updates or via <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-2.apk">this direct link</a>
+If you want to download and test it, remember to switch ON the preference activating beta updates, otherwise it will not be visible.</p>
+
+<p>Changelog:</p>
+
+<pre><code> v5.0 Beta 2 - Nov 11 2015
+-----------------------------------
+[x] [WIP]: multi-threaded downloads
+[x] [TO-DO]: global statistics in notification bar
+[x] [COMPLETED]: redundant "clear dashboard" button in action bar
+</code></pre>
+
+<p>Into the changelog above, every item is annotated with its progress state.</p>
+
+<p>NOTE: Downloads requiring mux will work, as before, in two steps: initially the download of the VO stream starts (now in chunks) and after that the AO stream is retrieved (fixed in a single chunk). My next goal is to treat the AO stream as a chunk, so that will be downloaded together with the other ones. On completion, we&rsquo;ll have the completed, <em>muxed</em> video, in a single pass.</p>
+
+<p><strong>IMPORTANT</strong>: change the setting as seen in the screenshot below, to actually enable the <em>multi-threaded downloads</em> feature; otherwise nothing will happen. Change the value from &ldquo;1&rdquo; to something higher.</p>
+
+<p><img src="http://dentex.github.io/images/screenshots/YTD_5.0/mtd_pref.png" width="300" title="YouTube Downloader for Android - multi-threaded downloads preference" alt="set number of chunks"></p>
+
+<p>Please let me know in the comments how it goes. Thanks!
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="http://dentex.github.io/blog/2015-11-11/ytd-v5-dot-0-beta-2/">http://dentex.github.io/blog/2015-11-11/ytd-v5-dot-0-beta-2/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v4.8.1]]></title>
@@ -161,7 +207,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
     <content type="html"><![CDATA[<p>Hello,  <br/>
 a new beta for YTD is available with the new &ldquo;use wi-fi only&rdquo; option.</p>
 
-<p><em>Changelog</em>:</p>
+<p>Changelog:</p>
 
 <pre><code> v4.7 Beta 4 - Oct 18 2015
 -----------------------------------
@@ -740,58 +786,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
 
 
 <p>Original Link: <a href="http://dentex.github.io/blog/2014-11-16/new-ytd-v4-dot-3-3/">http://dentex.github.io/blog/2014-11-16/new-ytd-v4-dot-3-3/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Setting Downloads Destination Folder in YTD]]></title>
-    <link href="http://dentex.github.io/blog/2014-08-15/setting-downloads-destination-folder-in-ytd/"/>
-    <updated>2014-08-15T18:55:32+02:00</updated>
-    <id>http://dentex.github.io/blog/2014-08-15/setting-downloads-destination-folder-in-ytd</id>
-    <content type="html"><![CDATA[<p>Now that I implemented the <em>send log to developer</em> option, almost all logs were about one only issue: the notorious KitKat &ldquo;feature&rdquo; (&hellip;more a bug, actually) thanks to which an app can&rsquo;t be granted with the permission to <em>write</em> files on the external (removable) sdcard. This happens on a certain number of stock ROMs.</p>
-
-<p>As of now (if you are affected by this bug), for YTD to work properly downloading your preferred videos, you need to choose your device&rsquo;s internal memory storage as downloads destination folder.</p>
-
-<p>Other possibilities are available:</p>
-
-<ul>
-<li>transfer files between your device&rsquo;s storages with your PC, while it&rsquo;s connected via USB;</li>
-<li>install a custom ROM (i.e. the great <a href="http://www.cyanogenmod.org/">Cyanogenmod</a> that has been patched and does not suffer from this issue);</li>
-<li>or if you already have <strong>root</strong> on your device, there are alternative ways as one via the <a href="http://forum.xda-developers.com/xposed">Xposed framework</a> and one of its modules.</li>
-</ul>
-
-
-<p>For your reference, a couple of links on this matter:</p>
-
-<ul>
-<li><a href="http://technofaq.org/posts/2014/04/fixing-external-sd-card-write-issue-on-android-kitkat/">technofaq.org</a>;</li>
-<li><a href="http://www.androidpolice.com/2014/02/17/external-blues-google-has-brought-big-changes-to-sd-cards-in-kitkat-and-even-samsung-may-be-implementing-them/">androidpolice.com</a>;</li>
-<li><a href="http://forum.xda-developers.com/xposed/modules/kitkat-sd-card-access-t2790992">XDA developers</a>.</li>
-</ul>
-
-
-<p><strong>Update:</strong>
-As <em>antekone</em> commented below, a workaround to continue using anyway the download destination on the removable sdcard, would be to choose the directory:</p>
-
-<pre><code>&lt;&lt;YourExternalSdCardBaseDir&gt;&gt;/Android/data/dentex.youtube.downloader/files/
-</code></pre>
-
-<p>&hellip;or to create there a subdirectory directly from the YTD&rsquo;s file manager (viewable when you open the custom download destination setting).  <br/>
-The only drawback would be that you will loose all of your downloads if you uninstall YTD. So, move your own files before uninstalling or &hellip;do not uninstall at all!  ;)
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="http://dentex.github.io/blog/2014-08-15/setting-downloads-destination-folder-in-ytd/">http://dentex.github.io/blog/2014-08-15/setting-downloads-destination-folder-in-ytd/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
