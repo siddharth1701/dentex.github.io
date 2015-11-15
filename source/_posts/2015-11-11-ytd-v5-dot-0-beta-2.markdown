@@ -12,7 +12,7 @@ keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads,
 Hello,    
 I'm releasing today a new beta for the next version of YTD, implementing the long awaited *multi-threaded* download feature. This method permits to download files up to a 4x speed, because (depending of the user's setting) every download will be divided into 1-4 chunks retrieved at the same time, thus maximizing the bandwidth available (and minimizing the throttle applied by the sending servers, depending on video format, popularity and other things).
 
-The apk is available through the in app updates or via [this direct link](http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-2.apk).    
+The apk is available through the in app updates or via *[link removed - old beta]*.    
 If you want to download and test it, remember to switch ON the preference activating beta updates, otherwise it will not be visible.
 
 Changelog:

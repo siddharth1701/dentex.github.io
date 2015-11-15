@@ -1,0 +1,26 @@
+---
+layout: post
+title: "YTD v5.0 Beta 3"
+date: 2015-11-15 17:27:03 +0100
+comments: true
+categories: [News]
+sharing: true
+footer: true
+description: "YouTube Downloader for Android - a free and ad-free app - new version"
+keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, HD, 3gp, webm, mp4, m4a, ogg, flv"
+---
+New beta just for two little fixes.    
+I must remember the "Release early, Release often" philosophy.  :)
+
+Changelog:
+
+     v5.0 Beta 3 - Nov 15 2015
+    -----------------------------------
+    [x] [WIP]: multi-threaded downloads
+    [x] [TO-DO]: global statistics in notification bar
+    [x] [COMPLETED]: redundant "clear dashboard" button in action bar
+    [x] [COMPLETED]: support for 2160p/2304p MP4 VO streams
+    [x] [TEMP]: fix for showed total file size in Dashboard (thanks  KreNtal @XDA)
+
+The apk is available through the in app updates or via [this direct link](http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-3.apk).    
+See previous post for more info.
