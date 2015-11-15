@@ -4,7 +4,7 @@
   <title><![CDATA[Category: News | dentex's blog]]></title>
   <link href="http://dentex.github.io/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-11-11T11:52:33+01:00</updated>
+  <updated>2015-11-15T17:37:25+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -14,6 +14,30 @@
 
   
   <entry>
+    <title type="html"><![CDATA[YTD v5.0 Beta 3]]></title>
+    <link href="http://dentex.github.io/blog/2015-11-15/ytd-v5-dot-0-beta-3/"/>
+    <updated>2015-11-15T17:27:03+01:00</updated>
+    <id>http://dentex.github.io/blog/2015-11-15/ytd-v5-dot-0-beta-3</id>
+    <content type="html"><![CDATA[<p>New beta just for two little fixes.  <br/>
+I must remember the &ldquo;Release early, Release often&rdquo; philosophy.  :)</p>
+
+<p>Changelog:</p>
+
+<pre><code> v5.0 Beta 3 - Nov 15 2015
+-----------------------------------
+[x] [WIP]: multi-threaded downloads
+[x] [TO-DO]: global statistics in notification bar
+[x] [COMPLETED]: redundant "clear dashboard" button in action bar
+[x] [COMPLETED]: support for 2160p/2304p MP4 VO streams
+[x] [TEMP]: fix for showed total file size in Dashboard (thanks  KreNtal @XDA)
+</code></pre>
+
+<p>The apk is available through the in app updates or via <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-3.apk">this direct link</a>.  <br/>
+See previous post for more info.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[YTD v5.0 Beta 2]]></title>
     <link href="http://dentex.github.io/blog/2015-11-11/ytd-v5-dot-0-beta-2/"/>
     <updated>2015-11-11T11:13:58+01:00</updated>
@@ -21,7 +45,7 @@
     <content type="html"><![CDATA[<p>Hello,  <br/>
 I&rsquo;m releasing today a new beta for the next version of YTD, implementing the long awaited <em>multi-threaded</em> download feature. This method permits to download files up to a 4x speed, because (depending of the user&rsquo;s setting) every download will be divided into 1-4 chunks retrieved at the same time, thus maximizing the bandwidth available (and minimizing the throttle applied by the sending servers, depending on video format, popularity and other things).</p>
 
-<p>The apk is available through the in app updates or via <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-2.apk">this direct link</a>.  <br/>
+<p>The apk is available through the in app updates or via <em>[link removed &ndash; old beta]</em>.  <br/>
 If you want to download and test it, remember to switch ON the preference activating beta updates, otherwise it will not be visible.</p>
 
 <p>Changelog:</p>
@@ -98,33 +122,6 @@ I&rsquo;ll do it ASAP.</p>
 [x] fixed a bug introduced in previous version, causing custom download folder to change into
     private app's data folder 
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.7]]></title>
-    <link href="http://dentex.github.io/blog/2015-11-01/ytd-v4-dot-7/"/>
-    <updated>2015-11-01T09:32:26+01:00</updated>
-    <id>http://dentex.github.io/blog/2015-11-01/ytd-v4-dot-7</id>
-    <content type="html"><![CDATA[<p>Hello,
-a new build for YTD is available, moving all features tested into the latest beta into this stable version.</p>
-
-<p>CHANGELOG:</p>
-
-<pre><code> v4.7 - Nov 1 2015
------------------------------------
-[x] new FFmpeg builds (from v2.8) extending support to 64bit CPUs
-[x] force FFmpeg's version check when the ROM has been updated
-[x] ask the permission to write on the sdcard (on M devices)
-[x] fixed filechooser checkbox issue for multiple selection
-[x] option to use wi-fi connection only
-</code></pre>
-
-<p>A lot of work has to be done, still. Probably development will slow down a bit due to many <em>real life/job</em> commitments, sorry.
-I really hope I&rsquo;ll soon be able to post an initial beta from the multi-thread development branch. This will speed-up downloads up to 4X. But unfortunately the feature is not stable nor completed.</p>
-
-<p>In the mean time, stay tuned, follow the XDA threads and, over anything else, I would like to thank everyone that is showing support through the PayPal donations.
-I really appreciate that.</p>
 ]]></content>
   </entry>
   

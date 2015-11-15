@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-11-11T11:52:33+01:00</updated>
+  <updated>2015-11-15T17:37:25+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -14,6 +14,44 @@
 
   
   <entry>
+    <title type="html"><![CDATA[YTD v5.0 Beta 3]]></title>
+    <link href="http://dentex.github.io/blog/2015-11-15/ytd-v5-dot-0-beta-3/"/>
+    <updated>2015-11-15T17:27:03+01:00</updated>
+    <id>http://dentex.github.io/blog/2015-11-15/ytd-v5-dot-0-beta-3</id>
+    <content type="html"><![CDATA[<p>New beta just for two little fixes.  <br/>
+I must remember the &ldquo;Release early, Release often&rdquo; philosophy.  :)</p>
+
+<p>Changelog:</p>
+
+<pre><code> v5.0 Beta 3 - Nov 15 2015
+-----------------------------------
+[x] [WIP]: multi-threaded downloads
+[x] [TO-DO]: global statistics in notification bar
+[x] [COMPLETED]: redundant "clear dashboard" button in action bar
+[x] [COMPLETED]: support for 2160p/2304p MP4 VO streams
+[x] [TEMP]: fix for showed total file size in Dashboard (thanks  KreNtal @XDA)
+</code></pre>
+
+<p>The apk is available through the in app updates or via <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-3.apk">this direct link</a>.  <br/>
+See previous post for more info.
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="http://dentex.github.io/blog/2015-11-15/ytd-v5-dot-0-beta-3/">http://dentex.github.io/blog/2015-11-15/ytd-v5-dot-0-beta-3/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[YTD v5.0 Beta 2]]></title>
     <link href="http://dentex.github.io/blog/2015-11-11/ytd-v5-dot-0-beta-2/"/>
     <updated>2015-11-11T11:13:58+01:00</updated>
@@ -21,7 +59,7 @@
     <content type="html"><![CDATA[<p>Hello,  <br/>
 I&rsquo;m releasing today a new beta for the next version of YTD, implementing the long awaited <em>multi-threaded</em> download feature. This method permits to download files up to a 4x speed, because (depending of the user&rsquo;s setting) every download will be divided into 1-4 chunks retrieved at the same time, thus maximizing the bandwidth available (and minimizing the throttle applied by the sending servers, depending on video format, popularity and other things).</p>
 
-<p>The apk is available through the in app updates or via <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-2.apk">this direct link</a>.  <br/>
+<p>The apk is available through the in app updates or via <em>[link removed &ndash; old beta]</em>.  <br/>
 If you want to download and test it, remember to switch ON the preference activating beta updates, otherwise it will not be visible.</p>
 
 <p>Changelog:</p>
@@ -753,39 +791,6 @@ Please note, <strong>these FFmpeg builds are on test</strong> and might not work
 
 
 <p>Original Link: <a href="http://dentex.github.io/blog/2014-11-19/ytd-v4-dot-4-beta-7/">http://dentex.github.io/blog/2014-11-19/ytd-v4-dot-4-beta-7/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.3.3]]></title>
-    <link href="http://dentex.github.io/blog/2014-11-16/new-ytd-v4-dot-3-3/"/>
-    <updated>2014-11-16T10:30:33+01:00</updated>
-    <id>http://dentex.github.io/blog/2014-11-16/new-ytd-v4-dot-3-3</id>
-    <content type="html"><![CDATA[<p>YouTube Downloader version 4.3.3 is available <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">from this blog</a>;</p>
-
-<p>Changelog:</p>
-
-<pre><code> v4.3.3 - Nov 15 2014
------------------------------------
-[x] encrypted signature patch (11) (thanks gantt)
-[x] support for 60fps VO streams
-</code></pre>
-
-<p>Note that <strong>60fps</strong> streams are video-only. They need to be manually merged with an audio stream, if you want to hear anything. :)
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="http://dentex.github.io/blog/2014-11-16/new-ytd-v4-dot-3-3/">http://dentex.github.io/blog/2014-11-16/new-ytd-v4-dot-3-3/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
