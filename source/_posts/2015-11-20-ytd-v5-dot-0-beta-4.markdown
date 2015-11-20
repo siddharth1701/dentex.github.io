@@ -1,0 +1,31 @@
+---
+layout: post
+title: "YTD v5.0 Beta 4"
+date: 2015-11-20 10:01:47 +0100
+comments: true
+categories: [News]
+sharing: true
+footer: true
+description: "YouTube Downloader for Android - a free and ad-free app - new version"
+keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, HD, 3gp, webm, mp4, m4a, ogg, flv"
+---
+With this new build, thanks to a beta tester, I added a patch for a "recovery" case I missed until now.
+
+When you click an mp3 entry from Formats, you actually start downloading an m4a audio file. On its completion, a conversion task starts, having as result the final mp3 file. If the task is particularly long, it may be interrupted by the android system to gain resources. This interruption may happen in two situations:    
+1) during the m4a download phase: here it can be resumed successfully when you re-open the app and select "resume" - The download will continue;    
+2) otherwise, if it's the conversion to be broken, we had a problem, until now. I found how to properly resume the conversion from this point.
+
+Changelog:
+
+     v5.0 Beta 4 - Nov 20 2015
+    -----------------------------------
+    [x] [WIP]: multi-threaded downloads
+    [x] [TO-DO]: global statistics in notification bar
+    [x] [COMPLETED]: redundant "clear dashboard" button in action bar
+    [x] [COMPLETED]: support for 2160p/2304p MP4 VO streams
+    [x] [TEMP]: fix for showed total file size in Dashboard (thanks  KreNtal @XDA)
+    [x] [COMPLETED]: do again broken mp3 conversions using the pause/resume 
+        menu item (thanks William K.)
+
+The apk is available through the in app updates or via [this direct link](http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-4.apk).    
+See previous posts for more info.
