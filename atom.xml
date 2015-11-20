@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-11-15T17:37:25+01:00</updated>
+  <updated>2015-11-20T10:11:56+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,49 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v5.0 Beta 4]]></title>
+    <link href="http://dentex.github.io/blog/2015-11-20/ytd-v5-dot-0-beta-4/"/>
+    <updated>2015-11-20T10:01:47+01:00</updated>
+    <id>http://dentex.github.io/blog/2015-11-20/ytd-v5-dot-0-beta-4</id>
+    <content type="html"><![CDATA[<p>With this new build, thanks to a beta tester, I added a patch for a &ldquo;recovery&rdquo; case I missed until now.</p>
+
+<p>When you click an mp3 entry from Formats, you actually start downloading an m4a audio file. On its completion, a conversion task starts, having as result the final mp3 file. If the task is particularly long, it may be interrupted by the android system to gain resources. This interruption may happen in two situations:  <br/>
+1) during the m4a download phase: here it can be resumed successfully when you re-open the app and select &ldquo;resume&rdquo; &ndash; The download will continue;  <br/>
+2) otherwise, if it&rsquo;s the conversion to be broken, we had a problem, until now. I found how to properly resume the conversion from this point.</p>
+
+<p>Changelog:</p>
+
+<pre><code> v5.0 Beta 4 - Nov 20 2015
+-----------------------------------
+[x] [WIP]: multi-threaded downloads
+[x] [TO-DO]: global statistics in notification bar
+[x] [COMPLETED]: redundant "clear dashboard" button in action bar
+[x] [COMPLETED]: support for 2160p/2304p MP4 VO streams
+[x] [TEMP]: fix for showed total file size in Dashboard (thanks  KreNtal @XDA)
+[x] [COMPLETED]: do again broken mp3 conversions using the pause/resume 
+    menu item (thanks William K.)
+</code></pre>
+
+<p>The apk is available through the in app updates or via <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-4.apk">this direct link</a>.  <br/>
+See previous posts for more info.
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="http://dentex.github.io/blog/2015-11-20/ytd-v5-dot-0-beta-4/">http://dentex.github.io/blog/2015-11-20/ytd-v5-dot-0-beta-4/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v5.0 Beta 3]]></title>
@@ -32,8 +75,7 @@ I must remember the &ldquo;Release early, Release often&rdquo; philosophy.  :)</
 [x] [TEMP]: fix for showed total file size in Dashboard (thanks  KreNtal @XDA)
 </code></pre>
 
-<p>The apk is available through the in app updates or via <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-3.apk">this direct link</a>.  <br/>
-See previous post for more info.
+<p>The apk is available through the in app updates or via <em>[link removed &ndash; old beta]</em>.
  <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
@@ -746,51 +788,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
 
 
 <p>Original Link: <a href="http://dentex.github.io/blog/2014-11-24/ytd-v4-dot-4-beta-8/">http://dentex.github.io/blog/2014-11-24/ytd-v4-dot-4-beta-8/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.4 Beta-7]]></title>
-    <link href="http://dentex.github.io/blog/2014-11-19/ytd-v4-dot-4-beta-7/"/>
-    <updated>2014-11-19T18:09:05+01:00</updated>
-    <id>http://dentex.github.io/blog/2014-11-19/ytd-v4-dot-4-beta-7</id>
-    <content type="html"><![CDATA[<p>Yet another beta from the <code>v4.4</code> series.  <br/>
-This time merging the download fix from YTD v4.3.3 (latest stable) plus some small extras (as some test versions of the FFmpeg executables supporting new Android versions, starting from <strong>L</strong>, due to a new security feature.  <br/>
-Please note, <strong>these FFmpeg builds are on test</strong> and might not work.</p>
-
-<p>The apk file is available for download through the app itself, enabling the <a href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/">proper preference</a>, or downloading directly the apk from <em>[link removed &ndash; old beta]</em></p>
-
-<p>Please share any idea commenting below or join the discussion <a href="http://forum.xda-developers.com/showthread.php?t=2335450">over XDA</a>.</p>
-
-<p>Take a look at the the Changelog below.</p>
-
-<pre><code> v4.4-beta-7 - Nov 19 2014
------------------------------------
-[x] configurable downloads queue
-[x] option to invert dashboard\'s entries click menus
-[x] auto-resume downloads paused due to network failure
-[x] new FFmpeg build targeting non-NEON CPUs (i.e. Tegra devices)
-[x] ability to send logcat to the developer via email
-[x] added Croatian, Indonesian (WIP) and Norwegian (WIP) translations
-[x] fixed dashboard rename with existing filename (thanks m0d)
-[x] back-button going through all tabs now as optional
-[x] new FFmpeg builds supporting Android L
-</code></pre>
-
-<p> <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="http://dentex.github.io/blog/2014-11-19/ytd-v4-dot-4-beta-7/">http://dentex.github.io/blog/2014-11-19/ytd-v4-dot-4-beta-7/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>

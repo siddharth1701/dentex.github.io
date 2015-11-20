@@ -9,7 +9,9 @@
   <meta name="author" content="Samuele Rini">
 
   
-  <meta name="description" content="A new maintenance build for YTD is available, with just some bug-fixing and improvements. Changelog: v4.5.1 - Jun 19 2015 &hellip;">
+  <meta name="description" content="A new version for YTD is available, with this CHANGELOG: v4.6 - Sep 24 2015
+-----------------------------------
+[x] material design for android &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -79,6 +81,75 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015-09-24/ytd-v4-dot-6/">YTD v4.6</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-09-24T11:11:10+02:00" pubdate data-updated="true">Sep 24<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>A new version for YTD is available, with this CHANGELOG:</p>
+
+<pre><code> v4.6 - Sep 24 2015
+-----------------------------------
+[x] material design for android versions &gt; Lollipop
+[x] remove option to embed video preview (now fullscreen only)
+[x] better detection of free space on memory storage for some devices
+[x] handle the MP4 720p downloads for some very long videos, when file length can't be retrieved
+[x] add option for MP3 "download" quality
+[x] show correct file size for 480p and 1080p
+</code></pre>
+
+<p>Please, report here or on the XDA forum&rsquo;s thread if you see any issues, especially regarding the new theme on Lollipop devices. Thanks!</p>
+
+<p>At the moment, I&rsquo;m working hard on the new (and highly expected) feature of <em>multi-threading</em> downloads.
+This will permit to download every file split in 2, 3 or 4 chunks (or 1, like it&rsquo;s now) that will start at the same time, maximizing the network&rsquo;s bandwidth usage and minimizing the hated &ldquo;throttling&rdquo; done by the YouTube servers on certain videos, especially for some qualities.</p>
+
+<p>From some initial tests, the new feature seems to go pretty well, with a minor impact on the app&rsquo;s weight (although this exists anyway).</p>
+
+<p>Stay tuned for the next beta.
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="/blog/2015-09-24/ytd-v4-dot-6/">http://dentex.github.io/blog/2015-09-24/ytd-v4-dot-6/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -681,78 +752,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014-11-19/ytd-v4-dot-4-beta-7/">YTD v4.4 Beta-7</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-11-19T18:09:05+01:00" pubdate data-updated="true">Nov 19<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Yet another beta from the <code>v4.4</code> series.  <br/>
-This time merging the download fix from YTD v4.3.3 (latest stable) plus some small extras (as some test versions of the FFmpeg executables supporting new Android versions, starting from <strong>L</strong>, due to a new security feature.  <br/>
-Please note, <strong>these FFmpeg builds are on test</strong> and might not work.</p>
-
-<p>The apk file is available for download through the app itself, enabling the <a href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/">proper preference</a>, or downloading directly the apk from <em>[link removed &ndash; old beta]</em></p>
-
-<p>Please share any idea commenting below or join the discussion <a href="http://forum.xda-developers.com/showthread.php?t=2335450">over XDA</a>.</p>
-
-<p>Take a look at the the Changelog below.</p>
-
-<pre><code> v4.4-beta-7 - Nov 19 2014
------------------------------------
-[x] configurable downloads queue
-[x] option to invert dashboard\'s entries click menus
-[x] auto-resume downloads paused due to network failure
-[x] new FFmpeg build targeting non-NEON CPUs (i.e. Tegra devices)
-[x] ability to send logcat to the developer via email
-[x] added Croatian, Indonesian (WIP) and Norwegian (WIP) translations
-[x] fixed dashboard rename with existing filename (thanks m0d)
-[x] back-button going through all tabs now as optional
-[x] new FFmpeg builds supporting Android L
-</code></pre>
-
-<p> <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="/blog/2014-11-19/ytd-v4-dot-4-beta-7/">http://dentex.github.io/blog/2014-11-19/ytd-v4-dot-4-beta-7/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/3/">&larr; Older</a>
@@ -776,6 +775,10 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015-11-20/ytd-v5-dot-0-beta-4/">YTD v5.0 Beta 4</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015-11-15/ytd-v5-dot-0-beta-3/">YTD v5.0 Beta 3</a>
       </li>
     
@@ -789,10 +792,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
     
       <li class="post">
         <a href="/blog/2015-11-10/changes-in-youtube-code/">Changes in YouTube Code</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015-11-07/ytd-v4-dot-8/">YTD v4.8</a>
       </li>
     
   </ul>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: News | dentex's blog]]></title>
   <link href="http://dentex.github.io/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-11-15T17:37:25+01:00</updated>
+  <updated>2015-11-20T10:11:56+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,35 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v5.0 Beta 4]]></title>
+    <link href="http://dentex.github.io/blog/2015-11-20/ytd-v5-dot-0-beta-4/"/>
+    <updated>2015-11-20T10:01:47+01:00</updated>
+    <id>http://dentex.github.io/blog/2015-11-20/ytd-v5-dot-0-beta-4</id>
+    <content type="html"><![CDATA[<p>With this new build, thanks to a beta tester, I added a patch for a &ldquo;recovery&rdquo; case I missed until now.</p>
+
+<p>When you click an mp3 entry from Formats, you actually start downloading an m4a audio file. On its completion, a conversion task starts, having as result the final mp3 file. If the task is particularly long, it may be interrupted by the android system to gain resources. This interruption may happen in two situations:  <br/>
+1) during the m4a download phase: here it can be resumed successfully when you re-open the app and select &ldquo;resume&rdquo; &ndash; The download will continue;  <br/>
+2) otherwise, if it&rsquo;s the conversion to be broken, we had a problem, until now. I found how to properly resume the conversion from this point.</p>
+
+<p>Changelog:</p>
+
+<pre><code> v5.0 Beta 4 - Nov 20 2015
+-----------------------------------
+[x] [WIP]: multi-threaded downloads
+[x] [TO-DO]: global statistics in notification bar
+[x] [COMPLETED]: redundant "clear dashboard" button in action bar
+[x] [COMPLETED]: support for 2160p/2304p MP4 VO streams
+[x] [TEMP]: fix for showed total file size in Dashboard (thanks  KreNtal @XDA)
+[x] [COMPLETED]: do again broken mp3 conversions using the pause/resume 
+    menu item (thanks William K.)
+</code></pre>
+
+<p>The apk is available through the in app updates or via <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-4.apk">this direct link</a>.  <br/>
+See previous posts for more info.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v5.0 Beta 3]]></title>
@@ -32,8 +61,7 @@ I must remember the &ldquo;Release early, Release often&rdquo; philosophy.  :)</
 [x] [TEMP]: fix for showed total file size in Dashboard (thanks  KreNtal @XDA)
 </code></pre>
 
-<p>The apk is available through the in app updates or via <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-3.apk">this direct link</a>.  <br/>
-See previous post for more info.</p>
+<p>The apk is available through the in app updates or via <em>[link removed &ndash; old beta]</em>.</p>
 ]]></content>
   </entry>
   
@@ -103,25 +131,6 @@ I&rsquo;ll do it ASAP.</p>
 <p>Thanks.</p>
 
 <p><strong>EDIT</strong>: fix found, see next blog post!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.8]]></title>
-    <link href="http://dentex.github.io/blog/2015-11-07/ytd-v4-dot-8/"/>
-    <updated>2015-11-07T19:25:22+01:00</updated>
-    <id>http://dentex.github.io/blog/2015-11-07/ytd-v4-dot-8</id>
-    <content type="html"><![CDATA[<p>With this new version, I&rsquo;m limiting the access to the external (removable) sdcard in devices where it&rsquo;s not directly writable (but would need a procedure that I still have to implement) and I&rsquo;m fixing a bug I accidentally introduced in v4.7.</p>
-
-<p>CHANGELOG:</p>
-
-<pre><code> v4.8 - Nov 6 2015
------------------------------------
-[x] always use system file-chooser, on Lollipop or above, with extSdCard not present or not
-    (directly) writable
-[x] fixed a bug introduced in previous version, causing custom download folder to change into
-    private app's data folder 
-</code></pre>
 ]]></content>
   </entry>
   

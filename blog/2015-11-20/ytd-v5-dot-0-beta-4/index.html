@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>YTD v4.8.1 - dentex's blog</title>
+  <title>YTD v5.0 Beta 4 - dentex's blog</title>
   <meta name="author" content="Samuele Rini">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://dentex.github.io/blog/2015-11-10/ytd-v4-dot-8-1">
+  <link rel="canonical" href="http://dentex.github.io/blog/2015-11-20/ytd-v5-dot-0-beta-4">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="" rel="alternate" title="dentex's blog" type="application/atom+xml">
@@ -82,7 +82,7 @@
   
   <header>
     
-      <h1 class="entry-title">YTD v4.8.1</h1>
+      <h1 class="entry-title">YTD v5.0 Beta 4</h1>
     
     
       <p class="meta">
@@ -98,23 +98,34 @@
   
 
 
-<time datetime="2015-11-10T19:11:57+01:00" pubdate data-updated="true">Nov 10<span>th</span>, 2015</time>
+<time datetime="2015-11-20T10:01:47+01:00" pubdate data-updated="true">Nov 20<span>th</span>, 2015</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>The new version for YTD, addressing the latest issue regarding encrypted signatures videos, is now available.</p>
+<div class="entry-content"><p>With this new build, thanks to a beta tester, I added a patch for a &ldquo;recovery&rdquo; case I missed until now.</p>
 
-<p>CHANGELOG:</p>
+<p>When you click an mp3 entry from Formats, you actually start downloading an m4a audio file. On its completion, a conversion task starts, having as result the final mp3 file. If the task is particularly long, it may be interrupted by the android system to gain resources. This interruption may happen in two situations:  <br/>
+1) during the m4a download phase: here it can be resumed successfully when you re-open the app and select &ldquo;resume&rdquo; &ndash; The download will continue;  <br/>
+2) otherwise, if it&rsquo;s the conversion to be broken, we had a problem, until now. I found how to properly resume the conversion from this point.</p>
 
-<pre><code>     v4.8.1 - Nov 10 2015
-    -----------------------------------
-    [x] encrypted signature patch (12) (thanks gantt)
+<p>Changelog:</p>
+
+<pre><code> v5.0 Beta 4 - Nov 20 2015
+-----------------------------------
+[x] [WIP]: multi-threaded downloads
+[x] [TO-DO]: global statistics in notification bar
+[x] [COMPLETED]: redundant "clear dashboard" button in action bar
+[x] [COMPLETED]: support for 2160p/2304p MP4 VO streams
+[x] [TEMP]: fix for showed total file size in Dashboard (thanks  KreNtal @XDA)
+[x] [COMPLETED]: do again broken mp3 conversions using the pause/resume 
+    menu item (thanks William K.)
 </code></pre>
 
-<p>Note: patch thanks to <strong>gantt</strong>! (If you&rsquo;re looking for a good Firefox/<a href="https://addons.mozilla.org/firefox/addon/greasemonkey/">Greasemonkey</a> script to download YouTube videos, search no more: <a href="https://greasyfork.org/scripts/1317-download-youtube-videos-as-mp4">Download YouTube Videos as MP4</a>)
+<p>The apk is available through the in app updates or via <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-4.apk">this direct link</a>.  <br/>
+See previous posts for more info.
  <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
@@ -126,7 +137,7 @@
 <br/>
 
 
-<p>Original Link: <a href="/blog/2015-11-10/ytd-v4-dot-8-1/">http://dentex.github.io/blog/2015-11-10/ytd-v4-dot-8-1/</a><br/>
+<p>Original Link: <a href="/blog/2015-11-20/ytd-v5-dot-0-beta-4/">http://dentex.github.io/blog/2015-11-20/ytd-v5-dot-0-beta-4/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 </div>
@@ -151,7 +162,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
   
 
 
-<time datetime="2015-11-10T19:11:57+01:00" pubdate data-updated="true">Nov 10<span>th</span>, 2015</time>
+<time datetime="2015-11-20T10:01:47+01:00" pubdate data-updated="true">Nov 20<span>th</span>, 2015</time>
       
 
 <span class="categories">
@@ -165,7 +176,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://dentex.github.io/blog/2015-11-10/ytd-v4-dot-8-1/" data-via="twidentex" data-counturl="http://dentex.github.io/blog/2015-11-10/ytd-v4-dot-8-1/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://dentex.github.io/blog/2015-11-20/ytd-v5-dot-0-beta-4/" data-via="twidentex" data-counturl="http://dentex.github.io/blog/2015-11-20/ytd-v5-dot-0-beta-4/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -176,10 +187,8 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2015-11-10/changes-in-youtube-code/" title="Previous Post: Changes in YouTube code">&laquo; Changes in YouTube code</a>
+        <a class="basic-alignment left" href="/blog/2015-11-15/ytd-v5-dot-0-beta-3/" title="Previous Post: YTD v5.0 Beta 3">&laquo; YTD v5.0 Beta 3</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2015-11-11/ytd-v5-dot-0-beta-2/" title="Next Post: YTD v5.0 Beta 2">YTD v5.0 Beta 2 &raquo;</a>
       
     </p>
   </footer>
@@ -275,8 +284,8 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://dentex.github.io/blog/2015-11-10/ytd-v4-dot-8-1/';
-        var disqus_url = 'http://dentex.github.io/blog/2015-11-10/ytd-v4-dot-8-1/';
+        var disqus_identifier = 'http://dentex.github.io/blog/2015-11-20/ytd-v5-dot-0-beta-4/';
+        var disqus_url = 'http://dentex.github.io/blog/2015-11-20/ytd-v5-dot-0-beta-4/';
         var disqus_script = 'embed.js';
       
     (function () {
