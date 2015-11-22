@@ -4,7 +4,7 @@
   <title><![CDATA[Category: News | dentex's blog]]></title>
   <link href="http://dentex.github.io/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-11-22T15:10:24+01:00</updated>
+  <updated>2015-11-22T15:14:24+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -18,7 +18,8 @@
     <link href="http://dentex.github.io/blog/2015-11-22/ytd-v4-dot-8-2-plus-v5-dot-0-beta-5/"/>
     <updated>2015-11-22T14:49:32+01:00</updated>
     <id>http://dentex.github.io/blog/2015-11-22/ytd-v4-dot-8-2-plus-v5-dot-0-beta-5</id>
-    <content type="html"><![CDATA[<p>With this new <em>stable</em> and <em>beta</em> versions, I&rsquo;m adding another fix I discovered yesterday. In regards, I&rsquo;d like to thank all the users/testers for their support and help (especially spotting new bugs!). Although a bit slowly, I think we&rsquo;ll come up with a better app.</p>
+    <content type="html"><![CDATA[<p>With this new <em>stable</em> and <em>beta</em> versions, I&rsquo;m adding another fix that has been discovered yesterday. In regards, I&rsquo;d like to thank all the users/testers for their support and help (especially spotting new bugs!). <br/>
+Although a bit slowly, I think we&rsquo;ll come up with a better app.</p>
 
 <p>Changelogs:</p>
 
