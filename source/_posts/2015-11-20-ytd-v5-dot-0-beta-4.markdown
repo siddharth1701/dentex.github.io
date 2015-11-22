@@ -7,7 +7,7 @@ categories: [News]
 sharing: true
 footer: true
 description: "YouTube Downloader for Android - a free and ad-free app - new version"
-keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, HD, 3gp, webm, mp4, m4a, ogg, flv"
+keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, XDA, XDA_dentex, twidentex, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, 480p, HD, 4K, 3gp, webm, mp4, m4a, ogg, flv, opus, 360°, 3D"
 ---
 With this new build, thanks to a beta tester, I added a patch for a "recovery" case I missed until now.
 
@@ -27,5 +27,5 @@ Changelog:
     [x] [COMPLETED]: do again broken mp3 conversions using the pause/resume 
         menu item (thanks William K.)
 
-The apk is available through the in app updates or via [this direct link](http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-4.apk).    
+The apk is available through the in app updates or via *[link removed - old beta]*.    
 See previous posts for more info.

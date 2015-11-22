@@ -7,7 +7,7 @@ categories: [News]
 sharing: true
 footer: true
 description: "YouTube Downloader for Android - a free and ad-free app - new version"
-keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, HD, 3gp, webm, mp4, m4a, ogg, flv"
+keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, XDA, XDA_dentex, twidentex, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, 480p, HD, 4K, 3gp, webm, mp4, m4a, ogg, flv, opus, 360°, 3D"
 ---
 Hello,    
 I'm releasing today a new beta for the next version of YTD, implementing the long awaited *multi-threaded* download feature. This method permits to download files up to a 4x speed, because (depending of the user's setting) every download will be divided into 1-4 chunks retrieved at the same time, thus maximizing the bandwidth available (and minimizing the throttle applied by the sending servers, depending on video format, popularity and other things).

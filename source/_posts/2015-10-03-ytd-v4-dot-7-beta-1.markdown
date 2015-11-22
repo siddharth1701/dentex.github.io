@@ -7,7 +7,7 @@ categories: [News]
 sharing: true
 footer: true
 description: "YouTube Downloader for Android - a free and ad-free app - new version"
-keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, HD, 3gp, webm, mp4, m4a, ogg, flv"
+keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, XDA, XDA_dentex, twidentex, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, 480p, HD, 4K, 3gp, webm, mp4, m4a, ogg, flv, opus, 360°, 3D"
 ---
 Hello,    
 Today I'm releasing a beta version for YTD to test some new FFmpeg builds. The binaries have been updated to the latest version 2.8 of FFmpeg's source and have been fine-tuned for **Lollipop** and **M** android versions, maintaining full compatibility and reliability (hopefully) with previous versions, down to ICS, that is the last API supported by YTD. 

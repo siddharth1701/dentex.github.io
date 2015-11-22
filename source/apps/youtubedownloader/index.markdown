@@ -14,13 +14,13 @@ keywords: YouTube Downloader, Android, android app, app, free, ad-free, no ads, 
 
 [![YTD](/images/apps/ytd.png)](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk)
 
-`versionCode="101"`
+`versionCode="102"`
 
-`versionName="4.8.1"`
+`versionName="4.8.2"`
 
-MD5 checksum: `3bf51d966c61ae31b215d08dfa583451`
+MD5 checksum: `124f670db3373e8e9063eb853decc4e0`
 
-SHA1 checksum: `2244b9afa7b7f44a0a5ec3bcff42a7a127033040`
+SHA1 checksum: `e35a85abff62ba1aa499b681e6017b442a14d112`
 
 Beta available: `true`
 
@@ -185,6 +185,12 @@ Are not supported for download all videos that:
 
 
 ## CHANGELOG
+
+     v4.8.2 - Nov 22 2015
+    -----------------------------------
+    [x] support for 2160p/2304p MP4 VO streams
+    [x] do again broken mp3 conversions using the pause/resume menu item (thanks William K.)
+    [x] formats list bug fix for secondary streams (thanks dhuvy @XDA)
 
      v4.8.1 - Nov 10 2015
     -----------------------------------

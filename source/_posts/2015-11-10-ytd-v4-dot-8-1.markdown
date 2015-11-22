@@ -7,7 +7,7 @@ categories: [News]
 sharing: true
 footer: true
 description: "YouTube Downloader for Android - a free and ad-free app - new version"
-keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, HD, 3gp, webm, mp4, m4a, ogg, flv"
+keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, XDA, XDA_dentex, twidentex, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, 480p, HD, 4K, 3gp, webm, mp4, m4a, ogg, flv, opus, 360°, 3D"
 ---
 The new version for YTD, addressing the latest issue regarding encrypted signatures videos, is now available.
 
@@ -17,4 +17,4 @@ CHANGELOG:
         -----------------------------------
         [x] encrypted signature patch (12) (thanks gantt)
 
-Note: patch thanks to **gantt**! (If you're looking for a good Firefox/[Greasemonkey](https://addons.mozilla.org/firefox/addon/greasemonkey/) script to download YouTube videos, search no more: [Download YouTube Videos as MP4](https://greasyfork.org/scripts/1317-download-youtube-videos-as-mp4))
+Note: patch thanks to **gantt**! (If you're searching for a good Firefox/[Greasemonkey](https://addons.mozilla.org/firefox/addon/greasemonkey/) script to download YouTube videos, look no further: [Download YouTube Videos as MP4](https://greasyfork.org/scripts/1317-download-youtube-videos-as-mp4)).
