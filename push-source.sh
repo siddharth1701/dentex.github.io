@@ -3,7 +3,7 @@
 MSG=`zenity --entry --text="source commit msg:"`
 
 echo " --> adding ."
-git add .
+git add --all
 
 echo " --> commit with msg: $MSG"
 git commit -am "$MSG"
