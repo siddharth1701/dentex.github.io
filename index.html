@@ -9,7 +9,7 @@
   <meta name="author" content="Samuele Rini">
 
   
-  <meta name="description" content="With this new build, thanks to a beta tester, I added a patch for a &ldquo;recovery&rdquo; case I missed until now. When you click an mp3 entry from &hellip;">
+  <meta name="description" content="With this new stable and beta versions, I&rsquo;m adding another fix I discovered yesterday. In regards, I&rsquo;d like to thank all the users/ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -85,6 +85,78 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2015-11-22/ytd-v4-dot-8-2-plus-v5-dot-0-beta-5/">YTD v4.8.2 + v5.0 Beta 5</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-11-22T14:49:32+01:00" pubdate data-updated="true">Nov 22<span>nd</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>With this new <em>stable</em> and <em>beta</em> versions, I&rsquo;m adding another fix I discovered yesterday. In regards, I&rsquo;d like to thank all the users/testers for their support and help (especially spotting new bugs!). Although a bit slowly, I think we&rsquo;ll come up with a better app.</p>
+
+<p>Changelogs:</p>
+
+<pre><code> v5.0 Beta 5 - Nov 22 2015
+-----------------------------------
+[x] [WIP]: multi-threaded downloads
+[x] [TO-DO]: global statistics in notification bar
+[x] [COMPLETED]: redundant "clear dashboard" button in action bar
+[x] [TEMP]: fix for showed total file size in Dashboard (thanks  KreNtal @XDA)
+
+ v4.8.2 - Nov 22 2015
+-----------------------------------
+[x] support for 2160p/2304p MP4 VO streams
+[x] do again broken mp3 conversions using the pause/resume menu item (thanks William K.)
+[x] formats list bug fix for secondary streams (thanks dhuvy @XDA)
+</code></pre>
+
+<p>Both versions are available through the in-app update or via these links:</p>
+
+<p><a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk"><strong>v4.8.2</strong></a></p>
+
+<p><a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-5.apk"><strong>v5.0 beta 5</strong></a>
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="/blog/2015-11-22/ytd-v4-dot-8-2-plus-v5-dot-0-beta-5/">http://dentex.github.io/blog/2015-11-22/ytd-v4-dot-8-2-plus-v5-dot-0-beta-5/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2015-11-20/ytd-v5-dot-0-beta-4/">YTD v5.0 Beta 4</a></h1>
     
     
@@ -127,7 +199,7 @@
     menu item (thanks William K.)
 </code></pre>
 
-<p>The apk is available through the in app updates or via <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-4.apk">this direct link</a>.  <br/>
+<p>The apk is available through the in app updates or via <em>[link removed &ndash; old beta]</em>.  <br/>
 See previous posts for more info.
  <p class='post-footer' style="font-size:70%;" ></p>
 
@@ -324,7 +396,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
     [x] encrypted signature patch (12) (thanks gantt)
 </code></pre>
 
-<p>Note: patch thanks to <strong>gantt</strong>! (If you&rsquo;re looking for a good Firefox/<a href="https://addons.mozilla.org/firefox/addon/greasemonkey/">Greasemonkey</a> script to download YouTube videos, search no more: <a href="https://greasyfork.org/scripts/1317-download-youtube-videos-as-mp4">Download YouTube Videos as MP4</a>)
+<p>Note: patch thanks to <strong>gantt</strong>! (If you&rsquo;re searching for a good Firefox/<a href="https://addons.mozilla.org/firefox/addon/greasemonkey/">Greasemonkey</a> script to download YouTube videos, look no further: <a href="https://greasyfork.org/scripts/1317-download-youtube-videos-as-mp4">Download YouTube Videos as MP4</a>).
  <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
@@ -666,70 +738,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015-10-03/ytd-v4-dot-7-beta-1/">YTD v4.7 Beta-1</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-10-03T09:00:21+02:00" pubdate data-updated="true">Oct 3<span>rd</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Hello,  <br/>
-Today I&rsquo;m releasing a beta version for YTD to test some new FFmpeg builds. The binaries have been updated to the latest version 2.8 of FFmpeg&rsquo;s source and have been fine-tuned for <strong>Lollipop</strong> and <strong>M</strong> android versions, maintaining full compatibility and reliability (hopefully) with previous versions, down to ICS, that is the last API supported by YTD.</p>
-
-<p>Also, devices with a 64bit CPU, both <em>arm</em> and <em>x86</em>, now can use the 32bit FFmpeg builds and do not appear as &ldquo;unsupported&rdquo; anymore (I simply made the 64bit CPUs to use the 32bit builds).</p>
-
-<p>So, the short <em>changelog</em> is:</p>
-
-<pre><code> v4.7 Beta 1 - Oct 3 2015
------------------------------------
-[x] new FFmpeg builds (from v2.8) extending support to 64bit CPUs
-</code></pre>
-
-<p>This beta is available through the in app updates, from settings, using the <a href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/">Include Beta updates</a> preference checkbox, while <em>[link removed &ndash; old beta]</em> is the direct apk link.</p>
-
-<p>Although I thoroughly tested all builds on all supported SDK versions, be advised that we&rsquo;re talking about a beta anyway; some rough edges are to be expected.
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="/blog/2015-10-03/ytd-v4-dot-7-beta-1/">http://dentex.github.io/blog/2015-10-03/ytd-v4-dot-7-beta-1/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -751,6 +759,10 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015-11-22/ytd-v4-dot-8-2-plus-v5-dot-0-beta-5/">YTD v4.8.2 + v5.0 Beta 5</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015-11-20/ytd-v5-dot-0-beta-4/">YTD v5.0 Beta 4</a>
       </li>
     
@@ -764,10 +776,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
     
       <li class="post">
         <a href="/blog/2015-11-10/ytd-v4-dot-8-1/">YTD v4.8.1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015-11-10/changes-in-youtube-code/">Changes in YouTube Code</a>
       </li>
     
   </ul>
