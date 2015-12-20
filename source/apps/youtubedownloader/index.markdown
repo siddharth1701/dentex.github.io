@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "YouTube Downloader for Android"
-date: 2014-01-27 18:14
+date: 2015-12-20 15:00
 comments: true
 sharing: true
 footer: true
@@ -14,13 +14,13 @@ keywords: YouTube Downloader, Android, android app, app, free, ad-free, no ads, 
 
 [![YTD](/images/apps/ytd.png)](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk)
 
-`versionCode="102"`
+`versionCode="103"`
 
-`versionName="4.8.2"`
+`versionName="4.8.3"`
 
-MD5 checksum: `124f670db3373e8e9063eb853decc4e0`
+MD5 checksum: `6e8a44bd384cbb80f26164da9065ed5b`
 
-SHA1 checksum: `e35a85abff62ba1aa499b681e6017b442a14d112`
+SHA1 checksum: `9fbf679c2c4f8d9c879f4a46ea4bc8635c46426c`
 
 Beta available: `true`
 
@@ -185,6 +185,11 @@ Are not supported for download all videos that:
 
 
 ## CHANGELOG
+
+     v4.8.3 - Dic 20 2015
+    -----------------------------------
+    [x] encrypted signature patch (13) (thanks gantt)
+    [x] better error handling if signature detection fails
 
      v4.8.2 - Nov 22 2015
     -----------------------------------
