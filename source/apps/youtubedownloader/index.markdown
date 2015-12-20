@@ -18,9 +18,9 @@ keywords: YouTube Downloader, Android, android app, app, free, ad-free, no ads, 
 
 `versionName="4.8.3"`
 
-MD5 checksum: `6e8a44bd384cbb80f26164da9065ed5b`
+MD5 checksum: `40ac67d20f3d08f609fb252ae427291a`
 
-SHA1 checksum: `9fbf679c2c4f8d9c879f4a46ea4bc8635c46426c`
+SHA1 checksum: `90301047d286303fbf3fea6dd484463375550c5e`
 
 Beta available: `true`
 
