@@ -4,7 +4,7 @@
   <title><![CDATA[Category: News | dentex's blog]]></title>
   <link href="http://dentex.github.io/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-12-20T11:33:24+01:00</updated>
+  <updated>2015-12-20T15:29:30+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v4.8.3 + v5.0 Beta 6]]></title>
+    <link href="http://dentex.github.io/blog/2015-12-20/ytd-v4-dot-8-3-plus-v5-dot-0-beta-6/"/>
+    <updated>2015-12-20T15:20:03+01:00</updated>
+    <id>http://dentex.github.io/blog/2015-12-20/ytd-v4-dot-8-3-plus-v5-dot-0-beta-6</id>
+    <content type="html"><![CDATA[<p>Two new versions for YouTube Downloader, <em>stable</em> and <em>beta</em>, are available due to a recent YouTube code change. Thanks again to <strong>gantt</strong> <a href="https://greasyfork.org/scripts/1317-download-youtube-videos-as-mp4">@Greasyfork</a> for the help.</p>
+
+<p>Changelogs:</p>
+
+<pre><code> v5.0 Beta 6 - Dic 20 2015
+-----------------------------------
+[x] [WIP]: multi-threaded downloads
+[x] [TO-DO]: global statistics in notification bar
+[x] [COMPLETED]: redundant "clear dashboard" button in action bar
+[x] [WIP]: dashboard sorting options
+
+ v4.8.3 - Dic 20 2015
+-----------------------------------
+[x] encrypted signature patch (13) (thanks gantt)
+[x] better error handling if signature detection fails
+</code></pre>
+
+<p><em>Note for the beta users</em>: due to the WIP state of this build, downloading FFmpeg and the audio part for videos requiring MUX will show an indeterminate progress (I was working on this stuff when I had to push these two patched versions).</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v4.8.2 + v5.0 Beta 5]]></title>
@@ -126,24 +152,6 @@ If you want to download and test it, remember to switch ON the preference activa
 <p><img src="/images/screenshots/YTD_5.0/mtd_pref.png" width="300" title="&lsquo;YouTube Downloader for Android &ndash; multi-threaded downloads preference&rsquo; &lsquo;set number of chunks&rsquo;" ></p>
 
 <p>Please let me know in the comments how it goes. Thanks!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.8.1]]></title>
-    <link href="http://dentex.github.io/blog/2015-11-10/ytd-v4-dot-8-1/"/>
-    <updated>2015-11-10T19:11:57+01:00</updated>
-    <id>http://dentex.github.io/blog/2015-11-10/ytd-v4-dot-8-1</id>
-    <content type="html"><![CDATA[<p>The new version for YTD, addressing the latest issue regarding encrypted signatures videos, is now available.</p>
-
-<p>CHANGELOG:</p>
-
-<pre><code>     v4.8.1 - Nov 10 2015
-    -----------------------------------
-    [x] encrypted signature patch (12) (thanks gantt)
-</code></pre>
-
-<p>Note: patch thanks to <strong>gantt</strong>! (If you&rsquo;re searching for a good Firefox/<a href="https://addons.mozilla.org/firefox/addon/greasemonkey/">Greasemonkey</a> script to download YouTube videos, look no further: <a href="https://greasyfork.org/scripts/1317-download-youtube-videos-as-mp4">Download YouTube Videos as MP4</a>).</p>
 ]]></content>
   </entry>
   

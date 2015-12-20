@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-12-20T11:33:24+01:00</updated>
+  <updated>2015-12-20T15:29:30+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,46 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v4.8.3 + v5.0 Beta 6]]></title>
+    <link href="http://dentex.github.io/blog/2015-12-20/ytd-v4-dot-8-3-plus-v5-dot-0-beta-6/"/>
+    <updated>2015-12-20T15:20:03+01:00</updated>
+    <id>http://dentex.github.io/blog/2015-12-20/ytd-v4-dot-8-3-plus-v5-dot-0-beta-6</id>
+    <content type="html"><![CDATA[<p>Two new versions for YouTube Downloader, <em>stable</em> and <em>beta</em>, are available due to a recent YouTube code change. Thanks again to <strong>gantt</strong> <a href="https://greasyfork.org/scripts/1317-download-youtube-videos-as-mp4">@Greasyfork</a> for the help.</p>
+
+<p>Changelogs:</p>
+
+<pre><code> v5.0 Beta 6 - Dic 20 2015
+-----------------------------------
+[x] [WIP]: multi-threaded downloads
+[x] [TO-DO]: global statistics in notification bar
+[x] [COMPLETED]: redundant "clear dashboard" button in action bar
+[x] [WIP]: dashboard sorting options
+
+ v4.8.3 - Dic 20 2015
+-----------------------------------
+[x] encrypted signature patch (13) (thanks gantt)
+[x] better error handling if signature detection fails
+</code></pre>
+
+<p><em>Note for the beta users</em>: due to the WIP state of this build, downloading FFmpeg and the audio part for videos requiring MUX will show an indeterminate progress (I was working on this stuff when I had to push these two patched versions).
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="http://dentex.github.io/blog/2015-12-20/ytd-v4-dot-8-3-plus-v5-dot-0-beta-6/">http://dentex.github.io/blog/2015-12-20/ytd-v4-dot-8-3-plus-v5-dot-0-beta-6/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v4.8.2 + v5.0 Beta 5]]></title>
@@ -735,48 +775,6 @@ Has been done really in a hurry, so keep finger-crossed and pray it will work.  
 
 
 <p>Original Link: <a href="http://dentex.github.io/blog/2015-01-28/ytd-v4-dot-4-1/">http://dentex.github.io/blog/2015-01-28/ytd-v4-dot-4-1/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.4]]></title>
-    <link href="http://dentex.github.io/blog/2015-01-03/ytd-v4-dot-4/"/>
-    <updated>2015-01-03T18:58:03+01:00</updated>
-    <id>http://dentex.github.io/blog/2015-01-03/ytd-v4-dot-4</id>
-    <content type="html"><![CDATA[<p>YouTube Downloader version 4.4 is finally available! Download it <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">from this blog</a>.</p>
-
-<p>Many new features has been tested in latest beta builds and now are available:</p>
-
-<pre><code> v4.4 - Jan 03 2015
------------------------------------
-[x] configurable downloads queue
-[x] option to invert dashboard's entries click menus
-[x] auto-resume downloads paused due to network failure
-[x] new FFmpeg build targeting non-NEON CPUs (i.e. Tegra devices)
-[x] ability to send logcat to the developer via email
-[x] added Croatian, Indonesian (WIP) and Norwegian (WIP) translations
-[x] fixed dashboard rename with existing filename (thanks m0d)
-[x] back-button going through all tabs now as optional
-[x] new FFmpeg builds supporting Android L
-[x] keep screen on if something is "in progress"
-</code></pre>
-
-<p>I postponed the addition of a couple of features (a &ldquo;de-queue now&rdquo; option for dashboard entries and a &ldquo;resume-all&rdquo; action into the dashboard&rsquo;s sliding menu), to be able to push this version sooner; I&rsquo;ll add them later on, in a future 4.4.1 version.</p>
-
-<p> <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="http://dentex.github.io/blog/2015-01-03/ytd-v4-dot-4/">http://dentex.github.io/blog/2015-01-03/ytd-v4-dot-4/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
