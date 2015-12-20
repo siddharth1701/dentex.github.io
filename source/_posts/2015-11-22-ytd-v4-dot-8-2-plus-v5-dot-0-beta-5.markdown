@@ -31,4 +31,4 @@ Both versions are available through the in-app update or via these links:
 
 [**v4.8.2**](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk)
 
-[**v5.0 beta 5**](http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-5.apk)
+[**v5.0 beta 5**] *[link removed - old beta]*.
