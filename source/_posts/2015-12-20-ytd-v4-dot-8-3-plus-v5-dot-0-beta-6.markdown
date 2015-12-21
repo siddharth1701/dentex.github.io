@@ -25,10 +25,7 @@ Changelogs:
     [x] encrypted signature patch (13) (thanks gantt)
     [x] better error handling if signature detection fails
 
-*Notes for the beta users*: 
-
-1. **[IMPORTANT]** Due a different data structure (for the moment) any dashboard data left from previous versions will be invalid into this latest beta. Just clear the dashboard data before or after installing this beta (it's the same). Use the dedicated function into preferences.
-2. Due to the WIP state of this build, downloading FFmpeg and the audio part for videos requiring MUX will show an indeterminate progress (I was working on this stuff when I had to push these two patched versions). 
+*Notes for the beta users*: due to the WIP state of this build, downloading FFmpeg and the audio part for videos requiring MUX will show an indeterminate progress (I was working on this stuff when I had to push these two patched versions). 
 
 Direct apk download links:
 
