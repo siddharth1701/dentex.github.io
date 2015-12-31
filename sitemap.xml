@@ -2,35 +2,35 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://dentex.github.io/blog/2013-04-26/YTD-v2.0-development/</loc>
-        <lastmod>2015-05-21T16:00:19+02:00</lastmod>
+        <lastmod>2015-12-31T19:37:06+01:00</lastmod>
     </url>
     <url>
         <loc>http://dentex.github.io/blog/2013-05-13/YTD-from-v2-0-to-v2-2/</loc>
-        <lastmod>2015-05-21T16:00:19+02:00</lastmod>
+        <lastmod>2015-12-31T19:37:06+01:00</lastmod>
     </url>
     <url>
         <loc>http://dentex.github.io/blog/2013-07-08/YTD-v3-development/</loc>
-        <lastmod>2015-05-21T16:00:19+02:00</lastmod>
+        <lastmod>2015-12-31T19:37:06+01:00</lastmod>
     </url>
     <url>
         <loc>http://dentex.github.io/blog/2013-10-11/YTD-v3/</loc>
-        <lastmod>2015-05-21T16:00:19+02:00</lastmod>
+        <lastmod>2015-12-31T19:37:06+01:00</lastmod>
     </url>
     <url>
         <loc>
             http://dentex.github.io/blog/2014-01-29/infographic-how-to-use-ytd-without-the-youtube-app/
         </loc>
-        <lastmod>2015-05-21T16:00:19+02:00</lastmod>
+        <lastmod>2015-12-31T19:37:06+01:00</lastmod>
     </url>
     <url>
         <loc>
             http://dentex.github.io/blog/2014-01-29/how-to-mux-combine-audio-and-video-with-ytd-dot-dot-dot/
         </loc>
-        <lastmod>2015-06-14T12:43:52+02:00</lastmod>
+        <lastmod>2015-12-31T19:37:06+01:00</lastmod>
     </url>
     <url>
         <loc>http://dentex.github.io/blog/2014-01-31/jekyll-slash-octopress-blog-switch/</loc>
-        <lastmod>2015-05-21T16:00:19+02:00</lastmod>
+        <lastmod>2015-12-31T19:37:06+01:00</lastmod>
     </url>
     <url>
         <loc>http://dentex.github.io/blog/2014-04-23/ytd-v4-dot-0-development/</loc>
@@ -78,7 +78,7 @@
     </url>
     <url>
         <loc>http://dentex.github.io/blog/2014-06-13/ytd-another-two-tutorials/</loc>
-        <lastmod>2015-05-21T16:00:19+02:00</lastmod>
+        <lastmod>2015-12-31T19:39:12+01:00</lastmod>
     </url>
     <url>
         <loc>http://dentex.github.io/blog/2014-06-15/ytd-v4-dot-3-beta-3/</loc>
@@ -126,13 +126,13 @@
     </url>
     <url>
         <loc>http://dentex.github.io/blog/2014-08-15/recensione-ytd-su-mavideoreview-ita/</loc>
-        <lastmod>2015-05-21T16:00:19+02:00</lastmod>
+        <lastmod>2015-12-31T19:39:12+01:00</lastmod>
     </url>
     <url>
         <loc>
             http://dentex.github.io/blog/2014-08-15/setting-downloads-destination-folder-in-ytd/
         </loc>
-        <lastmod>2015-06-12T10:25:06+02:00</lastmod>
+        <lastmod>2015-12-31T19:39:12+01:00</lastmod>
     </url>
     <url>
         <loc>http://dentex.github.io/blog/2014-11-16/new-ytd-v4-dot-3-3/</loc>
@@ -160,7 +160,7 @@
     </url>
     <url>
         <loc>http://dentex.github.io/blog/2015-05-07/latest-search-issues/</loc>
-        <lastmod>2015-05-31T19:58:05+02:00</lastmod>
+        <lastmod>2015-12-31T19:40:19+01:00</lastmod>
     </url>
     <url>
         <loc>http://dentex.github.io/blog/2015-05-21/ytd-v4-dot-5-beta-2/</loc>
@@ -204,7 +204,7 @@
     </url>
     <url>
         <loc>http://dentex.github.io/blog/2015-11-10/changes-in-youtube-code/</loc>
-        <lastmod>2015-11-22T15:10:25+01:00</lastmod>
+        <lastmod>2015-12-31T19:37:06+01:00</lastmod>
     </url>
     <url>
         <loc>http://dentex.github.io/blog/2015-11-10/ytd-v4-dot-8-1/</loc>
@@ -232,7 +232,7 @@
     </url>
     <url>
         <loc>http://dentex.github.io/blog/2015-12-31/ytd-video-review/</loc>
-        <lastmod>2015-12-31T19:24:47+01:00</lastmod>
+        <lastmod>2015-12-31T19:30:09+01:00</lastmod>
     </url>
     <url>
         <loc>http://dentex.github.io/apps/youtubedownloader/eula.html</loc>
@@ -256,7 +256,7 @@
     </url>
     <url>
         <loc>http://dentex.github.io/blog/archives/</loc>
-        <lastmod>2015-12-31T19:24:47+01:00</lastmod>
+        <lastmod>2015-12-31T19:40:19+01:00</lastmod>
     </url>
     <url>
         <loc>http://dentex.github.io/screenshots/</loc>
@@ -268,6 +268,6 @@
     </url>
     <url>
         <loc>http://dentex.github.io/</loc>
-        <lastmod>2015-12-31T19:24:47+01:00</lastmod>
+        <lastmod>2015-12-31T19:40:19+01:00</lastmod>
     </url>
 </urlset>

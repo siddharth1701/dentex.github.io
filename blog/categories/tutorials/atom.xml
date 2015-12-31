@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Tutorials, | dentex's blog]]></title>
+  <title><![CDATA[Category: Tutorials | dentex's blog]]></title>
   <link href="http://dentex.github.io/blog/categories/tutorials/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-12-31T19:27:10+01:00</updated>
+  <updated>2015-12-31T19:41:20+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -14,15 +14,125 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Recensione YTD Su MAVideoreview (ITA)]]></title>
-    <link href="http://dentex.github.io/blog/2014-08-15/recensione-ytd-su-mavideoreview-ita/"/>
-    <updated>2014-08-15T18:50:01+02:00</updated>
-    <id>http://dentex.github.io/blog/2014-08-15/recensione-ytd-su-mavideoreview-ita</id>
-    <content type="html"><![CDATA[<p><strong>[ITA]</strong>  <br/>
-Oggi vorrei inserire su questo blog un post scritto (anche) nella mia lingua madre, l'Italiano, per segnalare un'ottima video-recensione di <strong>YouTube Downloader</strong> (appunto, in Italiano) realizzata dal sito <strong>MAVideoreview</strong>. E' corredata di <a href="https://www.youtube.com/watch?v=W2nhZF6fROI">link al video su YouTube</a> e note esplicative sul blog, raggiungibile al link: <a href="http://www.mavideoreview.it/2014/08/youtube-downloader-for-android.html">http://www.mavideoreview.it/2014/08/youtube-downloader-for-android.html</a></p>
+    <title type="html"><![CDATA[Setting Downloads Destination Folder in YTD]]></title>
+    <link href="http://dentex.github.io/blog/2014-08-15/setting-downloads-destination-folder-in-ytd/"/>
+    <updated>2014-08-15T18:55:32+02:00</updated>
+    <id>http://dentex.github.io/blog/2014-08-15/setting-downloads-destination-folder-in-ytd</id>
+    <content type="html"><![CDATA[<p>Now that I implemented the <em>send log to developer</em> option, almost all logs were about one only issue: the notorious KitKat &ldquo;feature&rdquo; (&hellip;more a bug, actually) thanks to which an app can&rsquo;t be granted with the permission to <em>write</em> files on the external (removable) sdcard. This happens on a certain number of stock ROMs.</p>
 
-<p><strong>[ENG]</strong>  <br/>
-Today I wanted to make a blog post (also) in my first language, Italian, to report a really good <strong>YouTube Downloader</strong>&rsquo;s video-review (in Italian) available on the blog <strong>MAVideoreview</strong>. It&rsquo;s accompanied by a <a href="https://www.youtube.com/watch?v=W2nhZF6fROI">link to a YouTube video</a> and some explanatory notes on the blog. Go visit it at the link: <a href="http://www.mavideoreview.it/2014/08/youtube-downloader-for-android.html">http://www.mavideoreview.it/2014/08/youtube-downloader-for-android.html</a>  :)</p>
+<p>As of now (if you are affected by this bug), for YTD to work properly downloading your preferred videos, you need to choose your device&rsquo;s internal memory storage as downloads destination folder.</p>
+
+<p>Other possibilities are available:</p>
+
+<ul>
+<li>transfer files between your device&rsquo;s storages with your PC, while it&rsquo;s connected via USB;</li>
+<li>install a custom ROM (i.e. the great <a href="http://www.cyanogenmod.org/">Cyanogenmod</a> that has been patched and does not suffer from this issue);</li>
+<li>or if you already have <strong>root</strong> on your device, there are alternative ways as one via the <a href="http://forum.xda-developers.com/xposed">Xposed framework</a> and one of its modules.</li>
+</ul>
+
+
+<p>For your reference, a couple of links on this matter:</p>
+
+<ul>
+<li><a href="http://technofaq.org/posts/2014/04/fixing-external-sd-card-write-issue-on-android-kitkat/">technofaq.org</a>;</li>
+<li><a href="http://www.androidpolice.com/2014/02/17/external-blues-google-has-brought-big-changes-to-sd-cards-in-kitkat-and-even-samsung-may-be-implementing-them/">androidpolice.com</a>;</li>
+<li><a href="http://forum.xda-developers.com/xposed/modules/kitkat-sd-card-access-t2790992">XDA developers</a>.</li>
+</ul>
+
+
+<p><strong>Update:</strong>
+As <em>antekone</em> commented below, a workaround to continue using anyway the download destination on the removable sdcard, would be to choose the directory:</p>
+
+<pre><code>&lt;&lt;YourExternalSdCardBaseDir&gt;&gt;/Android/data/dentex.youtube.downloader/files/
+</code></pre>
+
+<p>&hellip;or to create there a subdirectory directly from the YTD&rsquo;s file manager (viewable when you open the custom download destination setting).  <br/>
+The only drawback would be that you will loose all of your downloads if you uninstall YTD. So, move your own files before uninstalling or &hellip;do not uninstall at all!  ;)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[YTD: Another Two Tutorials]]></title>
+    <link href="http://dentex.github.io/blog/2014-06-13/ytd-another-two-tutorials/"/>
+    <updated>2014-06-13T16:46:02+02:00</updated>
+    <id>http://dentex.github.io/blog/2014-06-13/ytd-another-two-tutorials</id>
+    <content type="html"><![CDATA[<p>While I was wandering through the maze of the Internet, again, I discovered another two nice reviews/tutorials about YouTube Downloader and how to use it.</p>
+
+<p>The first one is located on the Blog by Shivkumar Lohar, at <a href="http://www.stupidtechlife.com/download-format-video-using-youtube-downloader-android-smartphone/">THIS LINK</a>.</p>
+
+<p><img class="stupidtechlife" src="/images/tutorials/stupidtechlife.png" title="&lsquo;stupidtechlife page extract&rsquo; &lsquo;YouTube Downloader for Android tutorial &ndash; review on stupidtechlife.com&rsquo;" ></p>
+
+<p>Other than this, how could we not have an <a href="http://www.instructables.com/id/How-to-Download-YouTube-videos-on-android/">Instructables entry</a> also?</p>
+
+<p><a href="http://www.instructables.com"><img src="/images/others/instructables_logo.png" alt="instructables_logo" /></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[YTD Usage Tutorial]]></title>
+    <link href="http://dentex.github.io/blog/2014-05-27/ytd-usage-tutorial/"/>
+    <updated>2014-05-27T11:52:48+02:00</updated>
+    <id>http://dentex.github.io/blog/2014-05-27/ytd-usage-tutorial</id>
+    <content type="html"><![CDATA[<p>Yesterday I found a great tutorial about how to use YouTube Downloader, by Avram Piltch.  <br/>
+It&rsquo;s on the blog <strong>laptopmag.com</strong>, at <a href="http://blog.laptopmag.com/download-youtube-videos-android-phone">THIS LINK</a>.</p>
+
+<p><img class="laptopmag" src="/images/tutorials/laptopmag_tutorial.jpg" title="&lsquo;laptopmag page extract&rsquo; &lsquo;YouTube Downloader for Android review and tutorial&rsquo;" ></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How to 'Mux' (Combine Audio and Video) With YTD...]]></title>
+    <link href="http://dentex.github.io/blog/2014-01-29/how-to-mux-combine-audio-and-video-with-ytd-dot-dot-dot/"/>
+    <updated>2014-01-29T20:14:07+01:00</updated>
+    <id>http://dentex.github.io/blog/2014-01-29/how-to-mux-combine-audio-and-video-with-ytd-dot-dot-dot</id>
+    <content type="html"><![CDATA[<h2>&hellip;and have back 1080p or higher resolution.</h2>
+
+<p>To be able to enjoy the 1080p and higher YouTube video resolutions,
+I added the Dashboard/FFmpeg feature to <strong>MUX</strong> (merge) a video-only
+and an audio-only streams into a single complete video.</p>
+
+<p><em>A note:</em> screenshots are outdated; they are taken from the old interface. Usage it&rsquo;s are the same.</p>
+
+<p><strong>Downloads:</strong></p>
+
+<ul>
+<li>enable the <code>Get secondary streams</code> preference;</li>
+<li>go share a video to YTD;</li>
+<li>click to download the desired <strong>VO</strong> (Video Only) stream <em>AND</em> an <strong>AO</strong> (Audio Only) stream;</li>
+<li>choose compatible ones: mp4 + m4a OR webm + ogg)</li>
+</ul>
+
+
+<p><img src="/images/screenshots/how-to-mux/1.png" width="300" title="settings" ></p>
+
+<p><strong>After downloads completion:</strong></p>
+
+<ul>
+<li>click on the <strong>VO</strong> video into the Dashboard;</li>
+<li>select the <code>Add audio stream (already downloaded)</code> entry;</li>
+<li>follow instructions to download the latest FFmpeg build
+[if not already downloaded];</li>
+<li>click OK;</li>
+<li>wait for completion.</li>
+</ul>
+
+
+<p><img src="/images/screenshots/how-to-mux/2.png" width="300" title="&lsquo;YouTube Downloader for Android &ndash; FFmpeg mux operations&rsquo; &lsquo;select the VO stream&rsquo;" >
+<img src="/images/screenshots/how-to-mux/3.png" width="300" title="&lsquo;YouTube Downloader for Android &ndash; FFmpeg mux operations&rsquo; &lsquo;select entry&rsquo;" >
+<img src="/images/screenshots/how-to-mux/4.png" width="300" title="&lsquo;YouTube Downloader for Android &ndash; FFmpeg mux operations&rsquo; &lsquo;confirm&rsquo;" ></p>
+
+<p>A complete video should be avaiable to be opened from the Dashboard, tagged with <code>MUX</code>.</p>
+
+<p><img src="/images/screenshots/how-to-mux/5.png" width="300" title="mux entry available" ></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Infographic: How to Use YTD Without the YouTube App]]></title>
+    <link href="http://dentex.github.io/blog/2014-01-29/infographic-how-to-use-ytd-without-the-youtube-app/"/>
+    <updated>2014-01-29T20:10:41+01:00</updated>
+    <id>http://dentex.github.io/blog/2014-01-29/infographic-how-to-use-ytd-without-the-youtube-app</id>
+    <content type="html"><![CDATA[<p><img src="/images/tutorials/YTD_no-YouTube.png" title="&lsquo;YouTubwDownloader for Android &ndash; Infographic&rsquo; &lsquo;Infographic on how to use YTD without the YouTube app&rsquo;" ></p>
 ]]></content>
   </entry>
   
