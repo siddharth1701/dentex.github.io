@@ -3,7 +3,7 @@ layout: post
 title: "Setting downloads destination folder in YTD"
 date: 2014-08-15 18:55:32 +0200
 comments: true
-categories: Tutorials
+categories: [Tutorials]
 sharing: true
 footer: true
 description: "YouTube Downloader for Android - a free and ad-free app - usage tutorial - destination downloads folder"

@@ -3,7 +3,7 @@ layout: post
 title: "Jekyll/Octopress blog switch"
 date: 2014-01-31 10:50:12 +0100
 comments: true
-categories: [Octopress]
+categories: [News]
 description: "Importing the WordPress blog and switching to Octopress"
 keywords: "WordPress, blog, Octopress, Jekyll"
 ---

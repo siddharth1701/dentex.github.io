@@ -3,7 +3,7 @@ layout: post
 title: "How to 'mux' (combine audio and video) with YTD..."
 date: 2014-01-29 20:14:07 +0100
 comments: true
-categories: Tutorials
+categories: [Tutorials]
 description: "YouTube Downloader for Android - a free and ad-free app"
 keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader"
 ---

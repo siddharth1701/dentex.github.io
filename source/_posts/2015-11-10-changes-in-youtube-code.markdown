@@ -3,7 +3,7 @@ layout: post
 title: "Changes in YouTube code"
 date: 2015-11-10 17:42:49 +0100
 comments: true
-categories: [News]
+categories: [Bugs]
 sharing: true
 footer: true
 description: "YouTube Downloader for Android - a free and ad-free app - new version"

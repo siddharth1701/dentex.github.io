@@ -3,7 +3,7 @@ layout: post
 title: "Recensione YTD su MAVideoreview (ITA)"
 date: 2014-08-15 18:50:01 +0200
 comments: true
-categories: Tutorials, Italiano
+categories: [Reviews Italiano]
 sharing: true
 footer: true
 description: "YouTube Downloader for Android - a free and ad-free app - usage tutorial - review - Italian"

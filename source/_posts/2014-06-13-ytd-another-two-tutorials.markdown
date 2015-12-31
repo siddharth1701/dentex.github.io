@@ -3,7 +3,7 @@ layout: post
 title: "YTD: another two tutorials"
 date: 2014-06-13 16:46:02 +0200
 comments: true
-categories: Tutorials
+categories: [Tutorials]
 sharing: true
 footer: true
 description: "YouTube Downloader for Android - a free and ad-free app - usage tutorial - review"

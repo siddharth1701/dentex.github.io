@@ -3,7 +3,7 @@ layout: post
 title: "Latest search issues"
 date: 2015-05-07 15:12:14 +0200
 comments: true
-categories: [News]
+categories: [Bugs]
 sharing: true
 footer: true
 description: "YouTube Downloader for Android - a free and ad-free app - new version"

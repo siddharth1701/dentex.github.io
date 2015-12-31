@@ -3,7 +3,7 @@ layout: post
 title: "YTD video review"
 date: 2015-12-31 19:10:26 +0100
 comments: true
-categories: [News]
+categories: "Reviews"
 sharing: true
 footer: true
 description: "YouTube Downloader for Android - a free and ad-free app - new version"

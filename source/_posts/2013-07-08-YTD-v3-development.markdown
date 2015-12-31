@@ -3,7 +3,7 @@ layout: post
 title: YTD v3.0 development
 date: 2013-07-08 13:20:58 +0100
 comments: true
-categories: [WP-imported]
+categories: [News]
 description: "YouTube Downloader for Android - a free and ad-free app"
 keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader"
 ---
