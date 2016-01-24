@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2015-12-31T19:52:29+01:00</updated>
+  <updated>2016-01-24T19:22:31+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v4.8.4]]></title>
+    <link href="http://dentex.github.io/blog/2016-01-24/ytd-v4-dot-8-4/"/>
+    <updated>2016-01-24T18:45:27+01:00</updated>
+    <id>http://dentex.github.io/blog/2016-01-24/ytd-v4-dot-8-4</id>
+    <content type="html"><![CDATA[<p>Hello,  <br/>
+a user (thanks Eduardo!) spotted an awful bug: on Lollipop devices where you can&rsquo;t directly write on extSdCard, if you try to move a downloaded file from standard memory storage to this sdcard, the file will get lost. So I added a small fix.</p>
+
+<p>Changelog:</p>
+
+<pre><code> v4.8.4 - Jan 24 2016
+-----------------------------------
+[x] if device/ROM doesn't support direct writing to extSdCard, disable custom download location
+[x] support for file copy/move/rename/delete on extSdCard (Lollipop and above)
+</code></pre>
+
+<p> <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="http://dentex.github.io/blog/2016-01-24/ytd-v4-dot-8-4/">http://dentex.github.io/blog/2016-01-24/ytd-v4-dot-8-4/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD Video Review]]></title>
@@ -747,37 +780,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
 
 
 <p>Original Link: <a href="http://dentex.github.io/blog/2015-05-07/latest-search-issues/">http://dentex.github.io/blog/2015-05-07/latest-search-issues/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.4.2]]></title>
-    <link href="http://dentex.github.io/blog/2015-02-15/ytd-v4-dot-4-2/"/>
-    <updated>2015-02-15T12:31:42+01:00</updated>
-    <id>http://dentex.github.io/blog/2015-02-15/ytd-v4-dot-4-2</id>
-    <content type="html"><![CDATA[<p>This latest point version of YTD is aimed to fix a regression I accidentally introduced with version 4.4, that is was preventing the downloads count notification to be updated in real time; instead it was working only when entering the main app activity. Now has been fixed.</p>
-
-<pre><code> v4.4.2 - Feb 15 2015
------------------------------------
-[x] fix downloads count in notification
-[x] many languages updated
-</code></pre>
-
-<p><a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">Download link</a>.
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="http://dentex.github.io/blog/2015-02-15/ytd-v4-dot-4-2/">http://dentex.github.io/blog/2015-02-15/ytd-v4-dot-4-2/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>

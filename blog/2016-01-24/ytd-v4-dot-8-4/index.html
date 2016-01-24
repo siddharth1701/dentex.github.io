@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>YTD v4.7 - dentex's blog</title>
+  <title>YTD v4.8.4 - dentex's blog</title>
   <meta name="author" content="Samuele Rini">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://dentex.github.io/blog/2015-11-01/ytd-v4-dot-7">
+  <link rel="canonical" href="http://dentex.github.io/blog/2016-01-24/ytd-v4-dot-8-4">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="" rel="alternate" title="dentex's blog" type="application/atom+xml">
@@ -82,7 +82,7 @@
   
   <header>
     
-      <h1 class="entry-title">YTD v4.7</h1>
+      <h1 class="entry-title">YTD v4.8.4</h1>
     
     
       <p class="meta">
@@ -98,33 +98,25 @@
   
 
 
-<time datetime="2015-11-01T09:32:26+01:00" pubdate data-updated="true">Nov 1<span>st</span>, 2015</time>
+<time datetime="2016-01-24T18:45:27+01:00" pubdate data-updated="true">Jan 24<span>th</span>, 2016</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>Hello,
-a new build for YTD is available, moving all features tested into the latest beta into this stable version.</p>
+<div class="entry-content"><p>Hello,  <br/>
+a user (thanks Eduardo!) spotted an awful bug: on Lollipop devices where you can&rsquo;t directly write on extSdCard, if you try to move a downloaded file from standard memory storage to this sdcard, the file will get lost. So I added a small fix.</p>
 
-<p>CHANGELOG:</p>
+<p>Changelog:</p>
 
-<pre><code> v4.7 - Nov 1 2015
+<pre><code> v4.8.4 - Jan 24 2016
 -----------------------------------
-[x] new FFmpeg builds (from v2.8) extending support to 64bit CPUs
-[x] force FFmpeg's version check when the ROM has been updated
-[x] ask the permission to write on the sdcard (on M devices)
-[x] fixed filechooser checkbox issue for multiple selection
-[x] option to use wi-fi connection only
+[x] if device/ROM doesn't support direct writing to extSdCard, disable custom download location
+[x] support for file copy/move/rename/delete on extSdCard (Lollipop and above)
 </code></pre>
 
-<p>A lot of work has to be done, still. Probably development will slow down a bit due to many <em>real life/job</em> commitments, sorry.
-I really hope I&rsquo;ll soon be able to post an initial beta from the multi-thread development branch. This will speed-up downloads up to 4X. But unfortunately the feature is not stable nor completed.</p>
-
-<p>In the mean time, stay tuned, follow the XDA threads and, over anything else, I would like to thank everyone that is showing support through the PayPal donations.
-I really appreciate that.
- <p class='post-footer' style="font-size:70%;" ></p>
+<p> <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
 
@@ -135,7 +127,7 @@ I really appreciate that.
 <br/>
 
 
-<p>Original Link: <a href="/blog/2015-11-01/ytd-v4-dot-7/">http://dentex.github.io/blog/2015-11-01/ytd-v4-dot-7/</a><br/>
+<p>Original Link: <a href="/blog/2016-01-24/ytd-v4-dot-8-4/">http://dentex.github.io/blog/2016-01-24/ytd-v4-dot-8-4/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 </div>
@@ -160,7 +152,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
   
 
 
-<time datetime="2015-11-01T09:32:26+01:00" pubdate data-updated="true">Nov 1<span>st</span>, 2015</time>
+<time datetime="2016-01-24T18:45:27+01:00" pubdate data-updated="true">Jan 24<span>th</span>, 2016</time>
       
 
 <span class="categories">
@@ -174,7 +166,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://dentex.github.io/blog/2015-11-01/ytd-v4-dot-7/" data-via="twidentex" data-counturl="http://dentex.github.io/blog/2015-11-01/ytd-v4-dot-7/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://dentex.github.io/blog/2016-01-24/ytd-v4-dot-8-4/" data-via="twidentex" data-counturl="http://dentex.github.io/blog/2016-01-24/ytd-v4-dot-8-4/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -185,10 +177,8 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2015-10-18/ytd-v4-dot-7-beta-4/" title="Previous Post: YTD v4.7 Beta-4">&laquo; YTD v4.7 Beta-4</a>
+        <a class="basic-alignment left" href="/blog/2015-12-31/ytd-video-review/" title="Previous Post: YTD video review">&laquo; YTD video review</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2015-11-07/ytd-v4-dot-8/" title="Next Post: YTD v4.8">YTD v4.8 &raquo;</a>
       
     </p>
   </footer>
@@ -284,8 +274,8 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://dentex.github.io/blog/2015-11-01/ytd-v4-dot-7/';
-        var disqus_url = 'http://dentex.github.io/blog/2015-11-01/ytd-v4-dot-7/';
+        var disqus_identifier = 'http://dentex.github.io/blog/2016-01-24/ytd-v4-dot-8-4/';
+        var disqus_url = 'http://dentex.github.io/blog/2016-01-24/ytd-v4-dot-8-4/';
         var disqus_script = 'embed.js';
       
     (function () {

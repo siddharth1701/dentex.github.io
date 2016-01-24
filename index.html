@@ -9,7 +9,7 @@
   <meta name="author" content="Samuele Rini">
 
   
-  <meta name="description" content="Today I found a nice video review about YouTube Downloader on YouTube. Check it out! (video by AnDrOiD BrO) Original Link: http://dentex.github.io/ &hellip;">
+  <meta name="description" content="Hello, a user (thanks Eduardo!) spotted an awful bug: on Lollipop devices where you can&rsquo;t directly write on extSdCard, if you try to move a &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -79,6 +79,66 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2016-01-24/ytd-v4-dot-8-4/">YTD v4.8.4</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-01-24T18:45:27+01:00" pubdate data-updated="true">Jan 24<span>th</span>, 2016</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Hello,  <br/>
+a user (thanks Eduardo!) spotted an awful bug: on Lollipop devices where you can&rsquo;t directly write on extSdCard, if you try to move a downloaded file from standard memory storage to this sdcard, the file will get lost. So I added a small fix.</p>
+
+<p>Changelog:</p>
+
+<pre><code> v4.8.4 - Jan 24 2016
+-----------------------------------
+[x] if device/ROM doesn't support direct writing to extSdCard, disable custom download location
+[x] support for file copy/move/rename/delete on extSdCard (Lollipop and above)
+</code></pre>
+
+<p> <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="/blog/2016-01-24/ytd-v4-dot-8-4/">http://dentex.github.io/blog/2016-01-24/ytd-v4-dot-8-4/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -669,74 +729,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015-11-01/ytd-v4-dot-7/">YTD v4.7</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-11-01T09:32:26+01:00" pubdate data-updated="true">Nov 1<span>st</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Hello,
-a new build for YTD is available, moving all features tested into the latest beta into this stable version.</p>
-
-<p>CHANGELOG:</p>
-
-<pre><code> v4.7 - Nov 1 2015
------------------------------------
-[x] new FFmpeg builds (from v2.8) extending support to 64bit CPUs
-[x] force FFmpeg's version check when the ROM has been updated
-[x] ask the permission to write on the sdcard (on M devices)
-[x] fixed filechooser checkbox issue for multiple selection
-[x] option to use wi-fi connection only
-</code></pre>
-
-<p>A lot of work has to be done, still. Probably development will slow down a bit due to many <em>real life/job</em> commitments, sorry.
-I really hope I&rsquo;ll soon be able to post an initial beta from the multi-thread development branch. This will speed-up downloads up to 4X. But unfortunately the feature is not stable nor completed.</p>
-
-<p>In the mean time, stay tuned, follow the XDA threads and, over anything else, I would like to thank everyone that is showing support through the PayPal donations.
-I really appreciate that.
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="/blog/2015-11-01/ytd-v4-dot-7/">http://dentex.github.io/blog/2015-11-01/ytd-v4-dot-7/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -758,6 +750,10 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2016-01-24/ytd-v4-dot-8-4/">YTD v4.8.4</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015-12-31/ytd-video-review/">YTD Video Review</a>
       </li>
     
@@ -771,10 +767,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
     
       <li class="post">
         <a href="/blog/2015-11-20/ytd-v5-dot-0-beta-4/">YTD v5.0 Beta 4</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015-11-15/ytd-v5-dot-0-beta-3/">YTD v5.0 Beta 3</a>
       </li>
     
   </ul>
@@ -814,7 +806,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2015 - Samuele Rini -
+  Copyright &copy; 2016 - Samuele Rini -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
