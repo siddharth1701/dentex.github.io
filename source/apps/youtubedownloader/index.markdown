@@ -47,6 +47,7 @@ then:
 - Press an item to download the video locally (on the device) or to send the download via SSH to a remote PC. Destination machine requirements: Bash and Wget. Other SSH info available;
 - Long-press an item and choose between copy to clipboard or share link as text. Note: such a link (differently from when you send it via SSH) can be only used from the same device where it has been created OR from the same LAN, if you share it to another PC.
 - Use the Dashboard to interact with downloaded video (audio extraction/conversion/mux and file management).
+- On Lolipop or above, you can copy/move/rename/delete files on external sdcard.
 
 ##FEATURES
 - Search for YouTube videos within the app
@@ -63,8 +64,7 @@ then:
 
 ###KNOWN ISSUES
 - Some very long running downloads may be forced to PAUSE state if the app is not kept to the front for a certain amount of time. In this cases a manual resume is needed.
-- On KitKat may be not possible to use the external (removable) sdcard as download destination folder. In this case you must use the standard memory storage (for sake of simplicity, use one of the destinations below the setting *choose standard folder*, being "Downloads", "DCIM" or "Movies");
-- On Lolipop or above, you can copy/move/rename/delete files on external sdcard.
+- On KitKat and above may be not possible to use the external (removable) sdcard as download destination folder. In this case you must use the standard memory storage (for sake of simplicity, use one of the destinations below the setting *choose standard folder*, being "Downloads", "DCIM" or "Movies");
 
 ##ANTI-FEATURES
 Are not supported for download all videos that:
