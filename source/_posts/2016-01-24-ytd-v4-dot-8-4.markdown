@@ -1,0 +1,20 @@
+---
+layout: post
+title: "YTD v4.8.4"
+date: 2016-01-24 18:45:27 +0100
+comments: true
+categories: [News]
+sharing: true
+footer: true
+description: "YouTube Downloader for Android - a free and ad-free app - new version"
+keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, XDA, XDA_dentex, twidentex, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, 480p, HD, 4K, 3gp, webm, mp4, m4a, ogg, flv, opus, 360°, 3D"
+---
+Hello,    
+a user (thanks Eduardo!) spotted an awful bug: on Lollipop devices where you can't directly write on extSdCard, if you try to move a downloaded file from standard memory storage to this sdcard, the file will get lost. So I added a small fix.
+
+Changelog:
+
+     v4.8.4 - Jan 24 2016
+    -----------------------------------
+    [x] if device/ROM doesn't support direct writing to extSdCard, disable custom download location
+    [x] support for file copy/move/rename/delete on extSdCard (Lollipop and above)

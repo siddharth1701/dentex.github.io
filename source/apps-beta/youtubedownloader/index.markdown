@@ -9,18 +9,11 @@ description: Free and ad-free Android app, Beta version
 keywords: YTD, Beta, android app, app, free, ad-free, no ads, dentex, video, audio, YouTube, downloader, media, conversion, extraction, management
 ---
 
-## YTD v5.0-beta-6
+## YTD v...
 
-`versionName="4.8.3.6_v5.0-beta-6"`
+`versionName=""`
 
-SHA1 checksum: `966a45d3382f3986af138e0b88b9f6478e57d39c`
+SHA1 checksum: ``
 
-Changelog:
+Changelog: ...
 
-     v5.0 Beta 5 - Nov 22 2015
-    -----------------------------------
-    [x] [WIP]: multi-threaded downloads
-    [x] [TO-DO]: global statistics in notification bar
-    [x] [COMPLETED]: redundant "clear dashboard" button in action bar
-    [x] [TEMP]: fix for showed total file size in Dashboard (thanks  KreNtal @XDA)
-    [x] [WIP]: dashboard sorting options

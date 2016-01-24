@@ -14,18 +14,18 @@ keywords: YouTube Downloader, Android, android app, app, free, ad-free, no ads, 
 
 [![YTD](/images/apps/ytd.png)](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk)
 
-`versionCode="103"`
+`versionCode="104"`
 
-`versionName="4.8.3"`
+`versionName="4.8.4"`
 
-MD5 checksum: `40ac67d20f3d08f609fb252ae427291a`
+MD5 checksum: `51121f5ebad5bdb90cb42eb7f9b8a8d1`
 
-SHA1 checksum: `90301047d286303fbf3fea6dd484463375550c5e`
+SHA1 checksum: `2ae8a7a81e8696edba4207c133c9614ea6989687`
 
-Beta available: `true`
+Beta available: `false`
 
 ## **YouTube Downloader for Android**
-## **Copyright (C) 2012-2015 Samuele Rini**
+## **Copyright (C) 2012-2016 Samuele Rini**
 
 ##[End User License Agreement](/apps/youtubedownloader/eula.html)
 
@@ -63,7 +63,8 @@ then:
 
 ###KNOWN ISSUES
 - Some very long running downloads may be forced to PAUSE state if the app is not kept to the front for a certain amount of time. In this cases a manual resume is needed.
-- On KitKat may be not possible to use the external (removable) sdcard as download destination folder. In this case you must use the standard memory storage (for sake of simplicity, use on of the destinations below the setting *choose standard folder*, being "Downloads", "DCIM" or "Movies").
+- On KitKat may be not possible to use the external (removable) sdcard as download destination folder. In this case you must use the standard memory storage (for sake of simplicity, use one of the destinations below the setting *choose standard folder*, being "Downloads", "DCIM" or "Movies");
+- On Lolipop or above, you can copy/move/rename/delete files on external sdcard.
 
 ##ANTI-FEATURES
 Are not supported for download all videos that:
@@ -185,6 +186,11 @@ Are not supported for download all videos that:
 
 
 ## CHANGELOG
+
+     v4.8.4 - Jan 24 2016
+    -----------------------------------
+    [x] if device/ROM doesn't support direct writing to extSdCard, disable custom download location
+    [x] support for file copy/move/rename/delete on extSdCard (Lollipop and above)
 
      v4.8.3 - Dic 20 2015
     -----------------------------------
