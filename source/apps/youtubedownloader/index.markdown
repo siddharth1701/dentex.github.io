@@ -16,13 +16,13 @@ keywords: YouTube Downloader, Android, android app, app, free, ad-free, no ads, 
 
 [![download button](/images/others/download_button.png)](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk)
 
-`versionCode="104"`
+`versionCode="105"`
 
-`versionName="4.8.4"`
+`versionName="4.8.5"`
 
-MD5 checksum: `51121f5ebad5bdb90cb42eb7f9b8a8d1`
+MD5 checksum: `cda671feb2a7952b378c866bcc247eab`
 
-SHA1 checksum: `2ae8a7a81e8696edba4207c133c9614ea6989687`
+SHA1 checksum: `92aafbaf4b5021143146918134fac73f8b8b4d13`
 
 Beta available: `false`
 
@@ -188,6 +188,10 @@ Are not supported for download all videos that:
 
 
 ## CHANGELOG
+
+     v4.8.5 - Jan 26 2016
+    -----------------------------------
+    [x] fix for moving files to extSdCard
 
      v4.8.4 - Jan 24 2016
     -----------------------------------
