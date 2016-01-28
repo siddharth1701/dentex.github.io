@@ -16,4 +16,4 @@ This latest point version of YTD is aimed to fix a regression I accidentally int
     [x] fix downloads count in notification
     [x] many languages updated
 
-[Download link](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk).
+[Download link](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk) *[note: this link will always point to the latest stable version available]*

@@ -1,0 +1,14 @@
+---
+layout: post
+title: "YTD v4.8.6"
+date: 2016-01-28 14:22:41 +0100
+sharing: true
+footer: true
+description: "YouTube Downloader for Android - a free and ad-free app - new version"
+keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, XDA, XDA_dentex, twidentex, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, 480p, HD, 4K, 3gp, webm, mp4, m4a, ogg, flv, opus, 360°, 3D"
+---
+Again, a fix is available in regards to the custom download location file-chooser. Now will be available also in Android below Kitkat and if the device has not a removable sdcard at all.
+
+     v4.8.6 - Jan 28 2016
+    -----------------------------------
+    [x] fix for the custom download location file-chooser

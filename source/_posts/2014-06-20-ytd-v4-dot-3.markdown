@@ -9,7 +9,7 @@ footer: true
 description: "YouTube Downloader for Android - a free and ad-free app - new version"
 keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader, ffmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, HD, 3gp, webm, mp4, m4a, ogg, flv"
 ---
-YouTube Downloader version 4.3 is available [from this blog](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk); 
+YouTube Downloader version 4.3 is available [from this blog](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk) *[note: this link will always point to the latest stable version available]*;
 External stores have been also updated.
 
 This version contains a lot of new features and improvements. Among others, downloading certain videos (i.e. from the Vevo channel) now works again.

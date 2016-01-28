@@ -27,6 +27,6 @@ This is the changelog:
     [x] many small bugs fixed (themes, languages selection, etc.)
     [x] added support for Opus audio-only formats and a few others
 
-Upgrade through the app's settings or download the latest apk directly via [THIS link](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk).
+Upgrade through the app's settings or download the latest apk directly via [THIS link](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk) *[note: this link will always point to the latest stable version available]*.
 
 Please let me know in the comments below if something is missing or not working (apart from the well known bug regarding the app being closed by Android system if stays too much in background).  ;)

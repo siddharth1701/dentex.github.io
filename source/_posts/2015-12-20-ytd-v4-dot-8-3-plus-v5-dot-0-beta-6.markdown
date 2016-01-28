@@ -27,8 +27,8 @@ Changelogs:
 
 Direct apk download links:
 
-[**v4.8.3**](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk)
+[**v4.8.3**](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk) *[note: this link will always point to the latest stable version available]*
 
-[**v5.0 beta 6**](http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-6.apk)
+[**v5.0 beta 6**] *[link removed - old beta]*
 
 *Note for the beta users*: due to the WIP state of this build, downloading FFmpeg and the audio part for videos requiring MUX will show an indeterminate progress (I was working on this stuff when I had to push these two patched versions). 

@@ -16,13 +16,13 @@ keywords: YouTube Downloader, Android, android app, app, free, ad-free, no ads, 
 
 [![download button](/images/others/download_button.png)](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk)
 
-`versionCode="105"`
+`versionCode="106"`
 
-`versionName="4.8.5"`
+`versionName="4.8.6"`
 
-MD5 checksum: `cda671feb2a7952b378c866bcc247eab`
+MD5 checksum: `92b655ff08bb4377781b22909d82ffc9`
 
-SHA1 checksum: `92aafbaf4b5021143146918134fac73f8b8b4d13`
+SHA1 checksum: `e347fb75bfdcb6c16abc1994589cab4721649b05`
 
 Beta available: `false`
 
@@ -189,6 +189,10 @@ Are not supported for download all videos that:
 
 ## CHANGELOG
 
+     v4.8.6 - Jan 28 2016
+    -----------------------------------
+    [x] fix for the custom download location file-chooser
+
      v4.8.5 - Jan 26 2016
     -----------------------------------
     [x] fix for moving files to extSdCard
@@ -223,7 +227,7 @@ Are not supported for download all videos that:
     [x] new FFmpeg builds (from v2.8) extending support to 64bit CPUs
     [x] force FFmpeg's version check when the ROM has been updated
     [x] ask the permission to write on the sdcard (on M devices)
-    [x] fixed filechooser checkbox issue for multiple selection
+    [x] fixed file-chooser checkbox issue for multiple selection
     [x] option to use wi-fi connection only
 
      v4.6 - Sep 24 2015

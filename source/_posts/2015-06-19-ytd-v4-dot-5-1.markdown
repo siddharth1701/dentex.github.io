@@ -21,4 +21,4 @@ Changelog:
     [x] support JuiceSSH to send remote downloads
     [x] proper check to manually mux only .mp4 with .m4a and .webm with .ogg streams
 
-Direct [APK link](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk).
+Direct [APK link](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk) *[note: this link will always point to the latest stable version available]*

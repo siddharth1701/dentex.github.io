@@ -17,4 +17,4 @@ Has been done really in a hurry, so keep finger-crossed and pray it will work.  
     [x] YouTube site change hotfix
     [x] FFmpeg binary update fix
 
-[Download link](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk).
+[Download link](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk) *[note: this link will always point to the latest stable version available]*
