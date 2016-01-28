@@ -4,7 +4,7 @@
   <title><![CDATA[Category: News | dentex's blog]]></title>
   <link href="http://dentex.github.io/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2016-01-26T11:35:36+01:00</updated>
+  <updated>2016-01-28T14:37:54+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -69,9 +69,9 @@ a user (thanks Eduardo!) spotted an awful bug: on Lollipop devices where you can
 
 <p>Direct apk download links:</p>
 
-<p><a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk"><strong>v4.8.3</strong></a></p>
+<p><a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk"><strong>v4.8.3</strong></a> <em>[note: this link will always point to the latest stable version available]</em></p>
 
-<p><a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-6.apk"><strong>v5.0 beta 6</strong></a></p>
+<p>[<strong>v5.0 beta 6</strong>] <em>[link removed &ndash; old beta]</em></p>
 
 <p><em>Note for the beta users</em>: due to the WIP state of this build, downloading FFmpeg and the audio part for videos requiring MUX will show an indeterminate progress (I was working on this stuff when I had to push these two patched versions).</p>
 ]]></content>
@@ -103,9 +103,9 @@ Although a bit slowly, I think we&rsquo;ll come up with a better app.</p>
 
 <p>Both versions are available through the in-app update or via these links:</p>
 
-<p><a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk"><strong>v4.8.2</strong></a></p>
+<p><a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk"><strong>v4.8.2</strong></a> <em>[note: this link will always point to the latest stable version available]</em></p>
 
-<p>[<strong>v5.0 beta 5</strong>] <em>[link removed &ndash; old beta]</em>.</p>
+<p>[<strong>v5.0 beta 5</strong>] <em>[link removed &ndash; old beta]</em></p>
 ]]></content>
   </entry>
   

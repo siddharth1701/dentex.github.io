@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2016-01-26T11:35:36+01:00</updated>
+  <updated>2016-01-28T14:37:54+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,35 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v4.8.6]]></title>
+    <link href="http://dentex.github.io/blog/2016-01-28/ytd-v4-dot-8-6/"/>
+    <updated>2016-01-28T14:22:41+01:00</updated>
+    <id>http://dentex.github.io/blog/2016-01-28/ytd-v4-dot-8-6</id>
+    <content type="html"><![CDATA[<p>Again, a fix is available in regards to the custom download location file-chooser. Now will be available also in Android below Kitkat and if the device has not a removable sdcard at all.</p>
+
+<pre><code> v4.8.6 - Jan 28 2016
+-----------------------------------
+[x] fix for the custom download location file-chooser
+</code></pre>
+
+<p> <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="http://dentex.github.io/blog/2016-01-28/ytd-v4-dot-8-6/">http://dentex.github.io/blog/2016-01-28/ytd-v4-dot-8-6/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v4.8.5]]></title>
@@ -128,9 +157,9 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
 
 <p>Direct apk download links:</p>
 
-<p><a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk"><strong>v4.8.3</strong></a></p>
+<p><a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk"><strong>v4.8.3</strong></a> <em>[note: this link will always point to the latest stable version available]</em></p>
 
-<p><a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-6.apk"><strong>v5.0 beta 6</strong></a></p>
+<p>[<strong>v5.0 beta 6</strong>] <em>[link removed &ndash; old beta]</em></p>
 
 <p><em>Note for the beta users</em>: due to the WIP state of this build, downloading FFmpeg and the audio part for videos requiring MUX will show an indeterminate progress (I was working on this stuff when I had to push these two patched versions).
  <p class='post-footer' style="font-size:70%;" ></p>
@@ -176,9 +205,9 @@ Although a bit slowly, I think we&rsquo;ll come up with a better app.</p>
 
 <p>Both versions are available through the in-app update or via these links:</p>
 
-<p><a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk"><strong>v4.8.2</strong></a></p>
+<p><a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk"><strong>v4.8.2</strong></a> <em>[note: this link will always point to the latest stable version available]</em></p>
 
-<p>[<strong>v5.0 beta 5</strong>] <em>[link removed &ndash; old beta]</em>.
+<p>[<strong>v5.0 beta 5</strong>] <em>[link removed &ndash; old beta]</em>
  <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
@@ -636,7 +665,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
 [x] proper check to manually mux only .mp4 with .m4a and .webm with .ogg streams
 </code></pre>
 
-<p>Direct <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">APK link</a>.
+<p>Direct <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">APK link</a> <em>[note: this link will always point to the latest stable version available]</em>
  <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
@@ -678,7 +707,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
 [x] added support for Opus audio-only formats and a few others
 </code></pre>
 
-<p>Upgrade through the app&rsquo;s settings or download the latest apk directly via <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">THIS link</a>.</p>
+<p>Upgrade through the app&rsquo;s settings or download the latest apk directly via <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">THIS link</a> <em>[note: this link will always point to the latest stable version available]</em>.</p>
 
 <p>Please let me know in the comments below if something is missing or not working (apart from the well known bug regarding the app being closed by Android system if stays too much in background).  ;)
  <p class='post-footer' style="font-size:70%;" ></p>
@@ -737,46 +766,6 @@ Search-results sorting logic adapted to reflect this change.
 
 
 <p>Original Link: <a href="http://dentex.github.io/blog/2015-05-31/ytd-v4-dot-5-beta-3/">http://dentex.github.io/blog/2015-05-31/ytd-v4-dot-5-beta-3/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.5 Beta-2]]></title>
-    <link href="http://dentex.github.io/blog/2015-05-21/ytd-v4-dot-5-beta-2/"/>
-    <updated>2015-05-21T18:18:58+02:00</updated>
-    <id>http://dentex.github.io/blog/2015-05-21/ytd-v4-dot-5-beta-2</id>
-    <content type="html"><![CDATA[<p>In regards to the <a href="http://dentex.github.io/blog/2015-05-07/latest-search-issues/">Latest Search Issues</a>, a new fixed version is almost done; in the meantime, there was a beta version to test the new search feature available only over the XDA forum&rsquo;s beta thread: <a href="http://forum.xda-developers.com/showthread.php?t=2335450">http://forum.xda-developers.com/showthread.php?t=2335450</a></p>
-
-<p>Now I&rsquo;m releasing a second BETA and it&rsquo;s available through the app&rsquo;s settings (update section).</p>
-
-<p>If you want to download and test it, remember to switch <strong>ON</strong> the <a href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/">preference activating beta updates</a>, otherwise it will not be visible and downloadable.</p>
-
-<p>This is the latest changelog:</p>
-
-<pre><code> v4.5 Beta-2 - May 21 2015
------------------------------------
-[x] new and working integrated search (with filters menu)
-[x] Bulgarian and Romanian translations (as WIP), many other updated
-[x] do not try to download purchasable videos
-[x] wrap extracted aac audio-only into an m4a container
-[x] many libraries updated (OkHttp added)
-[x] better error handling during update check
-</code></pre>
-
-<p> <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="http://dentex.github.io/blog/2015-05-21/ytd-v4-dot-5-beta-2/">http://dentex.github.io/blog/2015-05-21/ytd-v4-dot-5-beta-2/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>

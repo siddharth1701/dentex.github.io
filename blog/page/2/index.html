@@ -9,7 +9,7 @@
   <meta name="author" content="Samuele Rini">
 
   
-  <meta name="description" content="With this new version, I&rsquo;m limiting the access to the external (removable) sdcard in devices where it&rsquo;s not directly writable (but would &hellip;">
+  <meta name="description" content="Hello guys, recently YouTube changed again the code for videos with encrypted signature, so a fix is needed (just for this kind of videos, not for &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -79,6 +79,66 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015-11-10/changes-in-youtube-code/">Changes in YouTube Code</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-11-10T17:42:49+01:00" pubdate data-updated="true">Nov 10<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Hello guys,  <br/>
+recently YouTube changed again the code for videos with encrypted signature, so a fix is needed (just for this kind of videos, not for all) for YTD to work properly again.</p>
+
+<p>When the video you&rsquo;re trying to download is affected, all formats appear with a size of <strong>0 B</strong>. Then every format will fail to download.</p>
+
+<p>I&rsquo;m aware of the problem, so please avoid sending logcats in regards, but standby for a patch.  <br/>
+I&rsquo;ll do it ASAP.</p>
+
+<p>Thanks.</p>
+
+<p><strong>EDIT</strong>: fix found, see next blog post!
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="/blog/2015-11-10/changes-in-youtube-code/">http://dentex.github.io/blog/2015-11-10/changes-in-youtube-code/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -514,7 +574,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
 [x] proper check to manually mux only .mp4 with .m4a and .webm with .ogg streams
 </code></pre>
 
-<p>Direct <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">APK link</a>.
+<p>Direct <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">APK link</a> <em>[note: this link will always point to the latest stable version available]</em>
  <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
@@ -583,7 +643,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
 [x] added support for Opus audio-only formats and a few others
 </code></pre>
 
-<p>Upgrade through the app&rsquo;s settings or download the latest apk directly via <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">THIS link</a>.</p>
+<p>Upgrade through the app&rsquo;s settings or download the latest apk directly via <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">THIS link</a> <em>[note: this link will always point to the latest stable version available]</em>.</p>
 
 <p>Please let me know in the comments below if something is missing or not working (apart from the well known bug regarding the app being closed by Android system if stays too much in background).  ;)
  <p class='post-footer' style="font-size:70%;" ></p>
@@ -678,73 +738,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015-05-21/ytd-v4-dot-5-beta-2/">YTD v4.5 Beta-2</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-05-21T18:18:58+02:00" pubdate data-updated="true">May 21<span>st</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>In regards to the <a href="http://dentex.github.io/blog/2015-05-07/latest-search-issues/">Latest Search Issues</a>, a new fixed version is almost done; in the meantime, there was a beta version to test the new search feature available only over the XDA forum&rsquo;s beta thread: <a href="http://forum.xda-developers.com/showthread.php?t=2335450">http://forum.xda-developers.com/showthread.php?t=2335450</a></p>
-
-<p>Now I&rsquo;m releasing a second BETA and it&rsquo;s available through the app&rsquo;s settings (update section).</p>
-
-<p>If you want to download and test it, remember to switch <strong>ON</strong> the <a href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/">preference activating beta updates</a>, otherwise it will not be visible and downloadable.</p>
-
-<p>This is the latest changelog:</p>
-
-<pre><code> v4.5 Beta-2 - May 21 2015
------------------------------------
-[x] new and working integrated search (with filters menu)
-[x] Bulgarian and Romanian translations (as WIP), many other updated
-[x] do not try to download purchasable videos
-[x] wrap extracted aac audio-only into an m4a container
-[x] many libraries updated (OkHttp added)
-[x] better error handling during update check
-</code></pre>
-
-<p> <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="/blog/2015-05-21/ytd-v4-dot-5-beta-2/">http://dentex.github.io/blog/2015-05-21/ytd-v4-dot-5-beta-2/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/3/">&larr; Older</a>
@@ -768,6 +761,10 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2016-01-28/ytd-v4-dot-8-6/">YTD v4.8.6</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2016-01-26/ytd-v4-dot-8-5/">YTD v4.8.5</a>
       </li>
     
@@ -781,10 +778,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
     
       <li class="post">
         <a href="/blog/2015-12-20/ytd-v4-dot-8-3-plus-v5-dot-0-beta-6/">YTD v4.8.3 + v5.0 Beta 6</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015-11-22/ytd-v4-dot-8-2-plus-v5-dot-0-beta-5/">YTD v4.8.2 + v5.0 Beta 5</a>
       </li>
     
   </ul>

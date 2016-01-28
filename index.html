@@ -9,9 +9,7 @@
   <meta name="author" content="Samuele Rini">
 
   
-  <meta name="description" content="A new version of YouTube Downloader is available with a small fix: v4.8.5 - Jan 26 2016
------------------------------------
-[x] fix for moving files &hellip;">
+  <meta name="description" content="Again, a fix is available in regards to the custom download location file-chooser. Now will be available also in Android below Kitkat and if the &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -81,6 +79,62 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2016-01-28/ytd-v4-dot-8-6/">YTD v4.8.6</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-01-28T14:22:41+01:00" pubdate data-updated="true">Jan 28<span>th</span>, 2016</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Again, a fix is available in regards to the custom download location file-chooser. Now will be available also in Android below Kitkat and if the device has not a removable sdcard at all.</p>
+
+<pre><code> v4.8.6 - Jan 28 2016
+-----------------------------------
+[x] fix for the custom download location file-chooser
+</code></pre>
+
+<p> <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="/blog/2016-01-28/ytd-v4-dot-8-6/">http://dentex.github.io/blog/2016-01-28/ytd-v4-dot-8-6/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -301,9 +355,9 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
 
 <p>Direct apk download links:</p>
 
-<p><a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk"><strong>v4.8.3</strong></a></p>
+<p><a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk"><strong>v4.8.3</strong></a> <em>[note: this link will always point to the latest stable version available]</em></p>
 
-<p><a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-6.apk"><strong>v5.0 beta 6</strong></a></p>
+<p>[<strong>v5.0 beta 6</strong>] <em>[link removed &ndash; old beta]</em></p>
 
 <p><em>Note for the beta users</em>: due to the WIP state of this build, downloading FFmpeg and the audio part for videos requiring MUX will show an indeterminate progress (I was working on this stuff when I had to push these two patched versions).
  <p class='post-footer' style="font-size:70%;" ></p>
@@ -376,9 +430,9 @@ Although a bit slowly, I think we&rsquo;ll come up with a better app.</p>
 
 <p>Both versions are available through the in-app update or via these links:</p>
 
-<p><a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk"><strong>v4.8.2</strong></a></p>
+<p><a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk"><strong>v4.8.2</strong></a> <em>[note: this link will always point to the latest stable version available]</em></p>
 
-<p>[<strong>v5.0 beta 5</strong>] <em>[link removed &ndash; old beta]</em>.
+<p>[<strong>v5.0 beta 5</strong>] <em>[link removed &ndash; old beta]</em>
  <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
@@ -666,66 +720,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015-11-10/changes-in-youtube-code/">Changes in YouTube Code</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-11-10T17:42:49+01:00" pubdate data-updated="true">Nov 10<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Hello guys,  <br/>
-recently YouTube changed again the code for videos with encrypted signature, so a fix is needed (just for this kind of videos, not for all) for YTD to work properly again.</p>
-
-<p>When the video you&rsquo;re trying to download is affected, all formats appear with a size of <strong>0 B</strong>. Then every format will fail to download.</p>
-
-<p>I&rsquo;m aware of the problem, so please avoid sending logcats in regards, but standby for a patch.  <br/>
-I&rsquo;ll do it ASAP.</p>
-
-<p>Thanks.</p>
-
-<p><strong>EDIT</strong>: fix found, see next blog post!
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="/blog/2015-11-10/changes-in-youtube-code/">http://dentex.github.io/blog/2015-11-10/changes-in-youtube-code/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -747,6 +741,10 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2016-01-28/ytd-v4-dot-8-6/">YTD v4.8.6</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2016-01-26/ytd-v4-dot-8-5/">YTD v4.8.5</a>
       </li>
     
@@ -760,10 +758,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
     
       <li class="post">
         <a href="/blog/2015-12-20/ytd-v4-dot-8-3-plus-v5-dot-0-beta-6/">YTD v4.8.3 + v5.0 Beta 6</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015-11-22/ytd-v4-dot-8-2-plus-v5-dot-0-beta-5/">YTD v4.8.2 + v5.0 Beta 5</a>
       </li>
     
   </ul>
