@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>YTD v4.4 Beta - dentex's blog</title>
+  <title>YTD v5.0 Beta 7 - dentex's blog</title>
   <meta name="author" content="Samuele Rini">
 
   
-  <meta name="description" content="YouTube Downloader for Android - a free and ad-free app - new beta available">
-  <meta name="keywords" content="YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader">
+  <meta name="description" content="YouTube Downloader for Android - a free and ad-free app - new version">
+  <meta name="keywords" content="YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, XDA, XDA_dentex, twidentex, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, 480p, HD, 4K, 3gp, webm, mp4, m4a, ogg, flv, opus, 360°, 3D">
 
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://dentex.github.io/blog/2014-06-26/ytd-v4-dot-4-beta">
+  <link rel="canonical" href="http://dentex.github.io/blog/2016-02-26/ytd-v5-dot-0-beta-7">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="" rel="alternate" title="dentex's blog" type="application/atom+xml">
@@ -82,7 +82,7 @@
   
   <header>
     
-      <h1 class="entry-title">YTD v4.4 Beta</h1>
+      <h1 class="entry-title">YTD v5.0 Beta 7</h1>
     
     
       <p class="meta">
@@ -98,41 +98,35 @@
   
 
 
-<time datetime="2014-06-26T16:48:38+02:00" pubdate data-updated="true">Jun 26<span>th</span>, 2014</time>
+<time datetime="2016-02-26T11:44:02+01:00" pubdate data-updated="true">Feb 26<span>th</span>, 2016</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>I have a new beta for YTD with a couple of new features that I played with today.</p>
+<div class="entry-content"><p>Hello! This is a new beta to let you test again the multi-threaded download feature (plus some minor/hidden fixes)</p>
 
-<pre><code>[x] configurable downloads queue
-preliminary to the playlist download, "Oorah!"
+<p><strong>Notes/known issues:</strong></p>
 
-[x] option to invert dashboard's entries click menus
-simple stuff: this will invert the behavior of single-click 
-menu and long-press menu on dashboard items
+<ul>
+<li>for this beta, dashboard sorting will be always &ldquo;by size&rdquo;</li>
+<li>FFmpeg operations don&rsquo;t show progress</li>
+<li>in some circumstances, dashboard may seem unresponsive (probably when something is <em>in queue</em> and/or other things <em>in progress</em>)</li>
+</ul>
+
+
+<p>Changelog:</p>
+
+<pre><code> v5.0 Beta 7 - Feb 26 2016
+-----------------------------------
+[x] [WIP]: multi-threaded downloads
+[x] [TO-DO]: global statistics in notification bar
+[x] [COMPLETED]: redundant "clear dashboard" button in action bar
+[x] [WIP]: dashboard sorting options
 </code></pre>
 
-<ul>
-<li>BUG: There&rsquo;s a problem is with the &ldquo;Auto&rdquo; default entry for the preference &ldquo;simultaneous downloads&rdquo; (see image below). Change it to a numeric value (1 &lt;&ndash;> 10) before downloading anything: <strong>[FIXED: use v4.4 beta-2]</strong>.</li>
-</ul>
-
-
-<p><img class="beta" src="/images/screenshots/YTD_4.4/4.4beta.png" title="[YTD v4.4 new features]" ></p>
-
-<p>Some notes:</p>
-
-<ul>
-<li>FFmpeg&rsquo;s download is excluded from the queuing system (will always start)</li>
-<li>reducing the simultaneous downloads will NOT move any task from &ldquo;in progress&rdquo; to &ldquo;queued&rdquo; state</li>
-<li>increasing the simultaneous downloads will accordingly move, from &ldquo;queued&rdquo; to &ldquo;in progress&rdquo;, the required number of tasks</li>
-<li>known issue: for the moment, for two-steps downloads as 1080p and 480p, after downloading the video only, the task will be (erroneously) considered &ldquo;completed&rdquo; and the next download in queue will fire. I hope to fix this later implementing some sort of priority for the AO stream download.</li>
-</ul>
-
-
-<p><em>[Download link removed &ndash; old beta]</em>.
+<p>The apk is available through the in app updates or via <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-7.apk">http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-7.apk</a>
  <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
@@ -144,7 +138,7 @@ menu and long-press menu on dashboard items
 <br/>
 
 
-<p>Original Link: <a href="/blog/2014-06-26/ytd-v4-dot-4-beta/">http://dentex.github.io/blog/2014-06-26/ytd-v4-dot-4-beta/</a><br/>
+<p>Original Link: <a href="/blog/2016-02-26/ytd-v5-dot-0-beta-7/">http://dentex.github.io/blog/2016-02-26/ytd-v5-dot-0-beta-7/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 </div>
@@ -169,7 +163,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
   
 
 
-<time datetime="2014-06-26T16:48:38+02:00" pubdate data-updated="true">Jun 26<span>th</span>, 2014</time>
+<time datetime="2016-02-26T11:44:02+01:00" pubdate data-updated="true">Feb 26<span>th</span>, 2016</time>
       
 
 <span class="categories">
@@ -183,7 +177,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://dentex.github.io/blog/2014-06-26/ytd-v4-dot-4-beta/" data-via="twidentex" data-counturl="http://dentex.github.io/blog/2014-06-26/ytd-v4-dot-4-beta/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://dentex.github.io/blog/2016-02-26/ytd-v5-dot-0-beta-7/" data-via="twidentex" data-counturl="http://dentex.github.io/blog/2016-02-26/ytd-v5-dot-0-beta-7/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -194,10 +188,8 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014-06-20/ytd-v4-dot-3/" title="Previous Post: YTD v4.3">&laquo; YTD v4.3</a>
+        <a class="basic-alignment left" href="/blog/2016-01-28/ytd-v4-dot-8-6/" title="Previous Post: YTD v4.8.6">&laquo; YTD v4.8.6</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014-06-30/ytd-v4-dot-4-beta-2/" title="Next Post: YTD v4.4 beta-2">YTD v4.4 beta-2 &raquo;</a>
       
     </p>
   </footer>
@@ -293,8 +285,8 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://dentex.github.io/blog/2014-06-26/ytd-v4-dot-4-beta/';
-        var disqus_url = 'http://dentex.github.io/blog/2014-06-26/ytd-v4-dot-4-beta/';
+        var disqus_identifier = 'http://dentex.github.io/blog/2016-02-26/ytd-v5-dot-0-beta-7/';
+        var disqus_url = 'http://dentex.github.io/blog/2016-02-26/ytd-v5-dot-0-beta-7/';
         var disqus_script = 'embed.js';
       
     (function () {

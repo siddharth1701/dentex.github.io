@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2016-01-28T14:37:54+01:00</updated>
+  <updated>2016-02-26T11:58:16+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,50 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v5.0 Beta 7]]></title>
+    <link href="http://dentex.github.io/blog/2016-02-26/ytd-v5-dot-0-beta-7/"/>
+    <updated>2016-02-26T11:44:02+01:00</updated>
+    <id>http://dentex.github.io/blog/2016-02-26/ytd-v5-dot-0-beta-7</id>
+    <content type="html"><![CDATA[<p>Hello! This is a new beta to let you test again the multi-threaded download feature (plus some minor/hidden fixes)</p>
+
+<p><strong>Notes/known issues:</strong></p>
+
+<ul>
+<li>for this beta, dashboard sorting will be always &ldquo;by size&rdquo;</li>
+<li>FFmpeg operations don&rsquo;t show progress</li>
+<li>in some circumstances, dashboard may seem unresponsive (probably when something is <em>in queue</em> and/or other things <em>in progress</em>)</li>
+</ul>
+
+
+<p>Changelog:</p>
+
+<pre><code> v5.0 Beta 7 - Feb 26 2016
+-----------------------------------
+[x] [WIP]: multi-threaded downloads
+[x] [TO-DO]: global statistics in notification bar
+[x] [COMPLETED]: redundant "clear dashboard" button in action bar
+[x] [WIP]: dashboard sorting options
+</code></pre>
+
+<p>The apk is available through the in app updates or via <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-7.apk">http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-7.apk</a>
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="http://dentex.github.io/blog/2016-02-26/ytd-v5-dot-0-beta-7/">http://dentex.github.io/blog/2016-02-26/ytd-v5-dot-0-beta-7/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v4.8.6]]></title>
@@ -722,50 +766,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
 
 
 <p>Original Link: <a href="http://dentex.github.io/blog/2015-06-09/ytd-v4-dot-5/">http://dentex.github.io/blog/2015-06-09/ytd-v4-dot-5/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.5 Beta-3]]></title>
-    <link href="http://dentex.github.io/blog/2015-05-31/ytd-v4-dot-5-beta-3/"/>
-    <updated>2015-05-31T17:28:17+02:00</updated>
-    <id>http://dentex.github.io/blog/2015-05-31/ytd-v4-dot-5-beta-3</id>
-    <content type="html"><![CDATA[<p>A new Beta (number 3) for YTD version 4.5 is ready for download.</p>
-
-<p>Use the app&rsquo;s update section or <em>[link removed &ndash; old beta]</em>.</p>
-
-<p>Changelog:</p>
-
-<pre><code> v4.5 BETA 3 - May 31 2015
------------------------------------
-[x] new and working integrated search (with filters menu)
-[x] Bulgarian and Romanian translations (as WIP), many other updated
-[x] do not try to download purchasable videos
-[x] wrap extracted aac audio-only into an m4a container
-[x] many libraries updated (OkHttp added)
-[x] better error handling during update check
-[x] showing time left for downloads based on network speed (*new)
-
-In this beta: way faster search results with asynchronous 
-"publishing dates" data filling (as an option).
-
-Search-results sorting logic adapted to reflect this change.
-</code></pre>
-
-<p> <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="http://dentex.github.io/blog/2015-05-31/ytd-v4-dot-5-beta-3/">http://dentex.github.io/blog/2015-05-31/ytd-v4-dot-5-beta-3/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
