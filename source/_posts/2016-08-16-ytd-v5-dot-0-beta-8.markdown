@@ -1,0 +1,42 @@
+---
+layout: post
+title: "YTD v5.0 Beta 8"
+date: 2016-08-16 00:15:31 +0200
+comments: true
+categories: [News]
+sharing: true
+footer: true
+description: "YouTube Downloader for Android - a free and ad-free app - new version"
+keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, XDA, XDA_dentex, twidentex, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, 480p, HD, 4K, 3gp, webm, mp4, m4a, ogg, flv, opus, 360°, 3D"
+---
+Hi!
+Has been a long time. I hope to be more active in the next future. Hopefully I will continue to fix bugs and add more features to this app.
+So, for the moment a new beta it's ready and this is the changelog:
+
+     v5.0 Beta 8 - Aug 16 2016
+    -----------------------------------
+    [x] [COMPLETED]: multi-threaded downloads
+    [x] [TO-DO]: global statistics in notification bar
+    [x] [COMPLETED]: redundant "clear dashboard" button in action bar
+    [x] [WIP]: dashboard sorting options
+    
+    [x] apply multi-threading also to the audio-only stream, 
+        for videos requiring mux (480p and 1080p)
+    [x] fix for the "shared?ci=" video-link type
+    [x] fix for the progress bar during FFmpeg operations
+    [x] use correct file extension for opus formats
+    [x] support for ogg 4.0 ch. and m4a 5.1 ch. new audio-only formats
+    [x] do not block age-restricted videos anymore 
+        (please note: only some of them will be available for download)
+
+For more info and to join the discussion, check the two XDA threads:    
+Stable: http://forum.xda-developers.com/showthread.php?t=2137743&page=297    
+Beta: http://forum.xda-developers.com/showthread.php?t=2335450&page=52
+
+As always, the Apk for this Beta is available through the in app updates (remember to enable the Beta updates channel) or via the direct link:    
+http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-8.apk
+
+**Notes/known issues:**
+
+- for this beta, dashboard sorting will be always "by size"    
+(This is the next item I will focus on; also, a better support for the external/removable sdcards is one of my next priorities).
