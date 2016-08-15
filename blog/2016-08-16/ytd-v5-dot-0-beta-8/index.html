@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>YTD v4.0 Development - dentex's blog</title>
+  <title>YTD v5.0 Beta 8 - dentex's blog</title>
   <meta name="author" content="Samuele Rini">
 
   
-  <meta name="description" content="YouTube Downloader for Android - a free and ad-free app">
-  <meta name="keywords" content="YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader">
+  <meta name="description" content="YouTube Downloader for Android - a free and ad-free app - new version">
+  <meta name="keywords" content="YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, XDA, XDA_dentex, twidentex, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, 480p, HD, 4K, 3gp, webm, mp4, m4a, ogg, flv, opus, 360°, 3D">
 
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://dentex.github.io/blog/2014-04-23/ytd-v4-dot-0-development">
+  <link rel="canonical" href="http://dentex.github.io/blog/2016-08-16/ytd-v5-dot-0-beta-8">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="" rel="alternate" title="dentex's blog" type="application/atom+xml">
@@ -82,7 +82,7 @@
   
   <header>
     
-      <h1 class="entry-title">YTD v4.0 Development</h1>
+      <h1 class="entry-title">YTD v5.0 Beta 8</h1>
     
     
       <p class="meta">
@@ -98,32 +98,49 @@
   
 
 
-<time datetime="2014-04-23T11:53:57+02:00" pubdate data-updated="true">Apr 23<span>rd</span>, 2014</time>
+<time datetime="2016-08-16T00:15:31+02:00" pubdate data-updated="true">Aug 16<span>th</span>, 2016</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>YouTube Downloader version <strong>4.0</strong> development is almost finished.
-You can follow the development discussion (and download also a Beta) on the <a href="http://forum.xda-developers.com/showthread.php?t=2335450">XDA forum</a></p>
+<div class="entry-content"><p>Hi!
+Has been a long time. I hope to be more active in the next future. Hopefully I will continue to fix bugs and add more features to this app.
+So, for the moment a new beta it&rsquo;s ready and this is the changelog:</p>
 
-<p>For the moment, the change-log is:</p>
-
-<pre><code> v4.0
+<pre><code> v5.0 Beta 8 - Aug 16 2016
 -----------------------------------
-[x] new UI
-[x] integrated search
-[x] direct 1080p, 480p and mp3 downloads 
+[x] [COMPLETED]: multi-threaded downloads
+[x] [TO-DO]: global statistics in notification bar
+[x] [COMPLETED]: redundant "clear dashboard" button in action bar
+[x] [WIP]: dashboard sorting options
+
+[x] apply multi-threading also to the audio-only stream, 
+    for videos requiring mux (480p and 1080p)
+[x] fix for the "shared?ci=" video-link type
+[x] fix for the progress bar during FFmpeg operations
+[x] use correct file extension for opus formats
+[x] support for ogg 4.0 ch. and m4a 5.1 ch. new audio-only formats
+[x] do not block age-restricted videos anymore 
+    (please note: only some of them will be available for download)
 </code></pre>
 
-<p>This is how this version looks like:</p>
+<p>For more info and to join the discussion, check the two XDA threads:  <br/>
+Stable: <a href="http://forum.xda-developers.com/showthread.php?t=2137743&amp;page=297">http://forum.xda-developers.com/showthread.php?t=2137743&amp;page=297</a>  <br/>
+Beta: <a href="http://forum.xda-developers.com/showthread.php?t=2335450&amp;page=52">http://forum.xda-developers.com/showthread.php?t=2335450&amp;page=52</a></p>
 
-<p><img class="4-1" src="/images/screenshots/YTD_4.0/1.png" width="360" title="YouTube Downloader for Android v4.0 - search by keywords" alt="search by keywords">
-<img class="4-2" src="/images/screenshots/YTD_4.0/2.png" width="360" title="YouTube Downloader for Android v4.0 - search by categories" alt="search by categories">
-<img class="4-3" src="/images/screenshots/YTD_4.0/3.png" width="360" title="YouTube Downloader for Android v4.0 - formats" alt="formats available for download">
-<img class="4-4" src="/images/screenshots/YTD_4.0/4.png" width="360" title="YouTube Downloader for Android v4.0 - dashboard" alt="dashboard for file management">
- <p class='post-footer' style="font-size:70%;" ></p>
+<p>As always, the Apk for this Beta is available through the in app updates (remember to enable the Beta updates channel) or via the direct link:  <br/>
+<a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-8.apk">http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-8.apk</a></p>
+
+<p><strong>Notes/known issues:</strong></p>
+
+<ul>
+<li>for this beta, dashboard sorting will be always &ldquo;by size&rdquo;  <br/>
+(This is the next item I will focus on; also, a better support for the external/removable sdcards is one of my next priorities).
+<p class='post-footer' style="font-size:70%;" ></li>
+</ul>
+
 
 <br/>
 
@@ -134,7 +151,7 @@ You can follow the development discussion (and download also a Beta) on the <a h
 <br/>
 
 
-<p>Original Link: <a href="/blog/2014-04-23/ytd-v4-dot-0-development/">http://dentex.github.io/blog/2014-04-23/ytd-v4-dot-0-development/</a><br/>
+<p>Original Link: <a href="/blog/2016-08-16/ytd-v5-dot-0-beta-8/">http://dentex.github.io/blog/2016-08-16/ytd-v5-dot-0-beta-8/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 </div>
@@ -159,7 +176,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
   
 
 
-<time datetime="2014-04-23T11:53:57+02:00" pubdate data-updated="true">Apr 23<span>rd</span>, 2014</time>
+<time datetime="2016-08-16T00:15:31+02:00" pubdate data-updated="true">Aug 16<span>th</span>, 2016</time>
       
 
 <span class="categories">
@@ -173,7 +190,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://dentex.github.io/blog/2014-04-23/ytd-v4-dot-0-development/" data-via="twidentex" data-counturl="http://dentex.github.io/blog/2014-04-23/ytd-v4-dot-0-development/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://dentex.github.io/blog/2016-08-16/ytd-v5-dot-0-beta-8/" data-via="twidentex" data-counturl="http://dentex.github.io/blog/2016-08-16/ytd-v5-dot-0-beta-8/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -184,10 +201,8 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014-01-31/jekyll-slash-octopress-blog-switch/" title="Previous Post: Jekyll/Octopress blog switch">&laquo; Jekyll/Octopress blog switch</a>
+        <a class="basic-alignment left" href="/blog/2016-02-26/ytd-v5-dot-0-beta-7/" title="Previous Post: YTD v5.0 Beta 7">&laquo; YTD v5.0 Beta 7</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014-04-24/ytds-second-beta-for-v4-dot-0/" title="Next Post: YTD's second Beta for v4.0">YTD's second Beta for v4.0 &raquo;</a>
       
     </p>
   </footer>
@@ -283,8 +298,8 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://dentex.github.io/blog/2014-04-23/ytd-v4-dot-0-development/';
-        var disqus_url = 'http://dentex.github.io/blog/2014-04-23/ytd-v4-dot-0-development/';
+        var disqus_identifier = 'http://dentex.github.io/blog/2016-08-16/ytd-v5-dot-0-beta-8/';
+        var disqus_url = 'http://dentex.github.io/blog/2016-08-16/ytd-v5-dot-0-beta-8/';
         var disqus_script = 'embed.js';
       
     (function () {

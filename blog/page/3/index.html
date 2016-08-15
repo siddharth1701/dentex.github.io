@@ -9,7 +9,7 @@
   <meta name="author" content="Samuele Rini">
 
   
-  <meta name="description" content="A new Beta (number 3) for YTD version 4.5 is ready for download. Use the app&rsquo;s update section or [link removed &ndash; old beta]. Changelog: v4 &hellip;">
+  <meta name="description" content="YouTubeDownloader&rsquo;s stable version 4.5 is ready. Apart from many small fixes and improvements, with this version the integrated search function &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -79,6 +79,77 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015-06-09/ytd-v4-dot-5/">YTD v4.5</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-06-09T17:00:17+02:00" pubdate data-updated="true">Jun 9<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>YouTubeDownloader&rsquo;s <strong>stable</strong> version 4.5 is ready. Apart from many small fixes and improvements, with this version the integrated search function is working again (has been completely rewritten due to a YouTube&rsquo;s search API change).</p>
+
+<p>This is the changelog:</p>
+
+<pre><code> v4.5 - Jun 09 2015
+-----------------------------------
+[x] new and working integrated search (with filters menu)
+[x] Bengali (India), Bulgarian, Romanian and Serbian translations added (as WIP);
+    many others updated
+[x] do not try to download purchasable videos
+[x] wrap extracted aac audio-only into an m4a container
+[x] many libraries updated (OkHttp added for networking)
+[x] better error handling during update check
+[x] showing time left for downloads based on network speed
+[x] asks to overwrite when downloading files already stored
+[x] many small bugs fixed (themes, languages selection, etc.)
+[x] added support for Opus audio-only formats and a few others
+</code></pre>
+
+<p>Upgrade through the app&rsquo;s settings or download the latest apk directly via <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">THIS link</a> <em>[note: this link will always point to the latest stable version available]</em>.</p>
+
+<p>Please let me know in the comments below if something is missing or not working (apart from the well known bug regarding the app being closed by Android system if stays too much in background).  ;)
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="/blog/2015-06-09/ytd-v4-dot-5/">http://dentex.github.io/blog/2015-06-09/ytd-v4-dot-5/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -679,85 +750,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014-08-15/setting-downloads-destination-folder-in-ytd/">Setting Downloads Destination Folder in YTD</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-08-15T18:55:32+02:00" pubdate data-updated="true">Aug 15<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Now that I implemented the <em>send log to developer</em> option, almost all logs were about one only issue: the notorious KitKat &ldquo;feature&rdquo; (&hellip;more a bug, actually) thanks to which an app can&rsquo;t be granted with the permission to <em>write</em> files on the external (removable) sdcard. This happens on a certain number of stock ROMs.</p>
-
-<p>As of now (if you are affected by this bug), for YTD to work properly downloading your preferred videos, you need to choose your device&rsquo;s internal memory storage as downloads destination folder.</p>
-
-<p>Other possibilities are available:</p>
-
-<ul>
-<li>transfer files between your device&rsquo;s storages with your PC, while it&rsquo;s connected via USB;</li>
-<li>install a custom ROM (i.e. the great <a href="http://www.cyanogenmod.org/">Cyanogenmod</a> that has been patched and does not suffer from this issue);</li>
-<li>or if you already have <strong>root</strong> on your device, there are alternative ways as one via the <a href="http://forum.xda-developers.com/xposed">Xposed framework</a> and one of its modules.</li>
-</ul>
-
-
-<p>For your reference, a couple of links on this matter:</p>
-
-<ul>
-<li><a href="http://technofaq.org/posts/2014/04/fixing-external-sd-card-write-issue-on-android-kitkat/">technofaq.org</a>;</li>
-<li><a href="http://www.androidpolice.com/2014/02/17/external-blues-google-has-brought-big-changes-to-sd-cards-in-kitkat-and-even-samsung-may-be-implementing-them/">androidpolice.com</a>;</li>
-<li><a href="http://forum.xda-developers.com/xposed/modules/kitkat-sd-card-access-t2790992">XDA developers</a>.</li>
-</ul>
-
-
-<p><strong>Update:</strong>
-As <em>antekone</em> commented below, a workaround to continue using anyway the download destination on the removable sdcard, would be to choose the directory:</p>
-
-<pre><code>&lt;&lt;YourExternalSdCardBaseDir&gt;&gt;/Android/data/dentex.youtube.downloader/files/
-</code></pre>
-
-<p>&hellip;or to create there a subdirectory directly from the YTD&rsquo;s file manager (viewable when you open the custom download destination setting).  <br/>
-The only drawback would be that you will loose all of your downloads if you uninstall YTD. So, move your own files before uninstalling or &hellip;do not uninstall at all!  ;)
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="/blog/2014-08-15/setting-downloads-destination-folder-in-ytd/">http://dentex.github.io/blog/2014-08-15/setting-downloads-destination-folder-in-ytd/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/4/">&larr; Older</a>
@@ -781,6 +773,10 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2016-08-16/ytd-v5-dot-0-beta-8/">YTD v5.0 Beta 8</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2016-02-26/ytd-v5-dot-0-beta-7/">YTD v5.0 Beta 7</a>
       </li>
     
@@ -794,10 +790,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
     
       <li class="post">
         <a href="/blog/2016-01-24/ytd-v4-dot-8-4/">YTD v4.8.4</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015-12-31/ytd-video-review/">YTD Video Review</a>
       </li>
     
   </ul>

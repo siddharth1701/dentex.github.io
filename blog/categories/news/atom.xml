@@ -4,7 +4,7 @@
   <title><![CDATA[Category: News | dentex's blog]]></title>
   <link href="http://dentex.github.io/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2016-02-26T11:58:16+01:00</updated>
+  <updated>2016-08-16T00:33:30+02:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,49 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v5.0 Beta 8]]></title>
+    <link href="http://dentex.github.io/blog/2016-08-16/ytd-v5-dot-0-beta-8/"/>
+    <updated>2016-08-16T00:15:31+02:00</updated>
+    <id>http://dentex.github.io/blog/2016-08-16/ytd-v5-dot-0-beta-8</id>
+    <content type="html"><![CDATA[<p>Hi!
+Has been a long time. I hope to be more active in the next future. Hopefully I will continue to fix bugs and add more features to this app.
+So, for the moment a new beta it&rsquo;s ready and this is the changelog:</p>
+
+<pre><code> v5.0 Beta 8 - Aug 16 2016
+-----------------------------------
+[x] [COMPLETED]: multi-threaded downloads
+[x] [TO-DO]: global statistics in notification bar
+[x] [COMPLETED]: redundant "clear dashboard" button in action bar
+[x] [WIP]: dashboard sorting options
+
+[x] apply multi-threading also to the audio-only stream, 
+    for videos requiring mux (480p and 1080p)
+[x] fix for the "shared?ci=" video-link type
+[x] fix for the progress bar during FFmpeg operations
+[x] use correct file extension for opus formats
+[x] support for ogg 4.0 ch. and m4a 5.1 ch. new audio-only formats
+[x] do not block age-restricted videos anymore 
+    (please note: only some of them will be available for download)
+</code></pre>
+
+<p>For more info and to join the discussion, check the two XDA threads:  <br/>
+Stable: <a href="http://forum.xda-developers.com/showthread.php?t=2137743&amp;page=297">http://forum.xda-developers.com/showthread.php?t=2137743&amp;page=297</a>  <br/>
+Beta: <a href="http://forum.xda-developers.com/showthread.php?t=2335450&amp;page=52">http://forum.xda-developers.com/showthread.php?t=2335450&amp;page=52</a></p>
+
+<p>As always, the Apk for this Beta is available through the in app updates (remember to enable the Beta updates channel) or via the direct link:  <br/>
+<a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-8.apk">http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-8.apk</a></p>
+
+<p><strong>Notes/known issues:</strong></p>
+
+<ul>
+<li>for this beta, dashboard sorting will be always &ldquo;by size&rdquo;  <br/>
+(This is the next item I will focus on; also, a better support for the external/removable sdcards is one of my next priorities).</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v5.0 Beta 7]]></title>
@@ -39,7 +82,7 @@
 [x] [WIP]: dashboard sorting options
 </code></pre>
 
-<p>The apk is available through the in app updates or via <a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-7.apk">http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-7.apk</a></p>
+<p>[<strong>v5.0 beta 7</strong>] <em>[link removed &ndash; old beta]</em></p>
 ]]></content>
   </entry>
   
@@ -104,38 +147,6 @@ a user (thanks Eduardo!) spotted an awful bug: on Lollipop devices where you can
 <p>[<strong>v5.0 beta 6</strong>] <em>[link removed &ndash; old beta]</em></p>
 
 <p><em>Note for the beta users</em>: due to the WIP state of this build, downloading FFmpeg and the audio part for videos requiring MUX will show an indeterminate progress (I was working on this stuff when I had to push these two patched versions).</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.8.2 + v5.0 Beta 5]]></title>
-    <link href="http://dentex.github.io/blog/2015-11-22/ytd-v4-dot-8-2-plus-v5-dot-0-beta-5/"/>
-    <updated>2015-11-22T14:49:32+01:00</updated>
-    <id>http://dentex.github.io/blog/2015-11-22/ytd-v4-dot-8-2-plus-v5-dot-0-beta-5</id>
-    <content type="html"><![CDATA[<p>With this new <em>stable</em> and <em>beta</em> versions, I&rsquo;m adding another fix that has been discovered yesterday. In regards, I&rsquo;d like to thank all the users/testers for their support and help (especially spotting new bugs!). <br/>
-Although a bit slowly, I think we&rsquo;ll come up with a better app.</p>
-
-<p>Changelogs:</p>
-
-<pre><code> v5.0 Beta 5 - Nov 22 2015
------------------------------------
-[x] [WIP]: multi-threaded downloads
-[x] [TO-DO]: global statistics in notification bar
-[x] [COMPLETED]: redundant "clear dashboard" button in action bar
-[x] [TEMP]: fix for showed total file size in Dashboard (thanks  KreNtal @XDA)
-
- v4.8.2 - Nov 22 2015
------------------------------------
-[x] support for 2160p/2304p MP4 VO streams
-[x] do again broken mp3 conversions using the pause/resume menu item (thanks William K.)
-[x] formats list bug fix for secondary streams (thanks dhuvy @XDA)
-</code></pre>
-
-<p>Both versions are available through the in-app update or via these links:</p>
-
-<p><a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk"><strong>v4.8.2</strong></a> <em>[note: this link will always point to the latest stable version available]</em></p>
-
-<p>[<strong>v5.0 beta 5</strong>] <em>[link removed &ndash; old beta]</em></p>
 ]]></content>
   </entry>
   
