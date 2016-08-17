@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Changes in YouTube Code - dentex's blog</title>
+  <title>YTD v5.0 Beta 9 - dentex's blog</title>
   <meta name="author" content="Samuele Rini">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://dentex.github.io/blog/2015-11-10/changes-in-youtube-code">
+  <link rel="canonical" href="http://dentex.github.io/blog/2016-08-17/ytd-v5-dot-0-beta-9">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="" rel="alternate" title="dentex's blog" type="application/atom+xml">
@@ -82,7 +82,7 @@
   
   <header>
     
-      <h1 class="entry-title">Changes in YouTube Code</h1>
+      <h1 class="entry-title">YTD v5.0 Beta 9</h1>
     
     
       <p class="meta">
@@ -98,25 +98,49 @@
   
 
 
-<time datetime="2015-11-10T17:42:49+01:00" pubdate data-updated="true">Nov 10<span>th</span>, 2015</time>
+<time datetime="2016-08-17T19:14:46+02:00" pubdate data-updated="true">Aug 17<span>th</span>, 2016</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>Hello guys,  <br/>
-recently YouTube changed again the code for videos with encrypted signature, so a fix is needed (just for this kind of videos, not for all) for YTD to work properly again.</p>
+<div class="entry-content"><p>I made a couple of additional fix to the latest beta version:</p>
 
-<p>When the video you&rsquo;re trying to download is affected, all formats appear with a size of <strong>0 B</strong>. Then every format will fail to download.</p>
+<p>Changelog:</p>
 
-<p>I&rsquo;m aware of the problem, so please avoid sending logcats in regards, but standby for a patch.  <br/>
-I&rsquo;ll do it ASAP.</p>
+<pre><code> v5.0 Beta 9 - Aug 17 2016
+-----------------------------------
+[x] [COMPLETED]: multi-threaded downloads
+[x] [TO-DO]: global statistics in notification bar
+[x] [COMPLETED]: redundant "clear dashboard" button in action bar
+[x] [WIP]: dashboard sorting options
 
-<p>Thanks.</p>
+[x] fix app crashes in Android N
+[x] better preview thumbnail in Formats tab
+[x] apply multi-threading also to the audio-only stream, 
+    for videos requiring mux (480p and 1080p)
+[x] fix for the "shared?ci=" video-link type
+[x] fix for the progress bar during FFmpeg operations
+[x] use correct file extension for opus formats
+[x] support for ogg 4.0 ch. and m4a 5.1 ch. new audio-only formats
+[x] do not block age-restricted videos anymore 
+    (please note: only some of them will be available for download)
+</code></pre>
 
-<p><strong>EDIT</strong>: fix found, see next blog post!
- <p class='post-footer' style="font-size:70%;" ></p>
+<p>As always, the Apk for this Beta is available through the in app updates (remember to enable the Beta updates channel) or via the direct link:  <br/>
+<a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-9.apk">http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-9.apk</a></p>
+
+<p><strong>Notes/known issues:</strong></p>
+
+<ul>
+<li>for this beta, dashboard sorting will be always &ldquo;by size&rdquo;</li>
+<li>the download of the audio part for video requiring mux cannot be paused and if it breaks (if the system shuts down the app in background) it will remain broken.
+(Those are the next items I will focus on; also, a better support for the external/removable sdcards is one of my next priorities).</li>
+</ul>
+
+
+<p> <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
 
@@ -127,7 +151,7 @@ I&rsquo;ll do it ASAP.</p>
 <br/>
 
 
-<p>Original Link: <a href="/blog/2015-11-10/changes-in-youtube-code/">http://dentex.github.io/blog/2015-11-10/changes-in-youtube-code/</a><br/>
+<p>Original Link: <a href="/blog/2016-08-17/ytd-v5-dot-0-beta-9/">http://dentex.github.io/blog/2016-08-17/ytd-v5-dot-0-beta-9/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 </div>
@@ -152,12 +176,12 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
   
 
 
-<time datetime="2015-11-10T17:42:49+01:00" pubdate data-updated="true">Nov 10<span>th</span>, 2015</time>
+<time datetime="2016-08-17T19:14:46+02:00" pubdate data-updated="true">Aug 17<span>th</span>, 2016</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/bugs/'>Bugs</a>
+    <a class='category' href='/blog/categories/news/'>News</a>
   
 </span>
 
@@ -166,7 +190,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://dentex.github.io/blog/2015-11-10/changes-in-youtube-code/" data-via="twidentex" data-counturl="http://dentex.github.io/blog/2015-11-10/changes-in-youtube-code/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://dentex.github.io/blog/2016-08-17/ytd-v5-dot-0-beta-9/" data-via="twidentex" data-counturl="http://dentex.github.io/blog/2016-08-17/ytd-v5-dot-0-beta-9/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -177,10 +201,8 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2015-11-07/ytd-v4-dot-8/" title="Previous Post: YTD v4.8">&laquo; YTD v4.8</a>
+        <a class="basic-alignment left" href="/blog/2016-08-16/ytd-v5-dot-0-beta-8/" title="Previous Post: YTD v5.0 Beta 8">&laquo; YTD v5.0 Beta 8</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2015-11-10/ytd-v4-dot-8-1/" title="Next Post: YTD v4.8.1">YTD v4.8.1 &raquo;</a>
       
     </p>
   </footer>
@@ -276,8 +298,8 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://dentex.github.io/blog/2015-11-10/changes-in-youtube-code/';
-        var disqus_url = 'http://dentex.github.io/blog/2015-11-10/changes-in-youtube-code/';
+        var disqus_identifier = 'http://dentex.github.io/blog/2016-08-17/ytd-v5-dot-0-beta-9/';
+        var disqus_url = 'http://dentex.github.io/blog/2016-08-17/ytd-v5-dot-0-beta-9/';
         var disqus_script = 'embed.js';
       
     (function () {
