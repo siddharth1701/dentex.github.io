@@ -1,7 +1,7 @@
 #!/bin/bash
 
-bundle exec rake generate
+rake generate
 
-bundle exec rake deploy
+rake deploy
 
 ./push-source.sh
