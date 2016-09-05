@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Tutorials | dentex's blog]]></title>
   <link href="http://dentex.github.io/blog/categories/tutorials/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2016-09-05T19:01:11+02:00</updated>
+  <updated>2016-09-05T19:35:53+02:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -91,7 +91,7 @@ It&rsquo;s on the blog <strong>laptopmag.com</strong>, at <a href="http://blog.l
 I added the Dashboard/FFmpeg feature to <strong>MUX</strong> (merge) a video-only
 and an audio-only streams into a single complete video.</p>
 
-<p><em>A note:</em> screenshots are outdated; they are taken from the old interface. Usage it&rsquo;s are the same.</p>
+<p><em>A note:</em> screenshots are outdated; they come from the old interface. Usage it&rsquo;s almost the same.</p>
 
 <p><strong>Downloads:</strong></p>
 
