@@ -11,7 +11,7 @@ keywords: YTD, Beta, android app, app, free, ad-free, no ads, dentex, video, aud
 
 ## YTD v5.0-beta-10
 
-`versionName="4.8.6.10_v5.0-beta-10"`
+`versionName="4.8.7_v5.0-beta-10"`
 
 SHA1 checksum: `176766f2624f3636250b1dec07f9edaf3bab1a51`
 
