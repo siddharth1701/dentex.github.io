@@ -1,19 +1,16 @@
 ---
-layout: page
-title: "YTD current Beta version"
-date: 2015-11-15 17:00
-comments: false
-sharing: false
+layout: post
+title: "YTD v5.0 Beta 10"
+date: 2016-09-05 18:45:53 +0200
+comments: true
+categories: [News]
+sharing: true
 footer: true
-description: Free and ad-free Android app, Beta version
-keywords: YTD, Beta, android app, app, free, ad-free, no ads, dentex, video, audio, YouTube, downloader, media, conversion, extraction, management
+description: "YouTube Downloader for Android - a free and ad-free app - new version"
+keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, XDA, XDA_dentex, twidentex, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, 480p, HD, 4K, 3gp, webm, mp4, m4a, ogg, flv, opus, 360°, 3D"
 ---
 
-## YTD v5.0-beta-10
-
-`versionName="4.8.6.10_v5.0-beta-10"`
-
-SHA1 checksum: `176766f2624f3636250b1dec07f9edaf3bab1a51`
+A new Beta for YTD is available. I only did some code cleanup and optimizations and, in additions, the two modifications noted below **(*)**.
 
 Changelog:
 
@@ -39,3 +36,5 @@ Changelog:
     
     [x] (note: resumed order by name in dashboard)
 
+As always, the Apk for this Beta is available through the in app updates (remember to enable the Beta updates channel) or via the direct link:    
+http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-10.apk

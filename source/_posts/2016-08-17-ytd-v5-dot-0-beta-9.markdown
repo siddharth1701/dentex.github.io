@@ -31,8 +31,7 @@ Changelog:
     [x] do not block age-restricted videos anymore 
         (please note: only some of them will be available for download)
 
-As always, the Apk for this Beta is available through the in app updates (remember to enable the Beta updates channel) or via the direct link:    
-http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-9.apk
+[**v5.0 beta 9**] *[link removed - old beta]*
 
 **Notes/known issues:**
 
