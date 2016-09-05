@@ -13,7 +13,7 @@ To be able to enjoy the 1080p and higher YouTube video resolutions,
 I added the Dashboard/FFmpeg feature to **MUX** (merge) a video-only 
 and an audio-only streams into a single complete video.
 
-*A note:* screenshots are outdated; they are taken from the old interface. Usage it's are the same.
+*A note:* screenshots are outdated; they come from the old interface. Usage it's almost the same.
 
 **Downloads:**
 
