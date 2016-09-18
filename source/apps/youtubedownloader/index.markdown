@@ -16,15 +16,15 @@ keywords: YouTube Downloader, Android, android app, app, free, ad-free, no ads, 
 
 [![download button](/images/others/download_button.png)](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk)
 
-`versionCode="106"`
+`versionCode="107"`
 
-`versionName="4.8.6"`
+`versionName="5.0"`
 
-MD5 checksum: `92b655ff08bb4377781b22909d82ffc9`
+MD5 checksum: `e524b4c4cc3bd85a024e93fc0aa8f18b`
 
-SHA1 checksum: `e347fb75bfdcb6c16abc1994589cab4721649b05`
+SHA1 checksum: `6157d3fd0196fce608542cd935f35c9ce4981f0a`
 
-Beta available: `true`
+Beta available: `false`
 
 ## **YouTube Downloader for Android**
 ## **Copyright (C) 2012-2016 Samuele Rini**
@@ -55,6 +55,7 @@ then:
 - Search for YouTube videos within the app
 - Download on your device;
 - Remote download on another PC via SSH;
+- Multi-threaded downloads: maximizes bandwidth available and minimizes YouTube's speed throttling
 - Support for almost any format/quality available from YouTube;
 - Audio extraction to aac/ogg or conversion to mp3 (menu available via single-click on items in the Dashboard tab);
 - Mp3's ID3 tags edit;
@@ -66,7 +67,7 @@ then:
 
 ###KNOWN ISSUES
 - Some very long running downloads may be forced to PAUSE state if the app is not kept to the front for a certain amount of time. In this cases a manual resume is needed.
-- On KitKat and above may be not possible to use the external (removable) sdcard as download destination folder. In this case you must use the standard memory storage (for sake of simplicity, use one of the destinations below the setting *choose standard folder*, being "Downloads", "DCIM" or "Movies");
+- On KitKat and above may be not possible to use the external (removable) sdcard as download destination folder (custom option will be grayed out). In this case you must use the standard memory storage (for sake of simplicity, use one of the destinations below the setting *choose standard folder*, being "Downloads", "DCIM" or "Movies");
 
 ##ANTI-FEATURES
 Are not supported for download all videos that:
@@ -188,6 +189,20 @@ Are not supported for download all videos that:
 
 
 ## CHANGELOG
+
+     v5.0 - Sep 18 2016
+    -----------------------------------
+    [x] multi-threaded downloads
+    [x] redundant "clear Dashboard" button in action bar
+    [x] fix some app's crashes in Android N
+    [x] better preview thumbnail in Formats tab
+    [x] fix for the "shared?ci=" link type
+    [x] fix for the progress bar during FFmpeg operations
+    [x] use correct file extension for opus formats
+    [x] support for ogg 4.0 ch. and m4a 5.1 ch. new audio-only formats
+    [x] do not block age-restricted videos anymore (please note: only some of them will be available for download)
+    [x] better Search tab's results sorting dialog
+    [x] prevent app's log from becoming too big 
 
      v4.8.6 - Jan 28 2016
     -----------------------------------

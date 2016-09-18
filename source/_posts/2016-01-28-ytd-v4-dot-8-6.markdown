@@ -2,6 +2,8 @@
 layout: post
 title: "YTD v4.8.6"
 date: 2016-01-28 14:22:41 +0100
+comments: true
+categories: [News]
 sharing: true
 footer: true
 description: "YouTube Downloader for Android - a free and ad-free app - new version"
