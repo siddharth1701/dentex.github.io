@@ -9,7 +9,8 @@
   <meta name="author" content="Samuele Rini">
 
   
-  <meta name="description" content="A new Beta for YTD is available. I only did some code cleanup and optimizations and, in additions, the two modifications noted below (*). Changelog: &hellip;">
+  <meta name="description" content="Today I&rsquo;m finally pushing out version 5.0 for YouTube Downloader.
+This version has been tested for long time as a beta (thanks guys @XDA!), &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -79,6 +80,86 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2016-09-18/ytd-v5-dot-0-finally-dot-dot-dot/">YTD v5.0, Finally&#8230;</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-09-18T12:35:13+02:00" pubdate data-updated="true">Sep 18<span>th</span>, 2016</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Today I&rsquo;m finally pushing out version 5.0 for YouTube Downloader.
+This version has been tested for long time as a beta (thanks guys @XDA!), always adding new features and resolving bugs, but as with every &ldquo;major&rdquo; version bump, when out in the public, something may be still subject to some refining (or worse, fixing).</p>
+
+<p>Moreover, please not that unfortunately some &ldquo;known issues&rdquo; remain; check the release notes on <a href="http://dentex.github.io/apps/youtubedownloader/">http://dentex.github.io/apps/youtubedownloader/</a> for further info.</p>
+
+<p><strong>Changelog:</strong></p>
+
+<pre><code> v5.0 - Sep 18 2016
+-----------------------------------
+[x] multi-threaded downloads
+[x] redundant "clear Dashboard" button in action bar
+[x] fix some app's crashes in Android N
+[x] better preview thumbnail in Formats tab
+[x] fix for the "shared?ci=" link type
+[x] fix for the progress bar during FFmpeg operations
+[x] use correct file extension for opus formats
+[x] support for ogg 4.0 ch. and m4a 5.1 ch. new audio-only formats
+[x] do not block age-restricted videos anymore 
+    (please note: only some of them will be available for download)
+[x] better Search tab's results sorting dialog
+[x] prevent app's log from becoming too big 
+</code></pre>
+
+<p>The most notable feature of this build is the <strong>multi-threaded download</strong> mode: it enables a file downloaded from YouTube to be split in more than on part (from 1 to 5; default 3) being downloaded simultaneously.  <br/>
+This should maximize the bandwidth available from your network connection and minimize YouTube&rsquo;s speed throttling: it&rsquo;s well known that, especially for some low-specs formats, download speed tends to go down after some seconds of download. This is an intended behavior from the server, because allows some buffer and then proceeds with an acceptable speed, according to the quality and length of the media in download.</p>
+
+<p>Another front of development has been patching the app to be ready for <strong>Android N</strong>. It&rsquo;s possible that there&rsquo;s still something to do (i.e., one thing to fix is probably the import function from the dashboard: it&rsquo;s possible that the system dialog shows only the Android data folder&hellip; some feedback is needed, from who of you already have an N device).</p>
+
+<p>Other changes are related to the <strong>UI</strong>, as a new &ldquo;clear Dashboard&rdquo; button in action bar (while the Dashboard itself is the active tab), or the new Search tab&rsquo;s results sorting dialog (one of the next feature will be using this type of dialog to order entries in the Dashboard: by download date, by state, by size, etc).</p>
+
+<p>Please refer to the <em>changelog</em> above for a list containing all changes to this version.
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="/blog/2016-09-18/ytd-v5-dot-0-finally-dot-dot-dot/">http://dentex.github.io/blog/2016-09-18/ytd-v5-dot-0-finally-dot-dot-dot/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -705,76 +786,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015-11-20/ytd-v5-dot-0-beta-4/">YTD v5.0 Beta 4</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-11-20T10:01:47+01:00" pubdate data-updated="true">Nov 20<span>th</span>, 2015</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>With this new build, thanks to a beta tester, I added a patch for a &ldquo;recovery&rdquo; case I missed until now.</p>
-
-<p>When you click an mp3 entry from Formats, you actually start downloading an m4a audio file. On its completion, a conversion task starts, having as result the final mp3 file. If the task is particularly long, it may be interrupted by the android system to gain resources. This interruption may happen in two situations:  <br/>
-1) during the m4a download phase: here it can be resumed successfully when you re-open the app and select &ldquo;resume&rdquo; &ndash; The download will continue;  <br/>
-2) otherwise, if it&rsquo;s the conversion to be broken, we had a problem, until now. I found how to properly resume the conversion from this point.</p>
-
-<p>Changelog:</p>
-
-<pre><code> v5.0 Beta 4 - Nov 20 2015
------------------------------------
-[x] [WIP]: multi-threaded downloads
-[x] [TO-DO]: global statistics in notification bar
-[x] [COMPLETED]: redundant "clear dashboard" button in action bar
-[x] [COMPLETED]: support for 2160p/2304p MP4 VO streams
-[x] [TEMP]: fix for showed total file size in Dashboard (thanks  KreNtal @XDA)
-[x] [COMPLETED]: do again broken mp3 conversions using the pause/resume 
-    menu item (thanks William K.)
-</code></pre>
-
-<p>The apk is available through the in app updates or via <em>[link removed &ndash; old beta]</em>.  <br/>
-See previous posts for more info.
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="/blog/2015-11-20/ytd-v5-dot-0-beta-4/">http://dentex.github.io/blog/2015-11-20/ytd-v5-dot-0-beta-4/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -796,6 +807,10 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2016-09-18/ytd-v5-dot-0-finally-dot-dot-dot/">YTD v5.0, Finally&#8230;</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2016-09-05/ytd-v5-dot-0-beta-10/">YTD v5.0 Beta 10</a>
       </li>
     
@@ -809,10 +824,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
     
       <li class="post">
         <a href="/blog/2016-02-26/ytd-v5-dot-0-beta-7/">YTD v5.0 Beta 7</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016-01-28/ytd-v4-dot-8-6/">YTD v4.8.6</a>
       </li>
     
   </ul>

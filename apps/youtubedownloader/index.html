@@ -107,15 +107,15 @@
 
 <p><a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk"><img src="/images/others/download_button.png" alt="download button" /></a></p>
 
-<p><code>versionCode="106"</code></p>
+<p><code>versionCode="107"</code></p>
 
-<p><code>versionName="4.8.6"</code></p>
+<p><code>versionName="5.0"</code></p>
 
-<p>MD5 checksum: <code>92b655ff08bb4377781b22909d82ffc9</code></p>
+<p>MD5 checksum: <code>e524b4c4cc3bd85a024e93fc0aa8f18b</code></p>
 
-<p>SHA1 checksum: <code>e347fb75bfdcb6c16abc1994589cab4721649b05</code></p>
+<p>SHA1 checksum: <code>6157d3fd0196fce608542cd935f35c9ce4981f0a</code></p>
 
-<p>Beta available: <code>true</code></p>
+<p>Beta available: <code>false</code></p>
 
 <h2><strong>YouTube Downloader for Android</strong></h2>
 
@@ -161,6 +161,7 @@ then:</li>
 <li>Search for YouTube videos within the app</li>
 <li>Download on your device;</li>
 <li>Remote download on another PC via SSH;</li>
+<li>Multi-threaded downloads: maximizes bandwidth available and minimizes YouTube&rsquo;s speed throttling</li>
 <li>Support for almost any format/quality available from YouTube;</li>
 <li>Audio extraction to aac/ogg or conversion to mp3 (menu available via single-click on items in the Dashboard tab);</li>
 <li>Mp3&rsquo;s ID3 tags edit;</li>
@@ -176,7 +177,7 @@ then:</li>
 
 <ul>
 <li>Some very long running downloads may be forced to PAUSE state if the app is not kept to the front for a certain amount of time. In this cases a manual resume is needed.</li>
-<li>On KitKat and above may be not possible to use the external (removable) sdcard as download destination folder. In this case you must use the standard memory storage (for sake of simplicity, use one of the destinations below the setting <em>choose standard folder</em>, being &ldquo;Downloads&rdquo;, &ldquo;DCIM&rdquo; or &ldquo;Movies&rdquo;);</li>
+<li>On KitKat and above may be not possible to use the external (removable) sdcard as download destination folder (custom option will be grayed out). In this case you must use the standard memory storage (for sake of simplicity, use one of the destinations below the setting <em>choose standard folder</em>, being &ldquo;Downloads&rdquo;, &ldquo;DCIM&rdquo; or &ldquo;Movies&rdquo;);</li>
 </ul>
 
 
@@ -309,7 +310,21 @@ Attribution 3.0 Unported" license (CC BY).
 
 <h2>CHANGELOG</h2>
 
-<pre><code> v4.8.6 - Jan 28 2016
+<pre><code> v5.0 - Sep 18 2016
+-----------------------------------
+[x] multi-threaded downloads
+[x] redundant "clear Dashboard" button in action bar
+[x] fix some app's crashes in Android N
+[x] better preview thumbnail in Formats tab
+[x] fix for the "shared?ci=" link type
+[x] fix for the progress bar during FFmpeg operations
+[x] use correct file extension for opus formats
+[x] support for ogg 4.0 ch. and m4a 5.1 ch. new audio-only formats
+[x] do not block age-restricted videos anymore (please note: only some of them will be available for download)
+[x] better Search tab's results sorting dialog
+[x] prevent app's log from becoming too big 
+
+ v4.8.6 - Jan 28 2016
 -----------------------------------
 [x] fix for the custom download location file-chooser
 
@@ -888,6 +903,10 @@ Attribution 3.0 Unported" license (CC BY).
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2016-09-18/ytd-v5-dot-0-finally-dot-dot-dot/">YTD v5.0, Finally...</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2016-09-05/ytd-v5-dot-0-beta-10/">YTD v5.0 Beta 10</a>
       </li>
     
@@ -901,10 +920,6 @@ Attribution 3.0 Unported" license (CC BY).
     
       <li class="post">
         <a href="/blog/2016-02-26/ytd-v5-dot-0-beta-7/">YTD v5.0 Beta 7</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016-01-28/ytd-v4-dot-8-6/">YTD v4.8.6</a>
       </li>
     
   </ul>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: News | dentex's blog]]></title>
   <link href="http://dentex.github.io/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2016-09-05T19:35:53+02:00</updated>
+  <updated>2016-09-18T13:05:22+02:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,45 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v5.0, Finally...]]></title>
+    <link href="http://dentex.github.io/blog/2016-09-18/ytd-v5-dot-0-finally-dot-dot-dot/"/>
+    <updated>2016-09-18T12:35:13+02:00</updated>
+    <id>http://dentex.github.io/blog/2016-09-18/ytd-v5-dot-0-finally-dot-dot-dot</id>
+    <content type="html"><![CDATA[<p>Today I&rsquo;m finally pushing out version 5.0 for YouTube Downloader.
+This version has been tested for long time as a beta (thanks guys @XDA!), always adding new features and resolving bugs, but as with every &ldquo;major&rdquo; version bump, when out in the public, something may be still subject to some refining (or worse, fixing).</p>
+
+<p>Moreover, please not that unfortunately some &ldquo;known issues&rdquo; remain; check the release notes on <a href="http://dentex.github.io/apps/youtubedownloader/">http://dentex.github.io/apps/youtubedownloader/</a> for further info.</p>
+
+<p><strong>Changelog:</strong></p>
+
+<pre><code> v5.0 - Sep 18 2016
+-----------------------------------
+[x] multi-threaded downloads
+[x] redundant "clear Dashboard" button in action bar
+[x] fix some app's crashes in Android N
+[x] better preview thumbnail in Formats tab
+[x] fix for the "shared?ci=" link type
+[x] fix for the progress bar during FFmpeg operations
+[x] use correct file extension for opus formats
+[x] support for ogg 4.0 ch. and m4a 5.1 ch. new audio-only formats
+[x] do not block age-restricted videos anymore 
+    (please note: only some of them will be available for download)
+[x] better Search tab's results sorting dialog
+[x] prevent app's log from becoming too big 
+</code></pre>
+
+<p>The most notable feature of this build is the <strong>multi-threaded download</strong> mode: it enables a file downloaded from YouTube to be split in more than on part (from 1 to 5; default 3) being downloaded simultaneously.  <br/>
+This should maximize the bandwidth available from your network connection and minimize YouTube&rsquo;s speed throttling: it&rsquo;s well known that, especially for some low-specs formats, download speed tends to go down after some seconds of download. This is an intended behavior from the server, because allows some buffer and then proceeds with an acceptable speed, according to the quality and length of the media in download.</p>
+
+<p>Another front of development has been patching the app to be ready for <strong>Android N</strong>. It&rsquo;s possible that there&rsquo;s still something to do (i.e., one thing to fix is probably the import function from the dashboard: it&rsquo;s possible that the system dialog shows only the Android data folder&hellip; some feedback is needed, from who of you already have an N device).</p>
+
+<p>Other changes are related to the <strong>UI</strong>, as a new &ldquo;clear Dashboard&rdquo; button in action bar (while the Dashboard itself is the active tab), or the new Search tab&rsquo;s results sorting dialog (one of the next feature will be using this type of dialog to order entries in the Dashboard: by download date, by state, by size, etc).</p>
+
+<p>Please refer to the <em>changelog</em> above for a list containing all changes to this version.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v5.0 Beta 10]]></title>
@@ -152,20 +191,6 @@ Beta: <a href="http://forum.xda-developers.com/showthread.php?t=2335450&amp;page
 </code></pre>
 
 <p>[<strong>v5.0 beta 7</strong>] <em>[link removed &ndash; old beta]</em></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.8.5]]></title>
-    <link href="http://dentex.github.io/blog/2016-01-26/ytd-v4-dot-8-5/"/>
-    <updated>2016-01-26T11:33:47+01:00</updated>
-    <id>http://dentex.github.io/blog/2016-01-26/ytd-v4-dot-8-5</id>
-    <content type="html"><![CDATA[<p>A new version of YouTube Downloader is available with a small fix:</p>
-
-<pre><code> v4.8.5 - Jan 26 2016
------------------------------------
-[x] fix for moving files to extSdCard
-</code></pre>
 ]]></content>
   </entry>
   

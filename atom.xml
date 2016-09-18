@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2016-09-05T19:35:53+02:00</updated>
+  <updated>2016-09-18T13:05:22+02:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,59 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v5.0, Finally...]]></title>
+    <link href="http://dentex.github.io/blog/2016-09-18/ytd-v5-dot-0-finally-dot-dot-dot/"/>
+    <updated>2016-09-18T12:35:13+02:00</updated>
+    <id>http://dentex.github.io/blog/2016-09-18/ytd-v5-dot-0-finally-dot-dot-dot</id>
+    <content type="html"><![CDATA[<p>Today I&rsquo;m finally pushing out version 5.0 for YouTube Downloader.
+This version has been tested for long time as a beta (thanks guys @XDA!), always adding new features and resolving bugs, but as with every &ldquo;major&rdquo; version bump, when out in the public, something may be still subject to some refining (or worse, fixing).</p>
+
+<p>Moreover, please not that unfortunately some &ldquo;known issues&rdquo; remain; check the release notes on <a href="http://dentex.github.io/apps/youtubedownloader/">http://dentex.github.io/apps/youtubedownloader/</a> for further info.</p>
+
+<p><strong>Changelog:</strong></p>
+
+<pre><code> v5.0 - Sep 18 2016
+-----------------------------------
+[x] multi-threaded downloads
+[x] redundant "clear Dashboard" button in action bar
+[x] fix some app's crashes in Android N
+[x] better preview thumbnail in Formats tab
+[x] fix for the "shared?ci=" link type
+[x] fix for the progress bar during FFmpeg operations
+[x] use correct file extension for opus formats
+[x] support for ogg 4.0 ch. and m4a 5.1 ch. new audio-only formats
+[x] do not block age-restricted videos anymore 
+    (please note: only some of them will be available for download)
+[x] better Search tab's results sorting dialog
+[x] prevent app's log from becoming too big 
+</code></pre>
+
+<p>The most notable feature of this build is the <strong>multi-threaded download</strong> mode: it enables a file downloaded from YouTube to be split in more than on part (from 1 to 5; default 3) being downloaded simultaneously.  <br/>
+This should maximize the bandwidth available from your network connection and minimize YouTube&rsquo;s speed throttling: it&rsquo;s well known that, especially for some low-specs formats, download speed tends to go down after some seconds of download. This is an intended behavior from the server, because allows some buffer and then proceeds with an acceptable speed, according to the quality and length of the media in download.</p>
+
+<p>Another front of development has been patching the app to be ready for <strong>Android N</strong>. It&rsquo;s possible that there&rsquo;s still something to do (i.e., one thing to fix is probably the import function from the dashboard: it&rsquo;s possible that the system dialog shows only the Android data folder&hellip; some feedback is needed, from who of you already have an N device).</p>
+
+<p>Other changes are related to the <strong>UI</strong>, as a new &ldquo;clear Dashboard&rdquo; button in action bar (while the Dashboard itself is the active tab), or the new Search tab&rsquo;s results sorting dialog (one of the next feature will be using this type of dialog to order entries in the Dashboard: by download date, by state, by size, etc).</p>
+
+<p>Please refer to the <em>changelog</em> above for a list containing all changes to this version.
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="http://dentex.github.io/blog/2016-09-18/ytd-v5-dot-0-finally-dot-dot-dot/">http://dentex.github.io/blog/2016-09-18/ytd-v5-dot-0-finally-dot-dot-dot/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v5.0 Beta 10]]></title>
@@ -770,48 +823,6 @@ Today I&rsquo;m releasing a beta version for YTD to test some new FFmpeg builds.
 
 
 <p>Original Link: <a href="http://dentex.github.io/blog/2015-10-03/ytd-v4-dot-7-beta-1/">http://dentex.github.io/blog/2015-10-03/ytd-v4-dot-7-beta-1/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.6]]></title>
-    <link href="http://dentex.github.io/blog/2015-09-24/ytd-v4-dot-6/"/>
-    <updated>2015-09-24T11:11:10+02:00</updated>
-    <id>http://dentex.github.io/blog/2015-09-24/ytd-v4-dot-6</id>
-    <content type="html"><![CDATA[<p>A new version for YTD is available, with this CHANGELOG:</p>
-
-<pre><code> v4.6 - Sep 24 2015
------------------------------------
-[x] material design for android versions &gt; Lollipop
-[x] remove option to embed video preview (now fullscreen only)
-[x] better detection of free space on memory storage for some devices
-[x] handle the MP4 720p downloads for some very long videos, when file length can't be retrieved
-[x] add option for MP3 "download" quality
-[x] show correct file size for 480p and 1080p
-</code></pre>
-
-<p>Please, report here or on the XDA forum&rsquo;s thread if you see any issues, especially regarding the new theme on Lollipop devices. Thanks!</p>
-
-<p>At the moment, I&rsquo;m working hard on the new (and highly expected) feature of <em>multi-threading</em> downloads.
-This will permit to download every file split in 2, 3 or 4 chunks (or 1, like it&rsquo;s now) that will start at the same time, maximizing the network&rsquo;s bandwidth usage and minimizing the hated &ldquo;throttling&rdquo; done by the YouTube servers on certain videos, especially for some qualities.</p>
-
-<p>From some initial tests, the new feature seems to go pretty well, with a minor impact on the app&rsquo;s weight (although this exists anyway).</p>
-
-<p>Stay tuned for the next beta.
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="http://dentex.github.io/blog/2015-09-24/ytd-v4-dot-6/">http://dentex.github.io/blog/2015-09-24/ytd-v4-dot-6/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>

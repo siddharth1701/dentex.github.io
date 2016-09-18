@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>YTD v4.4 Beta-8 - dentex's blog</title>
+  <title>YTD v5.0, Finally... - dentex's blog</title>
   <meta name="author" content="Samuele Rini">
 
   
-  <meta name="description" content="YouTube Downloader for Android - a free and ad-free app - new beta apk">
-  <meta name="keywords" content="YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, video, YouTube, downloader, beta">
+  <meta name="description" content="YouTube Downloader for Android - a free and ad-free app - new version">
+  <meta name="keywords" content="YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, XDA, XDA_dentex, twidentex, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, 480p, HD, 4K, 3gp, webm, mp4, m4a, ogg, flv, opus, 360°, 3D">
 
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://dentex.github.io/blog/2014-11-24/ytd-v4-dot-4-beta-8">
+  <link rel="canonical" href="http://dentex.github.io/blog/2016-09-18/ytd-v5-dot-0-finally-dot-dot-dot">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="" rel="alternate" title="dentex's blog" type="application/atom+xml">
@@ -82,7 +82,7 @@
   
   <header>
     
-      <h1 class="entry-title">YTD v4.4 Beta-8</h1>
+      <h1 class="entry-title">YTD v5.0, Finally...</h1>
     
     
       <p class="meta">
@@ -98,49 +98,45 @@
   
 
 
-<time datetime="2014-11-24T15:19:59+01:00" pubdate data-updated="true">Nov 24<span>th</span>, 2014</time>
+<time datetime="2016-09-18T12:35:13+02:00" pubdate data-updated="true">Sep 18<span>th</span>, 2016</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>Latest development changes are available in this new beta: to minimize the issue regarding the Andriod system closing YTD while downloading in background, now the screen will remain <strong>on</strong> as long as the user keeps the app to the front. In addition, I improved the <em>send logcat</em> feature.</p>
+<div class="entry-content"><p>Today I&rsquo;m finally pushing out version 5.0 for YouTube Downloader.
+This version has been tested for long time as a beta (thanks guys @XDA!), always adding new features and resolving bugs, but as with every &ldquo;major&rdquo; version bump, when out in the public, something may be still subject to some refining (or worse, fixing).</p>
 
-<p>As always, download the apk in YTD enabling its <a href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/">preference</a>, or grab the apk from <em>[link removed &ndash; old beta]</em>.</p>
+<p>Moreover, please not that unfortunately some &ldquo;known issues&rdquo; remain; check the release notes on <a href="http://dentex.github.io/apps/youtubedownloader/">http://dentex.github.io/apps/youtubedownloader/</a> for further info.</p>
 
-<p>Changelog:</p>
+<p><strong>Changelog:</strong></p>
 
-<pre><code> v4.4-beta-8 - Nov 23 2014
+<pre><code> v5.0 - Sep 18 2016
 -----------------------------------
-[x] configurable downloads queue
-[x] option to invert dashboard's entries click menus
-[x] auto-resume downloads paused due to network failure
-[x] new FFmpeg build targeting non-NEON CPUs (i.e. Tegra devices)
-[x] ability to send logcat to the developer via email
-[x] added Croatian, Indonesian (WIP) and Norwegian (WIP) translations
-[x] fixed dashboard rename with existing filename (thanks m0d)
-[x] back-button going through all tabs now as optional
-[x] new FFmpeg builds supporting Android L
-[x] keep screen on when anything is "in progress"
+[x] multi-threaded downloads
+[x] redundant "clear Dashboard" button in action bar
+[x] fix some app's crashes in Android N
+[x] better preview thumbnail in Formats tab
+[x] fix for the "shared?ci=" link type
+[x] fix for the progress bar during FFmpeg operations
+[x] use correct file extension for opus formats
+[x] support for ogg 4.0 ch. and m4a 5.1 ch. new audio-only formats
+[x] do not block age-restricted videos anymore 
+    (please note: only some of them will be available for download)
+[x] better Search tab's results sorting dialog
+[x] prevent app's log from becoming too big 
 </code></pre>
 
-<p>Still something to do, for a final stable version 4.4:</p>
+<p>The most notable feature of this build is the <strong>multi-threaded download</strong> mode: it enables a file downloaded from YouTube to be split in more than on part (from 1 to 5; default 3) being downloaded simultaneously.  <br/>
+This should maximize the bandwidth available from your network connection and minimize YouTube&rsquo;s speed throttling: it&rsquo;s well known that, especially for some low-specs formats, download speed tends to go down after some seconds of download. This is an intended behavior from the server, because allows some buffer and then proceeds with an acceptable speed, according to the quality and length of the media in download.</p>
 
-<ul>
-<li>a &ldquo;dequeue now&rdquo; option for dashboard entries;</li>
-<li>better downloads auto-resume and auto-queue on app start / &ldquo;resume-all&rdquo; function into the sliding menu.</li>
-</ul>
+<p>Another front of development has been patching the app to be ready for <strong>Android N</strong>. It&rsquo;s possible that there&rsquo;s still something to do (i.e., one thing to fix is probably the import function from the dashboard: it&rsquo;s possible that the system dialog shows only the Android data folder&hellip; some feedback is needed, from who of you already have an N device).</p>
 
+<p>Other changes are related to the <strong>UI</strong>, as a new &ldquo;clear Dashboard&rdquo; button in action bar (while the Dashboard itself is the active tab), or the new Search tab&rsquo;s results sorting dialog (one of the next feature will be using this type of dialog to order entries in the Dashboard: by download date, by state, by size, etc).</p>
 
-<p>And further down the road:</p>
-
-<ul>
-<li>Kitkat sdcard workaround / Lollipop new sdcard access feature;</li>
-<li>&hellip;and many other things.
-<p class='post-footer' style="font-size:70%;" ></li>
-</ul>
-
+<p>Please refer to the <em>changelog</em> above for a list containing all changes to this version.
+ <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
 
@@ -151,7 +147,7 @@
 <br/>
 
 
-<p>Original Link: <a href="/blog/2014-11-24/ytd-v4-dot-4-beta-8/">http://dentex.github.io/blog/2014-11-24/ytd-v4-dot-4-beta-8/</a><br/>
+<p>Original Link: <a href="/blog/2016-09-18/ytd-v5-dot-0-finally-dot-dot-dot/">http://dentex.github.io/blog/2016-09-18/ytd-v5-dot-0-finally-dot-dot-dot/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 </div>
@@ -176,7 +172,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
   
 
 
-<time datetime="2014-11-24T15:19:59+01:00" pubdate data-updated="true">Nov 24<span>th</span>, 2014</time>
+<time datetime="2016-09-18T12:35:13+02:00" pubdate data-updated="true">Sep 18<span>th</span>, 2016</time>
       
 
 <span class="categories">
@@ -190,7 +186,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://dentex.github.io/blog/2014-11-24/ytd-v4-dot-4-beta-8/" data-via="twidentex" data-counturl="http://dentex.github.io/blog/2014-11-24/ytd-v4-dot-4-beta-8/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://dentex.github.io/blog/2016-09-18/ytd-v5-dot-0-finally-dot-dot-dot/" data-via="twidentex" data-counturl="http://dentex.github.io/blog/2016-09-18/ytd-v5-dot-0-finally-dot-dot-dot/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -201,10 +197,8 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014-11-19/ytd-v4-dot-4-beta-7/" title="Previous Post: YTD v4.4 beta-7">&laquo; YTD v4.4 beta-7</a>
+        <a class="basic-alignment left" href="/blog/2016-09-05/ytd-v5-dot-0-beta-10/" title="Previous Post: YTD v5.0 Beta 10">&laquo; YTD v5.0 Beta 10</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2015-01-03/ytd-v4-dot-4/" title="Next Post: YTD v4.4">YTD v4.4 &raquo;</a>
       
     </p>
   </footer>
@@ -300,8 +294,8 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://dentex.github.io/blog/2014-11-24/ytd-v4-dot-4-beta-8/';
-        var disqus_url = 'http://dentex.github.io/blog/2014-11-24/ytd-v4-dot-4-beta-8/';
+        var disqus_identifier = 'http://dentex.github.io/blog/2016-09-18/ytd-v5-dot-0-finally-dot-dot-dot/';
+        var disqus_url = 'http://dentex.github.io/blog/2016-09-18/ytd-v5-dot-0-finally-dot-dot-dot/';
         var disqus_script = 'embed.js';
       
     (function () {
