@@ -9,7 +9,7 @@
   <meta name="author" content="Samuele Rini">
 
   
-  <meta name="description" content="Yet another beta from the v4.4 series. This time merging the download fix from YTD v4.3.3 (latest stable) plus some small extras (as some test &hellip;">
+  <meta name="description" content="Latest development changes are available in this new beta: to minimize the issue regarding the Andriod system closing YTD while downloading in &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -79,6 +79,90 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014-11-24/ytd-v4-dot-4-beta-8/">YTD v4.4 Beta-8</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-11-24T15:19:59+01:00" pubdate data-updated="true">Nov 24<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Latest development changes are available in this new beta: to minimize the issue regarding the Andriod system closing YTD while downloading in background, now the screen will remain <strong>on</strong> as long as the user keeps the app to the front. In addition, I improved the <em>send logcat</em> feature.</p>
+
+<p>As always, download the apk in YTD enabling its <a href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/">preference</a>, or grab the apk from <em>[link removed &ndash; old beta]</em>.</p>
+
+<p>Changelog:</p>
+
+<pre><code> v4.4-beta-8 - Nov 23 2014
+-----------------------------------
+[x] configurable downloads queue
+[x] option to invert dashboard's entries click menus
+[x] auto-resume downloads paused due to network failure
+[x] new FFmpeg build targeting non-NEON CPUs (i.e. Tegra devices)
+[x] ability to send logcat to the developer via email
+[x] added Croatian, Indonesian (WIP) and Norwegian (WIP) translations
+[x] fixed dashboard rename with existing filename (thanks m0d)
+[x] back-button going through all tabs now as optional
+[x] new FFmpeg builds supporting Android L
+[x] keep screen on when anything is "in progress"
+</code></pre>
+
+<p>Still something to do, for a final stable version 4.4:</p>
+
+<ul>
+<li>a &ldquo;dequeue now&rdquo; option for dashboard entries;</li>
+<li>better downloads auto-resume and auto-queue on app start / &ldquo;resume-all&rdquo; function into the sliding menu.</li>
+</ul>
+
+
+<p>And further down the road:</p>
+
+<ul>
+<li>Kitkat sdcard workaround / Lollipop new sdcard access feature;</li>
+<li>&hellip;and many other things.
+<p class='post-footer' style="font-size:70%;" ></li>
+</ul>
+
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="/blog/2014-11-24/ytd-v4-dot-4-beta-8/">http://dentex.github.io/blog/2014-11-24/ytd-v4-dot-4-beta-8/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -661,72 +745,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014-07-12/ytd-v4-dot-4-beta-3-and-4/">YTD v4.4 Beta-3 and 4</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-07-12T15:41:40+02:00" pubdate data-updated="true">Jul 12<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Changelog for YTD v4.4 beta-3 and 4,
-<del>available through Crashlytics Beta:</del> (no more: see next post).</p>
-
-<pre><code> v4.4 beta-3
------------------------------------
-[x] configurable downloads queue
-[x] option to invert dashboard's entries click menus
-[x] auto-resume downloads paused due to network failure
-[x] new FFmpeg build targeting non-NEON CPUs (i.e. Tegra devices)
-[x] ability to send logcat to the developer via email
-
-(since beta-4)
-[x] added Croatian (almost completed) and Indonesian (partial) translations
-[x] fixed dashboard rename with existing filename (thanks m0d)
-</code></pre>
-
-<p><del>Please see the preceding post for further details about this beta program.</del>
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="/blog/2014-07-12/ytd-v4-dot-4-beta-3-and-4/">http://dentex.github.io/blog/2014-07-12/ytd-v4-dot-4-beta-3-and-4/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/5/">&larr; Older</a>
@@ -750,6 +768,10 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2016-09-21/ytd-v5-dot-1/">YTD v5.1</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2016-09-18/ytd-v5-dot-0-finally-dot-dot-dot/">YTD v5.0, Finally&#8230;</a>
       </li>
     
@@ -763,10 +785,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
     
       <li class="post">
         <a href="/blog/2016-08-16/ytd-v5-dot-0-beta-8/">YTD v5.0 Beta 8</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016-02-26/ytd-v5-dot-0-beta-7/">YTD v5.0 Beta 7</a>
       </li>
     
   </ul>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: News | dentex's blog]]></title>
   <link href="http://dentex.github.io/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2016-09-18T13:05:22+02:00</updated>
+  <updated>2016-09-21T10:51:50+02:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v5.1]]></title>
+    <link href="http://dentex.github.io/blog/2016-09-21/ytd-v5-dot-1/"/>
+    <updated>2016-09-21T10:39:28+02:00</updated>
+    <id>http://dentex.github.io/blog/2016-09-21/ytd-v5-dot-1</id>
+    <content type="html"><![CDATA[<p>A new version for YouTube Downloader is available.
+This build addresses a few minor bugs (occurring since versions 4.x), but mainly it fixes an annoying bug regarding showed file sizes in the Dashboard tab; switching from versions 4.x to 5.0, the internal database format slightly changed, and in some situations sizes where displayed as 0B.</p>
+
+<p><strong>Changelog:</strong></p>
+
+<pre><code> v5.1 - Sep 21 2016
+-----------------------------------
+[x] fixed dashboard restore (sizes showed as 0B)
+[x] fixed a few minor bugs
+</code></pre>
+
+<p>Download the apk <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">from this blog</a> or use the in-app update from settings.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v5.0, Finally...]]></title>
@@ -49,6 +69,8 @@ This should maximize the bandwidth available from your network connection and mi
 <p>Other changes are related to the <strong>UI</strong>, as a new &ldquo;clear Dashboard&rdquo; button in action bar (while the Dashboard itself is the active tab), or the new Search tab&rsquo;s results sorting dialog (one of the next feature will be using this type of dialog to order entries in the Dashboard: by download date, by state, by size, etc).</p>
 
 <p>Please refer to the <em>changelog</em> above for a list containing all changes to this version.</p>
+
+<p>Download the apk <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">from this blog</a> <em>[note: this link will always point to the latest stable version available]</em> or use the in-app update from settings.</p>
 ]]></content>
   </entry>
   
@@ -161,36 +183,6 @@ Stable: <a href="http://forum.xda-developers.com/showthread.php?t=2137743&amp;pa
 Beta: <a href="http://forum.xda-developers.com/showthread.php?t=2335450&amp;page=52">http://forum.xda-developers.com/showthread.php?t=2335450&amp;page=52</a></p>
 
 <p>[<strong>v5.0 beta 8</strong>] <em>[link removed &ndash; old beta]</em></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v5.0 Beta 7]]></title>
-    <link href="http://dentex.github.io/blog/2016-02-26/ytd-v5-dot-0-beta-7/"/>
-    <updated>2016-02-26T11:44:02+01:00</updated>
-    <id>http://dentex.github.io/blog/2016-02-26/ytd-v5-dot-0-beta-7</id>
-    <content type="html"><![CDATA[<p>Hello! This is a new beta to let you test again the multi-threaded download feature (plus some minor/hidden fixes)</p>
-
-<p><strong>Notes/known issues:</strong></p>
-
-<ul>
-<li>for this beta, dashboard sorting will be always &ldquo;by size&rdquo;</li>
-<li>FFmpeg operations don&rsquo;t show progress</li>
-<li>in some circumstances, dashboard may seem unresponsive (probably when something is <em>in queue</em> and/or other things <em>in progress</em>)</li>
-</ul>
-
-
-<p>Changelog:</p>
-
-<pre><code> v5.0 Beta 7 - Feb 26 2016
------------------------------------
-[x] [WIP]: multi-threaded downloads
-[x] [TO-DO]: global statistics in notification bar
-[x] [COMPLETED]: redundant "clear dashboard" button in action bar
-[x] [WIP]: dashboard sorting options
-</code></pre>
-
-<p>[<strong>v5.0 beta 7</strong>] <em>[link removed &ndash; old beta]</em></p>
 ]]></content>
   </entry>
   
