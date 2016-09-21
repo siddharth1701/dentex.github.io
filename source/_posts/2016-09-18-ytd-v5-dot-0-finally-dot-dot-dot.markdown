@@ -40,3 +40,5 @@ Another front of development has been patching the app to be ready for **Android
 Other changes are related to the **UI**, as a new "clear Dashboard" button in action bar (while the Dashboard itself is the active tab), or the new Search tab's results sorting dialog (one of the next feature will be using this type of dialog to order entries in the Dashboard: by download date, by state, by size, etc).
 
 Please refer to the *changelog* above for a list containing all changes to this version.
+
+Download the apk [from this blog](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk) *[note: this link will always point to the latest stable version available]* or use the in-app update from settings.

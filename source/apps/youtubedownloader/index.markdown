@@ -16,13 +16,13 @@ keywords: YouTube Downloader, Android, android app, app, free, ad-free, no ads, 
 
 [![download button](/images/others/download_button.png)](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk)
 
-`versionCode="107"`
+`versionCode="108"`
 
-`versionName="5.0"`
+`versionName="5.1"`
 
-MD5 checksum: `e524b4c4cc3bd85a024e93fc0aa8f18b`
+MD5 checksum: `08b8f8ff57f215f450eb50944e4f7131`
 
-SHA1 checksum: `6157d3fd0196fce608542cd935f35c9ce4981f0a`
+SHA1 checksum: `9738065edd3c20da43116956d3d51f0542b5a480`
 
 Beta available: `false`
 
@@ -189,6 +189,12 @@ Are not supported for download all videos that:
 
 
 ## CHANGELOG
+
+     v5.1 - Sep 21 2016
+    -----------------------------------
+    [x] fixed dashboard restore (sizes showed as 0B)
+    [x] fixed a few minor bugs
+
 
      v5.0 - Sep 18 2016
     -----------------------------------

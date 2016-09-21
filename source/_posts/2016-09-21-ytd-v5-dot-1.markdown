@@ -1,0 +1,22 @@
+---
+layout: post
+title: "YTD v5.1"
+date: 2016-09-21 10:39:28 +0200
+comments: true
+categories: [News]
+sharing: true
+footer: true
+description: "YouTube Downloader for Android - a free and ad-free app - new version"
+keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, XDA, XDA_dentex, twidentex, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, 480p, HD, 4K, 3gp, webm, mp4, m4a, ogg, flv, opus, 360°, 3D"
+---
+A new version for YouTube Downloader is available.
+This build addresses a few minor bugs (occurring since versions 4.x), but mainly it fixes an annoying bug regarding showed file sizes in the Dashboard tab; switching from versions 4.x to 5.0, the internal database format slightly changed, and in some situations sizes where displayed as 0B.
+
+**Changelog:**
+
+     v5.1 - Sep 21 2016
+    -----------------------------------
+    [x] fixed dashboard restore (sizes showed as 0B)
+    [x] fixed a few minor bugs
+
+Download the apk [from this blog](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk) or use the in-app update from settings.
