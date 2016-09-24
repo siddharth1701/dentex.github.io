@@ -19,4 +19,3 @@ This build addresses a few minor bugs (occurring since versions 4.x), but mainly
     [x] fixed dashboard restore (sizes showed as 0B)
     [x] fixed a few minor bugs
 
-Download the apk [from this blog](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk) or use the in-app update from settings.

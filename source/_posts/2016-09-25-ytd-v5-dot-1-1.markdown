@@ -1,0 +1,21 @@
+---
+layout: post
+title: "YTD v5.1.1"
+date: 2016-09-25 00:29:43 +0200
+comments: true
+categories: [News]
+sharing: true
+footer: true
+description: "YouTube Downloader for Android - a free and ad-free app - new version"
+keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, XDA, XDA_dentex, twidentex, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, 480p, HD, 4K, 3gp, webm, mp4, m4a, ogg, flv, opus, 360°, 3D"
+---
+New bug-fix version for YouTube Downloader:
+
+
+**Changelog:**
+
+     v5.1.1 - Sep 24 2016
+    -----------------------------------
+    [x] fixed another bug on dashboard restore
+
+Download the apk [from this blog](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk) or use the in-app update from settings.
