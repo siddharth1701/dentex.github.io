@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2016-09-21T10:51:50+02:00</updated>
+  <updated>2016-09-25T00:44:43+02:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v5.1.1]]></title>
+    <link href="http://dentex.github.io/blog/2016-09-25/ytd-v5-dot-1-1/"/>
+    <updated>2016-09-25T00:29:43+02:00</updated>
+    <id>http://dentex.github.io/blog/2016-09-25/ytd-v5-dot-1-1</id>
+    <content type="html"><![CDATA[<p>New bug-fix version for YouTube Downloader:</p>
+
+<p><strong>Changelog:</strong></p>
+
+<pre><code> v5.1.1 - Sep 24 2016
+-----------------------------------
+[x] fixed another bug on dashboard restore
+</code></pre>
+
+<p>Download the apk <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">from this blog</a> or use the in-app update from settings.
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="http://dentex.github.io/blog/2016-09-25/ytd-v5-dot-1-1/">http://dentex.github.io/blog/2016-09-25/ytd-v5-dot-1-1/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v5.1]]></title>
@@ -29,8 +61,7 @@ This build addresses a few minor bugs (occurring since versions 4.x), but mainly
 [x] fixed a few minor bugs
 </code></pre>
 
-<p>Download the apk <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">from this blog</a> or use the in-app update from settings.
- <p class='post-footer' style="font-size:70%;" ></p>
+<p> <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
 
@@ -782,46 +813,6 @@ a new beta for YTD is available with the new &ldquo;use wi-fi only&rdquo; option
 
 
 <p>Original Link: <a href="http://dentex.github.io/blog/2015-10-18/ytd-v4-dot-7-beta-4/">http://dentex.github.io/blog/2015-10-18/ytd-v4-dot-7-beta-4/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.7 Beta-2]]></title>
-    <link href="http://dentex.github.io/blog/2015-10-10/ytd-v4-dot-7-beta-2/"/>
-    <updated>2015-10-10T12:17:00+02:00</updated>
-    <id>http://dentex.github.io/blog/2015-10-10/ytd-v4-dot-7-beta-2</id>
-    <content type="html"><![CDATA[<p>On the way to a proper Marshmallow-ready Android app, here there&rsquo;s a new beta for the next 4.7 version of YTD.</p>
-
-<p>This build addresses another couple of M-related issues,
-as the permission request to the user for writing on the memory storage (required for Android Marshmallow).</p>
-
-<p><em>Changelog</em>:</p>
-
-<pre><code> v4.7 Beta 2 - Oct 10 2015
------------------------------------
-[x] new FFmpeg builds (from v2.8) extending support to 64bit CPUs
-[x] force FFmpeg's version check when the ROM has been updated     &lt;== M
-[x] ask the permission to write on the sdcard (on M devices)       &lt;== M
-[x] fixed filechooser checkbox issue for multiple selection
-</code></pre>
-
-<p>Just a thought: I can imagine that item n.2 is a bit hard to test; I did something on the emulators, but this is it.</p>
-
-<p>As always: this beta is available through the in app updates, from settings, using the <a href="http://dentex.github.io/blog/2014-07-15/new-beta-program-again/">Include Beta updates</a> preference checkbox, while <em>[link removed &ndash; old beta]</em> is the direct apk link.
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="http://dentex.github.io/blog/2015-10-10/ytd-v4-dot-7-beta-2/">http://dentex.github.io/blog/2015-10-10/ytd-v4-dot-7-beta-2/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
