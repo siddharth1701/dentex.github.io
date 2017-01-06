@@ -1,0 +1,24 @@
+---
+layout: post
+title: "YTD v5.1.2 Beta 01"
+date: 2017-01-06 18:51:48 +0100
+comments: true
+categories: [News]
+sharing: true
+footer: true
+description: "YouTube Downloader for Android - a free and ad-free app - new version"
+keywords: "YouTube Downloader, Android, android app, app, free, ad-free, no ads, dentex, XDA, XDA_dentex, twidentex, YouTube, downloader, FFmpeg, audio, music, video, extraction, mp3, easy, dentex, 1080p, 720p, 480p, HD, 4K, 3gp, webm, mp4, m4a, ogg, opus, 360°, 3D"
+---
+Hello!
+New beta available with some minor changes.
+
+Changelog:
+
+     v5.1.2 Beta 01 - Jan 06 2017
+    -----------------------------------
+    [x] wrap .opus audio files into .ogg container for better support (thanks Georgi P.)
+    [x] small bug fix in dashboard json file
+    [x] drop support for FLV videos, no more available
+
+As always, the Apk for this Beta is available through the in app updates (remember to enable the Beta updates channel) or via the direct link:    
+http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.1.2-beta-01.apk
