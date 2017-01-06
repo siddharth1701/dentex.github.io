@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2017-01-06T18:34:53+01:00</updated>
+  <updated>2017-01-06T18:54:18+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,42 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v5.1.2 Beta 01]]></title>
+    <link href="http://dentex.github.io/blog/2017-01-06/ytd-v5-dot-1-2-beta-01/"/>
+    <updated>2017-01-06T18:51:48+01:00</updated>
+    <id>http://dentex.github.io/blog/2017-01-06/ytd-v5-dot-1-2-beta-01</id>
+    <content type="html"><![CDATA[<p>Hello!
+New beta available with some minor changes.</p>
+
+<p>Changelog:</p>
+
+<pre><code> v5.1.2 Beta 01 - Jan 06 2017
+-----------------------------------
+[x] wrap .opus audio files into .ogg container for better support (thanks Georgi P.)
+[x] small bug fix in dashboard json file
+[x] drop support for FLV videos, no more available
+</code></pre>
+
+<p>As always, the Apk for this Beta is available through the in app updates (remember to enable the Beta updates channel) or via the direct link:  <br/>
+<a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.1.2-beta-01.apk">http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.1.2-beta-01.apk</a>
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="http://dentex.github.io/blog/2017-01-06/ytd-v5-dot-1-2-beta-01/">http://dentex.github.io/blog/2017-01-06/ytd-v5-dot-1-2-beta-01/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v5.1.1]]></title>
@@ -165,8 +201,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
 [x] (note: resumed order by name in dashboard)
 </code></pre>
 
-<p>As always, the Apk for this Beta is available through the in app updates (remember to enable the Beta updates channel) or via the direct link:  <br/>
-<a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-10.apk">http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.0-beta-10.apk</a>
+<p>[<strong>v5.0 beta 10</strong>] <em>[link removed &ndash; old beta]</em>
  <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
@@ -776,43 +811,6 @@ I really appreciate that.
 
 
 <p>Original Link: <a href="http://dentex.github.io/blog/2015-11-01/ytd-v4-dot-7/">http://dentex.github.io/blog/2015-11-01/ytd-v4-dot-7/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.7 Beta-4]]></title>
-    <link href="http://dentex.github.io/blog/2015-10-18/ytd-v4-dot-7-beta-4/"/>
-    <updated>2015-10-18T19:52:00+02:00</updated>
-    <id>http://dentex.github.io/blog/2015-10-18/ytd-v4-dot-7-beta-4</id>
-    <content type="html"><![CDATA[<p>Hello,  <br/>
-a new beta for YTD is available with the new &ldquo;use wi-fi only&rdquo; option.</p>
-
-<p>Changelog:</p>
-
-<pre><code> v4.7 Beta 4 - Oct 18 2015
------------------------------------
-[x] new FFmpeg builds (from v2.8) extending support to 64bit CPUs
-[x] force FFmpeg's version check when the ROM has been updated
-[x] ask the permission to write on the sdcard (on M devices)
-[x] fixed filechooser checkbox issue for multiple selection
-[x] option to use wi-fi connection only
-</code></pre>
-
-<p>The beta is available through the in app updates or via <em>[link removed &ndash; old beta]</em>.
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="http://dentex.github.io/blog/2015-10-18/ytd-v4-dot-7-beta-4/">http://dentex.github.io/blog/2015-10-18/ytd-v4-dot-7-beta-4/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>

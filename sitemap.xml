@@ -256,7 +256,7 @@
     </url>
     <url>
         <loc>http://dentex.github.io/blog/2016-09-05/ytd-v5-dot-0-beta-10/</loc>
-        <lastmod>2017-01-06T18:27:52+01:00</lastmod>
+        <lastmod>2017-01-06T18:53:58+01:00</lastmod>
     </url>
     <url>
         <loc>http://dentex.github.io/blog/2016-09-18/ytd-v5-dot-0-finally-dot-dot-dot/</loc>
@@ -269,6 +269,10 @@
     <url>
         <loc>http://dentex.github.io/blog/2016-09-25/ytd-v5-dot-1-1/</loc>
         <lastmod>2017-01-06T18:27:52+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://dentex.github.io/blog/2017-01-06/ytd-v5-dot-1-2-beta-01/</loc>
+        <lastmod>2017-01-06T18:54:00+01:00</lastmod>
     </url>
     <url>
         <loc>http://dentex.github.io/apps/youtubedownloader/eula.html</loc>
@@ -292,7 +296,7 @@
     </url>
     <url>
         <loc>http://dentex.github.io/blog/archives/</loc>
-        <lastmod>2017-01-06T18:27:52+01:00</lastmod>
+        <lastmod>2017-01-06T18:54:00+01:00</lastmod>
     </url>
     <url>
         <loc>http://dentex.github.io/screenshots/</loc>
@@ -304,6 +308,6 @@
     </url>
     <url>
         <loc>http://dentex.github.io/</loc>
-        <lastmod>2017-01-06T18:27:54+01:00</lastmod>
+        <lastmod>2017-01-06T18:54:00+01:00</lastmod>
     </url>
 </urlset>
