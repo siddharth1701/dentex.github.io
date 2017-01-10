@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "YTD v5.1.2 Beta 01"
+title: "YTD v5.1.2 Beta 2"
 date: 2017-01-06 18:51:48 +0100
 comments: true
 categories: [News]
@@ -14,11 +14,11 @@ New beta available with some minor changes.
 
 Changelog:
 
-     v5.1.2 Beta 01 - Jan 06 2017
+     v5.1.2 Beta 2 - Jan 10 2017
     -----------------------------------
     [x] wrap .opus audio files into .ogg container for better support (thanks Georgi P.)
     [x] small bug fix in dashboard json file
     [x] drop support for FLV videos, no more available
 
 As always, the Apk for this Beta is available through the in app updates (remember to enable the Beta updates channel) or via the direct link:    
-http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.1.2-beta-01.apk
+http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.1.2-beta-2.apk
