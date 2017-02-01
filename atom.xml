@@ -4,7 +4,7 @@
   <title><![CDATA[dentex's blog]]></title>
   <link href="http://dentex.github.io/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2017-01-10T21:49:34+01:00</updated>
+  <updated>2017-02-01T16:57:05+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,47 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v5.2]]></title>
+    <link href="http://dentex.github.io/blog/2017-02-01/ytd-v5-dot-2/"/>
+    <updated>2017-02-01T16:44:29+01:00</updated>
+    <id>http://dentex.github.io/blog/2017-02-01/ytd-v5-dot-2</id>
+    <content type="html"><![CDATA[<p>Hello everyone.
+YouTube recently changed something on its site and the app needed to be fixed.
+With this version I&rsquo;m also bringing in the few changes made for tha latest beta.</p>
+
+<p>Many thanks to <em>mad_ady</em> and <em>nixxo</em> from the <a href="http://forum.wdlxtv.com/">wdlxtv forum</a> for their help.</p>
+
+<p><strong>Changelog:</strong></p>
+
+<pre><code> v5.2 - Feb 01 2017
+-----------------------------------
+[x] encrypted signature patch (14) (thanks mad_ady and nixxo)
+[x] wrap .opus audio files into .ogg container for better support (thanks Georgi P.)
+[x] small bug fix in dashboard json file
+[x] drop support for FLV videos, no more available
+</code></pre>
+
+<p>Download the apk <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">from this blog</a> or use the in-app update from settings.</p>
+
+<p>Bye!
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>Original Link: <a href="http://dentex.github.io/blog/2017-02-01/ytd-v5-dot-2/">http://dentex.github.io/blog/2017-02-01/ytd-v5-dot-2/</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v5.1.2 Beta 2]]></title>
@@ -30,8 +71,7 @@ New beta available with some minor changes.</p>
 [x] drop support for FLV videos, no more available
 </code></pre>
 
-<p>As always, the Apk for this Beta is available through the in app updates (remember to enable the Beta updates channel) or via the direct link:  <br/>
-<a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.1.2-beta-2.apk">http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.1.2-beta-2.apk</a>
+<p>[<strong>v5.1.2 Beta 2</strong>] <em>[link removed &ndash; old beta]</em>
  <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
@@ -770,47 +810,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license.
 
 
 <p>Original Link: <a href="http://dentex.github.io/blog/2015-11-07/ytd-v4-dot-8/">http://dentex.github.io/blog/2015-11-07/ytd-v4-dot-8/</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v4.7]]></title>
-    <link href="http://dentex.github.io/blog/2015-11-01/ytd-v4-dot-7/"/>
-    <updated>2015-11-01T09:32:26+01:00</updated>
-    <id>http://dentex.github.io/blog/2015-11-01/ytd-v4-dot-7</id>
-    <content type="html"><![CDATA[<p>Hello,
-a new build for YTD is available, moving all features tested into the latest beta into this stable version.</p>
-
-<p>CHANGELOG:</p>
-
-<pre><code> v4.7 - Nov 1 2015
------------------------------------
-[x] new FFmpeg builds (from v2.8) extending support to 64bit CPUs
-[x] force FFmpeg's version check when the ROM has been updated
-[x] ask the permission to write on the sdcard (on M devices)
-[x] fixed filechooser checkbox issue for multiple selection
-[x] option to use wi-fi connection only
-</code></pre>
-
-<p>A lot of work has to be done, still. Probably development will slow down a bit due to many <em>real life/job</em> commitments, sorry.
-I really hope I&rsquo;ll soon be able to post an initial beta from the multi-thread development branch. This will speed-up downloads up to 4X. But unfortunately the feature is not stable nor completed.</p>
-
-<p>In the mean time, stay tuned, follow the XDA threads and, over anything else, I would like to thank everyone that is showing support through the PayPal donations.
-I really appreciate that.
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>Original Link: <a href="http://dentex.github.io/blog/2015-11-01/ytd-v4-dot-7/">http://dentex.github.io/blog/2015-11-01/ytd-v4-dot-7/</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license.txt>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>

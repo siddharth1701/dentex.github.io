@@ -4,7 +4,7 @@
   <title><![CDATA[Category: News | dentex's blog]]></title>
   <link href="http://dentex.github.io/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://dentex.github.io/"/>
-  <updated>2017-01-10T21:49:34+01:00</updated>
+  <updated>2017-02-01T16:57:05+01:00</updated>
   <id>http://dentex.github.io/</id>
   <author>
     <name><![CDATA[Samuele Rini]]></name>
@@ -12,6 +12,33 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YTD v5.2]]></title>
+    <link href="http://dentex.github.io/blog/2017-02-01/ytd-v5-dot-2/"/>
+    <updated>2017-02-01T16:44:29+01:00</updated>
+    <id>http://dentex.github.io/blog/2017-02-01/ytd-v5-dot-2</id>
+    <content type="html"><![CDATA[<p>Hello everyone.
+YouTube recently changed something on its site and the app needed to be fixed.
+With this version I&rsquo;m also bringing in the few changes made for tha latest beta.</p>
+
+<p>Many thanks to <em>mad_ady</em> and <em>nixxo</em> from the <a href="http://forum.wdlxtv.com/">wdlxtv forum</a> for their help.</p>
+
+<p><strong>Changelog:</strong></p>
+
+<pre><code> v5.2 - Feb 01 2017
+-----------------------------------
+[x] encrypted signature patch (14) (thanks mad_ady and nixxo)
+[x] wrap .opus audio files into .ogg container for better support (thanks Georgi P.)
+[x] small bug fix in dashboard json file
+[x] drop support for FLV videos, no more available
+</code></pre>
+
+<p>Download the apk <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">from this blog</a> or use the in-app update from settings.</p>
+
+<p>Bye!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YTD v5.1.2 Beta 2]]></title>
@@ -30,8 +57,7 @@ New beta available with some minor changes.</p>
 [x] drop support for FLV videos, no more available
 </code></pre>
 
-<p>As always, the Apk for this Beta is available through the in app updates (remember to enable the Beta updates channel) or via the direct link:  <br/>
-<a href="http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.1.2-beta-2.apk">http://dentex.github.io/files/apk/beta/dentex.youtube.downloader_v5.1.2-beta-2.apk</a></p>
+<p>[<strong>v5.1.2 Beta 2</strong>] <em>[link removed &ndash; old beta]</em></p>
 ]]></content>
   </entry>
   
@@ -109,42 +135,6 @@ This should maximize the bandwidth available from your network connection and mi
 <p>Please refer to the <em>changelog</em> above for a list containing all changes to this version.</p>
 
 <p>Download the apk <a href="http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk">from this blog</a> <em>[note: this link will always point to the latest stable version available]</em> or use the in-app update from settings.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YTD v5.0 Beta 10]]></title>
-    <link href="http://dentex.github.io/blog/2016-09-05/ytd-v5-dot-0-beta-10/"/>
-    <updated>2016-09-05T18:45:53+02:00</updated>
-    <id>http://dentex.github.io/blog/2016-09-05/ytd-v5-dot-0-beta-10</id>
-    <content type="html"><![CDATA[<p>A new Beta for YTD is available. I only did some code cleanup and optimizations and, in additions, the two modifications noted below <strong>(*)</strong>.</p>
-
-<p>Changelog:</p>
-
-<pre><code> v5.0 Beta 10 - Sep 05 2016
------------------------------------
-[x] [COMPLETED]: multi-threaded downloads
-[x] [TO-DO]: global statistics in notification bar
-[x] [COMPLETED]: redundant "clear Dashboard" button in action bar
-
-[x] fix app crashes in Android N
-[x] better preview thumbnail in Formats tab
-[x] apply multi-threading also to the audio-only stream, 
-    for videos requiring mux (480p and 1080p)
-[x] fix for the "shared?ci=" link type
-[x] fix for the progress bar during FFmpeg operations
-[x] use correct file extension for opus formats
-[x] support for ogg 4.0 ch. and m4a 5.1 ch. new audio-only formats
-[x] do not block age-restricted videos anymore 
-    (please note: only some of them will be available for download)
-
-[x] better Search tab's results sorting dialog (*)
-[x] prevent app's log from becoming too big (*)
-
-[x] (note: resumed order by name in dashboard)
-</code></pre>
-
-<p>[<strong>v5.0 beta 10</strong>] <em>[link removed &ndash; old beta]</em></p>
 ]]></content>
   </entry>
   
