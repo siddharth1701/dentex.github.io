@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "YouTube Downloader for Android"
-date: 2015-12-20 15:00
+date: 2017-02-01 17:00
 comments: true
 sharing: true
 footer: true
@@ -16,18 +16,18 @@ keywords: YouTube Downloader, Android, android app, app, free, ad-free, no ads, 
 
 [![download button](/images/others/download_button.png)](http://dentex.github.io/files/apk/latest/dentex.youtube.downloader.apk)
 
-`versionCode="109"`
+`versionCode="110"`
 
-`versionName="5.1.1"`
+`versionName="5.2"`
 
-MD5 checksum: `73df44a0d9966255abc8dca3e6e022cf`
+MD5 checksum: `4c17277d2c7dd85d542e9265346146b4`
 
-SHA1 checksum: `4a28ab6eacd14dfe96b1d2cf5ff27a5cd69edbd4`
+SHA1 checksum: `eed6dd05995b51e9fdcebf440ccec74478d11fe3`
 
-Beta available: `true`
+Beta available: `false`
 
 ## **YouTube Downloader for Android**
-## **Copyright (C) 2012-2016 Samuele Rini**
+## **Copyright (C) 2012-2017 Samuele Rini**
 
 ##[End User License Agreement](/apps/youtubedownloader/eula.html)
 
@@ -189,6 +189,13 @@ Are not supported for download all videos that:
 
 
 ## CHANGELOG
+
+     v5.2 - Feb 01 2017
+    -----------------------------------
+    [x] encrypted signature patch (14) (thanks mad_ady and nixxo)
+    [x] wrap .opus audio files into .ogg container for better support (thanks Georgi P.)
+    [x] small bug fix in dashboard json file
+    [x] drop support for FLV videos, no more available
 
      v5.1.1 - Sep 24 2016
     -----------------------------------
